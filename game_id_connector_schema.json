@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/tuihub/tuihub-db/game_id_connector_schema.json",
+  "title": "TuiHub DB Game ID Connector Schema",
+  "description": "",
+  "type": "object",
+  "properties": {
+    "info": {
+      "type": "object",
+      "properties": {
+        "description": {
+          "type": "string"
+        }
+      }
+    },
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "names": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "steam": {
+            "type": "string"
+          },
+          "bangumi": {
+            "type": "string"
+          },
+          "vndb": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "names",
+          "steam",
+          "bangumi",
+          "vndb"
+        ]
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    }
+  },
+  "required": [
+    "info",
+    "entries"
+  ]
+}
