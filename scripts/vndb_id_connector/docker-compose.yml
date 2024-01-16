@@ -1,0 +1,14 @@
+version: "3"
+services:
+  bangumi-db:
+    build: https://github.com/tuihub/bangumi-db.git#master:postgresql
+    privileged: false
+    restart: unless-stopped
+    ports:
+      - 10000:5432
+  vndb:
+    build: https://github.com/tuihub/vndb-db.git#master
+    privileged: false
+    restart: unless-stopped
+    ports:
+      - 10001:5432
