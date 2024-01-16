@@ -37,7 +37,7 @@ responsibility for using this dataset.
 - vndb: 字符串，VNDB 的 vid，不存在时为空字符串
 - bangumi: 字符串，Bangumi 的条目 id，不存在时为空字符串
 - steam: 字符串，Steam 的 app id，不存在时为空字符串
-- name: 字符串数组，包含中英日三种语言的多种版本的游戏名称，至少包含一条
+- names: 字符串数组，包含中英日三种语言的多种版本的游戏名称，至少包含一条
 
 由于存在各种特例，数据集中三种平台的 ID 及游戏名称均有可能重复出现，这不是错误，在要求唯一性时请自行处理。
 
@@ -50,7 +50,7 @@ Each entry in the dataset contains the following fields:
 - vndb: string, VNDB vid, empty string when it does not exist
 - bangumi: string, Bangumi entry id, empty string when it does not exist
 - steam: string, Steam app id, empty string when it does not exist
-- name: string array, contains multiple versions of game names in Chinese, English and Japanese, at least one
+- names: string array, contains multiple versions of game names in Chinese, English and Japanese, at least one
 
 Due to various special cases, the IDs and game names of the three platforms may appear repeatedly in the dataset. This
 is not an error. Please handle it yourself when uniqueness is required.
