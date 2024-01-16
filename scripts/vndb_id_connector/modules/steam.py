@@ -18,5 +18,8 @@ class Steam:
         self.vndb_cur.execute(sql)
         data = self.vndb_cur.fetchall()
         for line in data:
-            self.vndb_vid_steamid_dict[line[0]] = line[1]
+            if not self.vndb_vid_steamid_dict.__contains__(line[0]):
+                self.vndb_vid_steamid_dict[line[0]] = []
+            if not self.vndb_vid_steamid_dict[line[0]].__contains__(line[1]):
+                self.vndb_vid_steamid_dict[line[0]].append(line[1])
         # print("vndb_vid_steamid_dict len = " + str(vndb_vid_steamid_dict.__len__()))

@@ -42,6 +42,19 @@ if __name__ == "__main__":
                 vndb_rid_vid_dict, vndb_rid_multi_vid_list, vndb_release_name_vid_dict, vndb_dup_release_name_list)
     vndb.main()
 
+
+    def get_names(vid, bangumi_id=None):
+        names = []
+        for name in vndb_vid_names_dict[vid]:
+            if not names.__contains__(name):
+                names.append(name)
+        if bangumi_id:
+            for name in bangumi_id_name_dict[bangumi_id]:
+                if not names.__contains__(name):
+                    names.append(name)
+        return names
+
+
     # vndb match bangumi
     json_result = {
         "info": {
@@ -50,57 +63,45 @@ if __name__ == "__main__":
     }
     matches = []
     for vid, names in vndb_vid_names_dict.items():
-        match = {}
-        match_count = 0
         # steam
+        steam_matches = []
         if vndb_vid_steamid_dict.__contains__(vid):
-            match_count = match_count + 1
-            match['steam'] = str(vndb_vid_steamid_dict[vid])
-        else:
-            match['steam'] = ""
+            steam_matches = vndb_vid_steamid_dict[vid]
         # bangumi
         bangumi_matches = []
         for name in names:
             name = normalize_string(name)
-            if not bangumi_name_id_dict.__contains__(name):
-                continue
-            else:
-                # match_count = match_count + 1
-                # match['bangumi'] = str(bangumi_name_id_dict[name])
-                if not bangumi_matches.__contains__(str(bangumi_name_id_dict[name])):
-                    bangumi_matches.append(str(bangumi_name_id_dict[name]))
-        if bangumi_matches.__len__() > 0:
-            if bangumi_matches.__len__() > 1:
-                print("bangumi_matches = " + str(bangumi_matches.__len__()) + ", vid = " + vid)
-            match_count = match_count + 1
-        if match_count > 0:
+            if bangumi_name_id_dict.__contains__(name):
+                if not bangumi_matches.__contains__(bangumi_name_id_dict[name]):
+                    bangumi_matches.append(bangumi_name_id_dict[name])
+        if bangumi_matches.__len__() == 0 and steam_matches.__len__() == 0:
+            continue
+        if steam_matches.__len__() > 0:
+            for steam_match in steam_matches:
+                if bangumi_matches.__len__() > 0:
+                    for bangumi_match in bangumi_matches:
+                        matches.append({
+                            "steam": str(steam_match),
+                            "bangumi": str(bangumi_match),
+                            "vndb": str(vid),
+                            "names": get_names(vid, bangumi_match)
+                        })
+                else:
+                    matches.append({
+                        "steam": str(steam_match),
+                        "bangumi": "",
+                        "vndb": str(vid),
+                        "names": get_names(vid)
+                    })
+        else:
             if bangumi_matches.__len__() > 0:
                 for bangumi_match in bangumi_matches:
-                    cur_match = copy.deepcopy(match)
-                    cur_match['bangumi'] = bangumi_match
-                    cur_match['vndb'] = str(vid)
-                    names = []
-                    for name in vndb_vid_names_dict[vid]:
-                        if not names.__contains__(name):
-                            names.append(name)
-                    for name in bangumi_id_name_dict[int(cur_match['bangumi'])]:
-                        if not names.__contains__(name):
-                            names.append(name)
-                    cur_match['names'] = names
-                    matches.append(cur_match)
-            else:
-                match['bangumi'] = ""
-                match['vndb'] = str(vid)
-                names = []
-                for name in vndb_vid_names_dict[vid]:
-                    if not names.__contains__(name):
-                        names.append(name)
-                if match['bangumi'] != "":
-                    for name in bangumi_id_name_dict[int(match['bangumi'])]:
-                        if not names.__contains__(name):
-                            names.append(name)
-                match['names'] = names
-                matches.append(match)
+                    matches.append({
+                        "steam": "",
+                        "bangumi": str(bangumi_match),
+                        "vndb": str(vid),
+                        "names": get_names(vid, bangumi_match)
+                    })
     json_result['entries'] = matches
     with open('../../game_id_connector/2-vndb_automated.json', 'w', encoding='utf8') as f3:
         f3.writelines(json.dumps(json_result, ensure_ascii=False, indent=2))
