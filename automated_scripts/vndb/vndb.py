@@ -284,14 +284,40 @@ for line in data:
     if line[2]:
         if not vndb_vid_names_dict[line[0]].__contains__(line[2]):
             vndb_vid_names_dict[line[0]].append(line[2])
-vndb_name_vid_dict_title_only = copy.deepcopy(vndb_name_vid_dict)
 
 
+# vndb_name_vid_dict_title_only = copy.deepcopy(vndb_name_vid_dict)
 
+
+def add_to_vndb_release_name_vid_dict(s, vid):
+    n_name = normalize_string(s)
+    if vndb_release_name_vid_dict.__contains__(n_name) and vndb_release_name_vid_dict[n_name] != vid:
+        # print("W: release " + n_name + " -> " + str(vndb_release_name_vid_dict[n_name]) + " already exists")
+        if not vndb_dup_release_name_list.__contains__(n_name):
+            vndb_dup_release_name_list.append(n_name)
+    else:
+        vndb_release_name_vid_dict[n_name] = vid
+
+
+def add_to_vndb_release_name_vid_dict_with_dup_list(s, vid):
+    n_name = normalize_string(s)
+    if vndb_dup_release_name_list.__contains__(n_name):
+        return
+    if vndb_release_name_vid_dict.__contains__(n_name) and vndb_release_name_vid_dict[n_name] != vid:
+        print("W: release " + n_name + " -> " + str(vndb_release_name_vid_dict[n_name]) + " already exists")
+    else:
+        vndb_release_name_vid_dict[n_name] = vid
+
+
+vndb_rid_vid_dict = {}
+vndb_rid_multi_vid_list = []
+vndb_release_name_vid_dict = {}
+vndb_dup_release_name_list = []
 sql2 = """SELECT DISTINCT
     releases_vn.vid AS vid,
     releases_titles.title AS title,
-    releases_titles.latin AS title_latin
+    releases_titles.latin AS title_latin,
+    releases_vn."id" AS rid
 FROM
     releases_vn
     INNER JOIN releases_titles ON releases_vn."id" = releases_titles."id"
@@ -310,30 +336,36 @@ ORDER BY
     vid ASC"""
 vndb_cur.execute(sql2)
 data2 = vndb_cur.fetchall()
-# get dup list
-vndb_dup_vid_same_name = {}
-vndb_dup_vid_list = []
-for line in data:
-    if line[1]:
-        add_to_vndb_name_vid_dict(line[1], line[0])
-    if line[2]:
-        add_to_vndb_name_vid_dict(line[2], line[0])
+# get vndb_rid_multi_vid_list
 for line in data2:
-    if line[1]:
-        add_to_vndb_name_vid_dict(line[1], line[0])
-    if line[2]:
-        add_to_vndb_name_vid_dict(line[2], line[0])
-# clear dict
-vndb_name_vid_dict = {}
-# build dict
-for line in data:
     if vndb_dup_vid_list.__contains__(line[0]):
         continue
+    if vndb_rid_vid_dict.__contains__(line[3]) and vndb_rid_vid_dict[line[3]] != line[0]:
+        if not vndb_rid_multi_vid_list.__contains__(line[3]):
+            vndb_rid_multi_vid_list.append(line[3])
+    else:
+        vndb_rid_vid_dict[line[3]] = line[0]
+vndb_release_name_vid_dict = copy.deepcopy(vndb_name_vid_dict)
+for line in data2:
+    if vndb_dup_vid_list.__contains__(line[0]):
+        continue
+    if vndb_rid_multi_vid_list.__contains__(line[3]):
+        continue
     if line[1]:
-        add_to_vndb_name_vid_dict_with_dup_list(line[1], line[0])
+        add_to_vndb_release_name_vid_dict(line[1], line[0])
     if line[2]:
-        add_to_vndb_name_vid_dict_with_dup_list(line[2], line[0])
-    # reverse
+        add_to_vndb_release_name_vid_dict(line[2], line[0])
+# add to dict
+vndb_release_name_vid_dict = copy.deepcopy(vndb_name_vid_dict)
+for line in data2:
+    if vndb_dup_vid_list.__contains__(line[0]):
+        continue
+    if vndb_rid_multi_vid_list.__contains__(line[3]):
+        continue
+    if line[1]:
+        add_to_vndb_release_name_vid_dict_with_dup_list(line[1], line[0])
+    if line[2]:
+        add_to_vndb_release_name_vid_dict_with_dup_list(line[2], line[0])
     if line[0] not in vndb_vid_names_dict:
         vndb_vid_names_dict[line[0]] = []
     if line[1]:
@@ -342,27 +374,9 @@ for line in data:
     if line[2]:
         if not vndb_vid_names_dict[line[0]].__contains__(line[2]):
             vndb_vid_names_dict[line[0]].append(line[2])
-for line in data2:
-    if vndb_dup_vid_list.__contains__(line[0]):
-        continue
-    if line[1]:
-        add_to_vndb_name_vid_dict_with_dup_list(line[1], line[0])
-    if line[2]:
-        add_to_vndb_name_vid_dict_with_dup_list(line[2], line[0])
-    # reverse
-    if line[0] not in vndb_vid_names_dict:
-        vndb_vid_names_dict[line[0]] = []
-    if line[1]:
-        if not vndb_vid_names_dict[line[0]].__contains__(line[1]):
-            vndb_vid_names_dict[line[0]].append(line[1])
-    if line[2]:
-        if not vndb_vid_names_dict[line[0]].__contains__(line[2]):
-            vndb_vid_names_dict[line[0]].append(line[2])
-
 
 print("vndb_name_vid_dict len = " + str(vndb_name_vid_dict.__len__()))
 print("vndb_vid_names_dict len = " + str(vndb_vid_names_dict.__len__()))
-
 
 # vndb match bangumi
 json_result = {
