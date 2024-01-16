@@ -1,11 +1,11 @@
 # WARN: Currently ALL SHIT MOUNTAIN, proceed WITH CAUTION
-import copy
 import json
+
 import psycopg2
 
-from modules.utils import normalize_string
 from modules.bangumi import Bangumi
 from modules.steam import Steam
+from modules.utils import normalize_string
 from modules.vndb import Vndb
 
 if __name__ == "__main__":

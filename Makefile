@@ -3,6 +3,9 @@
 init:
 	pip install -r requirements.txt
 
+build-pages:
+	cp README.md docs/README.md
+	cd scripts/game_id_merger && python main.py
 
 # show help
 help:
