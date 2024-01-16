@@ -33,5 +33,5 @@ if __name__ == "__main__":
                 merged_manual_vndb_vid_list.append(vid)
         else:
             merged_data['entries'].append(entry)
-    with open('../../docs/schemas/game_id_connector_schema.json', 'w', encoding='utf8') as f3:
+    with open('../../docs/game_id_connector.json', 'w', encoding='utf8') as f3:
         f3.writelines(json.dumps(merged_data, ensure_ascii=False))
