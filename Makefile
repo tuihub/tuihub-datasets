@@ -1,9 +1,12 @@
+BUILD_NUMBER?=0
+
 .PHONY: init
 # init
 init:
 	pip install -r requirements.txt
 
 build-pages:
+	echo "{ \"buildNumber\": \"${BUILD_NUMBER}\" }" > docs/build.json
 	cp README.md docs/README.md
 	cd scripts/game_id_merger && python main.py
 

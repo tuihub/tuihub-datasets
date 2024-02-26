@@ -25,7 +25,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Build
-        run: make build-pages
+        run: make build-pages BUILD_NUMBER=$GITHUB_RUN_NUMBER
 
       - name: Setup Pages
         uses: actions/configure-pages@v4

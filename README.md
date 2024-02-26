@@ -41,6 +41,8 @@ responsibility for using this dataset.
 
 由于存在各种特例，数据集中三种平台的 ID 及游戏名称均有可能重复出现，这不是错误，在要求唯一性时请自行处理。
 
+如果你需要自动化更新数据集，可以利用版本文件检测更新：[https://datasets.tuihub.org/build.json](https://datasets.tuihub.org/build.json) 
+
 ---
 
 *Currently, only the complete dataset is provided for download. If you need to query online, please submit an issue*
@@ -54,3 +56,5 @@ Each entry in the dataset contains the following fields:
 
 Due to various special cases, the IDs and game names of the three platforms may appear repeatedly in the dataset. This
 is not an error. Please handle it yourself when uniqueness is required.
+
+If you need to automatically update the dataset, you can use the version file to detect updates: [https://datasets.tuihub.org/build.json](https://datasets.tuihub.org/build.json)
