@@ -75,6 +75,44 @@ class Bangumi:
                 return True
         return False
 
+    def parse_alt_names(self, line):
+        line = line.replace("\r", "").replace("\n", "")
+        line = line.replace("\\r", "").replace("\\n", "")
+        pos = line.find("别名")
+        if pos == -1:
+            return []
+        pos_start = pos + 2
+        while pos_start < pos + 5 and line[pos_start] != '{':
+            pos_start += 1
+        if pos_start == pos + 5 and line[pos_start] != '{':
+            return []
+        pos_end = pos + 2
+        while line[pos_end] != '}':
+            pos_end += 1
+        altn = line[pos_start:pos_end + 1]
+        alen = altn.__len__()
+        p = 0
+        alt_names = []
+        while p < alen:
+            if altn[p] == '[':
+                pe = p
+                while altn[pe] != ']':
+                    pe += 1
+                p2 = p
+                while p2 < pe and altn[p2] != '|':
+                    p2 += 1
+                cnt_alt_name = ""
+                # no '|'
+                if p2 >= pe:
+                    cnt_alt_name = altn[p + 1:pe]
+                else:
+                    cnt_alt_name = altn[p2 + 1:pe]
+                alt_names.append(cnt_alt_name)
+                p = pe + 1
+            else:
+                p += 1
+        return alt_names
+
     def get_dup(self, data):
         for line in data:
             cur_platforms = parse_infobox(line[4], "平台")
@@ -84,6 +122,10 @@ class Bangumi:
                 self.add_to_bangumi_name_id_dict(line[2], line[0])
             if line[3] and line[2] and line[3] != line[2]:
                 self.add_to_bangumi_name_id_dict(line[3], line[0])
+            if line[4]:
+                cur_alt_names = self.parse_alt_names(line[4])
+                for alt_name in cur_alt_names:
+                    self.add_to_bangumi_name_id_dict(alt_name, line[0])
         self.bangumi_name_id_dict = {}
 
     def get_dict(self, data):
@@ -95,10 +137,9 @@ class Bangumi:
                 self.add_to_bangumi_name_id_dict_with_dup_list(line[2], line[0])
             if line[3] and line[2] and line[3] != line[2]:
                 self.add_to_bangumi_name_id_dict_with_dup_list(line[3], line[0])
-            # TODO: '{[en|Tun Town 2]}' not handled, dropping "别名" section
-            # cur_alt_names = parse_infobox(line[4], "别名")
-            # for alt_name in cur_alt_names:
-            #     add_to_bangumi_name_id_dict(alt_name, line[0])
+            alt_names = self.parse_alt_names(line[4])
+            for alt_name in alt_names:
+                self.add_to_bangumi_name_id_dict_with_dup_list(alt_name, line[0])
             if not self.bangumi_id_name_dict.__contains__(line[0]):
                 self.bangumi_id_name_dict[line[0]] = []
             if line[2]:
@@ -107,6 +148,9 @@ class Bangumi:
             if line[3] and line[2] and line[3] != line[2]:
                 if not self.bangumi_id_name_dict[line[0]].__contains__(line[3]):
                     self.bangumi_id_name_dict[line[0]].append(line[3])
+            for alt_name in alt_names:
+                if not self.bangumi_id_name_dict[line[0]].__contains__(alt_name):
+                    self.bangumi_id_name_dict[line[0]].append(alt_name)
 
     def main(self):
         data = self.get_data_from_db()
