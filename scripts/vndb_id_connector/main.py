@@ -1,5 +1,6 @@
 # WARN: Currently ALL SHIT MOUNTAIN, proceed WITH CAUTION
 import json
+import sys
 
 import psycopg2
 
@@ -10,11 +11,11 @@ from modules.vndb import Vndb
 
 if __name__ == "__main__":
     # connect db
-    vndb_conn = psycopg2.connect(database='vndb', user='postgres', password='postgres', host='192.168.5.17',
-                                 port='5432')
+    vndb_conn = psycopg2.connect(database='vndb', user='vndb', password='vndb', host='localhost',
+                                 port='10001')
     vndb_cur = vndb_conn.cursor()
-    bangumi_conn = psycopg2.connect(database='bangumi', user='postgres', password='postgres', host='192.168.5.17',
-                                    port='5432')
+    bangumi_conn = psycopg2.connect(database='bangumi', user='bangumi', password='bangumi', host='localhost',
+                                    port='10000')
     bangumi_cur = bangumi_conn.cursor()
 
     # var
@@ -103,5 +104,6 @@ if __name__ == "__main__":
                         "names": get_names(vid, bangumi_match)
                     })
     json_result['entries'] = matches
-    with open('../../game_id_connector/2-vndb_automated.json', 'w', encoding='utf8') as f3:
+    saved_file_path = '../../game_id_connector/2-vndb_automated.json' if len(sys.argv) == 1 else sys.argv[1]
+    with open(saved_file_path, 'w', encoding='utf8') as f3:
         f3.writelines(json.dumps(json_result, ensure_ascii=False, indent=2))

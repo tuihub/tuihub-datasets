@@ -1,0 +1,35 @@
+name: Run vndb_id_connector
+
+on:
+  schedule:
+    - cron: "0 0 * * 0"
+  workflow_dispatch:
+
+jobs:
+  ci:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Build and run docker compose containers
+      run: |
+        cd scripts/vndb_id_connector
+        docker compose up -d
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v3
+      with:
+        python-version: "3.10"
+    - name: Run vndb_id_connector
+      run: |
+        sleep 180
+        cd scripts/vndb_id_connector
+        pip install -r requirements.txt
+        python main.py
+
+    - name: GitHub Commit & Push
+      uses: actions-js/push@v1.5
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: "master"

@@ -4,7 +4,7 @@
 
 ```bash
 # Deploy containers
-docker-compose up -d
+docker compose up -d
 # Run script
 
 ```
