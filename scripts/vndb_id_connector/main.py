@@ -101,9 +101,13 @@ if __name__ == "__main__":
                         "steam": "",
                         "bangumi": str(bangumi_match),
                         "vndb": str(vid),
-                        "names": get_names(vid, bangumi_match)
+                        "names": sorted(get_names(vid, bangumi_match))
                     })
-    json_result['entries'] = matches
+    json_result['entries'] = sorted(matches, key=lambda x: (
+        int(x['vndb'][1:]) if len(x['vndb']) > 1 else float('inf'),
+        int(x['bangumi']) if x['bangumi'] else float('inf'),
+        int(x['steam']) if x['steam'] else float('inf')
+    ))
     saved_file_path = '../../game_id_connector/2-vndb_automated.json' if len(sys.argv) == 1 else sys.argv[1]
     with open(saved_file_path, 'w', encoding='utf8') as f3:
         f3.writelines(json.dumps(json_result, ensure_ascii=False, indent=2))
