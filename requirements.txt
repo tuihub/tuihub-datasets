@@ -1,0 +1,3 @@
+ruff
+psycopg2==2.9.10
+requests==2.32.3

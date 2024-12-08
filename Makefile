@@ -5,10 +5,20 @@ BUILD_NUMBER?=0
 init:
 	pip install -r requirements.txt
 
-build-pages:
+build-pages: init
 	echo "{ \"buildNumber\": \"${BUILD_NUMBER}\" }" > docs/build.json
 	cp README.md docs/README.md
-	cd scripts/game_id_merger && python main.py
+	cd src/build_docs && python main.py
+
+.PHONY: check
+# check
+check:
+	ruff check
+
+.PHONY: format
+# format
+format:
+	ruff format
 
 # show help
 help:

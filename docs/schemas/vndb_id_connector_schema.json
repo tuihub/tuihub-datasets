@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://github.com/tuihub/tuihub-datasets/game_id_connector_schema.json",
-  "title": "TuiHub DB Game ID Connector Schema",
+  "$id": "https://github.com/tuihub/tuihub-datasets/vndb_id_connector_schema.json",
+  "title": "TuiHub VNDB Game ID Connector Schema",
   "description": "",
   "type": "object",
   "properties": {

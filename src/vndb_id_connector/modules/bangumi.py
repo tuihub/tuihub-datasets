@@ -5,8 +5,14 @@ class Bangumi:
     BANGUMI_INCLUDED_PLATFORMS = ["pc", "win", "dos", "linux", "mac", "mac"]
     BANGUMI_EXCLUDED_PLATFORMS = ["windowsphone"]
 
-    def __init__(self, bangumi_cur, bangumi_id_name_dict, bangumi_name_id_dict, bangumi_dup_id_list,
-                 bangumi_dup_id_same_name):
+    def __init__(
+        self,
+        bangumi_cur,
+        bangumi_id_name_dict,
+        bangumi_name_id_dict,
+        bangumi_dup_id_list,
+        bangumi_dup_id_same_name,
+    ):
         self.bangumi_cur = bangumi_cur
         self.bangumi_id_name_dict = bangumi_id_name_dict
         self.bangumi_name_id_dict = bangumi_name_id_dict
@@ -47,7 +53,13 @@ class Bangumi:
         if id in self.bangumi_dup_id_list:
             return
         if s in self.bangumi_name_id_dict and self.bangumi_name_id_dict[s] != id:
-            print("W: " + s + " -> " + str(self.bangumi_name_id_dict[s]) + " already exists")
+            print(
+                "W: "
+                + s
+                + " -> "
+                + str(self.bangumi_name_id_dict[s])
+                + " already exists"
+            )
         else:
             self.bangumi_name_id_dict[s] = id
 
@@ -82,31 +94,31 @@ class Bangumi:
         if pos == -1:
             return []
         pos_start = pos + 2
-        while pos_start < pos + 5 and line[pos_start] != '{':
+        while pos_start < pos + 5 and line[pos_start] != "{":
             pos_start += 1
-        if pos_start == pos + 5 and line[pos_start] != '{':
+        if pos_start == pos + 5 and line[pos_start] != "{":
             return []
         pos_end = pos + 2
-        while line[pos_end] != '}':
+        while line[pos_end] != "}":
             pos_end += 1
-        altn = line[pos_start:pos_end + 1]
+        altn = line[pos_start : pos_end + 1]
         alen = altn.__len__()
         p = 0
         alt_names = []
         while p < alen:
-            if altn[p] == '[':
+            if altn[p] == "[":
                 pe = p
-                while altn[pe] != ']':
+                while altn[pe] != "]":
                     pe += 1
                 p2 = p
-                while p2 < pe and altn[p2] != '|':
+                while p2 < pe and altn[p2] != "|":
                     p2 += 1
                 cnt_alt_name = ""
                 # no '|'
                 if p2 >= pe:
-                    cnt_alt_name = altn[p + 1:pe]
+                    cnt_alt_name = altn[p + 1 : pe]
                 else:
-                    cnt_alt_name = altn[p2 + 1:pe]
+                    cnt_alt_name = altn[p2 + 1 : pe]
                 alt_names.append(cnt_alt_name)
                 p = pe + 1
             else:
@@ -116,7 +128,9 @@ class Bangumi:
     def get_dup(self, data):
         for line in data:
             cur_platforms = parse_infobox(line[4], "平台")
-            if cur_platforms.__len__() > 0 and not self.platform_supported(cur_platforms[0]):
+            if cur_platforms.__len__() > 0 and not self.platform_supported(
+                cur_platforms[0]
+            ):
                 continue
             if line[2]:
                 self.add_to_bangumi_name_id_dict(line[2], line[0])
@@ -131,7 +145,9 @@ class Bangumi:
     def get_dict(self, data):
         for line in data:
             cur_platforms = parse_infobox(line[4], "平台")
-            if cur_platforms.__len__() > 0 and not self.platform_supported(cur_platforms[0]):
+            if cur_platforms.__len__() > 0 and not self.platform_supported(
+                cur_platforms[0]
+            ):
                 continue
             if line[2]:
                 self.add_to_bangumi_name_id_dict_with_dup_list(line[2], line[0])

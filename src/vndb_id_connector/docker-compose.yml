@@ -3,12 +3,12 @@ services:
   bangumi-db:
     build: https://github.com/tuihub/bangumi-db.git#master:postgresql
     privileged: false
-    restart: unless-stopped
+    restart: no
     ports:
-      - 10000:5432
-  vndb:
+      - "10000:5432"
+  vndb-db:
     build: https://github.com/tuihub/vndb-db.git#master
     privileged: false
-    restart: unless-stopped
+    restart: no
     ports:
-      - 10001:5432
+      - "10001:5432"

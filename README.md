@@ -6,7 +6,7 @@
 
 This repository contains the datasets used in the TuiHub project.
 
-## Game ID Connector
+## VNDB ID Connector
 
 目前提供视觉小说在 [VNDB](https://vndb.org/)，[Bangumi](https://bgm.tv/) 和 [Steam](https://store.steampowered.com/)
 三个平台上的 ID 对应关系。  
@@ -32,7 +32,7 @@ responsibility for using this dataset.
 
 *目前仅提供完整数据集下载，如果你需要在线查询请提交 issue 请求*  
 
-完整数据集下载地址：[https://datasets.tuihub.org/game_id_connector.json](https://datasets.tuihub.org/game_id_connector.json)  
+完整数据集下载地址：[https://datasets.tuihub.org/vndb_id_connector.json](https://datasets.tuihub.org/vndb_id_connector.json)  
 数据集每个条目包含以下字段：
 - vndb: 字符串，VNDB 的 vid，不存在时为空字符串
 - bangumi: 字符串，Bangumi 的条目 id，不存在时为空字符串
@@ -47,7 +47,7 @@ responsibility for using this dataset.
 
 *Currently, only the complete dataset is provided for download. If you need to query online, please submit an issue*
 
-Download address of the complete dataset: [https://datasets.tuihub.org/game_id_connector.json](https://datasets.tuihub.org/game_id_connector.json)  
+Download address of the complete dataset: [https://datasets.tuihub.org/vndb_id_connector.json](https://datasets.tuihub.org/vndb_id_connector.json)  
 Each entry in the dataset contains the following fields:
 - vndb: string, VNDB vid, empty string when it does not exist
 - bangumi: string, Bangumi entry id, empty string when it does not exist
