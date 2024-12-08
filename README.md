@@ -6,15 +6,26 @@
 
 This repository contains the datasets used in the TuiHub project.
 
+**TOC**
+
+- [Game ID List](#game-id-list)
+- [VNDB ID Connector](#vndb-id-connector)
+
+## Game ID List
+
+WIP
+
 ## VNDB ID Connector
 
+[![Run vndb_id_connector](https://github.com/tuihub/tuihub-datasets/actions/workflows/vndb_id_connector.yml/badge.svg)](https://github.com/tuihub/tuihub-datasets/actions/workflows/vndb_id_connector.yml)
+[![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Frepos%2Ftuihub%2Ftuihub-datasets%2Factions%2Fworkflows%2Fvndb_id_connector.yml%2Fruns%3Fstatus%3Dcompleted%26per_page%3D1&query=%24.workflow_runs%5B0%5D.run_started_at&label=Update%20at)](https://github.com/tuihub/tuihub-datasets/actions/workflows/vndb_id_connector.yml)
+
 目前提供视觉小说在 [VNDB](https://vndb.org/)，[Bangumi](https://bgm.tv/) 和 [Steam](https://store.steampowered.com/)
-三个平台上的 ID 对应关系。  
+三个平台上的 ID 对应关系。
 数据集由脚本辅助生成，没有经过完全的人工校对，出现缺漏错误都是预期内的现象，如果你发现问题可以提交 issue。  
 计划至少每个月更新一次，但我们不提供任何持续更新的承诺。
 
-本数据集遵循 [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.zh) 协议。这代表任何使用了本数据集的项目都**无需
-**注明数据来源，且自行承担因使用本数据集而产生的法律责任。
+本数据集遵循 [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.zh) 协议。这代表任何使用了本数据集的项目都**无需**注明数据来源，且自行承担因使用本数据集而产生的法律责任。
 
 ---
 
