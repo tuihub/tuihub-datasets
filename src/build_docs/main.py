@@ -12,7 +12,7 @@ def get_vndb_vid_dict(data):
 
 if __name__ == "__main__":
     # load file
-    f = open("../../data/vndb_id_connector/1-manually.json", encoding="utf8")
+    f = open("../../data/vndb_id_connector/1_manually.json", encoding="utf8")
     manual_data = json.load(f)
     f = open("../../data/vndb_id_connector/2_automated.json", encoding="utf8")
     vndb_data = json.load(f)

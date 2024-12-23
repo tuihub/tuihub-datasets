@@ -139,7 +139,7 @@ if __name__ == "__main__":
         match["names"] = sorted(match["names"])
     json_result["entries"] = matches
     saved_file_path = (
-        "../../data/2_automated.json"
+        "../../data/vndb_id_connector/2_automated.json"
         if len(sys.argv) == 1
         else sys.argv[1]
     )

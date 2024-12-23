@@ -13,7 +13,7 @@ jobs:
 
       - name: Build and run docker compose containers
         run: |
-          cd scripts/vndb_id_connector
+          cd src/vndb_id_connector
           docker compose up -d
       - name: Set up Python 3.11
         uses: actions/setup-python@v3
@@ -23,7 +23,7 @@ jobs:
         run: |
           sleep 180
           make init
-          cd scripts/vndb_id_connector
+          cd src/vndb_id_connector
           python main.py
 
       - name: GitHub Commit & Push
