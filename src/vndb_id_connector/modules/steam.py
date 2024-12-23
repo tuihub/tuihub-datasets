@@ -5,16 +5,16 @@ class Steam:
 
     def main(self):
         sql = """SELECT DISTINCT
-            releases_vn.vid AS vid, 
-            releases.l_steam AS steamid
+            releases_vn.vid AS vid,
+            extlinks."value" AS steamid 
         FROM
             releases
-            INNER JOIN
-            releases_vn
-            ON 
-                releases."id" = releases_vn."id"
+            INNER JOIN releases_vn ON releases."id" = releases_vn."id"
+            INNER JOIN releases_extlinks ON releases_extlinks."id" = releases."id"
+            INNER JOIN extlinks ON extlinks."id" = releases_extlinks.link 
         WHERE
-            releases.l_steam <> 0"""
+            extlinks.site = 'steam' 
+            AND extlinks."value" IS NOT NULL"""
         self.vndb_cur.execute(sql)
         data = self.vndb_cur.fetchall()
         for line in data:
