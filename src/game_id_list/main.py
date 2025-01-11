@@ -145,6 +145,15 @@ def process_data(steam_id_names: dict[int, list[str]], vid_steam_ids: dict[str, 
         ),
     )
 
+    # remove empty ids
+    for match in result:
+        if len(match["vndb"]) == 0:
+            match.pop("vndb")
+        if len(match["bangumi"]) == 0:
+            match.pop("bangumi")
+        if len(match["steam"]) == 0:
+            match.pop("steam")
+
     return result
 
 
