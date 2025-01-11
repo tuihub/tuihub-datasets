@@ -1,0 +1,45 @@
+name: Run game_id_list
+
+on:
+  schedule:
+    - cron: "0 0 * * 0"
+  workflow_dispatch:
+
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build and run docker compose containers
+        run: |
+          cd src/game_id_list
+          docker compose up -d
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v3
+        with:
+          python-version: "3.11"
+      - name: Run vndb_id_connector
+        env:
+          BANGUMI_DB: bangumi
+          BANGUMI_USER: bangumi
+          BANGUMI_PASSWORD: bangumi
+          BANGUMI_HOST: localhost
+          BANGUMI_PORT: 10000
+          VNDB_DB: vndb
+          VNDB_USER: vndb
+          VNDB_PASSWORD: vndb
+          VNDB_HOST: localhost
+          VNDB_PORT: 10001
+          STEAM_WEB_API_KEY: ${{ secrets.STEAM_WEB_API_KEY }}
+        run: |
+          sleep 180
+          make init
+          cd src/game_id_list
+          python main.py
+
+      - name: GitHub Commit & Push
+        uses: actions-js/push@v1.5
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: "master"
