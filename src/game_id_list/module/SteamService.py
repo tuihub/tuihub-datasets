@@ -1,10 +1,13 @@
+import os
 import time
 
 import requests
 
 
 class SteamService:
-    def __init__(self, webapi_key: str, request_interval: int = 10):
+    def __init__(self, webapi_key: str = None, request_interval: int = 10):
+        if webapi_key is None:
+            webapi_key = os.getenv("STEAM_WEB_API_KEY")
         self.webapi_key = webapi_key
         self.request_interval = request_interval
 
