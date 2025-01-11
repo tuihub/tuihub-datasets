@@ -11,7 +11,7 @@ def get_vndb_vid_dict(data):
 
 
 if __name__ == "__main__":
-    # load file
+    # vndb_id_connector
     f = open("../../data/vndb_id_connector/1_manually.json", encoding="utf8")
     manual_data = json.load(f)
     f = open("../../data/vndb_id_connector/2_automated.json", encoding="utf8")
@@ -34,5 +34,14 @@ if __name__ == "__main__":
         f3.writelines(
             json.dumps(
                 merged_data, ensure_ascii=False, indent=None, separators=(",", ":")
+            )
+        )
+    # game_id_list
+    f = open("../../data/game_id_list/1_automated.json", encoding="utf8")
+    game_id_list_data = json.load(f)
+    with open("../../docs/game_id_list.json", "w", encoding="utf8") as f3:
+        f3.writelines(
+            json.dumps(
+                game_id_list_data, ensure_ascii=False, indent=None, separators=(",", ":")
             )
         )
