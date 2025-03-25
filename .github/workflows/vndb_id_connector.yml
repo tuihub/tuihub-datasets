@@ -21,7 +21,7 @@ jobs:
           python-version: "3.11"
       - name: Run vndb_id_connector
         run: |
-          sleep 180
+          sleep 300
           make init
           cd src/vndb_id_connector
           python main.py

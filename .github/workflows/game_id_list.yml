@@ -33,7 +33,7 @@ jobs:
           VNDB_PORT: 10001
           STEAM_WEB_API_KEY: ${{ secrets.STEAM_WEB_API_KEY }}
         run: |
-          sleep 180
+          sleep 300
           make init
           cd src/game_id_list
           python main.py
