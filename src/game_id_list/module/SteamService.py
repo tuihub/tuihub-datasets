@@ -7,7 +7,7 @@ import requests
 class SteamService:
     def __init__(self, webapi_key: str = None, request_interval: int = 10):
         if webapi_key is None:
-            webapi_key = os.getenv("STEAM_WEB_API_KEY")
+            webapi_key = os.getenv("STEAM_WEB_API_KEY") or os.getenv("STEAM_WEBAPI_KEY")
         self.webapi_key = webapi_key
         self.request_interval = request_interval
 
@@ -38,7 +38,9 @@ class SteamService:
                     "last_appid": last_appid,
                     "max_results": 50000,
                 }
-                response = requests.get(url, params=params).json()["response"]
+                response_data = requests.get(url, params=params, timeout=60)
+                response_data.raise_for_status()
+                response = response_data.json()["response"]
 
                 for app in response["apps"]:
                     if app["appid"] not in apps:
