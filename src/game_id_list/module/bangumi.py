@@ -3,60 +3,98 @@ import os
 import psycopg2
 
 
+def _clean_infobox(input_str):
+    if not input_str:
+        return ""
+    input_str = str(input_str)
+    input_str = input_str.replace("\r", "").replace("\n", "")
+    return input_str.replace("\\r", "").replace("\\n", "")
+
+
+def _extract_infobox_section(input_str, keyword):
+    input_str = _clean_infobox(input_str)
+    if not input_str:
+        return ""
+
+    key_pos = input_str.find("|" + keyword)
+    if key_pos == -1:
+        key_pos = input_str.find(keyword)
+    if key_pos == -1:
+        return ""
+
+    value_pos = input_str.find("=", key_pos)
+    if value_pos == -1:
+        return ""
+
+    start = value_pos + 1
+    while start < len(input_str) and input_str[start].isspace():
+        start += 1
+    if start >= len(input_str):
+        return ""
+
+    if input_str[start] != "{":
+        end = input_str.find("|", start)
+        if end == -1:
+            end = input_str.find("}}", start)
+        if end == -1:
+            end = len(input_str)
+        return input_str[start:end]
+
+    depth = 0
+    for pos in range(start, len(input_str)):
+        if input_str[pos] == "{":
+            depth += 1
+        elif input_str[pos] == "}":
+            depth -= 1
+            if depth == 0:
+                return input_str[start + 1 : pos]
+    return input_str[start + 1 :]
+
+
+def _parse_bracketed_values(section):
+    names = []
+    pos = 0
+    while pos < len(section):
+        pos_start = section.find("[", pos)
+        if pos_start == -1:
+            break
+        pos_end = section.find("]", pos_start + 1)
+        if pos_end == -1:
+            break
+
+        name = section[pos_start + 1 : pos_end].strip()
+        if "|" in name:
+            name = name.split("|", 1)[1].strip()
+        if name and name not in names:
+            names.append(name)
+        pos = pos_end + 1
+    return names
+
+
 def get_bangumi_conn():
-    dbname = os.getenv('BANGUMI_DB')
-    user = os.getenv('BANGUMI_USER')
-    password = os.getenv('BANGUMI_PASSWORD')
-    host = os.getenv('BANGUMI_HOST')
-    port = os.getenv('BANGUMI_PORT')
+    dbname = os.getenv("BANGUMI_DB")
+    user = os.getenv("BANGUMI_USER")
+    password = os.getenv("BANGUMI_PASSWORD")
+    host = os.getenv("BANGUMI_HOST")
+    port = os.getenv("BANGUMI_PORT")
 
     connection = psycopg2.connect(
-        dbname=dbname,
-        user=user,
-        password=password,
-        host=host,
-        port=port
+        dbname=dbname, user=user, password=password, host=host, port=port
     )
     return connection
 
 
 def parse_alt_names(line) -> list[str]:
-    line = line.replace("\r", "").replace("\n", "")
-    line = line.replace("\\r", "").replace("\\n", "")
-    pos = line.find("别名")
-    if pos == -1:
+    section = _extract_infobox_section(line, "别名")
+    if not section:
         return []
-    pos_start = pos + 2
-    while pos_start < pos + 5 and line[pos_start] != "{":
-        pos_start += 1
-    if pos_start == pos + 5 and line[pos_start] != "{":
-        return []
-    pos_end = pos + 2
-    while line[pos_end] != "}":
-        pos_end += 1
-    altn = line[pos_start: pos_end + 1]
-    alen = altn.__len__()
-    p = 0
-    alt_names = []
-    while p < alen:
-        if altn[p] == "[":
-            pe = p
-            while altn[pe] != "]":
-                pe += 1
-            p2 = p
-            while p2 < pe and altn[p2] != "|":
-                p2 += 1
-            cnt_alt_name = ""
-            # no '|'
-            if p2 >= pe:
-                cnt_alt_name = altn[p + 1: pe]
-            else:
-                cnt_alt_name = altn[p2 + 1: pe]
-            alt_names.append(cnt_alt_name)
-            p = pe + 1
-        else:
-            p += 1
-    return alt_names
+
+    alt_names = _parse_bracketed_values(section)
+    if len(alt_names) > 0:
+        return alt_names
+
+    section = section.strip().strip("{}")
+    return [section] if section else []
 
 
 def get_bangumi_id_names() -> dict[int, list[str]]:

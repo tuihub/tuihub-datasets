@@ -1,13 +1,18 @@
 import json
 import sys
+from pathlib import Path
 
 from module.SteamService import SteamService
 from module.bangumi import get_bangumi_id_names
 from module.vndb import get_vndb_steam_relation
 
 
-def process_data(steam_id_names: dict[int, list[str]], vid_steam_ids: dict[str, list[int]],
-                 steam_id_vid: dict[int, str], bid_names: dict[int, list[str]]) -> list:
+def process_data(
+    steam_id_names: dict[int, list[str]],
+    vid_steam_ids: dict[str, list[int]],
+    steam_id_vid: dict[int, str],
+    bid_names: dict[int, list[str]],
+) -> list:
     result = []
 
     vndb_steam_matches = []
@@ -28,7 +33,7 @@ def process_data(steam_id_names: dict[int, list[str]], vid_steam_ids: dict[str, 
                 "steam": group_steam_ids,
                 "bangumi": [],
                 "vndb": [vid],
-                "names": group_names
+                "names": group_names,
             }
         )
         vid_vndb_steam_matches_id_idxes[vid] = len(vndb_steam_matches) - 1
@@ -72,18 +77,36 @@ def process_data(steam_id_names: dict[int, list[str]], vid_steam_ids: dict[str, 
                 continue
             else:
                 vid = list(matched_vids)[0]
-                if bid not in vndb_steam_matches[vid_vndb_steam_matches_id_idxes[vid]]["bangumi"]:
-                    vndb_steam_matches[vid_vndb_steam_matches_id_idxes[vid]]["bangumi"].append(bid)
-                    vndb_steam_matches[vid_vndb_steam_matches_id_idxes[vid]]["names"].update(bnames)
+                if (
+                    bid
+                    not in vndb_steam_matches[vid_vndb_steam_matches_id_idxes[vid]][
+                        "bangumi"
+                    ]
+                ):
+                    vndb_steam_matches[vid_vndb_steam_matches_id_idxes[vid]][
+                        "bangumi"
+                    ].append(bid)
+                    vndb_steam_matches[vid_vndb_steam_matches_id_idxes[vid]][
+                        "names"
+                    ].update(bnames)
                 proceeded_bangumi_ids.add(bid)
         elif len(matched_steam_ids) == 1:
             matched_steam_id = list(matched_steam_ids)[0]
             # matched steam id is in vndb groupings
             if matched_steam_id in steam_id_vid:
                 vid = steam_id_vid[matched_steam_id]
-                if bid not in vndb_steam_matches[vid_vndb_steam_matches_id_idxes[vid]]["bangumi"]:
-                    vndb_steam_matches[vid_vndb_steam_matches_id_idxes[vid]]["bangumi"].append(bid)
-                    vndb_steam_matches[vid_vndb_steam_matches_id_idxes[vid]]["names"].update(bnames)
+                if (
+                    bid
+                    not in vndb_steam_matches[vid_vndb_steam_matches_id_idxes[vid]][
+                        "bangumi"
+                    ]
+                ):
+                    vndb_steam_matches[vid_vndb_steam_matches_id_idxes[vid]][
+                        "bangumi"
+                    ].append(bid)
+                    vndb_steam_matches[vid_vndb_steam_matches_id_idxes[vid]][
+                        "names"
+                    ].update(bnames)
             # else add to steam_bangumi_matches
             else:
                 names = set()
@@ -94,7 +117,7 @@ def process_data(steam_id_names: dict[int, list[str]], vid_steam_ids: dict[str, 
                         "steam": [matched_steam_id],
                         "bangumi": [bid],
                         "vndb": [],
-                        "names": names
+                        "names": names,
                     }
                 )
                 proceeded_steam_ids.add(matched_steam_id)
@@ -102,38 +125,36 @@ def process_data(steam_id_names: dict[int, list[str]], vid_steam_ids: dict[str, 
 
     # add vndb_steam_matches
     for match in vndb_steam_matches:
-        result.append({
-            "steam": sorted(match["steam"]),
-            "bangumi": sorted(match["bangumi"]),
-            "vndb": sorted(match["vndb"], key=lambda x: int(x[1:])),
-            "names": sorted(list(match["names"]))
-        })
+        result.append(
+            {
+                "steam": sorted(match["steam"]),
+                "bangumi": sorted(match["bangumi"]),
+                "vndb": sorted(match["vndb"], key=lambda x: int(x[1:])),
+                "names": sorted(list(match["names"])),
+            }
+        )
     # add bangumi_steam_matches
     for match in bangumi_steam_matches:
-        result.append({
-            "steam": sorted(match["steam"]),
-            "bangumi": sorted(match["bangumi"]),
-            "vndb": [],
-            "names": sorted(list(match["names"]))
-        })
+        result.append(
+            {
+                "steam": sorted(match["steam"]),
+                "bangumi": sorted(match["bangumi"]),
+                "vndb": [],
+                "names": sorted(list(match["names"])),
+            }
+        )
     # add unmatched steam ids
     for steam_id, names in steam_id_names.items():
         if steam_id not in proceeded_steam_ids:
-            result.append({
-                "steam": [steam_id],
-                "bangumi": [],
-                "vndb": [],
-                "names": sorted(names)
-            })
+            result.append(
+                {"steam": [steam_id], "bangumi": [], "vndb": [], "names": sorted(names)}
+            )
     # add unmatched bangumi ids
     for bid, bnames in bid_names.items():
         if bid not in proceeded_bangumi_ids:
-            result.append({
-                "steam": [],
-                "bangumi": [bid],
-                "vndb": [],
-                "names": sorted(bnames)
-            })
+            result.append(
+                {"steam": [], "bangumi": [bid], "vndb": [], "names": sorted(bnames)}
+            )
 
     # sort result
     result = sorted(
@@ -157,10 +178,46 @@ def process_data(steam_id_names: dict[int, list[str]], vid_steam_ids: dict[str, 
     return result
 
 
+def get_saved_file_path(args: list[str]) -> str:
+    output_args = [arg for arg in args if not arg.startswith("--")]
+    return (
+        "../../data/game_id_list/1_automated.json"
+        if len(output_args) == 0
+        else output_args[0]
+    )
+
+
+def get_cached_steam_id_names(saved_file_path: str) -> dict[int, list[str]]:
+    steam_id_names = {}
+    saved_path = Path(saved_file_path)
+    if not saved_path.exists():
+        return steam_id_names
+
+    with saved_path.open("r", encoding="utf8") as f:
+        data = json.load(f)
+
+    for entry in data.get("entries", []):
+        names = entry.get("names", [])
+        for steam_id in entry.get("steam", []):
+            steam_id = int(steam_id)
+            if steam_id not in steam_id_names:
+                steam_id_names[steam_id] = []
+            for name in names:
+                if name not in steam_id_names[steam_id]:
+                    steam_id_names[steam_id].append(name)
+    return steam_id_names
+
+
 if __name__ == "__main__":
+    saved_file_path = get_saved_file_path(sys.argv[1:])
+    skip_steam_api = "--skip-steam-api" in sys.argv[1:]
+
     steam_id_names: dict[int, list[str]]
-    steam_service = SteamService()
-    steam_id_names = steam_service.get_app_list()
+    if skip_steam_api:
+        steam_id_names = get_cached_steam_id_names(saved_file_path)
+    else:
+        steam_service = SteamService()
+        steam_id_names = steam_service.get_app_list()
 
     vid_steam_ids: dict[str, list[int]]
     steam_id_vid: dict[int, str]
@@ -175,12 +232,7 @@ if __name__ == "__main__":
         "info": {
             "description": "THERE IS NO WARRANTY FOR THE DATA, TO THE EXTENT PERMITTED BY APPLICABLE LAW.",
         },
-        "entries": result
+        "entries": result,
     }
-    saved_file_path = (
-        "../../data/game_id_list/1_automated.json"
-        if len(sys.argv) == 1
-        else sys.argv[1]
-    )
     with open(saved_file_path, "w", encoding="utf8") as f3:
         f3.writelines(json.dumps(json_result, ensure_ascii=False, indent=2))

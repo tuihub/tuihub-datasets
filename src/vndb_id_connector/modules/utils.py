@@ -43,16 +43,82 @@ def normalize_string(s):
     return new_str
 
 
-def parse_infobox(input_str, keyword):
+def _clean_infobox(input_str):
+    if not input_str:
+        return ""
+    input_str = str(input_str)
     input_str = input_str.replace("\r", "").replace("\n", "")
-    input_str = input_str.replace("\\r", "").replace("\\n", "")
+    return input_str.replace("\\r", "").replace("\\n", "")
+
+
+def _extract_infobox_section(input_str, keyword):
+    input_str = _clean_infobox(input_str)
+    if not input_str:
+        return ""
+
+    key_pos = input_str.find("|" + keyword)
+    if key_pos == -1:
+        key_pos = input_str.find(keyword)
+    if key_pos == -1:
+        return ""
+
+    value_pos = input_str.find("=", key_pos)
+    if value_pos == -1:
+        return ""
+
+    start = value_pos + 1
+    while start < len(input_str) and input_str[start].isspace():
+        start += 1
+    if start >= len(input_str):
+        return ""
+
+    if input_str[start] != "{":
+        end = input_str.find("|", start)
+        if end == -1:
+            end = input_str.find("}}", start)
+        if end == -1:
+            end = len(input_str)
+        return input_str[start:end]
+
+    depth = 0
+    for pos in range(start, len(input_str)):
+        if input_str[pos] == "{":
+            depth += 1
+        elif input_str[pos] == "}":
+            depth -= 1
+            if depth == 0:
+                return input_str[start + 1 : pos]
+    return input_str[start + 1 :]
+
+
+def _parse_bracketed_values(section):
     names = []
-    try:
-        section = input_str.split("|" + keyword + "=")[1].split("|")[0]
-        lines = section.strip("{}").replace("[", "").split("]")
-        for line in lines:
-            if line:
-                names.append(line)
-    except:
-        return {}
+    pos = 0
+    while pos < len(section):
+        pos_start = section.find("[", pos)
+        if pos_start == -1:
+            break
+        pos_end = section.find("]", pos_start + 1)
+        if pos_end == -1:
+            break
+
+        name = section[pos_start + 1 : pos_end].strip()
+        if "|" in name:
+            name = name.split("|", 1)[1].strip()
+        if name and name not in names:
+            names.append(name)
+        pos = pos_end + 1
     return names
+
+
+def parse_infobox(input_str, keyword):
+    section = _extract_infobox_section(input_str, keyword)
+    if not section:
+        return []
+
+    names = _parse_bracketed_values(section)
+    if len(names) > 0:
+        return names
+
+    section = section.strip().strip("{}")
+    return [section] if section else []

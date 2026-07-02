@@ -5,16 +5,37 @@ on:
     - cron: "0 0 * * 0"
   workflow_dispatch:
 
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: dataset-updates
+  cancel-in-progress: false
+
 jobs:
   ci:
     runs-on: ubuntu-latest
+    env:
+      REVIEW_BRANCH: dataset-review/game-id-list
     steps:
+      - name: Stop if manual review pull request is open
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          existing_pr="$(gh pr list --state open --limit 100 --json headRefName,url --jq 'map(select(.headRefName | startswith("dataset-review/")))[0].url // empty')"
+          if [ -n "$existing_pr" ]; then
+            echo "Manual review pull request is still open: $existing_pr"
+            exit 1
+          fi
+
       - uses: actions/checkout@v4
 
       - name: Build and run docker compose containers
         run: |
           cd src/game_id_list
-          docker compose up -d
+          docker compose up -d --wait --wait-timeout 1800
       - name: Set up Python 3.11
         uses: actions/setup-python@v3
         with:
@@ -33,12 +54,43 @@ jobs:
           VNDB_PORT: 10001
           STEAM_WEB_API_KEY: ${{ secrets.STEAM_WEB_API_KEY }}
         run: |
-          sleep 300
           make init
+          cp data/game_id_list/1_automated.json "$RUNNER_TEMP/game_id_list_old.json"
           cd src/game_id_list
           python main.py
 
+      - name: Validate dataset update
+        id: validate
+        continue-on-error: true
+        run: python scripts/validate_dataset_update.py --min-alias-retention 99.5% "$RUNNER_TEMP/game_id_list_old.json" data/game_id_list/1_automated.json
+
+      - name: Create manual review pull request
+        if: steps.validate.outcome == 'failure'
+        uses: peter-evans/create-pull-request@v8
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          base: master
+          branch: ${{ env.REVIEW_BRANCH }}
+          delete-branch: true
+          add-paths: data/game_id_list/1_automated.json
+          commit-message: "Update game_id_list dataset for manual review"
+          title: "[Manual review] game_id_list dataset update"
+          body: |
+            Automated dataset generation completed, but `scripts/validate_dataset_update.py` failed.
+
+            Please review the generated changes before merging.
+            While any `dataset-review/*` pull request remains open, automated dataset update workflows fail before running the update job again.
+
+            Workflow run: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
+
+      - name: Fail because manual review is required
+        if: steps.validate.outcome == 'failure'
+        run: |
+          echo "Dataset validation failed; a manual review pull request was opened or updated."
+          exit 1
+
       - name: GitHub Commit & Push
+        if: steps.validate.outcome == 'success'
         uses: actions-js/push@v1.5
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}

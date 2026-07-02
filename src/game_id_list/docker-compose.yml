@@ -5,9 +5,19 @@ services:
     restart: no
     ports:
       - "10000:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -h 127.0.0.1 -U bangumi -d bangumi"]
+      interval: 10s
+      timeout: 5s
+      retries: 180
   vndb-db:
     build: https://github.com/tuihub/vndb-db.git#master
     privileged: false
     restart: no
     ports:
       - "10001:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -h 127.0.0.1 -U vndb -d vndb"]
+      interval: 10s
+      timeout: 5s
+      retries: 180
