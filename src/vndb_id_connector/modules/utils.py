@@ -56,9 +56,19 @@ def _extract_infobox_section(input_str, keyword):
     if not input_str:
         return ""
 
-    key_pos = input_str.find("|" + keyword)
-    if key_pos == -1:
-        key_pos = input_str.find(keyword)
+    key_pos = -1
+    search_pos = 0
+    while True:
+        candidate_pos = input_str.find("|" + keyword, search_pos)
+        if candidate_pos == -1:
+            break
+        key_end = candidate_pos + len(keyword) + 1
+        while key_end < len(input_str) and input_str[key_end].isspace():
+            key_end += 1
+        if key_end < len(input_str) and input_str[key_end] == "=":
+            key_pos = candidate_pos
+            break
+        search_pos = candidate_pos + 1
     if key_pos == -1:
         return ""
 

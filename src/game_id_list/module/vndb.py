@@ -38,7 +38,7 @@ def get_vndb_steam_relation() -> tuple[dict[str, list[int]], dict[int, str]]:
             GROUP BY
                 steamid
             HAVING
-                COUNT(releases_vn.vid) > 1"""
+                COUNT(DISTINCT releases_vn.vid) > 1"""
     cur.execute(sql)
     data = cur.fetchall()
     steam_ids_with_multiple_vid = [int(line[0]) for line in data]

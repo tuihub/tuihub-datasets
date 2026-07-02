@@ -78,12 +78,13 @@ class Bangumi:
         return self.bangumi_cur.fetchall()
 
     def platform_supported(self, cur_platforms):
-        cur_platforms = normalize_string(cur_platforms)
-        for ep in self.BANGUMI_EXCLUDED_PLATFORMS:
-            if ep in cur_platforms:
-                return False
-        for ip in self.BANGUMI_INCLUDED_PLATFORMS:
-            if ip in cur_platforms:
+        if isinstance(cur_platforms, str):
+            cur_platforms = [cur_platforms]
+        for cur_platform in cur_platforms:
+            cur_platform = normalize_string(cur_platform)
+            if any(ep in cur_platform for ep in self.BANGUMI_EXCLUDED_PLATFORMS):
+                continue
+            if any(ip in cur_platform for ip in self.BANGUMI_INCLUDED_PLATFORMS):
                 return True
         return False
 
@@ -94,7 +95,7 @@ class Bangumi:
         for line in data:
             cur_platforms = parse_infobox(line[4], "平台")
             if cur_platforms.__len__() > 0 and not self.platform_supported(
-                cur_platforms[0]
+                cur_platforms
             ):
                 continue
             if line[2]:
@@ -111,7 +112,7 @@ class Bangumi:
         for line in data:
             cur_platforms = parse_infobox(line[4], "平台")
             if cur_platforms.__len__() > 0 and not self.platform_supported(
-                cur_platforms[0]
+                cur_platforms
             ):
                 continue
             if line[2]:
