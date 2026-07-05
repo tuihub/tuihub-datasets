@@ -24,7 +24,7 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           GH_REPO: ${{ github.repository }}
         run: |
-          existing_pr="$(gh pr list --state open --limit 100 --json headRefName,url --jq 'map(select(.headRefName | startswith("dataset-review/")))[0].url // empty')"
+          existing_pr="$(gh pr list --state open --head "$REVIEW_BRANCH" --json url --jq '.[0].url // empty')"
           if [ -n "$existing_pr" ]; then
             echo "Manual review pull request is still open: $existing_pr"
             exit 1
@@ -67,7 +67,7 @@ jobs:
             Automated dataset generation completed, but `scripts/validate_dataset_update.py` failed.
 
             Please review the generated changes before merging.
-            While any `dataset-review/*` pull request remains open, automated dataset update workflows fail before running the update job again.
+            While the `${{ env.REVIEW_BRANCH }}` pull request remains open, this workflow fails before running the update job again.
 
             Workflow run: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
 
