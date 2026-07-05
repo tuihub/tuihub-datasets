@@ -192,8 +192,6 @@ class Vndb:
                 continue
             if self.vndb_rid_multi_vid_list.__contains__(line[3]):
                 continue
-            if line[0] not in self.vndb_vid_names_dict:
-                self.vndb_vid_names_dict[line[0]] = []
             if line[1]:
                 if not self.vndb_dup_release_name_list.__contains__(
                     normalize_string(line[1])
@@ -201,6 +199,8 @@ class Vndb:
                     self.add_to_vndb_release_name_vid_dict_with_dup_list(
                         line[1], line[0]
                     )
+                    if line[0] not in self.vndb_vid_names_dict:
+                        self.vndb_vid_names_dict[line[0]] = []
                     if not self.vndb_vid_names_dict[line[0]].__contains__(line[1]):
                         self.vndb_vid_names_dict[line[0]].append(line[1])
             if line[2]:
@@ -210,6 +210,8 @@ class Vndb:
                     self.add_to_vndb_release_name_vid_dict_with_dup_list(
                         line[2], line[0]
                     )
+                    if line[0] not in self.vndb_vid_names_dict:
+                        self.vndb_vid_names_dict[line[0]] = []
                     if not self.vndb_vid_names_dict[line[0]].__contains__(line[2]):
                         self.vndb_vid_names_dict[line[0]].append(line[2])
 
