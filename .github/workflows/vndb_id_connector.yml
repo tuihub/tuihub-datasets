@@ -10,7 +10,7 @@ permissions:
   pull-requests: write
 
 concurrency:
-  group: dataset-updates
+  group: vndb-id-connector-updates
   cancel-in-progress: false
 
 jobs:
@@ -47,13 +47,25 @@ jobs:
           cd src/vndb_id_connector
           python main.py
 
+      - name: Check for dataset changes
+        id: changes
+        run: |
+          if git diff --quiet -- data/vndb_id_connector/2_automated.json; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No dataset changes detected."
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "Dataset changes detected."
+          fi
+
       - name: Validate dataset update
         id: validate
+        if: steps.changes.outputs.changed == 'true'
         continue-on-error: true
         run: python scripts/validate_dataset_update.py --min-alias-retention 99.5% "$RUNNER_TEMP/vndb_id_connector_old.json" data/vndb_id_connector/2_automated.json
 
       - name: Create manual review pull request
-        if: steps.validate.outcome == 'failure'
+        if: steps.changes.outputs.changed == 'true' && steps.validate.outcome == 'failure'
         uses: peter-evans/create-pull-request@v8
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -72,13 +84,13 @@ jobs:
             Workflow run: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
 
       - name: Fail because manual review is required
-        if: steps.validate.outcome == 'failure'
+        if: steps.changes.outputs.changed == 'true' && steps.validate.outcome == 'failure'
         run: |
           echo "Dataset validation failed; a manual review pull request was opened or updated."
           exit 1
 
       - name: GitHub Commit & Push
-        if: steps.validate.outcome == 'success'
+        if: steps.changes.outputs.changed == 'true' && steps.validate.outcome == 'success'
         uses: actions-js/push@v1.5
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
