@@ -103,7 +103,22 @@ jobs:
 
       - name: GitHub Commit & Push
         if: steps.changes.outputs.changed == 'true' && steps.validate.outcome == 'success'
-        uses: actions-js/push@v1.5
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: "master"
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/game_id_list/1_automated.json
+          git commit -m "chore: autopublish $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
+
+          for attempt in 1 2 3; do
+            git fetch origin master
+            git rebase origin/master
+            if git push origin HEAD:master; then
+              exit 0
+            fi
+            if [ "$attempt" -eq 3 ]; then
+              echo "Push failed after 3 attempts."
+              exit 1
+            fi
+            echo "Push rejected, retrying... ($attempt/3)"
+            sleep 5
+          done
