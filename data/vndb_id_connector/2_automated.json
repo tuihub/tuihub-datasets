@@ -4388,6 +4388,7 @@
         "Jiazu Jihua Re: Fangsha",
         "Jiazu Jihua ~Zhuiyi~",
         "Kazoku Keikaku",
+        "Kazoku Keikaku Re:Tsumugu Ito",
         "Kazoku Keikaku Re:Tsumugu Ito - Download Edition",
         "Kazoku Keikaku Re:Tsumugu Ito - Regular Edition",
         "Kazoku Keikaku Re:Tsumugu Ito - Special Edition",
@@ -4831,7 +4832,6 @@
       "vndb": "v182",
       "names": [
         "Kono Aozora ni Yakusoku o",
-        "Kono Aozora ni Yakusoku o (GPT-6 Sol)",
         "Kono Aozora ni Yakusoku o - Download Edition",
         "Kono Aozora ni Yakusoku o - First Press Edition",
         "Kono Aozora ni Yakusoku o - Preceding Trial Edition",
@@ -11850,7 +11850,7 @@
         "Nvpu Kafei Parfait",
         "Nüpu Kafei Parfait SE",
         "Parfait Complete Pack",
-        "Parfait Remake (Gemini 3.8 Flash)",
+        "Parfait Remake",
         "Parfait Remake - Download Edition",
         "Parfait Remake - First Press Limited Edition",
         "Parfait Remake - Standard Edition (Grok 3)",
@@ -11893,7 +11893,7 @@
         "Nvpu Kafei Parfait",
         "Nüpu Kafei Parfait SE",
         "Parfait Complete Pack",
-        "Parfait Remake (Gemini 3.8 Flash)",
+        "Parfait Remake",
         "Parfait Remake - Download Edition",
         "Parfait Remake - First Press Limited Edition",
         "Parfait Remake - Standard Edition (Grok 3)",
@@ -12936,7 +12936,6 @@
       "vndb": "v776",
       "names": [
         "Rui wa Tomo o Yobu",
-        "Rui wa Tomo o Yobu (Gemini 3.8 Flash)",
         "Rui wa Tomo o Yobu - First Press Edition",
         "Rui wa Tomo o Yobu - Regular Edition",
         "Rui wa Tomo o Yobu - Trial Edition",
@@ -13881,6 +13880,7 @@
         "Kagerou Touryuuki - Trial Edition",
         "Liar-soft Selection 12 - Kagerou Touryuuki",
         "Liar-soft Selection 12 霞外籠逗留記",
+        "XiaWaiLong DouLiuJi",
         "霞外笼逗留记",
         "霞外籠逗留記",
         "霞外籠逗留記  ダウンロード版",
@@ -14861,6 +14861,7 @@
         "Katawa Shoujo Alpha",
         "Katawa Shoujo Restoration Project - Prealpha Repair",
         "Katawa Shoujo Unofficial HD Patch",
+        "Katawa Shoujo: Re-Engineered",
         "Pianlun Shaonü",
         "かたわ少女",
         "かたわ少女 - Censored Edition",
@@ -28941,17 +28942,6 @@
     },
     {
       "steam": "",
-      "bangumi": "631352",
-      "vndb": "v2127",
-      "names": [
-        "Chaos Baby Yoshimi #2 Tomimochi Natsuki Hen",
-        "カオスBaby義美 カップリング ～小悪魔!! 調教日記～",
-        "カオスBaby義美＃2 富持奈津姫編",
-        "カオスベイビーヨシミカップリングコアクマチョウキョウニッキ"
-      ]
-    },
-    {
-      "steam": "",
       "bangumi": "256337",
       "vndb": "v2128",
       "names": [
@@ -30716,6 +30706,19 @@
     },
     {
       "steam": "",
+      "bangumi": "708864",
+      "vndb": "v2283",
+      "names": [
+        "Dutch Wife ~Omae no Tsuma wa Ore no Mono~",
+        "Dutch Wife ~Omae no Tsuma wa Ore no Mono~ Download Edition",
+        "Dutch Wife ~Omae no Tsuma wa Ore no Mono~ Package Edition",
+        "奪痴人妻～おまえの妻はオレの肉人形～",
+        "奪痴人妻～おまえの妻はオレの肉人形～ ダウンロード版",
+        "奪痴人妻～おまえの妻はオレの肉人形～ パッケージ版"
+      ]
+    },
+    {
+      "steam": "",
       "bangumi": "448118",
       "vndb": "v2286",
       "names": [
@@ -30882,9 +30885,9 @@
       "bangumi": "224130",
       "vndb": "v2299",
       "names": [
+        "Elf no Ohime-sama ~Kozukuri Rankou de Haramasete!~",
         "Elf no Ohime-sama ~Kozukuri Rankou de Haramasete!~ Download Edition",
-        "Elf no Ohime-sama ~Kozukuri Rankou de haramasete!~",
-        "Elf no Ohime-sama ~Kozukuri Rankou de haramasete!~ Package Edition",
+        "Elf no Ohime-sama ~Kozukuri Rankou de Haramasete!~ Package Edition",
         "エルフのお姫様 ～子づくり乱交で孕ませてっ！～",
         "エルフのお姫様～子づくり乱交で孕ませてっ！～",
         "エルフのお姫様～子づくり乱交で孕ませてっ！～ ダウンロード版",
@@ -33549,17 +33552,31 @@
       "bangumi": "84065",
       "vndb": "v2537",
       "names": [
+        "ABYSS -Homicide Club-",
+        "ABYSS -Homicide Club- \"Kotoko Route\" Package Edition",
+        "ABYSS -Homicide Club- \"Sou Route\" Package Edition",
+        "ABYSS -Homicide Club- C72 Edition ver 2.50",
+        "ABYSS -Homicide Club- Trial Edition",
+        "ABYSS -Homicide Club- Winter Comi Trial Edition",
+        "ABYSS -Sagashima Disc-",
+        "ABYSS -さがしまでぃすく-",
         "ABYSS -杀人俱乐部-",
         "ABYSS -殺人クラブ-",
         "ABYSS -殺人クラブ- 『琴子ルート』",
+        "ABYSS -殺人クラブ- 『琴子ルート』 パッケージ版",
         "ABYSS -殺人クラブ- ダウンロード版",
         "ABYSS -殺人クラブ- 完成版",
+        "ABYSS-殺人クラブ- C72版 ver 2.50",
+        "ABYSS-殺人クラブ- 体験版",
+        "ABYSS-殺人クラブ- 冬コミ体験版",
         "ABYSS-殺人クラブ-『幽ルート』",
+        "ABYSS-殺人クラブ-『幽ルート』 パッケージ版",
         "ABYSS-殺人クラブ-『爽ルート』",
-        "Abyss -Homicide Club-",
+        "ABYSS-殺人クラブ-『爽ルート』パッケージ版",
         "Abyss -Homicide Club- \"Kotoko Route\"",
         "Abyss -Homicide Club- \"Sou Route\"",
         "Abyss -Homicide Club- \"Yuu Route\"",
+        "Abyss -Homicide Club- \"Yuu Route\" Package Edition",
         "Abyss -Homicide Club- Complete Edition",
         "Abyss -Homicide Club- Download Edition"
       ]
@@ -45068,6 +45085,7 @@
       "vndb": "v3679",
       "names": [
         "Salem no Majo-tachi",
+        "Salem no Majo-tachi (Main Game & True Story Infinity One)",
         "Salem no Majo-tachi - CD-ROM First Press Edition",
         "Salem no Majo-tachi - DVD-ROM First Press Edition",
         "Salem no Majo-tachi - DVD-ROM Regular Edition",
@@ -45929,7 +45947,9 @@
       "vndb": "v3747",
       "names": [
         "Prince Panic",
+        "Prince Panic - Taiken Ban",
         "Prince Panic - YU-RIS Edition",
+        "Prince Panic タイケンバン",
         "PrincePanic",
         "PrincePanic YU-RIS版"
       ]
@@ -46276,6 +46296,19 @@
         "女囚姦獄～1号棟：葵編～ 初回限定版",
         "女囚監獄　～葵、お嬢さま絶頂地獄編～",
         "女囚監獄～葵、お嬢さま絶頂地獄編～"
+      ]
+    },
+    {
+      "steam": "",
+      "bangumi": "708865",
+      "vndb": "v3777",
+      "names": [
+        "Kangoku Suieibu ~Kyouei Mizugi ni Kuikomu Inbi na Shitai~",
+        "Kangoku Suieibu ~Kyouei Mizugi ni Kuikomu Inbi na Shitai~ Download Edition",
+        "Kangoku Suieibu ~Kyouei Mizugi ni Kuikomu Inbi na Shitai~ Package Edition",
+        "姦獄水泳部～競泳水着に食い込む淫靡な肢体～",
+        "姦獄水泳部～競泳水着に食い込む淫靡な肢体～ ダウンロード版",
+        "姦獄水泳部～競泳水着に食い込む淫靡な肢体～ パッケージ版"
       ]
     },
     {
@@ -49624,11 +49657,15 @@
         "Mesu Kyoushi ~Injoku no Kyoushitsu~ Download Edition",
         "Mesu Kyoushi ~Injoku no Kyoushitsu~ Immoral Edition - Download Edition",
         "Mesu Kyoushi ~Injoku no Kyoushitsu~ Immoral Edition - Package Edition",
+        "Mesu Kyoushi ~Injoku no Kyoushitsu~ Motion Plus - Download Edition",
+        "Mesu Kyoushi ~Injoku no Kyoushitsu~ Motion Plus - Package Edition",
         "牝教师～淫辱的教室～",
         "牝教師～淫辱の教室～",
         "牝教師～淫辱の教室～ インモラルエディション ダウンロード版",
         "牝教師～淫辱の教室～ インモラルエディション パッケージ版",
-        "牝教師～淫辱の教室～ ダウンロード版"
+        "牝教師～淫辱の教室～ ダウンロード版",
+        "牝教師～淫辱の教室～ モーションプラス ダウンロード版",
+        "牝教師～淫辱の教室～ モーションプラス パッケージ版"
       ]
     },
     {
@@ -49908,23 +49945,6 @@
         "Saiinjutsu Super - Low Price Edition",
         "サイインジュツ",
         "催淫術",
-        "催淫術　超 ダウンロード版",
-        "催淫術　超（スーパー）",
-        "催淫術超（スーパー） 廉価版"
-      ]
-    },
-    {
-      "steam": "",
-      "bangumi": "631354",
-      "vndb": "v4183",
-      "names": [
-        "Saiinjutsu",
-        "Saiinjutsu Super",
-        "Saiinjutsu Super - Download Edition",
-        "Saiinjutsu Super - Low Price Edition",
-        "サイインジュツスーパー",
-        "催淫術",
-        "催淫術 超",
         "催淫術　超 ダウンロード版",
         "催淫術　超（スーパー）",
         "催淫術超（スーパー） 廉価版"
@@ -53497,7 +53517,7 @@
       ]
     },
     {
-      "steam": "",
+      "steam": "5056390",
       "bangumi": "261529",
       "vndb": "v4513",
       "names": [
@@ -60359,13 +60379,38 @@
         "your diary  体験版",
         "your diary 初回限定版",
         "your diary 通常版",
-        "your diary ＋H (Gemini 3.8 Flash)",
+        "your diary ＋H",
         "your diary ＋H ダウンロード版",
         "your diary ＋H 体験版",
         "your diary ＋H 初回限定版",
         "your diary+ R18 Patch",
         "ユアダイアリー",
         "你的日记"
+      ]
+    },
+    {
+      "steam": "761700",
+      "bangumi": "101803",
+      "vndb": "v5286",
+      "names": [
+        "Your Diary",
+        "Your Diary + Censored Edition",
+        "Your Diary + H",
+        "Your Diary + H - Download Edition",
+        "Your Diary + H - First Press Limited Edition",
+        "Your Diary + H - Trial Edition",
+        "Your Diary - First Press Limited Edition",
+        "Your Diary - Regular Edition",
+        "Your Diary - Trial Edition",
+        "your diary",
+        "your diary  体験版",
+        "your diary 初回限定版",
+        "your diary 通常版",
+        "your diary ＋H",
+        "your diary ＋H ダウンロード版",
+        "your diary ＋H 体験版",
+        "your diary ＋H 初回限定版",
+        "your diary+ R18 Patch"
       ]
     },
     {
@@ -63737,10 +63782,12 @@
       "names": [
         "Kon Kon",
         "Kon Kon - Download Edition",
+        "Kon Kon - Package Edition",
         "Kon Kon - Trial Edition",
         "Kon Kon - Web Trial Edition",
         "魂々",
         "魂々 DL販",
+        "魂々 パッケージ版",
         "魂々 体験版",
         "魂々WEB体験版"
       ]
@@ -64568,6 +64615,20 @@
         "Cuteきゅっと 抱きしめて!!",
         "Cuteきゅっと抱きしめて!!",
         "Cuteきゅっと抱きしめて！！ ダウンロード版"
+      ]
+    },
+    {
+      "steam": "",
+      "bangumi": "224158",
+      "vndb": "v5773",
+      "names": [
+        "Saint ~Aa Shu yo, Oshiego-tachi ni Otosareta Watashi o Oyurushi Kudasai~",
+        "Saint ~Aa Shu yo, Oshiego-tachi ni Otosareta Watashi o Oyurushi Kudasai~ Download Edition",
+        "Saint ~Aa Shu yo, Oshiego-tachi ni Otosareta Watashi o Oyurushi Kudasai~ Package Edition",
+        "セイント～あぁ主よ、教え子達に堕とされた私をお許しください～",
+        "セイント～あぁ主よ、教え子達に堕とされた私をお許し下さい～",
+        "セイント～あぁ主よ、教え子達に堕とされた私をお許し下さい～ ダウンロード版",
+        "セイント～あぁ主よ、教え子達に堕とされた私をお許し下さい～ パッケージ版"
       ]
     },
     {
@@ -67127,9 +67188,11 @@
       "vndb": "v6049",
       "names": [
         "Mahou Shoujo Mana",
+        "Mahou Shoujo Mana - Download Edition",
         "Mahou Shoujo Mana - First Press Edition",
         "魔法少女マナ",
         "魔法少女マナ Little Witch Mana",
+        "魔法少女マナ ダウンロード版",
         "魔法少女マナ 初回版",
         "魔法少女茉奈"
       ]
@@ -69368,6 +69431,7 @@
         "Koibito wa Otoko no Ko - Download Edition",
         "Koibito wa Otoko no Ko - Package Edition",
         "Koibito wa Otoko no Ko - Trial Edition",
+        "Koibito wa Otokonoko",
         "Lover is Male Daughter",
         "恋人は男の娘",
         "恋人は男の娘 ダウンロード版",
@@ -76476,9 +76540,13 @@
       "vndb": "v7017",
       "names": [
         "Kiitos!",
+        "Kiitos! - CD-R Edition",
         "Kiitos! - Download Edition",
+        "Kiitos! - Press Edition",
         "Kiitos! - Trial Edition",
+        "Kiitos! CD-R版",
         "Kiitos! DL版",
+        "Kiitos! プレス版",
         "Kiitos! 体験版",
         "キートス！"
       ]
@@ -86365,9 +86433,7 @@
       "vndb": "v8118",
       "names": [
         "Colorful Education",
-        "Colorful Education - Package Edition",
-        "からふるエデュケーション",
-        "からふるエデュケーション パッケージ版"
+        "からふるエデュケーション"
       ]
     },
     {
@@ -96323,7 +96389,9 @@
       "names": [
         "Kouhai to Kouhaii de Kouhai Shitemita.",
         "Kouhai to Kouhaii de Kouhai Shitemita. - Trial Edition",
+        "Kouhai to Kouhaii de Kouhai Shitemita. Product CD",
         "後輩と後背位で交配してみた。",
+        "後輩と後背位で交配してみた。  製品版CD",
         "後輩と後背位で交配してみた。 体験版"
       ]
     },
@@ -104360,9 +104428,11 @@
         "Umi no Uta ga Kikoeru",
         "Umi no Uta ga Kikoeru - First Volume",
         "Umi no Uta ga Kikoeru - First Volume - Download Edition",
+        "Umi no Uta ga Kikoeru - Prologue (Trial Disc)",
         "Umi no Uta ga Kikoeru - Second Volume",
         "Umi no Uta ga Kikoeru - Second Volume - Download Edition",
         "海の唄がきこえる",
+        "海の唄がきこえる 序章(お試しDisc)",
         "海の唄がきこえる上巻",
         "海の唄がきこえる上巻 ダウンロード版",
         "海の唄がきこえる中編",
@@ -104631,10 +104701,10 @@
       "vndb": "v10557",
       "names": [
         "HimaNatsu: Of Churches, Sunflowers, and Long Summers",
-        "HimaNatsu: Of Churches, Sunflowers, and Long Summers (Linux & MacOS Patch)",
         "HimaNatsu: Of Churches, Sunflowers, and Long Summers - 18+ Patch",
         "HimaNatsu: Of Churches, Sunflowers, and Long Summers - 2K Patch",
         "HimaNatsu: Of Churches, Sunflowers, and Long Summers - Censored Edition",
+        "HimaNatsu: Of Churches, Sunflowers, and Long Summers - Linux & MacOS Patch",
         "Himawari no Kyoukai to Nagai Natsuyasumi",
         "Himawari no Kyoukai to Nagai Natsuyasumi - Brush Up Trial Edition",
         "Himawari no Kyoukai to Nagai Natsuyasumi - Download Edition",
@@ -104644,10 +104714,10 @@
         "Xiangrikui de Jiaohui yu Changchangde Shujia",
         "Xiangrikui de Jiaohui yu Manchang de Shujia",
         "Xiangrikui de Jiaohui yu Manchang de Shujia  - 18+ Patch",
-        "Xiangrikui de Jiaohui yu Manchang de Shujia (Linux & MacOS Patch)",
         "Xiangrikui de Jiaohui yu Manchang de Shujia - 18+ Patch",
         "Xiangrikui de Jiaohui yu Manchang de Shujia - 2K Patch",
         "Xiangrikui de Jiaohui yu Manchang de Shujia - Censored Edition",
+        "Xiangrikui de Jiaohui yu Manchang de Shujia - Linux & MacOS Patch",
         "向日葵の教会と長い夏休み",
         "向日葵の教会と長い夏休み ダウンロード版",
         "向日葵の教会と長い夏休み ブラッシュアップ体験版",
@@ -104656,9 +104726,9 @@
         "向日葵の教会と長い夏休み Ｈシーン体験版",
         "向日葵教会和漫长的暑假",
         "向日葵的教会与漫长的暑假",
-        "向日葵的教会与漫长的暑假 (Linux & MacOS Patch)",
         "向日葵的教会与漫长的暑假 - 2K Patch",
         "向日葵的教会与漫长的暑假 - Censored Edition",
+        "向日葵的教会与漫长的暑假 - Linux & MacOS Patch",
         "向日葵的教会与长长的暑假",
         "向日葵的教会与长长的暑假 - 18+ Patch",
         "向日葵的教會與漫長的暑假",
@@ -106870,11 +106940,11 @@
       "bangumi": "223577",
       "vndb": "v10810",
       "names": [
+        "Ao Jiao Mowang, Chunqing Yongzhe he Wo 3P",
         "Hero, Demon and Me 3P",
         "Tsun Mazo Maou to Pure Ero Yuusha ga Arawareta! ~Icha Ero! 3P! Shuraba mo Ari!? Ore no Ue de Kozukuri Last Battle!~",
         "Tsun Mazo Maou to Pure Ero Yuusha ga Arawareta! ~Icha Ero! 3P! Shuraba mo Ari!? Ore no Ue de Kozukuri Last Battle!~ Download Edition",
         "Tsun Mazo Maou to Pure Ero Yuusha ga Arawareta! ~Icha Ero! 3P! Shuraba mo Ari!? Ore no Ue de Kozukuri Last Battle!~ Package Edition",
-        "aojiaomowang，chunqingyongzhehewo3P",
         "ツンマゾ魔王とピュアエロ勇者があらわれた！～イチャエロ！ 3P！ 修羅場もあり!? 俺の上で子作りラストバトル！～",
         "ツンマゾ魔王とピュアエロ勇者があらわれた！～イチャエロ！ 3P！ 修羅場もあり!? 俺の上で子作りラストバトル！～  ダウンロード版",
         "ツンマゾ魔王とピュアエロ勇者があらわれた！～イチャエロ！ 3P！ 修羅場もあり!? 俺の上で子作りラストバトル！～  パッケージ版",
@@ -107351,9 +107421,13 @@
       "names": [
         "ALSTROEMERIA",
         "Alstroemeria",
+        "Alstroemeria - Complete Edition",
         "Alstroemeria - Download Edition",
+        "Alstroemeria - Reprint Edition",
         "アルストロメリア",
-        "アルストロメリア ダウンロード版"
+        "アルストロメリア ダウンロード版",
+        "アルストロメリア 再販版",
+        "アルストロメリア 完成版"
       ]
     },
     {
@@ -113491,7 +113565,9 @@
       "names": [
         "Moshimo no Kimi to Boku",
         "Moshimo no Kimi to Boku - Complete Edition",
+        "Moshimo no Kimi to Boku - ver.1.22",
         "もしものキミとボク",
+        "もしものキミとボク ver.1.22",
         "もしものキミとボク 完成版"
       ]
     },
@@ -114530,6 +114606,8 @@
       "bangumi": "51961",
       "vndb": "v11899",
       "names": [
+        "COLOR OF WHITE - Package Edition",
+        "COLOR OF WHITE パッケージ版",
         "CoW",
         "Color of White",
         "カラホワ"
@@ -119210,6 +119288,7 @@
         "Soushuu Senshinkan Gakuen: Hachimyoujin - Trial Edition ver.2",
         "Soushuu Senshinkan Gakuen: Hachimyoujin -Ten no Toki- First Press Edition",
         "Soushuu Senshinkan Gakuen: Hachimyoujin -Ten no Toki- Regular Edition",
+        "Soushuu Senshinkan Gakuen: Hachimyoujin Mtl patch",
         "Xiangzhou Zhanshenguan Xueyuan Bamingzhen",
         "Xiangzhou Zhanshenguan Xueyuan_Bamingzhen",
         "そうしゅう せんしんかんがくえん はちみょうじん",
@@ -120331,6 +120410,7 @@
       "bangumi": "67205",
       "vndb": "v12630",
       "names": [
+        "Guoran Youxi Li Wo De Qingchun Lian'ai Wuyu Ye You Wenti",
         "Guoran Youxi zhong Wo de Qingchun Lian'ai Wuyu Ye You Wenti - Xu Port",
         "My youth romantic comedy in game is wrong as I expected",
         "Yahari Game demo Ore no Seishun Love Come wa Machigatteiru.",
@@ -120339,6 +120419,7 @@
         "やはり俺の青春ラブコメはまちがっている。",
         "果然在游戏里我的青春恋爱物语也有问题。",
         "果然游戏中我的青春恋爱物语也有问题 续 移植版",
+        "果然游戏里我的青春恋爱物语也有问题",
         "果然游戏里我的青春恋爱物语也有问题。 Ren'Py移植版"
       ]
     },
@@ -124273,7 +124354,6 @@
       "names": [
         "Duokuile Meimei, Wo Tai Shouhuanying le!",
         "Imouto no Okage de Motesugite Yabai.",
-        "Imouto no Okage de Motesugite Yabai. (Gemini 3.8 Flash)",
         "Imouto no Okage de Motesugite Yabai. - Download Edition",
         "Imouto no Okage de Motesugite Yabai. - First Press Edition",
         "Imouto no Okage de Motesugite Yabai. - Regular Edition",
@@ -127763,12 +127843,13 @@
     },
     {
       "steam": "",
-      "bangumi": "519927",
+      "bangumi": "520001",
       "vndb": "v13809",
       "names": [
         "Ginga Eiyuu Densetsu",
         "銀河英雄伝説",
-        "银河英雄传说"
+        "银河英雄传说",
+        "银河英雄传说7"
       ]
     },
     {
@@ -137539,7 +137620,6 @@
       "vndb": "v15143",
       "names": [
         "Satsukoi ~Yuukyuu Naru Koi no Uta~",
-        "Satsukoi ~Yuukyuu Naru Koi no Uta~ (Gemini 3.8 Flash)",
         "Satsukoi ~Yuukyuu Naru Koi no Uta~ Download Edition",
         "Satsukoi ~Yuukyuu Naru Koi no Uta~ Trial Edition",
         "Sha Lian ~Youjiu Liuchuan de Lian zhi Ge~",
@@ -139786,6 +139866,7 @@
         "Murder House ~Guro Ryona no Yakata~",
         "Murder House ~Guro Ryona no Yakata~ Download Edition",
         "Murder House ~Guro Ryona no Yakata~ Package Edition",
+        "Murder house: grotesque ryona mansion",
         "マーダーハウス ～グロリョナの館～",
         "マーダーハウス ～グロリョナの館～ ダウンロード版",
         "マーダーハウス ～グロリョナの館～ パッケージ版"
@@ -139945,8 +140026,8 @@
       "bangumi": "548854",
       "vndb": "v15503",
       "names": [
-        "Netora Rensa ~Kimoota NEET no Oji ni Saiai no Imouto o Netorareta Ore~",
-        "Netora Rensa ~Kimoota Neet no Oji ni Saiai no Imouto o Netorareta Ore~",
+        "Netorarensa ~Kimoota NEET no Oji ni Saiai no Imouto o Netorareta Ore~",
+        "Netorarensa ~Kimoota Neet no Oji ni Saiai no Imouto o Netorareta Ore~",
         "ネトラレンサ～キモオタニートの叔父に最愛の妹を寝取られた俺～",
         "被寝取了～我最爱的妹妹被肥宅尼特族叔父寝取了～"
       ]
@@ -145253,6 +145334,7 @@
         "Bakunyuu Mama Haramase Netori ~Gokuaku Shounen no Mama Bitch-ka Keikaku~",
         "Bakunyuu Mama Haramase Netori ~Gokuaku Shounen no Mama Bitch-ka Keikaku~ Download Edition",
         "Bakunyuu Mama Haramase Netori ~Gokuaku Shounen no Mama Bitch-ka Keikaku~ Package Edition",
+        "Busty Mom Impregnation Netori",
         "爆乳ママ孕ませ寝取り ～極悪少年のママビッチ化計画～",
         "爆乳ママ孕ませ寝取り ～極悪少年のママビッチ化計画～ ダウンロード版",
         "爆乳ママ孕ませ寝取り ～極悪少年のママビッチ化計画～ パッケージ版"
@@ -145643,6 +145725,7 @@
       "bangumi": "114389",
       "vndb": "v16131",
       "names": [
+        "Senshinkan Gakuen: Bansenjin MTL",
         "Soushuu Senshinkan Gakuen: Bansenjin",
         "Soushuu Senshinkan Gakuen: Bansenjin - Download Edition",
         "Soushuu Senshinkan Gakuen: Bansenjin - First Press Limited Edition",
@@ -151064,6 +151147,7 @@
         "Honto no Kimochi Plus + CG Collection",
         "Honto no Kimochi plus",
         "Honto no Kimochi plus - Trial Version",
+        "True Feelings Plus",
         "ホントノキモチ",
         "ホントノキモチぷらす",
         "ホントノキモチぷらす 体験版",
@@ -151079,6 +151163,7 @@
         "Honto no Kimochi Plus + CG Collection",
         "Honto no Kimochi plus",
         "Honto no Kimochi plus - Trial Version",
+        "True Feelings Plus",
         "ホントノキモチ",
         "ホントノキモチぷらす",
         "ホントノキモチぷらす 体験版",
@@ -154051,11 +154136,9 @@
       "vndb": "v17368",
       "names": [
         "Haiyoru Hokaku",
-        "Haiyoru Hokaku - Download Edition",
         "Haiyoru Hokaku - Package Edition",
         "Haiyoru Hokaku - Trial Edition",
         "這いよる捕獲",
-        "這いよる捕獲 ダウンロード版",
         "這いよる捕獲 パッケージ版",
         "這いよる捕獲 体験版"
       ]
@@ -154125,8 +154208,7 @@
         "Watashi ga Suki nara \"Suki\" tte Itte! - Download Edition",
         "Watashi ga Suki nara \"Suki\" tte Itte! - Package Edition",
         "Watashi ga Suki nara \"Suki\" tte Itte! - Trial Edition",
-        "Xihuan Wo de Hua Jiuyao Shuochulai",
-        "喜欢我的话就要说出来",
+        "Xihuan Wo de Hua Jiuyao Shuochulai!",
         "喜欢我的话就要说出来！",
         "私が好きなら「好き」って言って！",
         "私が好きなら「好き」って言って！ ダウンロード版",
@@ -154663,7 +154745,7 @@
     },
     {
       "steam": "1703600",
-      "bangumi": "",
+      "bangumi": "710216",
       "vndb": "v17432",
       "names": [
         "Our Personal Space"
@@ -155982,6 +156064,19 @@
       ]
     },
     {
+      "steam": "",
+      "bangumi": "708832",
+      "vndb": "v17653",
+      "names": [
+        "Kaeri no Kai no Sonogo wa... 1 Nen, Nama de Tannin no Sensei to Sex Shiteta Onna no Ko no Naisho no Nikki - Download Edition",
+        "Kaeri no Kai no Sonogo wa... 1 Nen, Nama de Tannin no Sensei to Sex Shiteta Onna no Ko no Naisho no Nikki - Package Edition",
+        "Kaeri no Kai no Sonogo wa... ☆1 Nen, Nama de Tannin no Sensei to Sex Shiteta Onna no Ko no Naisho no Nikki☆",
+        "帰りの会のその後は… ☆1年、生で担任の先生とセックスしてた女の子のナイショの日記☆",
+        "帰りの会のその後は… ☆1年、生で担任の先生とセックスしてた女の子のナイショの日記☆  ダウンロード版",
+        "帰りの会のその後は… ☆1年、生で担任の先生とセックスしてた女の子のナイショの日記☆  パッケージ版"
+      ]
+    },
+    {
       "steam": "386970",
       "bangumi": "195299",
       "vndb": "v17655",
@@ -156546,11 +156641,13 @@
       "bangumi": "136179",
       "vndb": "v17731",
       "names": [
+        "Guoran Youxi Li Wo De Qingchun Lian'ai Wuyu Ye You Wenti. Xu",
         "Oregairu Zoku",
         "Yahari Game demo Ore no Seishun Love Come wa Machigatteiru. Zoku",
         "Yahari Game demo Ore no Seishun Love Come wa Machigatteiru. Zoku - Ren'Py Port",
         "やはりゲームでも俺の青春ラブコメはまちがっている。続",
         "果然在游戏里我的青春恋爱物语也有问题。续",
+        "果然游戏里我的青春恋爱物语也有问题。续",
         "果然游戏里我的青春恋爱物语也有问题。续 Ren'Py移植版"
       ]
     },
@@ -165007,13 +165104,18 @@
       ]
     },
     {
-      "steam": "",
+      "steam": "5341350",
       "bangumi": "155711",
       "vndb": "v18757",
       "names": [
+        "TSUKIMI PLANET -CLASSIC REMASTER-",
+        "TSUKIMI PLANET -經典重製版-",
+        "TSUKIMI PLANET -经典重制版-",
         "Tsukimi Planet",
+        "Tsukimi Planet -CLASSIC REMASTER-",
         "Yueguan Xingxing",
         "つきみぷらねっと",
+        "つきみぷらねっと -CLASSIC REMASTER-",
         "月觀行星",
         "月观行星"
       ]
@@ -165985,6 +166087,7 @@
       "bangumi": "165894",
       "vndb": "v18852",
       "names": [
+        "Amatsukago no Tori BOX - Download Version",
         "Amatsutsumi",
         "Amatsutsumi + Aoi Tori - Amatsukago no Tori BOX",
         "Amatsutsumi - 18+ Edition",
@@ -165995,7 +166098,6 @@
         "Amatsutsumi - Popular Edition",
         "Amatsutsumi - Trial Edition 1",
         "Amatsutsumi - Trial Edition 2",
-        "Tentsu kago no tori BOX - Download Version",
         "Tianjin Zui",
         "Tianjin Zui  - Trial Edition 2",
         "Tianjin Zui - Hotaru's H-scenes",
@@ -175320,8 +175422,10 @@
       "names": [
         "DAGGER 戦場の最前点",
         "DAGGER 戦場の最前点 パッケージ版",
+        "DAGGER 戦場の最前点 体験版",
         "Dagger: Senjou no Saizenten",
-        "Dagger: Senjou no Saizenten - Package Edition"
+        "Dagger: Senjou no Saizenten - Package Edition",
+        "Dagger: Senjou no Saizenten - Trial Edition"
       ]
     },
     {
@@ -175377,7 +175481,9 @@
       "vndb": "v20087",
       "names": [
         "DAGGER 有色の戦人",
-        "Dagger: Yuushiki no Ikusabito"
+        "DAGGER 有色の戦人 体験版",
+        "Dagger: Yuushiki no Ikusabito",
+        "Dagger: Yuushiki no Ikusabito - Trial Edition"
       ]
     },
     {
@@ -180993,9 +181099,11 @@
       "names": [
         "Omoi Tsutaetakute",
         "Omoi Tsutaetakute - Download Edition",
+        "Omoi Tsutaetakute - Package Edition",
         "Omoi Tsutaetakute - Ruka-chan Bangai Hen",
         "Omoi Tsutaetakute - Trial Edition",
         "想い伝えたくて",
+        "想い伝えたくて パッケージ版",
         "想い伝えたくて　―体験版―",
         "想い伝えたくて　―琉花ちゃん番外編―"
       ]
@@ -182354,6 +182462,15 @@
     },
     {
       "steam": "",
+      "bangumi": "709803",
+      "vndb": "v20987",
+      "names": [
+        "Moonlight † Virgin",
+        "Moonlight † Virgin - Demo"
+      ]
+    },
+    {
+      "steam": "",
       "bangumi": "631193",
       "vndb": "v20988",
       "names": [
@@ -183685,13 +183802,14 @@
     },
     {
       "steam": "1155930",
-      "bangumi": "",
+      "bangumi": "213718",
       "vndb": "v21190",
       "names": [
         "Hara Katsu! 2 ~Kozukuri Ecchi de Onayami Kaiketsu~",
         "Hara Katsu! 2 ~Kozukuri Ecchi de Onayami Kaiketsu~ Download Edition",
         "Hara Katsu! 2 ~Kozukuri Ecchi de Onayami Kaiketsu~ Package Edition",
         "Hara Katsu! 2 ~Kozukuri Ecchi de Onayami Kaiketsu~ Trial Edition",
+        "はらかつ！2",
         "はらかつ！２ ～子作りエッチでお悩み解決～",
         "はらかつ！２ ～子作りエッチでお悩み解決～ ダウンロード版",
         "はらかつ！２ ～子作りエッチでお悩み解決～ パッケージ版",
@@ -188829,6 +188947,7 @@
         "Koi ni, Kanmi o Soete - Download Edition",
         "Koi ni, Kanmi o Soete - Package Edition",
         "Koi ni, Kanmi o Soete - Steam Edition",
+        "Lian Ai Shi Tian Mi Tiao Wei Liao",
         "Love's Sweet Garnish",
         "Love's Sweet Garnish - 18+ DLC",
         "Love's Sweet Garnish - Download Edition",
@@ -188843,7 +188962,8 @@
         "恋ニ、甘味ヲソエテ ダウンロード版",
         "恋ニ、甘味ヲソエテ パッケージ版",
         "恋ニ、甘味ヲソエテ 全年齢ダウンロード版",
-        "恋爱是甜蜜调味料"
+        "恋爱是甜蜜调味料",
+        "戀愛是甜蜜調味料"
       ]
     },
     {
@@ -188857,6 +188977,7 @@
         "Koi ni, Kanmi o Soete - Download Edition",
         "Koi ni, Kanmi o Soete - Package Edition",
         "Koi ni, Kanmi o Soete - Steam Edition",
+        "Lian Ai Shi Tian Mi Tiao Wei Liao",
         "Love's Sweet Garnish",
         "Love's Sweet Garnish - 18+ DLC",
         "Love's Sweet Garnish - Download Edition",
@@ -188871,7 +188992,8 @@
         "恋ニ、甘味ヲソエテ ダウンロード版",
         "恋ニ、甘味ヲソエテ パッケージ版",
         "恋ニ、甘味ヲソエテ 全年齢ダウンロード版",
-        "恋爱是甜蜜调味料"
+        "恋爱是甜蜜调味料",
+        "戀愛是甜蜜調味料"
       ]
     },
     {
@@ -192927,7 +193049,11 @@
       "vndb": "v22453",
       "names": [
         "Shinno Sariya no Yuuutsu",
-        "新野沙里夜ノ憂鬱"
+        "Shinno Sariya no Yuuutsu - Download Edition",
+        "Shinno Sariya no Yuuutsu - Package Edition",
+        "新野沙里夜ノ憂鬱",
+        "新野沙里夜ノ憂鬱 ダウンロード版",
+        "新野沙里夜ノ憂鬱 パッケージ版"
       ]
     },
     {
@@ -197821,12 +197947,14 @@
       "names": [
         "Magical☆Moerin♪",
         "Magical☆Moerin♪ - Download Edition",
+        "Magical☆Moerin♪ - Price Revised Edition",
         "Magical☆Moerin♪ - Windows 8.1 Support Edition",
         "Magical☆Moerin♪ - Windows 8.1 Support Edition - Download Edition",
         "まじかる☆萌えりん♪",
         "まじかる☆萌えりん♪ Windows8.1動作版",
         "まじかる☆萌えりん♪ Windows8.1動作版 ダウンロード版",
-        "まじかる☆萌えりん♪ ダウンロード版"
+        "まじかる☆萌えりん♪ ダウンロード版",
+        "まじかる☆萌えりん♪ 価格改定版"
       ]
     },
     {
@@ -201673,6 +201801,28 @@
       "bangumi": "256658",
       "vndb": "v23742",
       "names": [
+        "Evenicle - Next Fragment Medica",
+        "Evenicle -イブニクル- 2",
+        "Evenicle 2",
+        "Evenicle 2 - Clinical Trial Edition",
+        "Evenicle 2 - Download Edition",
+        "Evenicle 2 - Package Edition",
+        "Evenicle 2 - Trial Edition",
+        "Evenicle II",
+        "Xiawa Niandaiji 2",
+        "イブニクル2",
+        "イブニクル2 ダウンロード版",
+        "イブニクル2 パッケージ版",
+        "イブニクル2 体験版",
+        "夏娃年代记2"
+      ]
+    },
+    {
+      "steam": "5130120",
+      "bangumi": "256658",
+      "vndb": "v23742",
+      "names": [
+        "Evenicle - Next Fragment Medica",
         "Evenicle -イブニクル- 2",
         "Evenicle 2",
         "Evenicle 2 - Clinical Trial Edition",
@@ -203110,6 +203260,7 @@
       "bangumi": "301490",
       "vndb": "v24121",
       "names": [
+        "Big-Titty Train Temptation",
         "Chikan Densha Kyonyuu Otori Sousakan ~Nerawareta Ureta Nikutai~",
         "Chikan Densha Kyonyuu Otori Sousakan ~Nerawareta Ureta Nikutai~ Deluxe Download Edition",
         "Chikan Densha Kyonyuu Otori Sousakan ~Nerawareta Ureta Nikutai~ Deluxe Edition",
@@ -208083,6 +208234,7 @@
         "My Sweet Waifu Konko",
         "Wo Yu Kong Hu De Richang",
         "Wo Yu Kong Hu De Richang + ~ Wanmei Ban ~",
+        "Wo yu Konghu de Richang",
         "Your Waifu Foxgirl Konko",
         "Your Waifu Foxgirl Konko - Furfect Edition -",
         "Yu Guhu de Richang",
@@ -210730,6 +210882,15 @@
       ]
     },
     {
+      "steam": "",
+      "bangumi": "708848",
+      "vndb": "v25109",
+      "names": [
+        "LEX/Kyonyuu Monogatari",
+        "LEX／巨乳物語"
+      ]
+    },
+    {
       "steam": "845960",
       "bangumi": "691111",
       "vndb": "v25114",
@@ -211026,10 +211187,12 @@
         "Lianlan Spiritual",
         "Renran Spirichu",
         "Renran Spirichu - Download Edition",
+        "Renran Spirichu - Package Edition",
         "Renran Spirichu - Trial Edition",
         "恋岚Spiritual",
         "恋嵐スピリッチュ",
         "恋嵐スピリッチュ ダウンロード版",
+        "恋嵐スピリッチュ パッケージ版",
         "恋嵐スピリッチュ 体験版"
       ]
     },
@@ -217902,7 +218065,7 @@
       "bangumi": "",
       "vndb": "v26204",
       "names": [
-        "The New Universes ~ Eine Neue Reise Beginnt ~ Chapter 1",
+        "The New Universes ~ Eine Neue Reise Beginnt ~",
         "The New Universes ~ Eine Neue Reise Beginnt ~ Chapter 1 - Early Access"
       ]
     },
@@ -218618,7 +218781,6 @@
         "Amakano 2",
         "Amakano 2 - Download Edition",
         "Amakano 2 - Perfect Edition",
-        "Amakano 2 - Perfect Edition (GPT 5.6 SOL High)",
         "Amakano 2 - Perfect Edition (Kimi K2/grok 3)",
         "Amakano 2 - Perfect Edition - UI Translation Patch",
         "Amakano 2 - Trial Edition",
@@ -219874,7 +220036,7 @@
       "vndb": "v26477",
       "names": [
         "Defending Lydia Collier",
-        "Defending Lydia Collier v0.21.1"
+        "Defending Lydia Collier v0.22.1"
       ]
     },
     {
@@ -221020,7 +221182,6 @@
       "names": [
         "A love in Sacra & Scarlet",
         "Sakura no Kumo * Scarlet no Koi",
-        "Sakura no Kumo * Scarlet no Koi (Gemini 3.8 Flash)",
         "Sakura no Kumo * Scarlet no Koi - Dakimakura Cover Included Limited Edition",
         "Sakura no Kumo * Scarlet no Koi - Download Edition",
         "Sakura no Kumo * Scarlet no Koi - Trial Edition Full Version",
@@ -223192,10 +223353,12 @@
       "vndb": "v27015",
       "names": [
         "Hoshi no Ouji-sama",
+        "Hoshi no Ouji-sama - Package Edition",
         "The Little Prince",
         "Xiao Wangzi",
         "小王子",
-        "星の王子さま"
+        "星の王子さま",
+        "星の王子さま パッケージ版"
       ]
     },
     {
@@ -223204,10 +223367,12 @@
       "vndb": "v27015",
       "names": [
         "Hoshi no Ouji-sama",
+        "Hoshi no Ouji-sama - Package Edition",
         "The Little Prince",
         "Xiao Wangzi",
         "小王子",
-        "星の王子さま"
+        "星の王子さま",
+        "星の王子さま パッケージ版"
       ]
     },
     {
@@ -226108,7 +226273,17 @@
       "names": [
         "Qianbian Wange Baibusiyi",
         "Senpen Banka Hyaku Fushigi",
-        "千変挽歌百不思議"
+        "Senpen Banka Hyaku Fushigi - Hashi Sakai Hen",
+        "Senpen Banka Hyaku Fushigi - Kaigou Hen",
+        "Senpen Banka Hyaku Fushigi - Muisao Hen Nino ver",
+        "Senpen Banka Hyaku Fushigi 2007-2011 TRINITAS EDITION",
+        "Senpen Banka Hyaku Fushigi（TRINITAS EDITION）",
+        "千変挽歌百不思議",
+        "千変挽歌百不思議 2007-2011 TRINITAS EDITION",
+        "千変挽歌百不思議 無功編ー迩乃 ver",
+        "千変挽歌百不思議 端境編",
+        "千変挽歌百不思議 邂逅編",
+        "千変挽歌百不思議（TRINITAS EDITION）"
       ]
     },
     {
@@ -226292,7 +226467,7 @@
       "names": [
         "Our Red String",
         "Our Red String - Demo",
-        "Our Red String v0.15.1.3",
+        "Our Red String v0.15.2.3",
         "我们的红绳"
       ]
     },
@@ -226943,6 +227118,24 @@
       "names": [
         "Omocha no Chachacha Vol. 4: Misaka Shimai Hen",
         "玩具のちゃちゃちゃ vol.4 美坂姉妹編"
+      ]
+    },
+    {
+      "steam": "",
+      "bangumi": "709429",
+      "vndb": "v27633",
+      "names": [
+        "Omocha no Chachacha Vol. 3: Noemi Hen",
+        "玩具のちゃちゃちゃ Vol.3 乃絵美編"
+      ]
+    },
+    {
+      "steam": "",
+      "bangumi": "709495",
+      "vndb": "v27635",
+      "names": [
+        "Omocha no Chachacha: Hatsune Hen",
+        "玩具のちゃちゃちゃ 初音編"
       ]
     },
     {
@@ -228558,8 +228751,18 @@
       ]
     },
     {
+      "steam": "",
+      "bangumi": "710352",
+      "vndb": "v27921",
+      "names": [
+        "GraveKeeper Academy",
+        "GraveKeeper Academy (beta)",
+        "Gravekeeper Academy"
+      ]
+    },
+    {
       "steam": "1730670",
-      "bangumi": "",
+      "bangumi": "710336",
       "vndb": "v27928",
       "names": [
         "A Day in the Park",
@@ -231535,12 +231738,12 @@
     },
     {
       "steam": "1231560",
-      "bangumi": "543180",
+      "bangumi": "543315",
       "vndb": "v28331",
       "names": [
+        "AURELIA～あなたの世界にサヨウナラ～",
         "Aurelia",
-        "Aurelia - Demo (v0.29.5)",
-        "奥雷利亚"
+        "Aurelia - Demo (v0.29.5)"
       ]
     },
     {
@@ -232529,6 +232732,14 @@
       "names": [
         "Sazanka Botan",
         "サザンカボタン"
+      ]
+    },
+    {
+      "steam": "",
+      "bangumi": "710317",
+      "vndb": "v28510",
+      "names": [
+        "The Babysitter"
       ]
     },
     {
@@ -237950,7 +238161,7 @@
     },
     {
       "steam": "1735080",
-      "bangumi": "",
+      "bangumi": "710354",
       "vndb": "v29178",
       "names": [
         "High Elo Girls",
@@ -237960,7 +238171,7 @@
     },
     {
       "steam": "1789430",
-      "bangumi": "",
+      "bangumi": "710354",
       "vndb": "v29178",
       "names": [
         "High Elo Girls",
@@ -239621,7 +239832,7 @@
     },
     {
       "steam": "1736850",
-      "bangumi": "",
+      "bangumi": "710358",
       "vndb": "v29467",
       "names": [
         "Camp Palut",
@@ -239630,7 +239841,7 @@
     },
     {
       "steam": "1885350",
-      "bangumi": "",
+      "bangumi": "710358",
       "vndb": "v29467",
       "names": [
         "Camp Palut",
@@ -241653,6 +241864,15 @@
       ]
     },
     {
+      "steam": "",
+      "bangumi": "688184",
+      "vndb": "v29846",
+      "names": [
+        "NEBULA",
+        "Nebula"
+      ]
+    },
+    {
       "steam": "1485190",
       "bangumi": "129788",
       "vndb": "v29847",
@@ -242797,7 +243017,6 @@
         "Fuyukuru. - Winter winds, adieu? - 18+ Patch",
         "Fuyukuru. - Winter winds, adieu? - Censored Edition",
         "Wulü, Fang Mingming.",
-        "ふゆから、くるる",
         "ふゆから、くるる。",
         "ふゆから、くるる。 スペシャリテ版",
         "ふゆから、くるる。ダウンロード版",
@@ -242810,6 +243029,7 @@
         "冬暮川滚滚",
         "冬暮川滚滚。",
         "冬滚滚",
+        "雾旅，方冥冥",
         "雾旅，方冥冥。"
       ]
     },
@@ -243069,6 +243289,15 @@
         "ReIn∽Alter Ep.2",
         "ReIn∽Alter Ep.3",
         "ReIn∽Alter Ep.4"
+      ]
+    },
+    {
+      "steam": "5261050",
+      "bangumi": "",
+      "vndb": "v30061",
+      "names": [
+        "Fox Spirit Sweethearts: Complete Edition",
+        "My Foxy Girlfriend"
       ]
     },
     {
@@ -253745,7 +253974,6 @@
         "Amakano 2 +",
         "Amakano 2 +  -  UI Translation Patch",
         "Amakano 2+",
-        "Amakano 2+ (GPT 5.6 SOL High)",
         "Amakano 2+ - DL Edition",
         "Amakano 2+ - Regular Edition",
         "Amakano 2+ - Trial Edition",
@@ -254042,7 +254270,7 @@
     },
     {
       "steam": "1706470",
-      "bangumi": "",
+      "bangumi": "710225",
       "vndb": "v31865",
       "names": [
         "Space to Grow"
@@ -255106,7 +255334,7 @@
     },
     {
       "steam": "1718040",
-      "bangumi": "",
+      "bangumi": "710282",
       "vndb": "v32131",
       "names": [
         "Clarence Goes to the F&#%ING Store",
@@ -257512,6 +257740,14 @@
     },
     {
       "steam": "",
+      "bangumi": "710362",
+      "vndb": "v32553",
+      "names": [
+        "Campfire Tales"
+      ]
+    },
+    {
+      "steam": "",
       "bangumi": "349477",
       "vndb": "v32554",
       "names": [
@@ -259180,7 +259416,7 @@
     },
     {
       "steam": "1728290",
-      "bangumi": "",
+      "bangumi": "710325",
       "vndb": "v32669",
       "names": [
         "Decide 4 God",
@@ -259190,7 +259426,7 @@
     },
     {
       "steam": "2420150",
-      "bangumi": "",
+      "bangumi": "710325",
       "vndb": "v32669",
       "names": [
         "Decide 4 God",
@@ -261881,7 +262117,7 @@
     },
     {
       "steam": "1694010",
-      "bangumi": "",
+      "bangumi": "710175",
       "vndb": "v33008",
       "names": [
         "Crown Land"
@@ -262001,7 +262237,7 @@
       ]
     },
     {
-      "steam": "",
+      "steam": "4391130",
       "bangumi": "360498",
       "vndb": "v33036",
       "names": [
@@ -262023,7 +262259,7 @@
       ]
     },
     {
-      "steam": "",
+      "steam": "4391130",
       "bangumi": "461643",
       "vndb": "v33036",
       "names": [
@@ -265212,7 +265448,7 @@
     },
     {
       "steam": "1702770",
-      "bangumi": "",
+      "bangumi": "710212",
       "vndb": "v33777",
       "names": [
         "Lakehouse"
@@ -270244,7 +270480,7 @@
     },
     {
       "steam": "1732310",
-      "bangumi": "",
+      "bangumi": "710342",
       "vndb": "v34528",
       "names": [
         "Her Jentle Hi-ness",
@@ -270253,7 +270489,7 @@
     },
     {
       "steam": "1745930",
-      "bangumi": "",
+      "bangumi": "710342",
       "vndb": "v34528",
       "names": [
         "Her Jentle Hi-ness",
@@ -281793,6 +282029,15 @@
       ]
     },
     {
+      "steam": "",
+      "bangumi": "710182",
+      "vndb": "v37436",
+      "names": [
+        "Setting Sun",
+        "Setting Sun - Demo"
+      ]
+    },
+    {
       "steam": "1895950",
       "bangumi": "397675",
       "vndb": "v37440",
@@ -282763,7 +283008,6 @@
       "vndb": "v37716",
       "names": [
         "Same to Ikiru Nanokakan",
-        "Same to Ikiru Nanokakan (Gemini 3.8 Flash)",
         "Same to Ikiru Nanokakan - Download Edition",
         "Same to Ikiru Nanokakan - First Press Edition",
         "Same to Ikiru Nanokakan - Special Limited Edition",
@@ -285393,7 +285637,7 @@
     },
     {
       "steam": "1708990",
-      "bangumi": "",
+      "bangumi": "710238",
       "vndb": "v38428",
       "names": [
         "Bingus: My Beloved",
@@ -285402,7 +285646,7 @@
     },
     {
       "steam": "1912990",
-      "bangumi": "",
+      "bangumi": "710238",
       "vndb": "v38428",
       "names": [
         "Bingus: My Beloved",
@@ -289810,7 +290054,7 @@
       "vndb": "v39846",
       "names": [
         "Zero End",
-        "Zero End v0.3.6c",
+        "Zero End v0.3.7c",
         "Zero End: Chapter One",
         "Zero End: Chapter Two"
       ]
@@ -289821,7 +290065,7 @@
       "vndb": "v39846",
       "names": [
         "Zero End",
-        "Zero End v0.3.6c",
+        "Zero End v0.3.7c",
         "Zero End: Chapter One",
         "Zero End: Chapter Two"
       ]
@@ -293948,7 +294192,7 @@
     },
     {
       "steam": "4263360",
-      "bangumi": "",
+      "bangumi": "681393",
       "vndb": "v41052",
       "names": [
         "Love the Guard, Be the King"
@@ -296819,9 +297063,11 @@
       "vndb": "v41947",
       "names": [
         "After all, even in games, my youth romantic comedy is wrong. finish",
+        "Guoran Youxi Li Wo De Qingchun Lian'ai Wuyu Ye You Wenti. Wan",
         "Yahari Game demo Ore no Seishun Love Come wa Machigatteiru. Kan",
         "やはりゲームでも俺の青春ラブコメはまちがっている。完",
-        "果然在游戏里我的青春恋爱物语也有问题。完"
+        "果然在游戏里我的青春恋爱物语也有问题。完",
+        "果然游戏里我的青春恋爱物语也有问题。完"
       ]
     },
     {
@@ -298705,14 +298951,17 @@
       ]
     },
     {
-      "steam": "",
+      "steam": "5220290",
       "bangumi": "436239",
       "vndb": "v42611",
       "names": [
         "Tonari no Ano Ko wa Kikoku Chijo",
+        "Tonari no Ano Ko wa Kikoku Chijo  - Censored Edition",
         "Tonari no Ano Ko wa Kikoku Chijo - Download Edition",
         "Tonari no Ano Ko wa Kikoku Chijo - Package Edition",
+        "Yuumi's Not the Girl I Used to Know - Censored Edition",
         "隣のあの娘は帰国痴女",
+        "隣のあの娘は帰国痴女  - Censored Edition",
         "隣のあの娘は帰国痴女 ダウンロード版",
         "隣のあの娘は帰国痴女 パッケージ版"
       ]
@@ -300839,6 +301088,7 @@
       "bangumi": "",
       "vndb": "v43332",
       "names": [
+        "Despair Prison",
         "Juéwàng Jiānláo",
         "Zetsubou Prison",
         "絶望プリズン",
@@ -301724,7 +301974,7 @@
       "bangumi": "383071",
       "vndb": "v43702",
       "names": [
-        "Roa-ke no Neko Tsukai",
+        "Loa-ke no Neko Tsukai",
         "ロア家のネコ使い"
       ]
     },
@@ -302221,7 +302471,11 @@
       "vndb": "v43847",
       "names": [
         "Mittsuhen Hachigatsu Yumeji",
-        "三ツ編八月夢路"
+        "Mittsuhen Hachigatsu Yumeji - Free Edition",
+        "Mittsuhen Hachigatsu Yumeji - Package Edition",
+        "三ツ編八月夢路",
+        "三ツ編八月夢路 パッケージ版",
+        "三ツ編八月夢路 フリー版"
       ]
     },
     {
@@ -310398,6 +310652,7 @@
       "bangumi": "561742",
       "vndb": "v46239",
       "names": [
+        "Ouka no Ki Inahara Ruka wa Nanafushigi Akazu no Bushitsu Tokiakasu",
         "Ouka no Ki Inahara Ruka wa Nanafushigi Akazuno Bushitsu Tokiakasu",
         "桜花の季 稲荷原流香は 七不思議 あかずの部室 解き明かす"
       ]
@@ -310746,6 +311001,15 @@
       ]
     },
     {
+      "steam": "5148140",
+      "bangumi": "",
+      "vndb": "v46345",
+      "names": [
+        "Tropicali",
+        "Tropicali: Pacific Paradise!"
+      ]
+    },
+    {
       "steam": "",
       "bangumi": "508000",
       "vndb": "v46350",
@@ -310907,6 +311171,7 @@
       "vndb": "v46420",
       "names": [
         "Sen Mukuro Shoujo Aquavitte",
+        "Sengai Shoujo Aqua Vitae",
         "戦骸少女アクアヴィッテ"
       ]
     },
@@ -310924,9 +311189,13 @@
       "vndb": "v46426",
       "names": [
         "Otogibanashi Shokudou",
+        "Otogibanashi Shokudou - Package Edition",
         "Otogibanashi Shokudou - Trial Edition",
+        "Otogibanashi Shokudou ~Cost Convenience Hen~",
         "御伽噺食堂",
-        "御伽噺食堂 体験版"
+        "御伽噺食堂 パッケージ版",
+        "御伽噺食堂 体験版",
+        "御伽噺食堂～コストコンビニエンス編～"
       ]
     },
     {
@@ -312306,6 +312575,26 @@
     },
     {
       "steam": "2680420",
+      "bangumi": "410840",
+      "vndb": "v46769",
+      "names": [
+        "Secret with Sophia",
+        "Secret with Sophia -Lite version-",
+        "Sophia to no Himitsu",
+        "Sophia to no Himitsu -Lite version-",
+        "Wo yu Sophia Demi",
+        "Wo yu Sophia Demi -Lite version-",
+        "ソフィアとの秘密",
+        "ソフィアとの秘密 -Lite version-",
+        "我与索菲娅的秘密",
+        "我与索菲娅的秘密 -Lite version-",
+        "我與蘇菲亞的秘密",
+        "我與蘇菲亞的秘密 -Lite version-",
+        "소피아와의 비밀"
+      ]
+    },
+    {
+      "steam": "4399170",
       "bangumi": "410840",
       "vndb": "v46769",
       "names": [
@@ -315202,7 +315491,9 @@
       "vndb": "v47322",
       "names": [
         "Shokushin 2",
-        "触神2"
+        "Shokushin 2 - Package Edition",
+        "触神2",
+        "触神2 パッケージ版"
       ]
     },
     {
@@ -316955,7 +317246,7 @@
       ]
     },
     {
-      "steam": "",
+      "steam": "4279300",
       "bangumi": "463577",
       "vndb": "v47771",
       "names": [
@@ -317021,8 +317312,10 @@
       "bangumi": "294532",
       "vndb": "v47781",
       "names": [
+        "Moshi Onna no Ko ni Nattara Nani kara Yaru ka 4 + PLUS ~Kanketsu Hen~",
         "Moshi Onna no Ko ni Nattara Nani kara Yaru ka 4 ~Kanketsu Hen~",
         "The first thing you do when you become a girl 4 - Final",
+        "もし女の子になったらナニからやるか4 + PLUS～完結編～",
         "もし女の子になったらナニからやるか4 完結編",
         "もし女の子になったらナニからやるか4～完結編～",
         "要是变成女孩子了该从什么事情开始做呢四：完结编"
@@ -317033,8 +317326,10 @@
       "bangumi": "283175",
       "vndb": "v47783",
       "names": [
+        "Moshi Onna no Ko ni Nattara Nani kara Yaru ka 3 + PLUS ~Gakkou de~",
         "Moshi Onna no Ko ni Nattara Nani kara Yaru ka 3 ~Gakkou de~",
         "The first thing you do when you become a girl 3 - School",
+        "もし女の子になったらナニからやるか3 + PLUS～学校で～",
         "もし女の子になったらナニからやるか3 学校で",
         "もし女の子になったらナニからやるか3～学校で～",
         "要是变成女孩子了该从什么事情开始做呢三：在学校"
@@ -318517,6 +318812,7 @@
       "names": [
         "Mujintou Survivors",
         "Remote Island Survivors",
+        "无人岛NTR求生记",
         "无人岛幸存者",
         "無人島サバイバーズ"
       ]
@@ -318968,6 +319264,15 @@
         "Yin Que: Shisan Yue de Ailian - Demo",
         "银雀：十三月的爱恋",
         "银雀：十三月的爱恋 Demo"
+      ]
+    },
+    {
+      "steam": "",
+      "bangumi": "708861",
+      "vndb": "v48254",
+      "names": [
+        "Reclusion",
+        "r e c l u s i o n"
       ]
     },
     {
@@ -321236,8 +321541,8 @@
         "Sickly Days and Summer Traces",
         "Sickly Days and Summer Traces - Additional Content Patch for the Overseas Version",
         "Sickly Days and Summer Traces - Censored Edition",
-        "《痴情哥哥与病弱妹妹的乡间生活》国际版场景剧情补丁",
-        "《痴情哥哥與病弱妹妹的鄉間生活》國際版場景劇情補丁",
+        "《痴情哥哥与病弱妹妹的乡间生活》国际版场景剧情补丁（R18补丁）",
+        "《痴情哥哥與病弱妹妹的鄉間生活》國際版場景劇情補丁（R18補丁）",
         "エッチで一途なド田舎兄さまと、古式ゆかしい病弱妹",
         "エッチで一途なド田舎兄さまと、古式ゆかしい病弱妹 Append.01 あすみちゃんのセーラー服",
         "エッチで一途なド田舎兄さまと、古式ゆかしい病弱妹 Append.02 あすみちゃんと家庭の医学",
@@ -321298,8 +321603,8 @@
         "Sickly Days and Summer Traces",
         "Sickly Days and Summer Traces - Additional Content Patch for the Overseas Version",
         "Sickly Days and Summer Traces - Censored Edition",
-        "《痴情哥哥与病弱妹妹的乡间生活》国际版场景剧情补丁",
-        "《痴情哥哥與病弱妹妹的鄉間生活》國際版場景劇情補丁",
+        "《痴情哥哥与病弱妹妹的乡间生活》国际版场景剧情补丁（R18补丁）",
+        "《痴情哥哥與病弱妹妹的鄉間生活》國際版場景劇情補丁（R18補丁）",
         "エッチで一途なド田舎兄さまと、古式ゆかしい病弱妹",
         "エッチで一途なド田舎兄さまと、古式ゆかしい病弱妹 Append.01 あすみちゃんのセーラー服",
         "エッチで一途なド田舎兄さまと、古式ゆかしい病弱妹 Append.02 あすみちゃんと家庭の医学",
@@ -321356,8 +321661,8 @@
         "Sickly Days and Summer Traces",
         "Sickly Days and Summer Traces - Additional Content Patch for the Overseas Version",
         "Sickly Days and Summer Traces - Censored Edition",
-        "《痴情哥哥与病弱妹妹的乡间生活》国际版场景剧情补丁",
-        "《痴情哥哥與病弱妹妹的鄉間生活》國際版場景劇情補丁",
+        "《痴情哥哥与病弱妹妹的乡间生活》国际版场景剧情补丁（R18补丁）",
+        "《痴情哥哥與病弱妹妹的鄉間生活》國際版場景劇情補丁（R18補丁）",
         "エッチで一途なド田舎兄さまと、古式ゆかしい病弱妹",
         "エッチで一途なド田舎兄さまと、古式ゆかしい病弱妹 Append.01 あすみちゃんのセーラー服",
         "エッチで一途なド田舎兄さまと、古式ゆかしい病弱妹 Append.02 あすみちゃんと家庭の医学",
@@ -321414,8 +321719,8 @@
         "Sickly Days and Summer Traces",
         "Sickly Days and Summer Traces - Additional Content Patch for the Overseas Version",
         "Sickly Days and Summer Traces - Censored Edition",
-        "《痴情哥哥与病弱妹妹的乡间生活》国际版场景剧情补丁",
-        "《痴情哥哥與病弱妹妹的鄉間生活》國際版場景劇情補丁",
+        "《痴情哥哥与病弱妹妹的乡间生活》国际版场景剧情补丁（R18补丁）",
+        "《痴情哥哥與病弱妹妹的鄉間生活》國際版場景劇情補丁（R18補丁）",
         "エッチで一途なド田舎兄さまと、古式ゆかしい病弱妹",
         "エッチで一途なド田舎兄さまと、古式ゆかしい病弱妹 Append.01 あすみちゃんのセーラー服",
         "エッチで一途なド田舎兄さまと、古式ゆかしい病弱妹 Append.02 あすみちゃんと家庭の医学",
@@ -321472,8 +321777,8 @@
         "Sickly Days and Summer Traces",
         "Sickly Days and Summer Traces - Additional Content Patch for the Overseas Version",
         "Sickly Days and Summer Traces - Censored Edition",
-        "《痴情哥哥与病弱妹妹的乡间生活》国际版场景剧情补丁",
-        "《痴情哥哥與病弱妹妹的鄉間生活》國際版場景劇情補丁",
+        "《痴情哥哥与病弱妹妹的乡间生活》国际版场景剧情补丁（R18补丁）",
+        "《痴情哥哥與病弱妹妹的鄉間生活》國際版場景劇情補丁（R18補丁）",
         "エッチで一途なド田舎兄さまと、古式ゆかしい病弱妹",
         "エッチで一途なド田舎兄さまと、古式ゆかしい病弱妹 Append.01 あすみちゃんのセーラー服",
         "エッチで一途なド田舎兄さまと、古式ゆかしい病弱妹 Append.02 あすみちゃんと家庭の医学",
@@ -321530,8 +321835,8 @@
         "Sickly Days and Summer Traces",
         "Sickly Days and Summer Traces - Additional Content Patch for the Overseas Version",
         "Sickly Days and Summer Traces - Censored Edition",
-        "《痴情哥哥与病弱妹妹的乡间生活》国际版场景剧情补丁",
-        "《痴情哥哥與病弱妹妹的鄉間生活》國際版場景劇情補丁",
+        "《痴情哥哥与病弱妹妹的乡间生活》国际版场景剧情补丁（R18补丁）",
+        "《痴情哥哥與病弱妹妹的鄉間生活》國際版場景劇情補丁（R18補丁）",
         "エッチで一途なド田舎兄さまと、古式ゆかしい病弱妹",
         "エッチで一途なド田舎兄さまと、古式ゆかしい病弱妹 Append.01 あすみちゃんのセーラー服",
         "エッチで一途なド田舎兄さまと、古式ゆかしい病弱妹 Append.02 あすみちゃんと家庭の医学",
@@ -328206,7 +328511,9 @@
       "vndb": "v49812",
       "names": [
         "Katawarebito",
-        "カタワレビト"
+        "Katawarebito ~Mishou Sakuya no Shou~",
+        "カタワレビト",
+        "カタワレビト～未生・朔夜の抄～"
       ]
     },
     {
@@ -329851,7 +330158,6 @@
         "AMAKANO 3 - 18+ Patch",
         "AMAKANO 3 - Censored Edition",
         "Amakano 3",
-        "Amakano 3 (GPT 5.6 SOL High)",
         "Amakano 3 (Qwen 3 Max)",
         "Amakano 3 - Download Edition",
         "Amakano 3 - Download Edition with Bonus Voice Drama",
@@ -349111,6 +349417,15 @@
     },
     {
       "steam": "",
+      "bangumi": "708926",
+      "vndb": "v52447",
+      "names": [
+        "nue",
+        "鵺"
+      ]
+    },
+    {
+      "steam": "",
       "bangumi": "504047",
       "vndb": "v52451",
       "names": [
@@ -352586,10 +352901,47 @@
       "names": [
         "Noctilucent",
         "Noctilucent: Akatsuki no Mae Ni",
+        "Noctilucent: Akatsuki no Mae ni - Collector's Edition",
+        "Noctilucent: Akatsuki no Mae ni - Collector's Edition Demo",
         "Noctilucent: Before Dawn – Collector’s Edition",
+        "Noctilucent: Before Dawn – Collector’s Edition Demo",
+        "Noctilucent: Yu Liming Zhiqian",
+        "Noctilucent: Yu Liming Zhiqian - Collector's Edition",
+        "Noctilucent: Yu Liming Zhiqian - Collector's Edition Demo",
         "Noctilucent：暁の前に",
-        "Nuo ti li sen: Yu liming zhiqian",
-        "諾提里森：於黎明之前"
+        "ノクティルセント：暁の前に－コレクターズエディション",
+        "ノクティルセント：暁の前に－コレクターズエディション Demo",
+        "諾提里森：於黎明之前",
+        "諾提里森：於黎明之前－珍藏版",
+        "諾提里森：於黎明之前－珍藏版 Demo",
+        "诺提里森：于黎明之前",
+        "诺提里森：于黎明之前－珍藏版",
+        "诺提里森：于黎明之前－珍藏版 Demo"
+      ]
+    },
+    {
+      "steam": "4981930",
+      "bangumi": "",
+      "vndb": "v53162",
+      "names": [
+        "Noctilucent",
+        "Noctilucent: Akatsuki no Mae Ni",
+        "Noctilucent: Akatsuki no Mae ni - Collector's Edition",
+        "Noctilucent: Akatsuki no Mae ni - Collector's Edition Demo",
+        "Noctilucent: Before Dawn – Collector’s Edition",
+        "Noctilucent: Before Dawn – Collector’s Edition Demo",
+        "Noctilucent: Yu Liming Zhiqian",
+        "Noctilucent: Yu Liming Zhiqian - Collector's Edition",
+        "Noctilucent: Yu Liming Zhiqian - Collector's Edition Demo",
+        "Noctilucent：暁の前に",
+        "ノクティルセント：暁の前に－コレクターズエディション",
+        "ノクティルセント：暁の前に－コレクターズエディション Demo",
+        "諾提里森：於黎明之前",
+        "諾提里森：於黎明之前－珍藏版",
+        "諾提里森：於黎明之前－珍藏版 Demo",
+        "诺提里森：于黎明之前",
+        "诺提里森：于黎明之前－珍藏版",
+        "诺提里森：于黎明之前－珍藏版 Demo"
       ]
     },
     {
@@ -354598,6 +354950,7 @@
         "Hamidashi Creative Re:Re:call - Deluxe Edition",
         "Hamidashi Creative Re:Re:call - Download Edition",
         "Hamidashi Creative Re:Re:call - Regular Edition",
+        "Hamidashi Re:Re:call",
         "ハミダシクリエイティブRe:Re:call",
         "ハミダシクリエイティブRe:Re:call ダウンロード版",
         "ハミダシクリエイティブRe:Re:call 豪華版",
@@ -355270,6 +355623,15 @@
         "エージェントだよ。",
         "エージェントだよ。フルボイス版",
         "我是特务哦。"
+      ]
+    },
+    {
+      "steam": "",
+      "bangumi": "709793",
+      "vndb": "v53750",
+      "names": [
+        "Fate Won't Separate Us",
+        "Fate Won't Separate Us v0.8a"
       ]
     },
     {
@@ -358286,9 +358648,9 @@
       "bangumi": "561744",
       "vndb": "v54565",
       "names": [
+        "Tayutau wa Inahara Ruka to Nanafushigi Haru wa Otozure Toku Toki Kitaru",
         "Tayutau wa Inahara Ruka wa Nanafushigi Haru wa Otozure Hodoku Toki Kitaru",
-        "たゆたうは 稲荷原流香と 七不思議 春は訪れ 解く時来たる",
-        "たゆたうは　稲荷原流香と　七不思議　春は訪れ　解く時来たる"
+        "たゆたうは 稲荷原流香と 七不思議 春は訪れ 解く時来たる"
       ]
     },
     {
@@ -359009,6 +359371,8 @@
       "bangumi": "541933",
       "vndb": "v54791",
       "names": [
+        "Seaven Days:  Living in Confinement With a Stranger High School Girl",
+        "Seaven Days: Mishiranu JK to Misshitsu Seikatsu",
         "Seven Days – Mishiranu JK to Misshitsu Seikatsu",
         "Seven Days:  Living in Confinement With a Stranger High School Girl",
         "Seven Days: Mishiranu JK to Misshitsu Seikatsu",
@@ -366515,6 +366879,16 @@
       ]
     },
     {
+      "steam": "",
+      "bangumi": "710000",
+      "vndb": "v56666",
+      "names": [
+        "Akuochi de Bakunyuu Hitozuma, Inran Sennou no Mujin Koubi",
+        "恶堕の爆乳人妻,淫乱洗脳の無尽交尾",
+        "恶堕的爆乳人妻，淫乱洗脑下的无尽交合"
+      ]
+    },
+    {
       "steam": "3318560",
       "bangumi": "529867",
       "vndb": "v56674",
@@ -367728,6 +368102,15 @@
       ]
     },
     {
+      "steam": "4831610",
+      "bangumi": "",
+      "vndb": "v57070",
+      "names": [
+        "Prison Of Sissy",
+        "Prison Of Sissy v0.8"
+      ]
+    },
+    {
       "steam": "4219320",
       "bangumi": "",
       "vndb": "v57071",
@@ -368754,7 +369137,7 @@
         "ENCORE! 体験版",
         "ENCORE! 年齢制限解除パッチ",
         "『プリズムとレモネド』 CDシングル 体験版ディスク付き",
-        "あんこーるっ"
+        "あんこーるっ プラス"
       ]
     },
     {
@@ -369297,7 +369680,7 @@
     },
     {
       "steam": "3764120",
-      "bangumi": "",
+      "bangumi": "586425",
       "vndb": "v57858",
       "names": [
         "Ni De Niuzi",
@@ -371694,6 +372077,7 @@
       "bangumi": "575892",
       "vndb": "v58655",
       "names": [
+        "Life with a Stray Cat Girl: CAT Girl Sweet Days",
         "Noraneko Shoujo to no Seikatsu CAT Girl Sweet Days",
         "野良猫少女との生活 CAT Girl Sweet Days"
       ]
@@ -372768,15 +373152,6 @@
       "names": [
         "Tsukiyo ni Karen",
         "月夜にかれん"
-      ]
-    },
-    {
-      "steam": "3737500",
-      "bangumi": "625808",
-      "vndb": "v59003",
-      "names": [
-        "Yoru no Namae",
-        "夜の名前"
       ]
     },
     {
@@ -374454,6 +374829,7 @@
       "vndb": "v59381",
       "names": [
         "Luomu Yuge",
+        "Song of Dusk",
         "落暮余歌"
       ]
     },
@@ -375170,8 +375546,10 @@
       "vndb": "v59519",
       "names": [
         "Seifuku Kanojo 3",
+        "Seifuku Kanojo 3 - Free DLC Act.5 Igisu Meika",
         "Seifuku Kanojo 3 STARS",
         "制服カノジョ3",
+        "制服カノジョ3 無料DLC Act.5 伊規須 愛叶",
         "制服カノジョ３",
         "制服カノジョ３STARS",
         "制服女友3"
@@ -375249,7 +375627,7 @@
       ]
     },
     {
-      "steam": "",
+      "steam": "5253630",
       "bangumi": "534790",
       "vndb": "v59529",
       "names": [
@@ -375490,7 +375868,7 @@
       ]
     },
     {
-      "steam": "",
+      "steam": "4385570",
       "bangumi": "682003",
       "vndb": "v59588",
       "names": [
@@ -375676,9 +376054,11 @@
       "vndb": "v59619",
       "names": [
         "Meng Duo de Meiermei",
+        "Meng Duo de Meilumei",
         "Yumeochi no Melme",
         "夢堕ちのメルメ",
-        "梦堕的梅尔梅"
+        "梦堕的梅尔梅",
+        "梦堕的梅露梅"
       ]
     },
     {
@@ -380712,11 +381092,24 @@
     },
     {
       "steam": "3586710",
-      "bangumi": "",
+      "bangumi": "709924",
       "vndb": "v60860",
       "names": [
         "Rasput de Long yu Monü",
-        "拉斯普特的龙与魔女"
+        "Rasput de Long yu Monü Demo",
+        "拉斯普特的龙与魔女",
+        "拉斯普特的龙与魔女 Demo"
+      ]
+    },
+    {
+      "steam": "3927000",
+      "bangumi": "709924",
+      "vndb": "v60860",
+      "names": [
+        "Rasput de Long yu Monü",
+        "Rasput de Long yu Monü Demo",
+        "拉斯普特的龙与魔女",
+        "拉斯普特的龙与魔女 Demo"
       ]
     },
     {
@@ -381271,7 +381664,7 @@
     },
     {
       "steam": "4462130",
-      "bangumi": "",
+      "bangumi": "709001",
       "vndb": "v61046",
       "names": [
         "Jiusuan Si Ye Meiguānxi!",
@@ -381283,12 +381676,14 @@
         "Shindemoī!",
         "就算死也沒關係!",
         "就算死也没关系!",
-        "死んでもいい!"
+        "就算死也没关系！",
+        "死んでもいい!",
+        "죽어도 좋아!"
       ]
     },
     {
       "steam": "4462270",
-      "bangumi": "",
+      "bangumi": "709001",
       "vndb": "v61046",
       "names": [
         "Jiusuan Si Ye Meiguānxi!",
@@ -381300,7 +381695,9 @@
         "Shindemoī!",
         "就算死也沒關係!",
         "就算死也没关系!",
-        "死んでもいい!"
+        "就算死也没关系！",
+        "死んでもいい!",
+        "죽어도 좋아!"
       ]
     },
     {
@@ -382308,7 +382705,8 @@
       "vndb": "v61279",
       "names": [
         "Satani Kasumi wa Anata ga Inai to Ikirarenai",
-        "佐谷霞巳はあなたがいないと生きられない"
+        "佐谷霞巳はあなたがいないと生きられない",
+        "佐谷霞巳不能没有你"
       ]
     },
     {
@@ -382679,7 +383077,7 @@
     },
     {
       "steam": "4047160",
-      "bangumi": "",
+      "bangumi": "710517",
       "vndb": "v61374",
       "names": [
         "I'm Making a Monster",
@@ -382688,7 +383086,7 @@
     },
     {
       "steam": "4178890",
-      "bangumi": "",
+      "bangumi": "710517",
       "vndb": "v61374",
       "names": [
         "I'm Making a Monster",
@@ -385542,6 +385940,15 @@
       "names": [
         "Ore ni wa Senpai Shika Inai!",
         "オレには先輩しかいない！"
+      ]
+    },
+    {
+      "steam": "4590880",
+      "bangumi": "",
+      "vndb": "v62045",
+      "names": [
+        "Psyche et al",
+        "Psyche et al - Demo"
       ]
     },
     {
@@ -389266,6 +389673,14 @@
     },
     {
       "steam": "",
+      "bangumi": "708849",
+      "vndb": "v63094",
+      "names": [
+        "Blue Seraphim"
+      ]
+    },
+    {
+      "steam": "",
       "bangumi": "372987",
       "vndb": "v63100",
       "names": [
@@ -390646,6 +391061,7 @@
         "CHAOS∞VERSE ~Immoral Singularity~ Regular Edition",
         "CHAOS∞VERSE ～インモラルシンギュラリティ～",
         "CHAOS∞VERSE ～インモラルシンギュラリティ～ 通常版",
+        "CHAOS∞VERSE～インモラルシンギュラリティ～",
         "混沌无限宇宙～不道德奇点～"
       ]
     },
@@ -390975,8 +391391,10 @@
       "names": [
         "Witchcraft Chocolatl",
         "Witchcraft Chocolatl - Beta",
+        "Witchcraft Chocolatl - Complete Edition",
         "ウィッチクラフト・ショコラトル",
-        "ウィッチクラフト・ショコラトル【β版】"
+        "ウィッチクラフト・ショコラトル【β版】",
+        "ウィッチクラフト・ショコラトル【完成版】"
       ]
     },
     {
@@ -391655,16 +392073,22 @@
       "vndb": "v63706",
       "names": [
         "Satori Chuunibyou Soudanshitsu -Dai Ni Genjitsu no Hon'yakusha-",
+        "Satori Chuunibyou Soudanshitsu -Dai Ni Genjitsu no Hon'yakusha- Early Access",
         "The Second Reality Room: Unspoken Truths",
         "The Second Reality Room: Unspoken Truths - Demo",
+        "The Second Reality Room: Unspoken Truths - Early Access",
         "Zhong er bing zixun shi: Di er xianshi fanyi zhe",
+        "Zhong er bing zixun shi: Di er xianshi fanyi zhe - Early Access",
         "Zhong'erbing Zixunshi: Di Er Xianshi Fanyizhe",
         "Zhong'erbing Zixunshi: Di Er Xianshi Yizhe",
         "さとり中二病相談室 - 第二現実の翻訳者 -",
         "さとり中二病相談室 -第二現実の翻訳者-",
+        "さとり中二病相談室 -第二現実の翻訳者- Early Access",
         "さとり中二病相談室 -第二現実の翻訳者- 体験版",
         "中二病咨询室：第二现实译者",
-        "中二病諮詢室：第二現實翻譯者"
+        "中二病咨询室：第二现实译者 - Early Access",
+        "中二病諮詢室：第二現實翻譯者",
+        "中二病諮詢室：第二現實翻譯者 - Early Access"
       ]
     },
     {
@@ -392025,7 +392449,17 @@
       "bangumi": "",
       "vndb": "v63757",
       "names": [
-        "Ace & Aro: Heart-to-Heart"
+        "Ace & Aro: Heart-to-Heart",
+        "Ace & Aro: One Night Early"
+      ]
+    },
+    {
+      "steam": "5213300",
+      "bangumi": "",
+      "vndb": "v63757",
+      "names": [
+        "Ace & Aro: Heart-to-Heart",
+        "Ace & Aro: One Night Early"
       ]
     },
     {
@@ -392111,9 +392545,10 @@
     },
     {
       "steam": "2605970",
-      "bangumi": "",
+      "bangumi": "709527",
       "vndb": "v63785",
       "names": [
+        "Fairy Comedy: A Love Hard To Find",
         "Jingling Xiju: Fuduji Buhui Huode Xingfu",
         "精灵戏剧：复读机不会获得幸福"
       ]
@@ -392526,7 +392961,7 @@
       "names": [
         "Harem of Ankhutep",
         "Harem of Ankhutep Demo",
-        "Harem of Ankhutep v0.32"
+        "Harem of Ankhutep v0.33"
       ]
     },
     {
@@ -392536,7 +392971,7 @@
       "names": [
         "Harem of Ankhutep",
         "Harem of Ankhutep Demo",
-        "Harem of Ankhutep v0.32"
+        "Harem of Ankhutep v0.33"
       ]
     },
     {
@@ -395141,9 +395576,10 @@
     },
     {
       "steam": "1123990",
-      "bangumi": "",
+      "bangumi": "709243",
       "vndb": "v64572",
       "names": [
+        "Akeno no Yosuga - Twilight Loop",
         "Akeno no Yosuga -Twilight Loop-",
         "anzhijiban - huanghunlunhui",
         "アケノヨスガ - Twilight Loop -",
@@ -401900,6 +402336,20 @@
       ]
     },
     {
+      "steam": "4906010",
+      "bangumi": "",
+      "vndb": "v66564",
+      "names": [
+        "NTR Onsen Trip 2",
+        "Netorase Onsen Ryokou 2 ~Fukanshou Kyouiku Mama wa Yarite no Chounai Kaichou ni Shitai no Seikantai o Oshiekomareta~",
+        "Netorase Onsen Ryokou 2 ~Fukanshou Kyouiku Mama wa Yarite no Chounai Kaichou ni Shitai no Seikantai o Oshiekomareta~ DL Edition",
+        "Netorase Onsen Ryokou 2 ~Fukanshou Kyouiku Mama wa Yarite no Chounai Kaichou ni Shitai no Seikantai o Oshiekomareta~ PK Edition",
+        "寝取らせ温泉旅行2 ～不感症教育ママはヤリ手の町内会長に肢体の性感帯を教え込まれた～",
+        "寝取らせ温泉旅行2 ～不感症教育ママはヤリ手の町内会長に肢体の性感帯を教え込まれた～ DL版",
+        "寝取らせ温泉旅行2 ～不感症教育ママはヤリ手の町内会長に肢体の性感帯を教え込まれた～ PK版"
+      ]
+    },
+    {
       "steam": "4782310",
       "bangumi": "",
       "vndb": "v66571",
@@ -404143,7 +404593,19 @@
       "vndb": "v67537",
       "names": [
         "Kitakubu Summer",
-        "帰宅部サマー"
+        "Kitakubu Summer (web version)",
+        "帰宅部サマー",
+        "帰宅部サマー (web version)"
+      ]
+    },
+    {
+      "steam": "3421500",
+      "bangumi": "",
+      "vndb": "v67554",
+      "names": [
+        "Incestuous Affair",
+        "Jiangbei Pige Chang",
+        "江北皮革厂"
       ]
     },
     {
@@ -404737,7 +405199,9 @@
       "vndb": "v67880",
       "names": [
         "Occult×Shinpu×Shoujo",
-        "オカルト×神父×少女"
+        "Shenmixue×Shenfu×Shaonv",
+        "オカルト×神父×少女",
+        "神秘学×神父×少女"
       ]
     },
     {
@@ -405581,11 +406045,40 @@
     },
     {
       "steam": "4893790",
-      "bangumi": "",
+      "bangumi": "709950",
       "vndb": "v68241",
       "names": [
-        "He Zhongcaoyao Niang de Richang",
-        "和中草药娘的日常"
+        "Daily Life With The Herb Girl",
+        "Daily Life With The Herb Girl Demo",
+        "Honzō Musume no Chogo Nikki",
+        "Honzō Musume no Chogo Nikki Demo",
+        "Yu Zhongcaoyao Niang de Richang",
+        "Yu Zhongcaoyao Niang de Richang Demo",
+        "与中草药娘的日常",
+        "与中草药娘的日常 Demo",
+        "与中草藥娘的日常",
+        "与中草藥娘的日常 Demo",
+        "本草娘の調合日記",
+        "本草娘の調合日記 Demo"
+      ]
+    },
+    {
+      "steam": "5281960",
+      "bangumi": "709950",
+      "vndb": "v68241",
+      "names": [
+        "Daily Life With The Herb Girl",
+        "Daily Life With The Herb Girl Demo",
+        "Honzō Musume no Chogo Nikki",
+        "Honzō Musume no Chogo Nikki Demo",
+        "Yu Zhongcaoyao Niang de Richang",
+        "Yu Zhongcaoyao Niang de Richang Demo",
+        "与中草药娘的日常",
+        "与中草药娘的日常 Demo",
+        "与中草藥娘的日常",
+        "与中草藥娘的日常 Demo",
+        "本草娘の調合日記",
+        "本草娘の調合日記 Demo"
       ]
     },
     {
@@ -405670,6 +406163,19 @@
         "Nagareru Kumo wo Dakishimete Dai-IchI-Wa - Yuusui -",
         "流れる雲を抱きしめて",
         "流れる雲を抱きしめて 第一話－湧水－"
+      ]
+    },
+    {
+      "steam": "",
+      "bangumi": "710019",
+      "vndb": "v68321",
+      "names": [
+        "Soredemo Boku wa Binyuu ga Suki ~Kyonyuu Osananajimi no Kyousei Approach~",
+        "Soredemo Boku wa Binyuu ga Suki ~Kyonyuu Osananajimi no Kyousei Approach~ Download Edition",
+        "Soredemo Boku wa Binyuu ga Suki ~Kyonyuu Osananajimi no Kyousei Approach~ Package Edition",
+        "それでも俺は微乳が好き～巨乳幼馴染の矯正アプローチ～",
+        "それでも俺は微乳が好き～巨乳幼馴染の矯正アプローチ～ ダウンロード版",
+        "それでも俺は微乳が好き～巨乳幼馴染の矯正アプローチ～ パッケージ版"
       ]
     },
     {
@@ -405812,7 +406318,7 @@
     },
     {
       "steam": "5099320",
-      "bangumi": "",
+      "bangumi": "710468",
       "vndb": "v68389",
       "names": [
         "Sui Hou Zhu",
@@ -405857,10 +406363,32 @@
       "vndb": "v68402",
       "names": [
         "Diss Diss Discussion",
+        "Diss Diss Discussion Demo",
         "Jilun Jiyi Jibian Xueshenghui",
+        "Jilun Jiyi Jibian Xueshenghui Demo",
         "ディスディスディスカッション",
+        "ディスディスディスカッション Demo",
         "激論激議激辯學生會",
-        "激论激议激辩学生会"
+        "激論激議激辯學生會 Demo",
+        "激论激议激辩学生会",
+        "激论激议激辩学生会 Demo"
+      ]
+    },
+    {
+      "steam": "5189430",
+      "bangumi": "698007",
+      "vndb": "v68402",
+      "names": [
+        "Diss Diss Discussion",
+        "Diss Diss Discussion Demo",
+        "Jilun Jiyi Jibian Xueshenghui",
+        "Jilun Jiyi Jibian Xueshenghui Demo",
+        "ディスディスディスカッション",
+        "ディスディスディスカッション Demo",
+        "激論激議激辯學生會",
+        "激論激議激辯學生會 Demo",
+        "激论激议激辩学生会",
+        "激论激议激辩学生会 Demo"
       ]
     },
     {
@@ -406006,15 +406534,26 @@
     },
     {
       "steam": "5123710",
-      "bangumi": "",
+      "bangumi": "709956",
       "vndb": "v68453",
       "names": [
         "Diqiu Xunyou - CHABU -",
+        "Earth Wander - CHABU -",
         "地球巡游-CHABU-"
       ]
     },
     {
       "steam": "4931080",
+      "bangumi": "",
+      "vndb": "v68456",
+      "names": [
+        "GOSSAMER DIVORCE",
+        "GOSSAMER DIVORCE - Demo",
+        "GOSSAMER DIVORCE - Early Access"
+      ]
+    },
+    {
+      "steam": "5193160",
       "bangumi": "",
       "vndb": "v68456",
       "names": [
@@ -406584,6 +407123,15 @@
       ]
     },
     {
+      "steam": "",
+      "bangumi": "709948",
+      "vndb": "v68774",
+      "names": [
+        "Posui Tonghua Zhi Ge",
+        "破碎童话之歌"
+      ]
+    },
+    {
       "steam": "1355100",
       "bangumi": "",
       "vndb": "v68796",
@@ -406746,10 +407294,11 @@
     },
     {
       "steam": "5032030",
-      "bangumi": "",
+      "bangumi": "709926",
       "vndb": "v68875",
       "names": [
         "Kan Heiniao de Shisan Zhong Fangshi",
+        "Thirteen Ways of Looking at a Blackbird",
         "看黑鸟的十三种方式"
       ]
     },
@@ -407046,6 +407595,14 @@
       ]
     },
     {
+      "steam": "5303520",
+      "bangumi": "",
+      "vndb": "v68989",
+      "names": [
+        "Amber Eyes"
+      ]
+    },
+    {
       "steam": "",
       "bangumi": "707273",
       "vndb": "v68990",
@@ -407142,7 +407699,7 @@
       "vndb": "v69037",
       "names": [
         "In Falsus",
-        "In Falsus - English Improvement Patch",
+        "In Falsus - Japanese to English MTL Patch",
         "In Falsus Demo",
         "インファルサス"
       ]
@@ -407153,7 +407710,7 @@
       "vndb": "v69037",
       "names": [
         "In Falsus",
-        "In Falsus - English Improvement Patch",
+        "In Falsus - Japanese to English MTL Patch",
         "In Falsus Demo",
         "インファルサス"
       ]
@@ -407178,6 +407735,14 @@
       ]
     },
     {
+      "steam": "5354650",
+      "bangumi": "685804",
+      "vndb": "v69048",
+      "names": [
+        "Hex Party"
+      ]
+    },
+    {
       "steam": "4949270",
       "bangumi": "",
       "vndb": "v69049",
@@ -407191,9 +407756,27 @@
       "bangumi": "",
       "vndb": "v69051",
       "names": [
+        "Zombie Police ~Zombie Deka to Itetsuku Manatsu no Oshougatsu~",
         "Zombie Police ~Zombie Keiji to Itetsuku Manatsu no Oshougatsu~",
+        "Zombie Police ~Zombie Keiji to Itetsuku Manatsu no Oshougatsu~ Demo",
         "Zombie Police: Midsummer Unhappy New Year",
-        "ゾンビポリス ～ゾンビ刑事と凍てつく真夏のお正月～"
+        "Zombie Police: Midsummer Unhappy New Year Demo",
+        "ゾンビポリス ～ゾンビ刑事と凍てつく真夏のお正月～",
+        "ゾンビポリス ～ゾンビ刑事と凍てつく真夏のお正月～ Demo"
+      ]
+    },
+    {
+      "steam": "5256190",
+      "bangumi": "",
+      "vndb": "v69051",
+      "names": [
+        "Zombie Police ~Zombie Deka to Itetsuku Manatsu no Oshougatsu~",
+        "Zombie Police ~Zombie Keiji to Itetsuku Manatsu no Oshougatsu~",
+        "Zombie Police ~Zombie Keiji to Itetsuku Manatsu no Oshougatsu~ Demo",
+        "Zombie Police: Midsummer Unhappy New Year",
+        "Zombie Police: Midsummer Unhappy New Year Demo",
+        "ゾンビポリス ～ゾンビ刑事と凍てつく真夏のお正月～",
+        "ゾンビポリス ～ゾンビ刑事と凍てつく真夏のお正月～ Demo"
       ]
     },
     {
@@ -408094,7 +408677,7 @@
     },
     {
       "steam": "2838540",
-      "bangumi": "",
+      "bangumi": "709850",
       "vndb": "v69374",
       "names": [
         "Dying in the Sun",
@@ -408129,7 +408712,9 @@
       "vndb": "v69378",
       "names": [
         "Sugarless Tranquilizer",
-        "シュガーレス・トランキライザー"
+        "Wutang Zhendingji",
+        "シュガーレス・トランキライザー",
+        "无糖镇定剂"
       ]
     },
     {
@@ -408172,7 +408757,7 @@
     },
     {
       "steam": "4822170",
-      "bangumi": "",
+      "bangumi": "708833",
       "vndb": "v69402",
       "names": [
         "ICONOLOGY"
@@ -408202,6 +408787,15 @@
       "vndb": "v69407",
       "names": [
         "7sWonder"
+      ]
+    },
+    {
+      "steam": "",
+      "bangumi": "708940",
+      "vndb": "v69408",
+      "names": [
+        "Sore demo Anata ga Sukidatta",
+        "それでもあなたが好きだった"
       ]
     },
     {
@@ -408273,6 +408867,14 @@
       ]
     },
     {
+      "steam": "5286380",
+      "bangumi": "",
+      "vndb": "v69445",
+      "names": [
+        "Thine Curse of Loss"
+      ]
+    },
+    {
       "steam": "4040480",
       "bangumi": "625707",
       "vndb": "v69452",
@@ -408288,9 +408890,28 @@
       "vndb": "v69459",
       "names": [
         "Ikai no Yadochou",
+        "Ikai no Yadochou Demo",
         "Yijie Suzhang",
+        "Yijie Suzhang Demo",
         "异界宿帐",
-        "異界ノ宿帳"
+        "异界宿帐 Demo",
+        "異界ノ宿帳",
+        "異界ノ宿帳 Demo"
+      ]
+    },
+    {
+      "steam": "4947060",
+      "bangumi": "674885",
+      "vndb": "v69459",
+      "names": [
+        "Ikai no Yadochou",
+        "Ikai no Yadochou Demo",
+        "Yijie Suzhang",
+        "Yijie Suzhang Demo",
+        "异界宿帐",
+        "异界宿帐 Demo",
+        "異界ノ宿帳",
+        "異界ノ宿帳 Demo"
       ]
     },
     {
@@ -408309,6 +408930,15 @@
       "names": [
         "Tearoom of Terror",
         "Tearoom of Terror - Demo"
+      ]
+    },
+    {
+      "steam": "",
+      "bangumi": "708597",
+      "vndb": "v69479",
+      "names": [
+        "Gyakuten Shihai ~Kairai no Onna Kyoushi~",
+        "逆転支配 ～傀儡の女教師～"
       ]
     },
     {
@@ -408390,6 +409020,526 @@
       "names": [
         "Xian Zhi Zhui",
         "线之缀"
+      ]
+    },
+    {
+      "steam": "",
+      "bangumi": "708099",
+      "vndb": "v69535",
+      "names": [
+        "Futanari Haha Miki -Otonari no Bishoujo ni Wakaraserareru 6 DAYs-",
+        "フタナリ母美樹 -お隣の美少女にわからせられる6DAYs-"
+      ]
+    },
+    {
+      "steam": "5220410",
+      "bangumi": "",
+      "vndb": "v69557",
+      "names": [
+        "Qingwu yu Qihao Huanzhe Yuehui",
+        "请勿与七号患者约会"
+      ]
+    },
+    {
+      "steam": "",
+      "bangumi": "665166",
+      "vndb": "v69578",
+      "names": [
+        "P4RG",
+        "Persona 4: Rise Gaiden",
+        "女神异闻录4：理世外传"
+      ]
+    },
+    {
+      "steam": "",
+      "bangumi": "673844",
+      "vndb": "v69585",
+      "names": [
+        "Sweet Tooth"
+      ]
+    },
+    {
+      "steam": "",
+      "bangumi": "574191",
+      "vndb": "v69591",
+      "names": [
+        "MEAT GRINDER",
+        "Meatgrinder"
+      ]
+    },
+    {
+      "steam": "",
+      "bangumi": "536220",
+      "vndb": "v69611",
+      "names": [
+        "Mission Field Intruder 3rd"
+      ]
+    },
+    {
+      "steam": "",
+      "bangumi": "616256",
+      "vndb": "v69624",
+      "names": [
+        "Kitakubu Zombie",
+        "Kitakubu Zombie (web version)",
+        "帰宅部 Zombie",
+        "帰宅部 Zombie (web version)"
+      ]
+    },
+    {
+      "steam": "4995800",
+      "bangumi": "",
+      "vndb": "v69626",
+      "names": [
+        "Shinde mo Tsunage",
+        "TORCH & TRIGGER",
+        "Xin Jin Huo Chuan - Si Ye Yao Yanxu -",
+        "Xinhuo Yu Banji",
+        "死んでも継なげ",
+        "薪火与扳机",
+        "薪盡火傳-死也要延續-"
+      ]
+    },
+    {
+      "steam": "4566460",
+      "bangumi": "",
+      "vndb": "v69629",
+      "names": [
+        "FEMBOY FUTA DATE HOUSE"
+      ]
+    },
+    {
+      "steam": "",
+      "bangumi": "611100",
+      "vndb": "v69635",
+      "names": [
+        "Nodoka no Hoshi",
+        "Nodoka no Hoshi - Trial Edition",
+        "のどかのほし",
+        "のどかのほし 体験版"
+      ]
+    },
+    {
+      "steam": "3444720",
+      "bangumi": "",
+      "vndb": "v69636",
+      "names": [
+        "The Sultan and His Harem"
+      ]
+    },
+    {
+      "steam": "",
+      "bangumi": "567144",
+      "vndb": "v69644",
+      "names": [
+        "Mercurius no Aoi Suna MIND/FRAGMENTS",
+        "Mercury no Aoi Suna MIND/FRAGMENTS",
+        "メルクリウスの青い砂 MIND/FRAGMENTS"
+      ]
+    },
+    {
+      "steam": "",
+      "bangumi": "561174",
+      "vndb": "v69653",
+      "names": [
+        "Wind Chaimu ni Tsurerarete",
+        "Wind Chime ni Tsurerarete",
+        "ウィンドチャイムに連れられて"
+      ]
+    },
+    {
+      "steam": "",
+      "bangumi": "709360",
+      "vndb": "v69656",
+      "names": [
+        "Ikenie ni Kyuusai o",
+        "Ikenie ni Sukui o",
+        "いけにえに救済を"
+      ]
+    },
+    {
+      "steam": "",
+      "bangumi": "513596",
+      "vndb": "v69661",
+      "names": [
+        "Manatsu no Tantei Kyoushitsu",
+        "真夏の探偵教室"
+      ]
+    },
+    {
+      "steam": "",
+      "bangumi": "576672",
+      "vndb": "v69664",
+      "names": [
+        "QT",
+        "qt"
+      ]
+    },
+    {
+      "steam": "4084150",
+      "bangumi": "680494",
+      "vndb": "v69681",
+      "names": [
+        "Campus Confidential",
+        "Campus Confidential v0.44"
+      ]
+    },
+    {
+      "steam": "",
+      "bangumi": "710567",
+      "vndb": "v69682",
+      "names": [
+        "Jian",
+        "翦"
+      ]
+    },
+    {
+      "steam": "5306800",
+      "bangumi": "",
+      "vndb": "v69684",
+      "names": [
+        "Does God Work Overtime?",
+        "Shen Ye Yao Jiaban Ma?",
+        "神也要加班吗?"
+      ]
+    },
+    {
+      "steam": "5046730",
+      "bangumi": "",
+      "vndb": "v69690",
+      "names": [
+        "Gamophobia",
+        "Gamophobia - Demo"
+      ]
+    },
+    {
+      "steam": "4246910",
+      "bangumi": "",
+      "vndb": "v69697",
+      "names": [
+        "Femboy & Futa Cozy Cafe"
+      ]
+    },
+    {
+      "steam": "4511700",
+      "bangumi": "",
+      "vndb": "v69698",
+      "names": [
+        "Femboy Wants To Be Mayor"
+      ]
+    },
+    {
+      "steam": "4043470",
+      "bangumi": "",
+      "vndb": "v69700",
+      "names": [
+        "High Fantasy: Hentai Tale"
+      ]
+    },
+    {
+      "steam": "4370810",
+      "bangumi": "",
+      "vndb": "v69701",
+      "names": [
+        "Wilderness with Tomboy"
+      ]
+    },
+    {
+      "steam": "4653570",
+      "bangumi": "",
+      "vndb": "v69702",
+      "names": [
+        "Lighthouse Duty With Tsundere"
+      ]
+    },
+    {
+      "steam": "4194690",
+      "bangumi": "",
+      "vndb": "v69703",
+      "names": [
+        "Tomboy Stranded in Space"
+      ]
+    },
+    {
+      "steam": "4806040",
+      "bangumi": "",
+      "vndb": "v69704",
+      "names": [
+        "Boobs & Boxing"
+      ]
+    },
+    {
+      "steam": "5188170",
+      "bangumi": "",
+      "vndb": "v69705",
+      "names": [
+        "Boobs & Cowgirls"
+      ]
+    },
+    {
+      "steam": "4977570",
+      "bangumi": "",
+      "vndb": "v69706",
+      "names": [
+        "Dirty Pleasures"
+      ]
+    },
+    {
+      "steam": "4831740",
+      "bangumi": "",
+      "vndb": "v69707",
+      "names": [
+        "FEMBOY HAREM"
+      ]
+    },
+    {
+      "steam": "4927300",
+      "bangumi": "",
+      "vndb": "v69708",
+      "names": [
+        "Wild Femboys"
+      ]
+    },
+    {
+      "steam": "4747090",
+      "bangumi": "",
+      "vndb": "v69709",
+      "names": [
+        "Futanari Dictator"
+      ]
+    },
+    {
+      "steam": "4478810",
+      "bangumi": "",
+      "vndb": "v69710",
+      "names": [
+        "Lock Your Boyfriend"
+      ]
+    },
+    {
+      "steam": "",
+      "bangumi": "686867",
+      "vndb": "v69719",
+      "names": [
+        "Vestige"
+      ]
+    },
+    {
+      "steam": "4804690",
+      "bangumi": "",
+      "vndb": "v69720",
+      "names": [
+        "Succubus Futanari"
+      ]
+    },
+    {
+      "steam": "4631800",
+      "bangumi": "",
+      "vndb": "v69721",
+      "names": [
+        "ONLYFAPPER FEMBOYS"
+      ]
+    },
+    {
+      "steam": "4777020",
+      "bangumi": "",
+      "vndb": "v69722",
+      "names": [
+        "ONLYFAPPER FEMBOYS 2"
+      ]
+    },
+    {
+      "steam": "5071470",
+      "bangumi": "",
+      "vndb": "v69723",
+      "names": [
+        "Futa Paradise Resort"
+      ]
+    },
+    {
+      "steam": "5080180",
+      "bangumi": "",
+      "vndb": "v69724",
+      "names": [
+        "Horny City"
+      ]
+    },
+    {
+      "steam": "5153690",
+      "bangumi": "",
+      "vndb": "v69725",
+      "names": [
+        "Futa Seas A Pirate's Booty"
+      ]
+    },
+    {
+      "steam": "4804700",
+      "bangumi": "",
+      "vndb": "v69726",
+      "names": [
+        "Goth Femboy Santa"
+      ]
+    },
+    {
+      "steam": "4725200",
+      "bangumi": "",
+      "vndb": "v69727",
+      "names": [
+        "Femboy Pirates"
+      ]
+    },
+    {
+      "steam": "4451320",
+      "bangumi": "",
+      "vndb": "v69728",
+      "names": [
+        "Goth Femboy Desire"
+      ]
+    },
+    {
+      "steam": "4943670",
+      "bangumi": "",
+      "vndb": "v69729",
+      "names": [
+        "Player 2 is a Femboy"
+      ]
+    },
+    {
+      "steam": "5198120",
+      "bangumi": "",
+      "vndb": "v69735",
+      "names": [
+        "Femboy Apocalypse"
+      ]
+    },
+    {
+      "steam": "5136370",
+      "bangumi": "",
+      "vndb": "v69736",
+      "names": [
+        "Femboy & Futa Maidmare"
+      ]
+    },
+    {
+      "steam": "5198070",
+      "bangumi": "",
+      "vndb": "v69737",
+      "names": [
+        "Femboy Futa Dorm"
+      ]
+    },
+    {
+      "steam": "5097170",
+      "bangumi": "",
+      "vndb": "v69738",
+      "names": [
+        "Femboy Hot Springs"
+      ]
+    },
+    {
+      "steam": "4698680",
+      "bangumi": "",
+      "vndb": "v69740",
+      "names": [
+        "Femboy : Rescue Mission",
+        "Femboy : Rescue Mission Demo"
+      ]
+    },
+    {
+      "steam": "4824810",
+      "bangumi": "",
+      "vndb": "v69740",
+      "names": [
+        "Femboy : Rescue Mission",
+        "Femboy : Rescue Mission Demo"
+      ]
+    },
+    {
+      "steam": "5120940",
+      "bangumi": "",
+      "vndb": "v69741",
+      "names": [
+        "Femboy Futa Cafe"
+      ]
+    },
+    {
+      "steam": "3993630",
+      "bangumi": "679404",
+      "vndb": "v69742",
+      "names": [
+        "Femboy Detective"
+      ]
+    },
+    {
+      "steam": "3827490",
+      "bangumi": "",
+      "vndb": "v69743",
+      "names": [
+        "Dream Seduction"
+      ]
+    },
+    {
+      "steam": "2363010",
+      "bangumi": "683758",
+      "vndb": "v69746",
+      "names": [
+        "A Night With Neil"
+      ]
+    },
+    {
+      "steam": "5198140",
+      "bangumi": "",
+      "vndb": "v69747",
+      "names": [
+        "Femboy Fame"
+      ]
+    },
+    {
+      "steam": "4876120",
+      "bangumi": "",
+      "vndb": "v69748",
+      "names": [
+        "Femboy Dormmate"
+      ]
+    },
+    {
+      "steam": "5027800",
+      "bangumi": "",
+      "vndb": "v69749",
+      "names": [
+        "FEMBOY FUTA BEACH HOUSE"
+      ]
+    },
+    {
+      "steam": "4956720",
+      "bangumi": "",
+      "vndb": "v69750",
+      "names": [
+        "Horny Femboy Vampires"
+      ]
+    },
+    {
+      "steam": "4874780",
+      "bangumi": "",
+      "vndb": "v69751",
+      "names": [
+        "FEMBOY FUTA TRAP HOUSE"
+      ]
+    },
+    {
+      "steam": "3155980",
+      "bangumi": "",
+      "vndb": "v69753",
+      "names": [
+        "Stranded & Naked"
+      ]
+    },
+    {
+      "steam": "5354900",
+      "bangumi": "",
+      "vndb": "v69756",
+      "names": [
+        "My Funeral is Sunday"
       ]
     }
   ]
