@@ -6,6 +6,7 @@ import psycopg2
 
 from modules.bangumi import BangumiData
 from modules.evidence import PairJudge
+from modules.manual import ManualLists
 from modules.matching import NameMatcher
 from modules.output import build_entries
 from modules.utils import normalize_loose, normalize_string
@@ -15,6 +16,7 @@ DESCRIPTION = (
     "THERE IS NO WARRANTY FOR THE DATA, TO THE EXTENT PERMITTED BY APPLICABLE LAW."
 )
 REVIEW_EVIDENCE_FIELDS = ("S1", "S2", "sites", "name", "year", "company")
+MANUAL_REASONS = ("manual-whitelist", "manual-blacklist")
 
 
 def parse_args():
@@ -24,6 +26,11 @@ def parse_args():
         nargs="?",
         default="../../data/vndb_id_connector/2_automated.json",
         help="where to write the generated dataset",
+    )
+    parser.add_argument(
+        "--manual",
+        default="../../data/vndb_id_connector/1_manually.json",
+        help="manual whitelist / blacklist",
     )
     parser.add_argument(
         "--review-queue",
@@ -43,11 +50,33 @@ def connect(database, port):
     )
 
 
+def apply_manual(decisions, steam, manual):
+    """Overrule automatic decisions with the manual lists (blacklist first)."""
+    for (vid, bid), (_accepted, _reason, ev) in list(decisions.items()):
+        if manual.pair_forbidden("vndb", vid, "bangumi", bid):
+            decisions[(vid, bid)] = (False, "manual-blacklist", ev)
+    steam = {
+        vid: [
+            app for app in apps if not manual.pair_forbidden("vndb", vid, "steam", app)
+        ]
+        for vid, apps in steam.items()
+    }
+    for item in manual.whitelist:
+        vid, bid, app = item["vndb"], item["bangumi"], item["steam"]
+        if vid and bid and not manual.pair_forbidden("vndb", vid, "bangumi", bid):
+            ev = decisions.get((vid, int(bid)), (None, None, None))[2]
+            decisions[(vid, int(bid))] = (True, "manual-whitelist", ev)
+        if vid and app and not manual.pair_forbidden("vndb", vid, "steam", app):
+            if app not in steam.setdefault(vid, []):
+                steam[vid].append(app)
+    return decisions, {vid: apps for vid, apps in steam.items() if apps}
+
+
 def write_review_queue(path, decisions, vndb, bangumi):
     rows = sorted(
         (reason, vid, bid, ev)
         for (vid, bid), (accepted, reason, ev) in decisions.items()
-        if not accepted
+        if not accepted and reason not in MANUAL_REASONS
     )
     with open(path, "w", encoding="utf8") as f:
         for reason, vid, bid, ev in rows:
@@ -64,6 +93,7 @@ def write_review_queue(path, decisions, vndb, bangumi):
 
 def main():
     args = parse_args()
+    manual = ManualLists.load(args.manual)
     vndb = VndbData(connect("vndb", "10001").cursor()).load()
     bangumi = BangumiData(connect("bangumi", "10000").cursor()).load()
     matcher = NameMatcher(
@@ -78,6 +108,7 @@ def main():
         for bid, keys in found.items():
             name_matches[(vid, bid)] = (tier, keys)
     decisions = PairJudge(vndb, bangumi, name_matches).judge()
+    decisions, steam_matches = apply_manual(decisions, vndb.steam, manual)
 
     bangumi_matches = {}
     for (vid, bid), (accepted, _reason, _ev) in decisions.items():
@@ -86,7 +117,7 @@ def main():
     for bids in bangumi_matches.values():
         bids.sort()
 
-    entries = build_entries(vndb, bangumi, bangumi_matches, vndb.steam)
+    entries = build_entries(vndb, bangumi, bangumi_matches, steam_matches, manual)
     with open(args.output, "w", encoding="utf8") as f:
         json.dump(
             {"info": {"description": DESCRIPTION}, "entries": entries},
@@ -100,8 +131,8 @@ def main():
     rejected = Counter(r for a, r, _ev in decisions.values() if not a)
     print(f"entries: {len(entries)}")
     print(f"accepted vndb-bangumi pairs: {sum(accepted.values())} {dict(accepted)}")
-    print(f"pairs sent to review: {sum(rejected.values())} {dict(rejected)}")
-    print(f"vndb-steam pairs: {sum(len(v) for v in vndb.steam.values())}")
+    print(f"rejected vndb-bangumi pairs: {sum(rejected.values())} {dict(rejected)}")
+    print(f"vndb-steam pairs: {sum(len(v) for v in steam_matches.values())}")
 
 
 if __name__ == "__main__":

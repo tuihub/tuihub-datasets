@@ -28,8 +28,10 @@ checked and moved to the manual lists below.
 
 ## Manual corrections
 
-`data/vndb_id_connector/1_manually.json` is applied on top of the generated data when the
-published dataset is built (`src/build_docs`).
+`data/vndb_id_connector/1_manually.json` is applied when the data is generated (`main.py`,
+so blacklisted associations never end up in `2_automated.json` and the review queue only
+contains undecided pairs) and again when the published dataset is built (`src/build_docs`,
+so edits take effect without regenerating the data).
 
 ```json
 {
