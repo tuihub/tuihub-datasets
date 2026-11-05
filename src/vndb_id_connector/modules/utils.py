@@ -1,4 +1,5 @@
 # 定义一个函数，用来判断两个字符串是否一致，但是要将英文标点符号、简体中文标点符号、繁体中文标点符号、日文标点符号之间的差异，以及两个字符串之间的空格
+import re
 import unicodedata
 
 
@@ -51,6 +52,19 @@ def normalize_loose(s):
         for char in unicodedata.normalize("NFKC", s)
         if not unicodedata.category(char).startswith("P") and not char.isspace()
     )
+
+
+_COMPANY_SUFFIX = re.compile(
+    r"(株式会社|有限会社|合同会社|inc|ltd|llc|corporation|corp|co)$"
+)
+
+
+def normalize_company(s):
+    """normalize_loose without trailing company forms such as 株式会社 or Inc."""
+    s = normalize_loose(s)
+    for _ in range(2):
+        s = _COMPANY_SUFFIX.sub("", s)
+    return s
 
 
 def _clean_infobox(input_str):
