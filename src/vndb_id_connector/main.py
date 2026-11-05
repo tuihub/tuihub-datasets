@@ -6,7 +6,7 @@ import psycopg2
 from modules.bangumi import BangumiData
 from modules.matching import NameMatcher
 from modules.output import build_entries
-from modules.utils import normalize_string
+from modules.utils import normalize_loose, normalize_string
 from modules.vndb import VndbData
 
 DESCRIPTION = (
@@ -39,7 +39,11 @@ def main():
     args = parse_args()
     vndb = VndbData(connect("vndb", "10001").cursor()).load()
     bangumi = BangumiData(connect("bangumi", "10000").cursor()).load()
-    matcher = NameMatcher(vndb.names, bangumi.names, [("exact", normalize_string)])
+    matcher = NameMatcher(
+        vndb.names,
+        bangumi.names,
+        [("exact", normalize_string), ("loose", normalize_loose)],
+    )
 
     bangumi_matches = {}
     for vid, names in vndb.names.items():

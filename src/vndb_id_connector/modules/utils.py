@@ -43,6 +43,16 @@ def normalize_string(s):
     return new_str
 
 
+def normalize_loose(s):
+    """Like normalize_string, but drops all punctuation and whitespace and folds
+    full-width forms, e.g. "熠熠星光，魔物娘" == "熠熠星光魔物娘"."""
+    return "".join(
+        char.lower()
+        for char in unicodedata.normalize("NFKC", s)
+        if not unicodedata.category(char).startswith("P") and not char.isspace()
+    )
+
+
 def _clean_infobox(input_str):
     if not input_str:
         return ""
