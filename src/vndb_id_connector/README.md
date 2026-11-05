@@ -9,6 +9,23 @@ docker compose up -d
 
 ```
 
+## Matching
+
+A VNDB VN and a Bangumi subject are linked only when the evidence agrees
+(`modules/evidence.py`):
+
+- **IDs**: the Bangumi infobox links to the VN on vndb.org, or both sides link the same
+  Steam / ErogameScape / DLsite / Getchu / novelgame / freem page. VNDB links from
+  releases shared by several VNs (bundles) are ignored.
+- **Names** (`modules/matching.py`): a name counts only if exactly one VN and exactly one
+  subject carry it, first compared with `normalize_string`, then ignoring punctuation.
+
+A pair is published when nothing contradicts it and either two of the above agree, or it
+has an exact match on a VN title with first release years at most one year apart and no
+disagreeing developer/publisher. All other candidates are written to
+`data/vndb_id_connector/review_queue.jsonl` (not committed) with the reason, so they can be
+checked and moved to the manual lists below.
+
 ## Manual corrections
 
 `data/vndb_id_connector/1_manually.json` is applied on top of the generated data when the

@@ -1,10 +1,46 @@
-from .utils import normalize_string, parse_infobox
+import re
+
+from .utils import normalize_company, normalize_string, parse_infobox
+
+# link kind -> pattern for the id inside a Bangumi infobox URL
+LINK_PATTERNS = {
+    "vndb": re.compile(r"vndb\.org/(v\d+)", re.I),
+    "steam": re.compile(r"store\.steampowered\.com/app/(\d+)", re.I),
+    "egs": re.compile(r"erogamescape[^\s|\]}]*?[?&]game=(\d+)", re.I),
+    "dlsite": re.compile(r"dlsite\.com/[^\s|\]}]*?product_id/([A-Z]{2}\d+)", re.I),
+    "getchu": re.compile(r"getchu\.com/soft\.phtml\?id=(\d+)", re.I),
+    "novelgame": re.compile(r"novelgame\.jp/games/show/(\d+)", re.I),
+    "freem": re.compile(r"freem\.ne\.jp/win/game/(\d+)", re.I),
+}
+YEAR_PATTERN = re.compile(r"\|\s*发行日期\s*=\s*[^|]*?((?:19|20)\d{2})")
+COMPANY_KEYS = (
+    "开发",
+    "游戏开发商",
+    "开发商",
+    "制作",
+    "社团",
+    "品牌",
+    "ブランド",
+    "サークル",
+    "游戏制作",
+    "制作公司",
+    "发行",
+    "发行商",
+    "游戏发行商",
+    "发售",
+    "メーカー",
+)
+COMPANY_SEPARATORS = re.compile(r"[、,，/／&＆;；|×・]| x | and ")
 
 
 class BangumiData:
     """Game subjects loaded from the Bangumi archive.
 
-    names: name, name_cn and 别名 of subjects available on PC (or without platform info)
+    names:     name, name_cn and 别名 of subjects available on PC (or without platform)
+    links:     {kind: ids} parsed from the infobox (vndb, steam, egs, dlsite, ...)
+    year:      first year in 发行日期
+    genre:     游戏类型
+    companies: normalized developer and publisher names
     """
 
     INCLUDED_PLATFORMS = ["pc", "win", "dos", "linux", "mac"]
@@ -13,6 +49,10 @@ class BangumiData:
     def __init__(self, cur):
         self.cur = cur
         self.names = {}
+        self.links = {}
+        self.year = {}
+        self.genre = {}
+        self.companies = {}
 
     @classmethod
     def platform_supported(cls, platforms):
@@ -29,6 +69,7 @@ class BangumiData:
             'SELECT id, name, name_cn, infobox FROM "public".subject WHERE type = 4'
         )
         for bid, name, name_cn, infobox in self.cur.fetchall():
+            infobox = infobox or ""
             platforms = parse_infobox(infobox, "平台")
             if platforms and not self.platform_supported(platforms):
                 continue
@@ -41,4 +82,29 @@ class BangumiData:
                 if alias not in names:
                     names.append(alias)
             self.names[bid] = names
+
+            links = {}
+            for kind, pattern in LINK_PATTERNS.items():
+                values = set(pattern.findall(infobox))
+                if kind == "dlsite":
+                    values = {v.upper() for v in values}
+                elif kind == "vndb":
+                    values = {v.lower() for v in values}
+                if values:
+                    links[kind] = values
+            self.links[bid] = links
+
+            year = YEAR_PATTERN.search(infobox)
+            if year:
+                self.year[bid] = int(year.group(1))
+            self.genre[bid] = " ".join(parse_infobox(infobox, "游戏类型")).strip()
+            companies = set()
+            for key in COMPANY_KEYS:
+                for value in parse_infobox(infobox, key):
+                    for piece in COMPANY_SEPARATORS.split(value):
+                        normalized = normalize_company(piece)
+                        if len(normalized) >= 2:
+                            companies.add(normalized)
+            if companies:
+                self.companies[bid] = companies
         return self
