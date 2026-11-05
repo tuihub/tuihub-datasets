@@ -49,6 +49,14 @@ jobs:
           cd src/vndb_id_connector
           python main.py
 
+      - name: Upload review queue
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: vndb-id-connector-review-queue
+          path: data/vndb_id_connector/review_queue.jsonl
+          if-no-files-found: ignore
+
       - name: Check for dataset changes
         id: changes
         run: |
@@ -80,7 +88,7 @@ jobs:
           body: |
             Automated dataset generation completed, but `scripts/validate_dataset_update.py` failed.
 
-            Please review the generated changes before merging.
+            Please review the generated changes before merging. Candidate pairs that were not published are in the `vndb-id-connector-review-queue` artifact of the workflow run.
             While the `${{ env.REVIEW_BRANCH }}` pull request remains open, this workflow fails before running the update job again.
 
             Workflow run: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
