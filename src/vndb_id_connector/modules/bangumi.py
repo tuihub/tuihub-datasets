@@ -106,7 +106,8 @@ class Bangumi:
                 cur_alt_names = self.parse_alt_names(line[4])
                 for alt_name in cur_alt_names:
                     self.add_to_bangumi_name_id_dict(alt_name, line[0])
-        self.bangumi_name_id_dict = {}
+        # main.py holds a reference to this dict, so clear it in place
+        self.bangumi_name_id_dict.clear()
 
     def get_dict(self, data):
         for line in data:
