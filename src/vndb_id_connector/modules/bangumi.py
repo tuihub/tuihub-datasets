@@ -13,6 +13,7 @@ LINK_PATTERNS = {
     "freem": re.compile(r"freem\.ne\.jp/win/game/(\d+)", re.I),
 }
 YEAR_PATTERN = re.compile(r"\|\s*发行日期\s*=\s*[^|]*?((?:19|20)\d{2})")
+DATE_YEAR = re.compile(r"((?:19|20)\d{2})-")
 COMPANY_KEYS = (
     "开发",
     "游戏开发商",
@@ -38,7 +39,9 @@ class BangumiData:
 
     names:     name, name_cn and 别名 of subjects available on PC (or without platform)
     links:     {kind: ids} parsed from the infobox (vndb, steam, egs, dlsite, ...)
-    year:      first year in 发行日期
+    year:      release year: the earlier of subject.date and the first year in 发行日期
+               (subject.date is empty for some subjects, and the infobox pattern stops
+               at the "|" of multi-platform lists such as {[Win|2005-01-01]})
     genre:     游戏类型
     companies: normalized developer and publisher names
     """
@@ -66,9 +69,9 @@ class BangumiData:
 
     def load(self):
         self.cur.execute(
-            'SELECT id, name, name_cn, infobox FROM "public".subject WHERE type = 4'
+            'SELECT id, name, name_cn, infobox, date FROM "public".subject WHERE type = 4'
         )
-        for bid, name, name_cn, infobox in self.cur.fetchall():
+        for bid, name, name_cn, infobox, date in self.cur.fetchall():
             infobox = infobox or ""
             platforms = parse_infobox(infobox, "平台")
             if platforms and not self.platform_supported(platforms):
@@ -94,9 +97,13 @@ class BangumiData:
                     links[kind] = values
             self.links[bid] = links
 
-            year = YEAR_PATTERN.search(infobox)
-            if year:
-                self.year[bid] = int(year.group(1))
+            years = [
+                int(match.group(1))
+                for match in (DATE_YEAR.match(date or ""), YEAR_PATTERN.search(infobox))
+                if match
+            ]
+            if years:
+                self.year[bid] = min(years)
             self.genre[bid] = " ".join(parse_infobox(infobox, "游戏类型")).strip()
             companies = set()
             for key in COMPANY_KEYS:
