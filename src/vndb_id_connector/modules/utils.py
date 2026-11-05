@@ -132,3 +132,17 @@ def parse_infobox(input_str, keyword):
 
     section = section.strip().strip("{}")
     return [section] if section else []
+
+
+def _id_number(value):
+    return int(value.lstrip("v")) if value else float("inf")
+
+
+def sort_entries(entries):
+    """Sort dataset entries by vndb, bangumi and steam id; empty ids go last."""
+    return sorted(
+        entries,
+        key=lambda e: tuple(
+            _id_number(e[field]) for field in ("vndb", "bangumi", "steam")
+        ),
+    )

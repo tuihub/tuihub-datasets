@@ -16,6 +16,8 @@
 import json
 import re
 
+from .utils import sort_entries
+
 ID_FIELDS = ("vndb", "bangumi", "steam")
 ID_PATTERNS = {
     "vndb": re.compile(r"^v[1-9][0-9]*$"),
@@ -155,14 +157,3 @@ class ManualLists:
             for (steam, bid, vid), names in merged_by_ids.items()
         ]
         return sort_entries(result)
-
-
-def _id_number(value):
-    return int(value.lstrip("v")) if value else float("inf")
-
-
-def sort_entries(entries):
-    return sorted(
-        entries,
-        key=lambda e: tuple(_id_number(e[field]) for field in ID_FIELDS),
-    )
