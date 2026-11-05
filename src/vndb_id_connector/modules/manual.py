@@ -41,19 +41,27 @@ def _check_ids(item, where, errors):
             errors.append(f"{where}: invalid {field} id {value!r}")
 
 
+def _pairs(items):
+    pairs = set()
+    for item in items:
+        ids = sorted(entry_ids(item))
+        for i in range(len(ids)):
+            for j in range(i + 1, len(ids)):
+                pairs.add((ids[i], ids[j]))
+    return pairs
+
+
 class ManualLists:
     def __init__(self, whitelist, blacklist):
         self.whitelist = whitelist
         self.blacklist = blacklist
         self._banned_ids = set()
-        self._banned_pairs = set()
+        self._banned_pairs = _pairs(blacklist)
+        self._allowed_pairs = _pairs(whitelist)
         for rule in blacklist:
-            ids = sorted(entry_ids(rule))
+            ids = entry_ids(rule)
             if len(ids) == 1:
-                self._banned_ids.add(ids[0])
-            for i in range(len(ids)):
-                for j in range(i + 1, len(ids)):
-                    self._banned_pairs.add((ids[i], ids[j]))
+                self._banned_ids |= ids
 
     @classmethod
     def load(cls, path):
@@ -117,6 +125,20 @@ class ManualLists:
         if a in self._banned_ids or b in self._banned_ids:
             return True
         return (min(a, b), max(a, b)) in self._banned_pairs
+
+    def pair_whitelisted(self, field_a, id_a, field_b, id_b):
+        a, b = (field_a, str(id_a)), (field_b, str(id_b))
+        return (min(a, b), max(a, b)) in self._allowed_pairs
+
+    def whitelist_names(self, entry):
+        """Names of whitelist entries whose ids are all contained in entry."""
+        ids = entry_ids(entry)
+        return [
+            n
+            for item in self.whitelist
+            if entry_ids(item) <= ids
+            for n in item["names"]
+        ]
 
     def entry_forbidden(self, entry):
         ids = sorted(entry_ids(entry))
