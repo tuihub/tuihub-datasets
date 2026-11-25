@@ -1026,6 +1026,7 @@
         "SHUFFLE! - Regular Edition",
         "SHUFFLE! -Anniversary Edition-",
         "SHUFFLE! -Standard Edition-",
+        "SHUFFLE! Essence+",
         "SHUFFLE! 初回限定版",
         "SHUFFLE! 通常版",
         "SHUFFLE！",
@@ -1049,6 +1050,7 @@
         "SHUFFLE! - Regular Edition",
         "SHUFFLE! -Anniversary Edition-",
         "SHUFFLE! -Standard Edition-",
+        "SHUFFLE! Essence+",
         "SHUFFLE! 初回限定版",
         "SHUFFLE! 通常版",
         "SHUFFLE！ Essence＋",
@@ -1874,6 +1876,7 @@
       "names": [
         "CROSS†CHANNEL",
         "CROSS†CHANNEL - Jiaocuo de Shijie",
+        "CROSS†CHANNEL -FINAL COMPLETE-",
         "CROSS†CHANNEL -FINAL COMPLETE- Download Edition",
         "CROSS†CHANNEL -FINAL COMPLETE- ダウンロード版",
         "CROSS†CHANNEL -FINAL COMPLETE-[数量限定版]",
@@ -1902,6 +1905,7 @@
       "names": [
         "CROSS†CHANNEL",
         "CROSS†CHANNEL - Jiaocuo de Shijie",
+        "CROSS†CHANNEL -FINAL COMPLETE-",
         "CROSS†CHANNEL -FINAL COMPLETE- Download Edition",
         "CROSS†CHANNEL -FINAL COMPLETE- ダウンロード版",
         "CROSS†CHANNEL -FINAL COMPLETE-[数量限定版]",
@@ -1957,6 +1961,7 @@
       "names": [
         "CROSS†CHANNEL",
         "CROSS†CHANNEL - Jiaocuo de Shijie",
+        "CROSS†CHANNEL -FINAL COMPLETE-",
         "CROSS†CHANNEL -FINAL COMPLETE- Download Edition",
         "CROSS†CHANNEL -FINAL COMPLETE- ダウンロード版",
         "CROSS†CHANNEL -FINAL COMPLETE-[数量限定版]",
@@ -7049,6 +7054,17 @@
     },
     {
       "steam": "",
+      "bangumi": "502717",
+      "vndb": "v287",
+      "names": [
+        "The world to reverse",
+        "The world to reverse.",
+        "hallucinate",
+        "世界逆转"
+      ]
+    },
+    {
+      "steam": "",
       "bangumi": "686334",
       "vndb": "v288",
       "names": [
@@ -7613,6 +7629,7 @@
       "names": [
         "Chong Ai Shaonü",
         "EXTRAVAGANZA ~Mushi Mederu Shoujo~",
+        "EXTRAVAGANZA ~Mushi Mederu Shoujo~ - Complete Edition",
         "EXTRAVAGANZA ～爱虫的少女～",
         "EXTRAVAGANZA ～蟲愛でる少女～",
         "EXTRAVAGANZA ～蟲愛でる少女～ Windows7対応版",
@@ -9523,6 +9540,7 @@
       "vndb": "v443",
       "names": [
         "Kimi ga Ita Kisetsu",
+        "你所在的季节",
         "君がいた季節",
         "有你在的季节"
       ]
@@ -13040,6 +13058,7 @@
         "Twinkle ☆ Crusaders - Premium Edition",
         "Twinkle ☆ Crusaders - Regular Edition",
         "Twinkle ☆ Crusaders - Remastered Edition",
+        "Twinkle ☆ Crusaders - Remastered Edition - English Translation Patch",
         "Twinkle ☆ Crusaders - Trial Edition",
         "Twinkle ☆ Crusaders Remaster - Download Edition",
         "Twinkle☆Crusaders",
@@ -16219,6 +16238,17 @@
         "斗神都市2",
         "闘神都市2",
         "闘神都市II"
+      ]
+    },
+    {
+      "steam": "",
+      "bangumi": "597707",
+      "vndb": "v890",
+      "names": [
+        "Maison Ikkoku",
+        "Maison Ikkoku ~Omoide no Photograph~",
+        "めぞん一刻 ~想いでのフォトグラフ~",
+        "めぞん一刻 ～想いでのフォトグラフ～"
       ]
     },
     {
@@ -23464,8 +23494,36 @@
       ]
     },
     {
-      "steam": "2764150",
+      "steam": "",
       "bangumi": "103263",
+      "vndb": "v1401",
+      "names": [
+        "Masquerade - DVD Edition",
+        "Masquerade ~Jigoku Gakuen SO/DO/MU~",
+        "Masquerade ~Jigoku Gakuen SO/DO/MU~ Cool-B Trial Edition",
+        "Masquerade ~Jigoku Gakuen SO/DO/MU~ Download Edition",
+        "Masquerade ~Jigoku Gakuen SO/DO/MU~ First Press Edition",
+        "Masquerade ~Jigoku Gakuen SO/DO/MU~ Regular Edition",
+        "Masquerade ~Jigoku Gakuen SO/DO/MU~ Trial Edition",
+        "Masquerade: Hell Academy",
+        "Masquerade: Hell Academy - Censored Edition",
+        "Masquerade: Hell Academy 18+ DLC",
+        "PIL/SLASH3800 Masquerade",
+        "PIL/SLASH3800 Masquerade - Complete Limited Reprint Edition with Drama CD",
+        "PIL/SLASH3800 マスカレード",
+        "PIL/SLASH3800 マスカレード 完全限定生産復刻ドラマCD付き",
+        "マスカレード DVD版",
+        "マスカレード～地獄学園SO/DO/MU～",
+        "マスカレード～地獄学園SO/DO/MU～ Cool-B Trial Edition",
+        "マスカレード～地獄学園SO/DO/MU～ ダウンロード版",
+        "マスカレード～地獄学園SO/DO/MU～ 体験版",
+        "マスカレード～地獄学園SO/DO/MU～ 初回版",
+        "マスカレード～地獄学園SO/DO/MU～ 通常版"
+      ]
+    },
+    {
+      "steam": "2764150",
+      "bangumi": "722035",
       "vndb": "v1401",
       "names": [
         "Masquerade - DVD Edition",
@@ -28030,8 +28088,10 @@
       "vndb": "v1781",
       "names": [
         "Gin no Kanmuri Ao no Namida",
+        "Gin no Kanmuri Ao no Namida - Repackage Edition",
         "Yin zhi Guan Bi zhi Lei",
         "銀の冠 碧の涙",
+        "銀の冠 碧の涙 リパッケージ版",
         "銀の冠碧の涙",
         "銀の冠碧の涙（ぎんのかんむりあおのなみだ）",
         "银之冠 碧之泪"
@@ -28952,11 +29012,13 @@
         "Soushinjutsu Plus",
         "Soushinjutsu Plus - Download Edition",
         "Soushinjutsu ~P.S.＠4~",
+        "Soushinjutsu ~P.S.＠4~ Trial Edition",
         "操心术",
         "操心術＋",
         "操心術＋ ダウンロード版",
         "操心術～P.S.@4～",
-        "操心術～P.S.＠4～"
+        "操心術～P.S.＠4～",
+        "操心術～P.S.＠4～体験版"
       ]
     },
     {
@@ -35196,7 +35258,8 @@
         "EXTRAVAGANZA ～末路の果てに～",
         "EXTRAVAGANZA~末路的尽头~",
         "EXTRAVAGANZA～末路の果てに～",
-        "Extravaganza ~Matsuro no Hate ni~"
+        "Extravaganza ~Matsuro no Hate ni~",
+        "Extravaganza ~Matsuro no Hate ni~ - Complete Edition"
       ]
     },
     {
@@ -35744,7 +35807,6 @@
       "bangumi": "46090",
       "vndb": "v2361",
       "names": [
-        "Heyuanqi Jia de Yizu 2",
         "Heyuanqijiayizu 2",
         "Kawarazaki-ke no Ichizoku 2",
         "Kawarazaki-ke no Ichizoku 2 - CD-ROM Edition",
@@ -37027,7 +37089,9 @@
       "names": [
         "Trouble Trap Laboratory",
         "Trouble Trap Laboratory - Download Edition",
+        "Trouble Trap Laboratory - Trial Edition ver1.5",
         "とらぶるトラップ Laboratory",
+        "とらぶるトラップ Laboratory 体験版 ver1.5",
         "とらぶるトラップLaboratory",
         "とらぶるトラップLaboratory - ダウンロード版"
       ]
@@ -49102,8 +49166,7 @@
         "JACKIN",
         "JACKIN - Download Edition",
         "JACKIN－ジャックイン－",
-        "JACKIN－ジャックイン－ダウンロード版",
-        "Jackin"
+        "JACKIN－ジャックイン－ダウンロード版"
       ]
     },
     {
@@ -55451,7 +55514,7 @@
     },
     {
       "steam": "301380",
-      "bangumi": "",
+      "bangumi": "728682",
       "vndb": "v4134",
       "names": [
         "Date Warp",
@@ -59758,6 +59821,20 @@
         "仕舞妻（しまいづま）～姉妹妻3～",
         "仕舞妻～姉妹妻3～",
         "仕舞妻～姉妹妻3～ ダウンロード版"
+      ]
+    },
+    {
+      "steam": "",
+      "bangumi": "583936",
+      "vndb": "v4487",
+      "names": [
+        "Alice no Kiseki ni Hanataba o [Chuuhen] ~Welcome to the Happy World~",
+        "Alice no Kiseki ni Hanataba o [Zenpen] ~Welcome to the Happy World~",
+        "Alice no Kiseki ni Hanataba o ~Welcome to the Happy World~",
+        "アリスのキセキに花束を [中編]　～Welcome to the happy world～",
+        "アリスのキセキに花束を　[前編] ～Welcome to the happy world～",
+        "アリスのキセキに花束を　～Welcome to the happy world～",
+        "アリスのキセキに花束を～Welcome to the happy world～"
       ]
     },
     {
@@ -70339,6 +70416,7 @@
       "bangumi": "98975",
       "vndb": "v5538",
       "names": [
+        "Girl Next Door",
         "Tonari no Onee-san",
         "Tonari no Onee-san - Download Edition",
         "Tonari no Onee-san - First Press Limited Edition",
@@ -86084,6 +86162,16 @@
     },
     {
       "steam": "",
+      "bangumi": "519293",
+      "vndb": "v6967",
+      "names": [
+        "5 Jikanme no Venus",
+        "5時間目のヴィーナス",
+        "５時間目のヴィーナス"
+      ]
+    },
+    {
+      "steam": "",
       "bangumi": "113835",
       "vndb": "v6968",
       "names": [
@@ -87608,10 +87696,12 @@
       "vndb": "v7093",
       "names": [
         "Gakuen Handsome",
+        "Gakuen Handsome - Trial Edition",
         "Xueyuan Shuaige",
         "学园Handsome",
         "学园帅哥",
-        "学園ハンサム"
+        "学園ハンサム",
+        "学園ハンサム  体験版"
       ]
     },
     {
@@ -97979,6 +98069,7 @@
         "Temptation 2",
         "Temptation 2 - Download Edition",
         "Temptation 2 - Package Edition",
+        "Temptation 2 High-Resolution",
         "Temptation 2 ダウンロード版",
         "Temptation 2 パッケージ版",
         "Temptation2"
@@ -101014,8 +101105,22 @@
       ]
     },
     {
-      "steam": "1201950",
+      "steam": "",
       "bangumi": "243568",
+      "vndb": "v8469",
+      "names": [
+        "Danchizuma ~Otoko to, Shimakuru, Onna-tachi~",
+        "Danchizuma ~Otoko to, Shimakuru, Onna-tachi~ Download Edition",
+        "Danchizuma ~Otoko to, Shimakuru, Onna-tachi~ Package Edition",
+        "Lust of the Apartment Wives",
+        "男痴妻～オトコト、シマクル、オンナタチ～",
+        "男痴妻～オトコト、シマクル、オンナタチ～  ダウンロード版",
+        "男痴妻～オトコト、シマクル、オンナタチ～  パッケージ版"
+      ]
+    },
+    {
+      "steam": "1201950",
+      "bangumi": "730259",
       "vndb": "v8469",
       "names": [
         "Danchizuma ~Otoko to, Shimakuru, Onna-tachi~",
@@ -102973,6 +103078,16 @@
     },
     {
       "steam": "",
+      "bangumi": "523387",
+      "vndb": "v8692",
+      "names": [
+        "Gakuen Monogatari '93 ~The Instinct~",
+        "学園物語'93 ~The Instinct~",
+        "学園物語＇９３ ～Ｔｈｅ Ｉｎｓｔｉｎｃｔ～"
+      ]
+    },
+    {
+      "steam": "",
       "bangumi": "536665",
       "vndb": "v8693",
       "names": [
@@ -103679,6 +103794,17 @@
     },
     {
       "steam": "",
+      "bangumi": "552590",
+      "vndb": "v8767",
+      "names": [
+        "Kira*Kira",
+        "Kira*Kira:Renewal",
+        "Kira*kira... Renewal",
+        "Kira*kira・・・Renewal"
+      ]
+    },
+    {
+      "steam": "",
       "bangumi": "203931",
       "vndb": "v8768",
       "names": [
@@ -104375,6 +104501,16 @@
     },
     {
       "steam": "",
+      "bangumi": "527133",
+      "vndb": "v8851",
+      "names": [
+        "Yume Utsutsu",
+        "夢現 Ｄｒｅａｍｙ －ゆめうつつ－",
+        "夢現Dreamy －ゆめうつつ－"
+      ]
+    },
+    {
+      "steam": "",
       "bangumi": "536418",
       "vndb": "v8852",
       "names": [
@@ -104493,6 +104629,16 @@
       "names": [
         "Lovely Horror - Ochame na Yuurei",
         "ラブリーホラー おちゃめなゆうれい"
+      ]
+    },
+    {
+      "steam": "",
+      "bangumi": "529610",
+      "vndb": "v8867",
+      "names": [
+        "Narutomaki Hichou ~Tsuukai Gag Aventure~",
+        "鳴門巻秘帖 ～痛快ぎゃぐあばんちゅーる～",
+        "鳴門巻秘帖　～痛快ぎゃぐあばんちゅーる～"
       ]
     },
     {
@@ -104885,7 +105031,11 @@
       "vndb": "v8936",
       "names": [
         "Koroshi no Dress 3",
-        "殺しのドレス３"
+        "Koroshi no Dress 3 - Download Edition",
+        "Koroshi no Dress 3 - Windows Compatible CD-ROM Edition",
+        "殺しのドレス３",
+        "殺しのドレス３DL版",
+        "殺しのドレス３Windows対応CD-ROM版"
       ]
     },
     {
@@ -113739,6 +113889,16 @@
     },
     {
       "steam": "",
+      "bangumi": "731764",
+      "vndb": "v10062",
+      "names": [
+        "HE -Enclosed Space-",
+        "HE -Tozasareta Kuukan-",
+        "ＨＥ-閉ざされた空間-"
+      ]
+    },
+    {
+      "steam": "",
       "bangumi": "517729",
       "vndb": "v10063",
       "names": [
@@ -118428,6 +118588,9 @@
       "vndb": "v10560",
       "names": [
         "Kamaitachi no Yoru Triple: Mikazukishima Jiken no Shinsou",
+        "Kamaitachi no Yoru x3",
+        "Mikazuki X3",
+        "かまいたちの夜 x3",
         "かまいたちの夜x3 三日月島事件の真相"
       ]
     },
@@ -128970,7 +129133,7 @@
     },
     {
       "steam": "2261640",
-      "bangumi": "",
+      "bangumi": "724490",
       "vndb": "v11854",
       "names": [
         "Missing Stars",
@@ -144479,6 +144642,16 @@
     },
     {
       "steam": "",
+      "bangumi": "557355",
+      "vndb": "v13856",
+      "names": [
+        "2 Gatsu no Kataomoi",
+        "2月の片思い",
+        "２月の片思い"
+      ]
+    },
+    {
+      "steam": "",
       "bangumi": "585903",
       "vndb": "v13857",
       "names": [
@@ -152118,7 +152291,7 @@
     },
     {
       "steam": "451640",
-      "bangumi": "",
+      "bangumi": "728770",
       "vndb": "v14814",
       "names": [
         "C14 Dating"
@@ -153057,6 +153230,7 @@
       "names": [
         "Fraternite",
         "Fraternite - Download Edition",
+        "Fraternite - HD Remaster",
         "Fraternite - HD Remaster - Download Edition",
         "Fraternite - HD Remaster - Package Edition",
         "Fraternite - Package Edition",
@@ -162651,7 +162825,7 @@
     },
     {
       "steam": "352640",
-      "bangumi": "",
+      "bangumi": "728726",
       "vndb": "v16125",
       "names": [
         "Detective Chirpums: Private Investigator",
@@ -164318,8 +164492,17 @@
       ]
     },
     {
-      "steam": "913500",
+      "steam": "",
       "bangumi": "221873",
+      "vndb": "v16322",
+      "names": [
+        "Prank Masters",
+        "Prank Masters Demo"
+      ]
+    },
+    {
+      "steam": "913500",
+      "bangumi": "",
       "vndb": "v16322",
       "names": [
         "Prank Masters",
@@ -164595,7 +164778,7 @@
       "bangumi": "107793",
       "vndb": "v16365",
       "names": [
-        "Bishoujo Hanafuda Kikou Michinoku Hitou Koimonogatari",
+        "Bishoujo Hanafuda Kikou: Michinoku Hitou Koi Monogatari",
         "Michinoku Hitou Koimonogatari",
         "秘汤恋物语",
         "美少女花札紀行 みちのく秘湯恋物語",
@@ -166231,7 +166414,7 @@
     },
     {
       "steam": "342450",
-      "bangumi": "",
+      "bangumi": "728714",
       "vndb": "v16561",
       "names": [
         "Sword Daughter"
@@ -167018,7 +167201,7 @@
     },
     {
       "steam": "482990",
-      "bangumi": "",
+      "bangumi": "728784",
       "vndb": "v16681",
       "names": [
         "Heirs And Graces",
@@ -168340,7 +168523,7 @@
     },
     {
       "steam": "358760",
-      "bangumi": "",
+      "bangumi": "728736",
       "vndb": "v16853",
       "names": [
         "Moonshot - Demo",
@@ -168351,7 +168534,7 @@
     },
     {
       "steam": "463950",
-      "bangumi": "",
+      "bangumi": "728736",
       "vndb": "v16853",
       "names": [
         "Moonshot - Demo",
@@ -169048,7 +169231,7 @@
     },
     {
       "steam": "387100",
-      "bangumi": "",
+      "bangumi": "728747",
       "vndb": "v16907",
       "names": [
         "Walkerman",
@@ -169060,7 +169243,7 @@
     },
     {
       "steam": "399280",
-      "bangumi": "",
+      "bangumi": "728747",
       "vndb": "v16907",
       "names": [
         "Walkerman",
@@ -169072,7 +169255,7 @@
     },
     {
       "steam": "437360",
-      "bangumi": "",
+      "bangumi": "728747",
       "vndb": "v16907",
       "names": [
         "Walkerman",
@@ -175832,11 +176015,16 @@
       "vndb": "v17909",
       "names": [
         "TSUKIHIME -A piece of blue glass moon-",
+        "TSUKIHIME -A piece of blue glass moon- PC port",
         "Tsukihime -A piece of blue glass moon-",
+        "Tsukihime -A piece of blue glass moon- PC port",
         "Yueji -A piece of blue glass moon-",
+        "Yueji -A piece of blue glass moon- PC port",
         "月姫 -A piece of blue glass moon-",
+        "月姫 -A piece of blue glass moon- PC port",
         "月姫リメイク",
         "月姬 -A piece of blue glass moon-",
+        "月姬 -A piece of blue glass moon- PC port",
         "月姬 Remake",
         "月姬 重制版",
         "月姬R",
@@ -177286,8 +177474,12 @@
       "vndb": "v18101",
       "names": [
         "Star Platinum",
+        "Star Platinum - Download Edition",
         "Star Platinum - Menu Patch",
-        "スタープラチナ"
+        "Star Platinum - Windows Compatible CD-ROM Edition",
+        "スタープラチナ",
+        "スタープラチナ DL版",
+        "スタープラチナ Windows対応CD-ROM版"
       ]
     },
     {
@@ -177941,6 +178133,7 @@
       "vndb": "v18152",
       "names": [
         "FLOWERS - Le volume sur automne -",
+        "FLOWERS - Le volume sur automne - ダウンロード版",
         "FLOWERS - Le volume sur automne - ＜初回限定版＞",
         "FLOWERS - Le volume sur automne - ＜通常版＞",
         "FLOWERS -Le volume sur automne-",
@@ -179748,6 +179941,16 @@
       ]
     },
     {
+      "steam": "",
+      "bangumi": "555737",
+      "vndb": "v18377",
+      "names": [
+        "Stopping!! 11 the Calamity of Time Stop",
+        "Stopping!! 11 the calamity of time stop",
+        "ストッピング!!11 時間の災害は止まる"
+      ]
+    },
+    {
       "steam": "451760",
       "bangumi": "172502",
       "vndb": "v18381",
@@ -180280,7 +180483,7 @@
     },
     {
       "steam": "543290",
-      "bangumi": "",
+      "bangumi": "731116",
       "vndb": "v18443",
       "names": [
         "Void & Nothingness"
@@ -180381,7 +180584,7 @@
     },
     {
       "steam": "413870",
-      "bangumi": "",
+      "bangumi": "724665",
       "vndb": "v18454",
       "names": [
         "Sickness",
@@ -180390,7 +180593,7 @@
     },
     {
       "steam": "431420",
-      "bangumi": "",
+      "bangumi": "724665",
       "vndb": "v18454",
       "names": [
         "Sickness",
@@ -181287,7 +181490,7 @@
     },
     {
       "steam": "301930",
-      "bangumi": "",
+      "bangumi": "728684",
       "vndb": "v18563",
       "names": [
         "Totsugeki! Ningen Sensha Limited Operations",
@@ -182234,7 +182437,7 @@
     },
     {
       "steam": "398100",
-      "bangumi": "",
+      "bangumi": "722964",
       "vndb": "v18678",
       "names": [
         "Highschool Romance"
@@ -182810,7 +183013,7 @@
     },
     {
       "steam": "408770",
-      "bangumi": "",
+      "bangumi": "728753",
       "vndb": "v18707",
       "names": [
         "Highschool Possession",
@@ -184378,16 +184581,17 @@
     },
     {
       "steam": "1350690",
-      "bangumi": "",
+      "bangumi": "552606",
       "vndb": "v18843",
       "names": [
         "Heupyeolgwiui Yeonaebangbeop",
+        "How a vampire loves human",
         "흡혈귀의 연애방법"
       ]
     },
     {
       "steam": "435260",
-      "bangumi": "",
+      "bangumi": "728761",
       "vndb": "v18845",
       "names": [
         "Planet Stronghold: Colonial Defense"
@@ -186024,7 +186228,7 @@
     },
     {
       "steam": "427860",
-      "bangumi": "",
+      "bangumi": "728056",
       "vndb": "v19043",
       "names": [
         "The Next World",
@@ -186033,7 +186237,7 @@
     },
     {
       "steam": "491740",
-      "bangumi": "",
+      "bangumi": "728056",
       "vndb": "v19043",
       "names": [
         "The Next World",
@@ -186962,7 +187166,7 @@
     },
     {
       "steam": "3880030",
-      "bangumi": "",
+      "bangumi": "722278",
       "vndb": "v19154",
       "names": [
         "Gangsters in Love"
@@ -190027,6 +190231,7 @@
       "names": [
         "FLOWERS - Le volume sur hiver -",
         "FLOWERS -Le volume sur hiver-",
+        "FLOWERS −Le volume sur hiver− ダウンロード版",
         "FLOWERS 冬篇",
         "FLOWERS 冬篇 初回限定版",
         "Flowers -Le Volume sur Hiver- Download Edition",
@@ -190907,7 +191112,7 @@
     },
     {
       "steam": "508230",
-      "bangumi": "",
+      "bangumi": "732838",
       "vndb": "v19637",
       "names": [
         "Anime Studio Simulator",
@@ -192511,10 +192716,11 @@
     },
     {
       "steam": "618430",
-      "bangumi": "",
+      "bangumi": "728876",
       "vndb": "v19775",
       "names": [
         "Episicava - Demo",
+        "Episicava - Vol. 1",
         "Episicava Vol.1",
         "Episicava Vol.1 - Censored Edition",
         "Episicava Vol.1 - Download Edition",
@@ -193363,7 +193569,7 @@
     },
     {
       "steam": "499910",
-      "bangumi": "",
+      "bangumi": "733267",
       "vndb": "v19904",
       "names": [
         "SHINRAI - Broken Beyond Despair",
@@ -194562,7 +194768,7 @@
     },
     {
       "steam": "520520",
-      "bangumi": "",
+      "bangumi": "728805",
       "vndb": "v20058",
       "names": [
         "It Comes Around",
@@ -195040,7 +195246,7 @@
     },
     {
       "steam": "590800",
-      "bangumi": "",
+      "bangumi": "728855",
       "vndb": "v20128",
       "names": [
         "Rainbow Dreams",
@@ -196084,7 +196290,7 @@
     },
     {
       "steam": "557770",
-      "bangumi": "",
+      "bangumi": "502532",
       "vndb": "v20237",
       "names": [
         "Pawn"
@@ -198192,7 +198398,7 @@
     },
     {
       "steam": "618000",
-      "bangumi": "",
+      "bangumi": "722984",
       "vndb": "v20439",
       "names": [
         "The Curse Of Mantras"
@@ -199452,7 +199658,7 @@
     },
     {
       "steam": "1330190",
-      "bangumi": "",
+      "bangumi": "730318",
       "vndb": "v20614",
       "names": [
         "A Town Uncovered",
@@ -201065,18 +201271,32 @@
       "vndb": "v20834",
       "names": [
         "Crown⇔Clown",
+        "Crown⇔Clown - EX Episode Additional Patch",
         "Crown⇔Clown - General Release",
         "Crown⇔Clown - STAGE 2",
         "Crown⇔Clown - STAGE 3",
         "Crown⇔Clown - STAGE 4",
+        "Crown⇔Clown - STAGE 5",
         "Crown⇔Clown - STAGE1",
+        "Crown⇔Clown - STEP10",
+        "Crown⇔Clown - STEP6",
+        "Crown⇔Clown - STEP7",
+        "Crown⇔Clown - STEP8",
+        "Crown⇔Clown - STEP9",
         "Crown⇔Clown - Stage 1",
         "Crown⇔Clown - Stage 2",
         "Crown⇔Clown - Stage 3",
         "Crown⇔Clown - Stage 4",
+        "Crown⇔Clown - Stage 5",
+        "Crown⇔Clown - Step 10",
+        "Crown⇔Clown - Step 6",
+        "Crown⇔Clown - Step 7",
+        "Crown⇔Clown - Step 8",
+        "Crown⇔Clown - Step 9",
         "Crown⇔Clown - Trial",
         "Crown⇔Clown - 一般発売",
-        "Crown⇔Clown - 体験版"
+        "Crown⇔Clown - 体験版",
+        "「Crown⇔Clown」EXエピソード追加パッチ"
       ]
     },
     {
@@ -201664,7 +201884,7 @@
     },
     {
       "steam": "4190490",
-      "bangumi": "",
+      "bangumi": "723851",
       "vndb": "v20912",
       "names": [
         "Love & Legends",
@@ -202031,8 +202251,18 @@
       ]
     },
     {
-      "steam": "1095880",
+      "steam": "",
       "bangumi": "517500",
+      "vndb": "v20961",
+      "names": [
+        "A Day in the Life of Maria",
+        "Maria no Ichinichi",
+        "マリアの一日"
+      ]
+    },
+    {
+      "steam": "1095880",
+      "bangumi": "732783",
       "vndb": "v20961",
       "names": [
         "A Day in the Life of Maria",
@@ -202297,7 +202527,7 @@
     },
     {
       "steam": "576020",
-      "bangumi": "",
+      "bangumi": "502535",
       "vndb": "v20999",
       "names": [
         "Final Theosis"
@@ -202845,7 +203075,7 @@
     },
     {
       "steam": "627820",
-      "bangumi": "",
+      "bangumi": "728881",
       "vndb": "v21108",
       "names": [
         "England Exchange",
@@ -203024,7 +203254,7 @@
     },
     {
       "steam": "1247460",
-      "bangumi": "",
+      "bangumi": "724340",
       "vndb": "v21134",
       "names": [
         "To the Edge of the Sky",
@@ -204591,6 +204821,7 @@
       "vndb": "v21343",
       "names": [
         "Kimi ga Nozomu Muv-Luv",
+        "你所期望的真爱",
         "君が望む真愛"
       ]
     },
@@ -207068,6 +207299,7 @@
       "bangumi": "221745",
       "vndb": "v21675",
       "names": [
+        "Amakano ~Second Season~ Plus",
         "Amakano ~Second Season~+",
         "Amakano ~Second Season~+ Download Edition",
         "Amakano ~Second Season~+ Itsu Made mo Ama Ama Append Patch",
@@ -209342,10 +209574,11 @@
     },
     {
       "steam": "4314480",
-      "bangumi": "",
+      "bangumi": "722645",
       "vndb": "v21940",
       "names": [
         "Havenfall Is for Lovers",
+        "Havenfall is For Lovers",
         "Havenfall is for Lovers Remi [v1.3]"
       ]
     },
@@ -210087,7 +210320,7 @@
     },
     {
       "steam": "675890",
-      "bangumi": "",
+      "bangumi": "728938",
       "vndb": "v22034",
       "names": [
         "Within a Rose"
@@ -210265,7 +210498,7 @@
     },
     {
       "steam": "738900",
-      "bangumi": "",
+      "bangumi": "729978",
       "vndb": "v22046",
       "names": [
         "Winter's Symphonies",
@@ -210314,7 +210547,7 @@
       ]
     },
     {
-      "steam": "1333560",
+      "steam": "2850940",
       "bangumi": "669894",
       "vndb": "v22053",
       "names": [
@@ -210327,8 +210560,8 @@
       ]
     },
     {
-      "steam": "2850940",
-      "bangumi": "669894",
+      "steam": "1333560",
+      "bangumi": "723394",
       "vndb": "v22053",
       "names": [
         "Timestamps",
@@ -211123,7 +211356,7 @@
     },
     {
       "steam": "740600",
-      "bangumi": "",
+      "bangumi": "723557",
       "vndb": "v22151",
       "names": [
         "Gachimuchi"
@@ -211147,6 +211380,7 @@
         "恋心与魔法誓言",
         "相恋之心与魔法之语",
         "相恋之心愿与魔法的言语",
+        "相戀之心與魔法之語",
         "陷入恋爱的内心与魔法的言语"
       ]
     },
@@ -211503,7 +211737,7 @@
     },
     {
       "steam": "1132110",
-      "bangumi": "",
+      "bangumi": "733627",
       "vndb": "v22201",
       "names": [
         "Heaven's Grave",
@@ -211531,7 +211765,7 @@
     },
     {
       "steam": "696310",
-      "bangumi": "",
+      "bangumi": "728965",
       "vndb": "v22207",
       "names": [
         "The Ghost of Joe Papp",
@@ -211542,7 +211776,7 @@
     },
     {
       "steam": "711940",
-      "bangumi": "",
+      "bangumi": "728965",
       "vndb": "v22207",
       "names": [
         "The Ghost of Joe Papp",
@@ -211553,7 +211787,7 @@
     },
     {
       "steam": "731960",
-      "bangumi": "",
+      "bangumi": "728965",
       "vndb": "v22207",
       "names": [
         "The Ghost of Joe Papp",
@@ -211564,7 +211798,7 @@
     },
     {
       "steam": "778790",
-      "bangumi": "",
+      "bangumi": "728965",
       "vndb": "v22207",
       "names": [
         "The Ghost of Joe Papp",
@@ -213686,9 +213920,10 @@
     },
     {
       "steam": "2693710",
-      "bangumi": "",
+      "bangumi": "733395",
       "vndb": "v22504",
       "names": [
+        "HARDCODED",
         "Hardcoded",
         "Hardcoded - Demo"
       ]
@@ -214866,7 +215101,7 @@
     },
     {
       "steam": "3962840",
-      "bangumi": "",
+      "bangumi": "722326",
       "vndb": "v22606",
       "names": [
         "TACOS - The Adventurous Couple's Original Story Season 1",
@@ -215409,7 +215644,7 @@
     },
     {
       "steam": "1070240",
-      "bangumi": "",
+      "bangumi": "724084",
       "vndb": "v22673",
       "names": [
         "Peace of Evil",
@@ -216811,7 +217046,7 @@
     },
     {
       "steam": "833040",
-      "bangumi": "",
+      "bangumi": "730112",
       "vndb": "v22850",
       "names": [
         "Hiveswap Friendsim",
@@ -216837,7 +217072,7 @@
     },
     {
       "steam": "848020",
-      "bangumi": "",
+      "bangumi": "730112",
       "vndb": "v22850",
       "names": [
         "Hiveswap Friendsim",
@@ -216863,7 +217098,7 @@
     },
     {
       "steam": "859130",
-      "bangumi": "",
+      "bangumi": "730112",
       "vndb": "v22850",
       "names": [
         "Hiveswap Friendsim",
@@ -216889,7 +217124,7 @@
     },
     {
       "steam": "864980",
-      "bangumi": "",
+      "bangumi": "730112",
       "vndb": "v22850",
       "names": [
         "Hiveswap Friendsim",
@@ -216915,7 +217150,7 @@
     },
     {
       "steam": "878920",
-      "bangumi": "",
+      "bangumi": "730112",
       "vndb": "v22850",
       "names": [
         "Hiveswap Friendsim",
@@ -216941,7 +217176,7 @@
     },
     {
       "steam": "886930",
-      "bangumi": "",
+      "bangumi": "730112",
       "vndb": "v22850",
       "names": [
         "Hiveswap Friendsim",
@@ -216967,7 +217202,7 @@
     },
     {
       "steam": "892400",
-      "bangumi": "",
+      "bangumi": "730112",
       "vndb": "v22850",
       "names": [
         "Hiveswap Friendsim",
@@ -216993,7 +217228,7 @@
     },
     {
       "steam": "904580",
-      "bangumi": "",
+      "bangumi": "730112",
       "vndb": "v22850",
       "names": [
         "Hiveswap Friendsim",
@@ -217019,7 +217254,7 @@
     },
     {
       "steam": "913810",
-      "bangumi": "",
+      "bangumi": "730112",
       "vndb": "v22850",
       "names": [
         "Hiveswap Friendsim",
@@ -217045,7 +217280,7 @@
     },
     {
       "steam": "922430",
-      "bangumi": "",
+      "bangumi": "730112",
       "vndb": "v22850",
       "names": [
         "Hiveswap Friendsim",
@@ -217071,7 +217306,7 @@
     },
     {
       "steam": "931920",
-      "bangumi": "",
+      "bangumi": "730112",
       "vndb": "v22850",
       "names": [
         "Hiveswap Friendsim",
@@ -217097,7 +217332,7 @@
     },
     {
       "steam": "941220",
-      "bangumi": "",
+      "bangumi": "730112",
       "vndb": "v22850",
       "names": [
         "Hiveswap Friendsim",
@@ -217123,7 +217358,7 @@
     },
     {
       "steam": "950820",
-      "bangumi": "",
+      "bangumi": "730112",
       "vndb": "v22850",
       "names": [
         "Hiveswap Friendsim",
@@ -217149,7 +217384,7 @@
     },
     {
       "steam": "959160",
-      "bangumi": "",
+      "bangumi": "730112",
       "vndb": "v22850",
       "names": [
         "Hiveswap Friendsim",
@@ -217175,7 +217410,7 @@
     },
     {
       "steam": "966360",
-      "bangumi": "",
+      "bangumi": "730112",
       "vndb": "v22850",
       "names": [
         "Hiveswap Friendsim",
@@ -217201,7 +217436,7 @@
     },
     {
       "steam": "975560",
-      "bangumi": "",
+      "bangumi": "730112",
       "vndb": "v22850",
       "names": [
         "Hiveswap Friendsim",
@@ -217227,7 +217462,7 @@
     },
     {
       "steam": "986510",
-      "bangumi": "",
+      "bangumi": "730112",
       "vndb": "v22850",
       "names": [
         "Hiveswap Friendsim",
@@ -217253,7 +217488,7 @@
     },
     {
       "steam": "998810",
-      "bangumi": "",
+      "bangumi": "730112",
       "vndb": "v22850",
       "names": [
         "Hiveswap Friendsim",
@@ -218295,7 +218530,7 @@
     },
     {
       "steam": "1724810",
-      "bangumi": "",
+      "bangumi": "723445",
       "vndb": "v23022",
       "names": [
         "House of Maids",
@@ -218525,7 +218760,7 @@
     },
     {
       "steam": "831720",
-      "bangumi": "",
+      "bangumi": "541944",
       "vndb": "v23062",
       "names": [
         "EMMA The Story"
@@ -219327,7 +219562,7 @@
     },
     {
       "steam": "847950",
-      "bangumi": "",
+      "bangumi": "724731",
       "vndb": "v23139",
       "names": [
         "Yakuza Kiss",
@@ -220564,7 +220799,7 @@
     },
     {
       "steam": "876290",
-      "bangumi": "",
+      "bangumi": "723571",
       "vndb": "v23311",
       "names": [
         "Let's Split Up",
@@ -220740,7 +220975,7 @@
     },
     {
       "steam": "1271820",
-      "bangumi": "",
+      "bangumi": "730298",
       "vndb": "v23335",
       "names": [
         "Jaw Breakers & The Confection Connection",
@@ -221751,7 +221986,7 @@
     },
     {
       "steam": "820510",
-      "bangumi": "",
+      "bangumi": "730107",
       "vndb": "v23507",
       "names": [
         "Camp W"
@@ -222747,7 +222982,7 @@
     },
     {
       "steam": "1419740",
-      "bangumi": "",
+      "bangumi": "723720",
       "vndb": "v23763",
       "names": [
         "The Witch in the Forest",
@@ -223620,7 +223855,7 @@
     },
     {
       "steam": "1719830",
-      "bangumi": "",
+      "bangumi": "730680",
       "vndb": "v24039",
       "names": [
         "SRRT! (Sex Robot Road Trip)",
@@ -225706,7 +225941,7 @@
     },
     {
       "steam": "1748300",
-      "bangumi": "",
+      "bangumi": "731302",
       "vndb": "v24395",
       "names": [
         "Dear Monster",
@@ -225715,7 +225950,7 @@
     },
     {
       "steam": "1835130",
-      "bangumi": "",
+      "bangumi": "731302",
       "vndb": "v24395",
       "names": [
         "Dear Monster",
@@ -226393,12 +226628,13 @@
     },
     {
       "steam": "890700",
-      "bangumi": "",
+      "bangumi": "730134",
       "vndb": "v24502",
       "names": [
         "Caffeine: Victoria's Legacy",
         "Caffeine: Victoria's Legacy - Demo",
-        "Caffeine: Victoria's Legacy - Demo 2"
+        "Caffeine: Victoria's Legacy - Demo 2",
+        "咖啡因之城"
       ]
     },
     {
@@ -227000,7 +227236,7 @@
     },
     {
       "steam": "954150",
-      "bangumi": "",
+      "bangumi": "722777",
       "vndb": "v24574",
       "names": [
         "Nowhere Girl"
@@ -228087,8 +228323,19 @@
       ]
     },
     {
-      "steam": "1194870",
+      "steam": "",
       "bangumi": "279152",
+      "vndb": "v24685",
+      "names": [
+        "Touchuu Kasou",
+        "Touchuu Kasou - extended paid version",
+        "Winter Worm, Summer Grass",
+        "冬蟲禍草"
+      ]
+    },
+    {
+      "steam": "1194870",
+      "bangumi": "730253",
       "vndb": "v24685",
       "names": [
         "Touchuu Kasou",
@@ -228490,7 +228737,7 @@
     },
     {
       "steam": "1064140",
-      "bangumi": "",
+      "bangumi": "724082",
       "vndb": "v24731",
       "names": [
         "Blood and Lust"
@@ -230558,8 +230805,8 @@
       "bangumi": "631407",
       "vndb": "v24897",
       "names": [
+        "SOLD OUT FRONTIER ~Reifu-tachi no Kihin Shakou Ressha~",
         "SOLD OUT FRONTIER ～隷婦達の貴賓社交列車～",
-        "Sold Out Frontier ~Reifu-tachi no Kihin Shakou Ressha~",
         "ソウルドアウト"
       ]
     },
@@ -235618,7 +235865,7 @@
     },
     {
       "steam": "920200",
-      "bangumi": "",
+      "bangumi": "723573",
       "vndb": "v25696",
       "names": [
         "Artificial Mansion"
@@ -236034,7 +236281,7 @@
     },
     {
       "steam": "1048090",
-      "bangumi": "",
+      "bangumi": "722785",
       "vndb": "v25745",
       "names": [
         "The Fifth Horseman"
@@ -238461,7 +238708,7 @@
     },
     {
       "steam": "1404710",
-      "bangumi": "",
+      "bangumi": "728197",
       "vndb": "v26142",
       "names": [
         "Kosmos Connections",
@@ -238761,7 +239008,7 @@
     },
     {
       "steam": "985690",
-      "bangumi": "",
+      "bangumi": "730166",
       "vndb": "v26190",
       "names": [
         "Fall In Love - My Billionaire Boss"
@@ -239501,7 +239748,7 @@
     },
     {
       "steam": "1178710",
-      "bangumi": "",
+      "bangumi": "724774",
       "vndb": "v26302",
       "names": [
         "The Legend of Arcadieu",
@@ -239512,7 +239759,7 @@
     },
     {
       "steam": "1183110",
-      "bangumi": "",
+      "bangumi": "724774",
       "vndb": "v26302",
       "names": [
         "The Legend of Arcadieu",
@@ -240291,7 +240538,7 @@
     },
     {
       "steam": "1165920",
-      "bangumi": "",
+      "bangumi": "730247",
       "vndb": "v26393",
       "names": [
         "Lives so Sweet"
@@ -240412,7 +240659,7 @@
     },
     {
       "steam": "592200",
-      "bangumi": "",
+      "bangumi": "728856",
       "vndb": "v26407",
       "names": [
         "Super Army of Tentacles 3: The Search for Army of Tentacles 2",
@@ -240421,7 +240668,7 @@
     },
     {
       "steam": "763000",
-      "bangumi": "",
+      "bangumi": "728856",
       "vndb": "v26407",
       "names": [
         "Super Army of Tentacles 3: The Search for Army of Tentacles 2",
@@ -240533,12 +240780,14 @@
         "Chinkamo Twins! ~Futago no Imouto-tachi ni Natsukareteru no wa Wakatteta kedo Masaka Ren'ai Kanjou ni Kawaru Nante Omottenakatta Ken~ Download Edition",
         "Chinkamo Twins! ~Futago no Imouto-tachi ni Natsukareteru no wa Wakatteta kedo Masaka Ren'ai Kanjou ni Kawaru Nante Omottenakatta Ken~ Package Edition",
         "Chinkamo Twins! ~Futago no Imouto-tachi ni Natsukareteru no wa Wakatteta kedo Masaka Ren'ai Kanjou ni Kawaru Nante Omottenakatta Ken~ Saaya Dakimakura Cover Included Edition",
+        "Chinkamo Twins! ~Futago no Imouto-tachi ni Natsukareteru no wa Wakatteta kedo Masaka Ren'ai Kanjou ni Kawaru Nante Omottenakatta Ken~ Trial Edition",
         "Rujiaosiqi Shuangbaotai! Guanyu Hen Nianwo de Shuangbaotai Jiemeimen Juran Xihuan Shang le Wo Zhejianshi",
         "Wo Ke'ai de Shuangzi Meimei",
         "ちんかもツインズ！ ～ふたごの妹たちに懐かれてるのはわかってたけどまさか恋愛感情に変わるなんて思ってなかった件～",
         "ちんかもツインズ！ ～ふたごの妹たちに懐かれてるのはわかってたけどまさか恋愛感情に変わるなんて思ってなかった件～ さーや抱き枕カバー付き版",
         "ちんかもツインズ！ ～ふたごの妹たちに懐かれてるのはわかってたけどまさか恋愛感情に変わるなんて思ってなかった件～ ダウンロード版",
         "ちんかもツインズ！ ～ふたごの妹たちに懐かれてるのはわかってたけどまさか恋愛感情に変わるなんて思ってなかった件～ パッケージ版",
+        "ちんかもツインズ！ ～ふたごの妹たちに懐かれてるのはわかってたけどまさか恋愛感情に変わるなんて思ってなかった件～ 体験版",
         "如胶似漆双胞胎！关于很黏我的双胞胎妹妹们居然喜欢上了我这件事",
         "我可愛的雙子妹妹",
         "我可爱的双子妹妹",
@@ -240985,7 +241234,7 @@
     },
     {
       "steam": "1148400",
-      "bangumi": "",
+      "bangumi": "721959",
       "vndb": "v26472",
       "names": [
         "Blooming Nightshade",
@@ -241442,7 +241691,7 @@
     },
     {
       "steam": "1137620",
-      "bangumi": "",
+      "bangumi": "728152",
       "vndb": "v26540",
       "names": [
         "Sexy President",
@@ -241451,7 +241700,7 @@
     },
     {
       "steam": "1203640",
-      "bangumi": "",
+      "bangumi": "728152",
       "vndb": "v26540",
       "names": [
         "Sexy President",
@@ -242487,7 +242736,7 @@
     },
     {
       "steam": "1652030",
-      "bangumi": "",
+      "bangumi": "730593",
       "vndb": "v26736",
       "names": [
         "Flowering Nightshade",
@@ -242671,6 +242920,7 @@
       "bangumi": "293692",
       "vndb": "v26757",
       "names": [
+        "Onee-chan! My White Pee is Coming!!",
         "Stop it! Onee-Chan!! I’m Gonna Cum!!",
         "Yamete! Onee-chan!! Shiroi Oshikko ga Dechau!!",
         "やめて! お姉ちゃん!! 白いオシッコがでちゃう!!",
@@ -243388,7 +243638,7 @@
     },
     {
       "steam": "1362980",
-      "bangumi": "",
+      "bangumi": "732060",
       "vndb": "v26859",
       "names": [
         "Hanapon Princess",
@@ -243397,7 +243647,7 @@
     },
     {
       "steam": "1363910",
-      "bangumi": "",
+      "bangumi": "732060",
       "vndb": "v26859",
       "names": [
         "Hanapon Princess",
@@ -243632,7 +243882,7 @@
     },
     {
       "steam": "1165020",
-      "bangumi": "",
+      "bangumi": "723603",
       "vndb": "v26895",
       "names": [
         "Legend of Everything"
@@ -243640,7 +243890,7 @@
     },
     {
       "steam": "2594810",
-      "bangumi": "",
+      "bangumi": "724972",
       "vndb": "v26896",
       "names": [
         "Pirates Of Gensokyo"
@@ -243871,7 +244121,7 @@
     },
     {
       "steam": "1014750",
-      "bangumi": "",
+      "bangumi": "732354",
       "vndb": "v26926",
       "names": [
         "Dupli_City"
@@ -243973,7 +244223,7 @@
       "vndb": "v26952",
       "names": [
         "Kyonyuu Hitozuma Netorare Saimin ~Share House de Kanrinin to Tsuma ga…… ~",
-        "Kyonyuu Hitozuma Netorare Saimin ~Share House de Kanrinin to Tsuma ga…… ~ - Download Edition",
+        "Kyonyuu Hitozuma Netorare Saimin ~Share House de Kanrinin to Tsuma ga…… ~ Download Edition",
         "巨乳人妻寝取られ催眠 ～シェアハウスで管理人と妻が…… ～",
         "巨乳人妻寝取られ催眠 ～シェアハウスで管理人と妻が…… ～ ダウンロード版",
         "巨乳人妻寝取られ催眠 ～シェアハウスで管理人と妻が…～"
@@ -244100,6 +244350,15 @@
       ]
     },
     {
+      "steam": "",
+      "bangumi": "712347",
+      "vndb": "v26982",
+      "names": [
+        "Emmy",
+        "エミー"
+      ]
+    },
+    {
       "steam": "1607200",
       "bangumi": "295075",
       "vndb": "v26987",
@@ -244190,6 +244449,15 @@
         "三〇一室无一人 标准版",
         "三〇一室无一人 试玩版",
         "三〇一室无一人 豪华版"
+      ]
+    },
+    {
+      "steam": "",
+      "bangumi": "722228",
+      "vndb": "v26991",
+      "names": [
+        "Fushigi no Kabe",
+        "不思議の壁"
       ]
     },
     {
@@ -247505,7 +247773,8 @@
       "names": [
         "Rabbit Heart!",
         "​ラビっとはーと！",
-        "ラビっとはーと！"
+        "ラビっとはーと！",
+        "兔子之心"
       ]
     },
     {
@@ -248817,7 +249086,7 @@
     },
     {
       "steam": "1118000",
-      "bangumi": "",
+      "bangumi": "732371",
       "vndb": "v27702",
       "names": [
         "Revenant March",
@@ -248826,7 +249095,7 @@
     },
     {
       "steam": "1252620",
-      "bangumi": "",
+      "bangumi": "732371",
       "vndb": "v27702",
       "names": [
         "Revenant March",
@@ -249009,7 +249278,7 @@
     },
     {
       "steam": "1193330",
-      "bangumi": "",
+      "bangumi": "730252",
       "vndb": "v27735",
       "names": [
         "Together - A Wish No One Remembers",
@@ -249467,7 +249736,7 @@
     },
     {
       "steam": "1236480",
-      "bangumi": "",
+      "bangumi": "723837",
       "vndb": "v27833",
       "names": [
         "King of Volleyball"
@@ -250027,7 +250296,7 @@
     },
     {
       "steam": "1220710",
-      "bangumi": "",
+      "bangumi": "732057",
       "vndb": "v27943",
       "names": [
         "Ace In Space",
@@ -250202,7 +250471,7 @@
     },
     {
       "steam": "1209610",
-      "bangumi": "",
+      "bangumi": "733726",
       "vndb": "v27979",
       "names": [
         "Virtually Real Life"
@@ -250301,7 +250570,7 @@
     },
     {
       "steam": "1249850",
-      "bangumi": "",
+      "bangumi": "733518",
       "vndb": "v27988",
       "names": [
         "King of Vikings"
@@ -250923,6 +251192,7 @@
         "QUALIA ~Yakusoku no Kiseki~ - 18+ DLC",
         "QUALIA ~Yakusoku no Kiseki~ Censored Edition",
         "QUALIA ~Yakusoku no Kiseki~ Download Edition",
+        "QUALIA ~Yakusoku no Kiseki~ Package Edition",
         "QUALIA ~Yakusoku no Kiseki~ Trial Edition",
         "QUALIA ~Yueding de Guijii~",
         "QUALIA ~Yueding de Guijii~ - 18+ DLC",
@@ -250932,6 +251202,7 @@
         "QUALIA ～約束の軌跡～ -体験版-",
         "QUALIA ～約束の軌跡～ Censored Edition",
         "QUALIA ～約束の軌跡～ ダウンロード版",
+        "QUALIA ～約束の軌跡～ パッケージ版",
         "QUALIA ～约定的轨迹～",
         "QUALIA ～约定的轨迹～ - 18+ DLC",
         "QUALIA ～约定的轨迹～ Censored Edition",
@@ -251094,7 +251365,7 @@
     },
     {
       "steam": "1327540",
-      "bangumi": "",
+      "bangumi": "724797",
       "vndb": "v28122",
       "names": [
         "Cross the Moon",
@@ -251103,7 +251374,7 @@
     },
     {
       "steam": "1362060",
-      "bangumi": "",
+      "bangumi": "724797",
       "vndb": "v28122",
       "names": [
         "Cross the Moon",
@@ -251421,7 +251692,7 @@
     },
     {
       "steam": "1258770",
-      "bangumi": "",
+      "bangumi": "728174",
       "vndb": "v28152",
       "names": [
         "6 PEOPLE",
@@ -251525,7 +251796,7 @@
     },
     {
       "steam": "1181030",
-      "bangumi": "",
+      "bangumi": "723607",
       "vndb": "v28170",
       "names": [
         "Forest Guardian"
@@ -251541,7 +251812,7 @@
     },
     {
       "steam": "1131410",
-      "bangumi": "",
+      "bangumi": "731200",
       "vndb": "v28172",
       "names": [
         "Sable's Grimoire: Man And Elf",
@@ -251551,7 +251822,7 @@
     },
     {
       "steam": "1336930",
-      "bangumi": "",
+      "bangumi": "731200",
       "vndb": "v28172",
       "names": [
         "Sable's Grimoire: Man And Elf",
@@ -252176,7 +252447,7 @@
     },
     {
       "steam": "1284300",
-      "bangumi": "",
+      "bangumi": "733520",
       "vndb": "v28256",
       "names": [
         "King of Spies"
@@ -252318,7 +252589,7 @@
     },
     {
       "steam": "1551010",
-      "bangumi": "",
+      "bangumi": "724237",
       "vndb": "v28271",
       "names": [
         "Starlight Shores",
@@ -252327,7 +252598,7 @@
     },
     {
       "steam": "1562170",
-      "bangumi": "",
+      "bangumi": "724237",
       "vndb": "v28271",
       "names": [
         "Starlight Shores",
@@ -252757,7 +253028,7 @@
     },
     {
       "steam": "618010",
-      "bangumi": "",
+      "bangumi": "723830",
       "vndb": "v28318",
       "names": [
         "Volleyball Heaven"
@@ -252858,7 +253129,7 @@
     },
     {
       "steam": "1318730",
-      "bangumi": "",
+      "bangumi": "732787",
       "vndb": "v28340",
       "names": [
         "Axiom Alternative"
@@ -253014,7 +253285,7 @@
     },
     {
       "steam": "1210030",
-      "bangumi": "",
+      "bangumi": "730447",
       "vndb": "v28384",
       "names": [
         "Novena Diabolos",
@@ -253023,7 +253294,7 @@
     },
     {
       "steam": "1320770",
-      "bangumi": "",
+      "bangumi": "730447",
       "vndb": "v28384",
       "names": [
         "Novena Diabolos",
@@ -253032,7 +253303,7 @@
     },
     {
       "steam": "1501420",
-      "bangumi": "",
+      "bangumi": "730447",
       "vndb": "v28384",
       "names": [
         "Novena Diabolos",
@@ -253041,7 +253312,7 @@
     },
     {
       "steam": "1620570",
-      "bangumi": "",
+      "bangumi": "730447",
       "vndb": "v28384",
       "names": [
         "Novena Diabolos",
@@ -253460,7 +253731,7 @@
     },
     {
       "steam": "1322260",
-      "bangumi": "",
+      "bangumi": "730315",
       "vndb": "v28453",
       "names": [
         "Santa Monica Paradise",
@@ -253470,7 +253741,7 @@
     },
     {
       "steam": "1334710",
-      "bangumi": "",
+      "bangumi": "730315",
       "vndb": "v28453",
       "names": [
         "Santa Monica Paradise",
@@ -254795,7 +255066,7 @@
     },
     {
       "steam": "1112230",
-      "bangumi": "",
+      "bangumi": "723929",
       "vndb": "v28588",
       "names": [
         "Furries & Scalies: Super Scary Halloween Spooky Times"
@@ -256694,7 +256965,7 @@
     },
     {
       "steam": "1641250",
-      "bangumi": "",
+      "bangumi": "731275",
       "vndb": "v28831",
       "names": [
         "Silver Blue",
@@ -256704,7 +256975,7 @@
     },
     {
       "steam": "1641260",
-      "bangumi": "",
+      "bangumi": "731275",
       "vndb": "v28831",
       "names": [
         "Silver Blue",
@@ -256912,20 +257183,22 @@
     },
     {
       "steam": "1342620",
-      "bangumi": "",
+      "bangumi": "731232",
       "vndb": "v28855",
       "names": [
         "Werewolf: The Apocalypse - Heart of the Forest",
-        "Werewolf: The Apocalypse - Heart of the Forest demo"
+        "Werewolf: The Apocalypse - Heart of the Forest demo",
+        "Werewolf: The Apocalypse — Heart of the Forest"
       ]
     },
     {
       "steam": "1384410",
-      "bangumi": "",
+      "bangumi": "731232",
       "vndb": "v28855",
       "names": [
         "Werewolf: The Apocalypse - Heart of the Forest",
-        "Werewolf: The Apocalypse - Heart of the Forest demo"
+        "Werewolf: The Apocalypse - Heart of the Forest demo",
+        "Werewolf: The Apocalypse — Heart of the Forest"
       ]
     },
     {
@@ -256940,7 +257213,7 @@
     },
     {
       "steam": "1783810",
-      "bangumi": "",
+      "bangumi": "730748",
       "vndb": "v28860",
       "names": [
         "In The Line Of My Heart"
@@ -257027,7 +257300,7 @@
     },
     {
       "steam": "1382840",
-      "bangumi": "",
+      "bangumi": "723398",
       "vndb": "v28870",
       "names": [
         "Space Bar at the End of the Galaxy",
@@ -257037,7 +257310,7 @@
     },
     {
       "steam": "1399770",
-      "bangumi": "",
+      "bangumi": "723398",
       "vndb": "v28870",
       "names": [
         "Space Bar at the End of the Galaxy",
@@ -257875,7 +258148,7 @@
     },
     {
       "steam": "1247020",
-      "bangumi": "",
+      "bangumi": "730276",
       "vndb": "v28989",
       "names": [
         "Lovingly Evil",
@@ -257884,7 +258157,7 @@
     },
     {
       "steam": "1315880",
-      "bangumi": "",
+      "bangumi": "730276",
       "vndb": "v28989",
       "names": [
         "Lovingly Evil",
@@ -258109,7 +258382,7 @@
     },
     {
       "steam": "849140",
-      "bangumi": "",
+      "bangumi": "730121",
       "vndb": "v29027",
       "names": [
         "Midnight Caravan",
@@ -258146,7 +258419,7 @@
       "vndb": "v29030",
       "names": [
         "Infinite Stars",
-        "Infinite Stars v1.0426.0226"
+        "Infinite Stars v1.0426.1124"
       ]
     },
     {
@@ -258252,6 +258525,15 @@
       "names": [
         "Heaven's Royale -Frozen Butterfly-",
         "ヘブンズ・ロワイヤル -Frozen Butterfly-"
+      ]
+    },
+    {
+      "steam": "",
+      "bangumi": "508728",
+      "vndb": "v29044",
+      "names": [
+        "Euphoric Create ~Liebes geschichte~",
+        "Euphoric Create～Liebes geschichte～"
       ]
     },
     {
@@ -258805,7 +259087,7 @@
       ]
     },
     {
-      "steam": "1479310",
+      "steam": "",
       "bangumi": "323822",
       "vndb": "v29107",
       "names": [
@@ -258813,18 +259095,46 @@
         "Spare Parts: Episode 1",
         "Spare Parts: Episode 1 - Steam Edition",
         "Spare Parts: Episode 2",
+        "Spare Parts: Episode 3",
         "Spare Parts: Episode 3 (chapters 1-12)"
       ]
     },
     {
       "steam": "1620390",
-      "bangumi": "323822",
+      "bangumi": "732741",
       "vndb": "v29107",
       "names": [
         "Spare Parts",
         "Spare Parts: Episode 1",
         "Spare Parts: Episode 1 - Steam Edition",
         "Spare Parts: Episode 2",
+        "Spare Parts: Episode 3",
+        "Spare Parts: Episode 3 (chapters 1-12)"
+      ]
+    },
+    {
+      "steam": "1479310",
+      "bangumi": "",
+      "vndb": "v29107",
+      "names": [
+        "Spare Parts",
+        "Spare Parts: Episode 1",
+        "Spare Parts: Episode 1 - Steam Edition",
+        "Spare Parts: Episode 2",
+        "Spare Parts: Episode 3",
+        "Spare Parts: Episode 3 (chapters 1-12)"
+      ]
+    },
+    {
+      "steam": "5615030",
+      "bangumi": "",
+      "vndb": "v29107",
+      "names": [
+        "Spare Parts",
+        "Spare Parts: Episode 1",
+        "Spare Parts: Episode 1 - Steam Edition",
+        "Spare Parts: Episode 2",
+        "Spare Parts: Episode 3",
         "Spare Parts: Episode 3 (chapters 1-12)"
       ]
     },
@@ -259582,7 +259892,7 @@
     },
     {
       "steam": "1424300",
-      "bangumi": "",
+      "bangumi": "728201",
       "vndb": "v29244",
       "names": [
         "Jester / King",
@@ -259591,7 +259901,7 @@
     },
     {
       "steam": "1497470",
-      "bangumi": "",
+      "bangumi": "728201",
       "vndb": "v29244",
       "names": [
         "Jester / King",
@@ -260064,7 +260374,7 @@
     },
     {
       "steam": "1404300",
-      "bangumi": "",
+      "bangumi": "724124",
       "vndb": "v29346",
       "names": [
         "Drops of Death",
@@ -260073,7 +260383,7 @@
     },
     {
       "steam": "1434210",
-      "bangumi": "",
+      "bangumi": "724124",
       "vndb": "v29346",
       "names": [
         "Drops of Death",
@@ -260192,7 +260502,7 @@
     },
     {
       "steam": "1431420",
-      "bangumi": "",
+      "bangumi": "730395",
       "vndb": "v29374",
       "names": [
         "10mg: Cover Me In Leaves",
@@ -260210,7 +260520,7 @@
     },
     {
       "steam": "1431220",
-      "bangumi": "",
+      "bangumi": "730394",
       "vndb": "v29376",
       "names": [
         "10mg: SLASHER, Interrupted",
@@ -260711,7 +261021,7 @@
     },
     {
       "steam": "1444360",
-      "bangumi": "",
+      "bangumi": "730406",
       "vndb": "v29428",
       "names": [
         "Aisling and the Tavern of Elves",
@@ -260721,7 +261031,7 @@
     },
     {
       "steam": "1461180",
-      "bangumi": "",
+      "bangumi": "730406",
       "vndb": "v29428",
       "names": [
         "Aisling and the Tavern of Elves",
@@ -261060,7 +261370,7 @@
     },
     {
       "steam": "1397960",
-      "bangumi": "",
+      "bangumi": "731962",
       "vndb": "v29471",
       "names": [
         "One Night on Halloween"
@@ -261354,7 +261664,7 @@
     },
     {
       "steam": "1445110",
-      "bangumi": "",
+      "bangumi": "723628",
       "vndb": "v29516",
       "names": [
         "The Legend of Arcadieu 2",
@@ -261364,7 +261674,7 @@
     },
     {
       "steam": "1445170",
-      "bangumi": "",
+      "bangumi": "723628",
       "vndb": "v29516",
       "names": [
         "The Legend of Arcadieu 2",
@@ -261604,7 +261914,7 @@
     },
     {
       "steam": "1471940",
-      "bangumi": "",
+      "bangumi": "728207",
       "vndb": "v29573",
       "names": [
         "Bahamian Rhapsody",
@@ -261614,7 +261924,7 @@
     },
     {
       "steam": "1485610",
-      "bangumi": "",
+      "bangumi": "728207",
       "vndb": "v29573",
       "names": [
         "Bahamian Rhapsody",
@@ -261960,6 +262270,15 @@
       ]
     },
     {
+      "steam": "",
+      "bangumi": "722489",
+      "vndb": "v29646",
+      "names": [
+        "Hui Changge de Xiao Hezi",
+        "会唱歌的小盒子"
+      ]
+    },
+    {
       "steam": "1430030",
       "bangumi": "321115",
       "vndb": "v29647",
@@ -262253,7 +262572,7 @@
       ]
     },
     {
-      "steam": "1550460",
+      "steam": "",
       "bangumi": "313371",
       "vndb": "v29698",
       "names": [
@@ -262271,7 +262590,24 @@
     },
     {
       "steam": "1742500",
-      "bangumi": "313371",
+      "bangumi": "733537",
+      "vndb": "v29698",
+      "names": [
+        "Itoshi no Frankenstein",
+        "Itoshi no Frankenstein - Complete Edition",
+        "My Dear Frankenstein",
+        "My Dear Frankenstein -English Edition-",
+        "Qin'ai de Frankenstein",
+        "Qin'ai de Frankenstein - Complete Edition",
+        "亲爱的弗兰肯斯坦",
+        "亲爱的弗兰肯斯坦 完整版",
+        "愛しのフランケンシュタイン",
+        "愛しのフランケンシュタイン コンプリートエディション"
+      ]
+    },
+    {
+      "steam": "1550460",
+      "bangumi": "",
       "vndb": "v29698",
       "names": [
         "Itoshi no Frankenstein",
@@ -262456,7 +262792,7 @@
     },
     {
       "steam": "1463120",
-      "bangumi": "",
+      "bangumi": "730413",
       "vndb": "v29726",
       "names": [
         "College Kings",
@@ -262468,7 +262804,7 @@
     },
     {
       "steam": "1624520",
-      "bangumi": "",
+      "bangumi": "730413",
       "vndb": "v29726",
       "names": [
         "College Kings",
@@ -262480,7 +262816,7 @@
     },
     {
       "steam": "1732640",
-      "bangumi": "",
+      "bangumi": "730413",
       "vndb": "v29726",
       "names": [
         "College Kings",
@@ -262968,7 +263304,7 @@
     },
     {
       "steam": "1153040",
-      "bangumi": "",
+      "bangumi": "730242",
       "vndb": "v29811",
       "names": [
         "Primate Signal"
@@ -263503,7 +263839,7 @@
     },
     {
       "steam": "847680",
-      "bangumi": "",
+      "bangumi": "730119",
       "vndb": "v29885",
       "names": [
         "Pale Cachexia",
@@ -264987,6 +265323,33 @@
     },
     {
       "steam": "",
+      "bangumi": "732976",
+      "vndb": "v30132",
+      "names": [
+        "Fate/Empire of Dirt",
+        "Fate/Empire of Dirt - Episode 2 - Trial Edition",
+        "Fate/Empire of Dirt - Episode 3 - Trial Edition",
+        "Fate/Empire of Dirt - Episode 4 - Trial Edition",
+        "Fate/Empire of Dirt - Episode 5 - Trial Edition",
+        "Fate/Empire of Dirt - Prologue・Episode 1 - Trial Edition",
+        "Fate/Empire of Dirt - Trial Edition",
+        "Fate/Empire of Dirt -Made in Heaven-",
+        "Fate/Empire of Dirt -Stella Splendens-",
+        "Fate/Empire of Dirt Complete",
+        "Fate/Empire of Dirt Package Edition",
+        "Fate/Empire of Dirt 序章・第1章体験版",
+        "Fate/Empire of Dirt 序章・第1章体验版",
+        "Fate/Empire of Dirt 最終体験版",
+        "Fate/Empire of Dirt 第2章体験版",
+        "Fate/Empire of Dirt 第3章体験版",
+        "Fate/Empire of Dirt 第4章体験版",
+        "Fate/Empire of Dirt 第5章体験版",
+        "Mingyun / Chen'ai Diguo - Episode 2 - Trial Edition",
+        "命运-尘埃帝国 第2章体验版"
+      ]
+    },
+    {
+      "steam": "",
       "bangumi": "639929",
       "vndb": "v30134",
       "names": [
@@ -265749,7 +266112,7 @@
     },
     {
       "steam": "1459020",
-      "bangumi": "",
+      "bangumi": "723406",
       "vndb": "v30211",
       "names": [
         "Memories of Tomorrow"
@@ -265917,7 +266280,7 @@
     },
     {
       "steam": "4156010",
-      "bangumi": "536803",
+      "bangumi": "",
       "vndb": "v30221",
       "names": [
         "Love & Sex: First Base",
@@ -267143,7 +267506,7 @@
     },
     {
       "steam": "1492480",
-      "bangumi": "",
+      "bangumi": "730437",
       "vndb": "v30354",
       "names": [
         "Half Past Fate: Romantic Distancing"
@@ -267319,7 +267682,7 @@
     },
     {
       "steam": "1383620",
-      "bangumi": "",
+      "bangumi": "723399",
       "vndb": "v30373",
       "names": [
         "Lifesigns"
@@ -267358,7 +267721,7 @@
     },
     {
       "steam": "1471950",
-      "bangumi": "",
+      "bangumi": "731544",
       "vndb": "v30376",
       "names": [
         "Yakuza Cats",
@@ -267367,7 +267730,7 @@
     },
     {
       "steam": "1460950",
-      "bangumi": "",
+      "bangumi": "733310",
       "vndb": "v30377",
       "names": [
         "Schrodinger's Catgirl",
@@ -267377,7 +267740,7 @@
     },
     {
       "steam": "1959060",
-      "bangumi": "",
+      "bangumi": "733310",
       "vndb": "v30377",
       "names": [
         "Schrodinger's Catgirl",
@@ -267540,7 +267903,7 @@
     },
     {
       "steam": "1294260",
-      "bangumi": "",
+      "bangumi": "724793",
       "vndb": "v30390",
       "names": [
         "Final Frame",
@@ -267549,7 +267912,7 @@
     },
     {
       "steam": "1317520",
-      "bangumi": "",
+      "bangumi": "724793",
       "vndb": "v30390",
       "names": [
         "Final Frame",
@@ -267627,7 +267990,7 @@
     },
     {
       "steam": "1547930",
-      "bangumi": "",
+      "bangumi": "730468",
       "vndb": "v30416",
       "names": [
         "Romeo Must Live",
@@ -267637,7 +268000,7 @@
     },
     {
       "steam": "1559361",
-      "bangumi": "",
+      "bangumi": "730468",
       "vndb": "v30416",
       "names": [
         "Romeo Must Live",
@@ -268375,7 +268738,7 @@
     },
     {
       "steam": "1715660",
-      "bangumi": "",
+      "bangumi": "731294",
       "vndb": "v30498",
       "names": [
         "Angelic Waves",
@@ -268485,7 +268848,7 @@
     },
     {
       "steam": "1579920",
-      "bangumi": "",
+      "bangumi": "730502",
       "vndb": "v30514",
       "names": [
         "Opportunity: A Sugar Baby Story",
@@ -268616,7 +268979,7 @@
     },
     {
       "steam": "1041210",
-      "bangumi": "",
+      "bangumi": "730206",
       "vndb": "v30535",
       "names": [
         "Mission: It's Complicated"
@@ -269034,7 +269397,7 @@
     },
     {
       "steam": "1312380",
-      "bangumi": "",
+      "bangumi": "730309",
       "vndb": "v30597",
       "names": [
         "Paper Shakespeare: Very Naked Hamlet"
@@ -269149,7 +269512,7 @@
     },
     {
       "steam": "1701660",
-      "bangumi": "",
+      "bangumi": "730658",
       "vndb": "v30635",
       "names": [
         "Demons Rise Up!",
@@ -269354,7 +269717,7 @@
     },
     {
       "steam": "1558900",
-      "bangumi": "",
+      "bangumi": "732640",
       "vndb": "v30693",
       "names": [
         "Pandemic Love"
@@ -269362,7 +269725,7 @@
     },
     {
       "steam": "1345080",
-      "bangumi": "",
+      "bangumi": "722565",
       "vndb": "v30694",
       "names": [
         "12 Hours to Die"
@@ -269428,7 +269791,7 @@
     },
     {
       "steam": "1412180",
-      "bangumi": "",
+      "bangumi": "731243",
       "vndb": "v30703",
       "names": [
         "The Last Act"
@@ -270137,7 +270500,7 @@
     },
     {
       "steam": "1567860",
-      "bangumi": "",
+      "bangumi": "730488",
       "vndb": "v30832",
       "names": [
         "Femboy Bangers",
@@ -270146,7 +270509,7 @@
     },
     {
       "steam": "1572450",
-      "bangumi": "",
+      "bangumi": "730492",
       "vndb": "v30833",
       "names": [
         "Femboy Besties"
@@ -270154,7 +270517,7 @@
     },
     {
       "steam": "1565080",
-      "bangumi": "",
+      "bangumi": "730485",
       "vndb": "v30834",
       "names": [
         "Femboys of the Phalanx"
@@ -270339,7 +270702,7 @@
     },
     {
       "steam": "1592970",
-      "bangumi": "",
+      "bangumi": "730515",
       "vndb": "v30889",
       "names": [
         "Colorado Cocoa Club",
@@ -270349,7 +270712,7 @@
     },
     {
       "steam": "1607321",
-      "bangumi": "",
+      "bangumi": "730515",
       "vndb": "v30889",
       "names": [
         "Colorado Cocoa Club",
@@ -270431,7 +270794,7 @@
     },
     {
       "steam": "1579320",
-      "bangumi": "",
+      "bangumi": "730501",
       "vndb": "v30905",
       "names": [
         "Futanari of the Amazon"
@@ -270456,7 +270819,7 @@
     },
     {
       "steam": "2129970",
-      "bangumi": "",
+      "bangumi": "724353",
       "vndb": "v30913",
       "names": [
         "My Loving Wife"
@@ -270713,7 +271076,7 @@
     },
     {
       "steam": "1056370",
-      "bangumi": "",
+      "bangumi": "732360",
       "vndb": "v30961",
       "names": [
         "Rigo: The Movie",
@@ -270826,7 +271189,7 @@
       "names": [
         "No More Future",
         "No More Future - Early Access",
-        "No More Future v19.1"
+        "No More Future v20.2"
       ]
     },
     {
@@ -271430,7 +271793,7 @@
     },
     {
       "steam": "1576590",
-      "bangumi": "",
+      "bangumi": "730498",
       "vndb": "v31057",
       "names": [
         "Stories of Submission: eNTeR the cuck"
@@ -271556,7 +271919,7 @@
     },
     {
       "steam": "1634950",
-      "bangumi": "",
+      "bangumi": "724854",
       "vndb": "v31070",
       "names": [
         "Voronica Cleans House: a Vore Adventure",
@@ -271764,7 +272127,7 @@
     },
     {
       "steam": "1636260",
-      "bangumi": "",
+      "bangumi": "730572",
       "vndb": "v31102",
       "names": [
         "Detective Rosie Morgan: Murder on the River Thames",
@@ -271774,7 +272137,7 @@
     },
     {
       "steam": "1655471",
-      "bangumi": "",
+      "bangumi": "730572",
       "vndb": "v31102",
       "names": [
         "Detective Rosie Morgan: Murder on the River Thames",
@@ -271965,7 +272328,7 @@
     },
     {
       "steam": "1639890",
-      "bangumi": "",
+      "bangumi": "730578",
       "vndb": "v31131",
       "names": [
         "After School Murder Club!!"
@@ -272631,7 +272994,7 @@
     },
     {
       "steam": "1630080",
-      "bangumi": "",
+      "bangumi": "730561",
       "vndb": "v31269",
       "names": [
         "College Bound",
@@ -272644,7 +273007,7 @@
     },
     {
       "steam": "1741180",
-      "bangumi": "",
+      "bangumi": "730561",
       "vndb": "v31269",
       "names": [
         "College Bound",
@@ -272657,7 +273020,7 @@
     },
     {
       "steam": "1850990",
-      "bangumi": "",
+      "bangumi": "730561",
       "vndb": "v31269",
       "names": [
         "College Bound",
@@ -272670,7 +273033,7 @@
     },
     {
       "steam": "2055750",
-      "bangumi": "",
+      "bangumi": "730561",
       "vndb": "v31269",
       "names": [
         "College Bound",
@@ -272683,7 +273046,7 @@
     },
     {
       "steam": "2310680",
-      "bangumi": "",
+      "bangumi": "730561",
       "vndb": "v31269",
       "names": [
         "College Bound",
@@ -272748,7 +273111,7 @@
     },
     {
       "steam": "1575260",
-      "bangumi": "",
+      "bangumi": "723803",
       "vndb": "v31280",
       "names": [
         "Pandemic Heart"
@@ -272999,7 +273362,7 @@
     },
     {
       "steam": "1805810",
-      "bangumi": "",
+      "bangumi": "731560",
       "vndb": "v31320",
       "names": [
         "Winter Dream"
@@ -273127,7 +273490,7 @@
     },
     {
       "steam": "1637070",
-      "bangumi": "",
+      "bangumi": "732901",
       "vndb": "v31347",
       "names": [
         "My New Memories",
@@ -273206,6 +273569,8 @@
         "Our Life: Now & Forever - Early Access",
         "Our Life: Now & Forever - Expanded Demo",
         "Our Life: Now & Forever - Mini Demo",
+        "Our Life: Now & Forever - Step 1 DLC",
+        "Our Life: Now & Forever - Step 2 DLC",
         "Women de Shenghuo: Xianzai he Yongyuan - Demo",
         "我们的生活：现在和永远",
         "我们的生活：现在和永远 Demo"
@@ -273221,6 +273586,8 @@
         "Our Life: Now & Forever - Early Access",
         "Our Life: Now & Forever - Expanded Demo",
         "Our Life: Now & Forever - Mini Demo",
+        "Our Life: Now & Forever - Step 1 DLC",
+        "Our Life: Now & Forever - Step 2 DLC",
         "Women de Shenghuo: Xianzai he Yongyuan - Demo",
         "我们的生活：现在和永远",
         "我们的生活：现在和永远 Demo"
@@ -273814,7 +274181,7 @@
     },
     {
       "steam": "1667320",
-      "bangumi": "",
+      "bangumi": "724201",
       "vndb": "v31453",
       "names": [
         "PRODUCER 2021",
@@ -274345,7 +274712,7 @@
     },
     {
       "steam": "1627740",
-      "bangumi": "",
+      "bangumi": "730557",
       "vndb": "v31568",
       "names": [
         "SHAKESPEARE? More like THIRSTspeare, amirite?"
@@ -274499,7 +274866,7 @@
     },
     {
       "steam": "1629710",
-      "bangumi": "",
+      "bangumi": "730562",
       "vndb": "v31585",
       "names": [
         "Red Embrace: Mezzanine"
@@ -274624,7 +274991,7 @@
     },
     {
       "steam": "1631790",
-      "bangumi": "",
+      "bangumi": "730567",
       "vndb": "v31622",
       "names": [
         "Dawnbreaker - Aeon's Reach",
@@ -274633,7 +275000,7 @@
     },
     {
       "steam": "1718830",
-      "bangumi": "",
+      "bangumi": "730567",
       "vndb": "v31622",
       "names": [
         "Dawnbreaker - Aeon's Reach",
@@ -274961,7 +275328,7 @@
       "vndb": "v31675",
       "names": [
         "Desert Stalker",
-        "Desert Stalker [v0.21.4]",
+        "Desert Stalker [v0.22.2]",
         "沙漠追猎者"
       ]
     },
@@ -275268,7 +275635,7 @@
     },
     {
       "steam": "1688400",
-      "bangumi": "",
+      "bangumi": "730639",
       "vndb": "v31729",
       "names": [
         "B.Y.O.O.L. - Best Years Of Our Lives",
@@ -275372,7 +275739,7 @@
     },
     {
       "steam": "1687050",
-      "bangumi": "",
+      "bangumi": "730638",
       "vndb": "v31743",
       "names": [
         "TeleNovela"
@@ -275459,7 +275826,7 @@
     },
     {
       "steam": "1697780",
-      "bangumi": "",
+      "bangumi": "730652",
       "vndb": "v31755",
       "names": [
         "Life Can Be Amazing",
@@ -275469,7 +275836,7 @@
     },
     {
       "steam": "1710301",
-      "bangumi": "",
+      "bangumi": "730652",
       "vndb": "v31755",
       "names": [
         "Life Can Be Amazing",
@@ -275586,7 +275953,7 @@
     },
     {
       "steam": "1487140",
-      "bangumi": "",
+      "bangumi": "730433",
       "vndb": "v31777",
       "names": [
         "Indiepocalypse #17",
@@ -275599,7 +275966,7 @@
     },
     {
       "steam": "1577370",
-      "bangumi": "",
+      "bangumi": "730433",
       "vndb": "v31777",
       "names": [
         "Indiepocalypse #17",
@@ -275728,7 +276095,9 @@
       "bangumi": "344272",
       "vndb": "v31807",
       "names": [
-        "PARQUET"
+        "PARQUET",
+        "PARQUET - Trial Edition",
+        "PARQUET 体験版"
       ]
     },
     {
@@ -276653,7 +277022,7 @@
     },
     {
       "steam": "1690150",
-      "bangumi": "",
+      "bangumi": "730642",
       "vndb": "v32019",
       "names": [
         "Futanari Vampire Girlfriend"
@@ -276766,7 +277135,7 @@
     },
     {
       "steam": "1507630",
-      "bangumi": "",
+      "bangumi": "733527",
       "vndb": "v32055",
       "names": [
         "Hypoxia - One Last Breath"
@@ -276790,6 +277159,7 @@
       "vndb": "v32062",
       "names": [
         "The VII Enigma",
+        "The VII Enigma - The Definitive Edition",
         "The VII Enigma Demo"
       ]
     },
@@ -276811,7 +277181,7 @@
     },
     {
       "steam": "1719080",
-      "bangumi": "",
+      "bangumi": "730679",
       "vndb": "v32068",
       "names": [
         "Kate Don't Wait"
@@ -276819,7 +277189,7 @@
     },
     {
       "steam": "1740040",
-      "bangumi": "",
+      "bangumi": "730679",
       "vndb": "v32068",
       "names": [
         "Kate Don't Wait"
@@ -277042,7 +277412,7 @@
     },
     {
       "steam": "1746530",
-      "bangumi": "",
+      "bangumi": "730700",
       "vndb": "v32123",
       "names": [
         "Confessions at Candlewood Lake",
@@ -277052,7 +277422,7 @@
     },
     {
       "steam": "1767030",
-      "bangumi": "",
+      "bangumi": "730700",
       "vndb": "v32123",
       "names": [
         "Confessions at Candlewood Lake",
@@ -277062,7 +277432,7 @@
     },
     {
       "steam": "1585460",
-      "bangumi": "",
+      "bangumi": "730508",
       "vndb": "v32124",
       "names": [
         "Furry Shakespeare: Oops! All Dragons!"
@@ -278044,7 +278414,7 @@
     },
     {
       "steam": "1743260",
-      "bangumi": "",
+      "bangumi": "724319",
       "vndb": "v32286",
       "names": [
         "Welcome to Free Will",
@@ -278055,7 +278425,7 @@
     },
     {
       "steam": "1824630",
-      "bangumi": "",
+      "bangumi": "724319",
       "vndb": "v32286",
       "names": [
         "Welcome to Free Will",
@@ -278066,7 +278436,7 @@
     },
     {
       "steam": "2241140",
-      "bangumi": "",
+      "bangumi": "724319",
       "vndb": "v32286",
       "names": [
         "Welcome to Free Will",
@@ -278260,6 +278630,7 @@
       "names": [
         "Haha to Kodomobeya Oji-san no 1￮ Nenkan no Nariyuki to, Sorekara",
         "Haha to Kodomobeya Oji-san no 1￮ Nenkan no Nariyuki to, Sorekara.",
+        "Still Mommy's Boy",
         "母と子供部屋おじさんの1○年間の成り行きと、それから",
         "母と子供部屋おじさんの1○年間の成り行きと、それから。"
       ]
@@ -280665,8 +281036,10 @@
       "bangumi": "353773",
       "vndb": "v32605",
       "names": [
+        "Fei Xianshi Dushi Chuanshuo de Zuofa",
         "Hi Jitsuzai Toshi Densetsu no Sakuhou - Imaginary Fakelore",
-        "非実在都市伝説の作法 Imaginary Fakelore"
+        "非実在都市伝説の作法 Imaginary Fakelore",
+        "非现实都市传说的作法"
       ]
     },
     {
@@ -280757,7 +281130,7 @@
     },
     {
       "steam": "1270210",
-      "bangumi": "",
+      "bangumi": "723389",
       "vndb": "v32639",
       "names": [
         "Love of Magic"
@@ -280856,7 +281229,7 @@
     },
     {
       "steam": "1757760",
-      "bangumi": "",
+      "bangumi": "733127",
       "vndb": "v32652",
       "names": [
         "My Stepsis is a Futanari"
@@ -281733,6 +282106,17 @@
       ]
     },
     {
+      "steam": "",
+      "bangumi": "733460",
+      "vndb": "v32753",
+      "names": [
+        "MUV-LUV ALTERNATIVE CHRONICLES \"CHICKEN DIVERS\"",
+        "Muv-Luv Alternative Chronicles: Chicken Divers",
+        "Muv-Luv Alternative Chronicles: 小鸡潜降兵",
+        "マブラヴ オルタネイティヴ クロニクルズ チキン・ダイバーズ"
+      ]
+    },
+    {
       "steam": "889700",
       "bangumi": "",
       "vndb": "v32753",
@@ -281740,6 +282124,17 @@
         "MUV-LUV ALTERNATIVE CHRONICLES \"CHICKEN DIVERS\"",
         "Muv-Luv Alternative Chronicles: Chicken Divers",
         "マブラヴ オルタネイティヴ クロニクルズ チキン・ダイバーズ"
+      ]
+    },
+    {
+      "steam": "",
+      "bangumi": "733253",
+      "vndb": "v32754",
+      "names": [
+        "MUV-LUV ALTERNATIVE CHRONICLES \"RAIN DANCERS\"",
+        "Muv-Luv Alternative Chronicles: Rain Dancers",
+        "Muv-Luv Alternative 编年史：雨舞者",
+        "マブラヴ オルタネイティヴ クロニクルズ レイン・ダンサーズ"
       ]
     },
     {
@@ -281898,21 +282293,23 @@
     },
     {
       "steam": "889710",
-      "bangumi": "",
+      "bangumi": "733055",
       "vndb": "v32788",
       "names": [
         "Muv-Luv Alternative Chronicles: Adoration",
         "Muv-Luv Alternative Chronicles: Shoukei",
+        "Muv-Luv Alternative 编年史：憧憬",
         "マブラヴ オルタネイティヴ クロニクルズ 憧憬"
       ]
     },
     {
       "steam": "889710",
-      "bangumi": "",
+      "bangumi": "733045",
       "vndb": "v32789",
       "names": [
         "Muv-Luv Alternative Chronicles: Resurrection",
         "Muv-Luv Alternative Chronicles: Saitan",
+        "Muv-Luv Alternative 编年史：再诞",
         "マブラヴ オルタネイティヴ クロニクルズ 再誕"
       ]
     },
@@ -281994,7 +282391,7 @@
     },
     {
       "steam": "1834820",
-      "bangumi": "",
+      "bangumi": "732008",
       "vndb": "v32804",
       "names": [
         "First Bite"
@@ -283548,7 +283945,7 @@
     },
     {
       "steam": "1712020",
-      "bangumi": "",
+      "bangumi": "721973",
       "vndb": "v33022",
       "names": [
         "Too Many Santas!"
@@ -284081,7 +284478,7 @@
     },
     {
       "steam": "1806200",
-      "bangumi": "",
+      "bangumi": "730761",
       "vndb": "v33156",
       "names": [
         "Scientifically Accurate Dinosaur Mating Simulator 2021"
@@ -284510,7 +284907,7 @@
     },
     {
       "steam": "1578270",
-      "bangumi": "",
+      "bangumi": "723804",
       "vndb": "v33224",
       "names": [
         "Love Notes"
@@ -285323,7 +285720,7 @@
       ]
     },
     {
-      "steam": "2748500",
+      "steam": "",
       "bangumi": "368376",
       "vndb": "v33447",
       "names": [
@@ -285335,6 +285732,20 @@
         "進軍ゴブリン軍団 〜人類総苗床化作戦〜 ダウンロード版",
         "進軍ゴブリン軍団 〜人類総苗床化作戦〜 パッケージ版",
         "進軍ゴブリン軍団 ～人類総苗床化作戦～"
+      ]
+    },
+    {
+      "steam": "2748500",
+      "bangumi": "",
+      "vndb": "v33447",
+      "names": [
+        "Goblins on the March: Breed All Humans!",
+        "Shingun Goblin Gundan ~Jinrui-sou Naedoko-ka Sakusen~",
+        "Shingun Goblin Gundan ~Jinrui-sou Naedoko-ka Sakusen~ Download Edition",
+        "Shingun Goblin Gundan ~Jinrui-sou Naedoko-ka Sakusen~ Package Edition",
+        "進軍ゴブリン軍団 〜人類総苗床化作戦〜",
+        "進軍ゴブリン軍団 〜人類総苗床化作戦〜 ダウンロード版",
+        "進軍ゴブリン軍団 〜人類総苗床化作戦〜 パッケージ版"
       ]
     },
     {
@@ -285404,6 +285815,15 @@
       "names": [
         "Ai Shukuhakushitsu",
         "愛宿泊室"
+      ]
+    },
+    {
+      "steam": "",
+      "bangumi": "723226",
+      "vndb": "v33469",
+      "names": [
+        "Museiai Mono-tachi no Yawa",
+        "無性愛者達の夜話"
       ]
     },
     {
@@ -287912,16 +288332,6 @@
       ]
     },
     {
-      "steam": "",
-      "bangumi": "552590",
-      "vndb": "v33986",
-      "names": [
-        "Kira*Kira:Renewal",
-        "Kira*kira... Renewal",
-        "Kira*kira・・・Renewal"
-      ]
-    },
-    {
       "steam": "1034700",
       "bangumi": "693141",
       "vndb": "v33989",
@@ -288966,6 +289376,7 @@
         "Apathy - Gakkou de Atta Kowai Hanashi - Kiwame",
         "Apathy - Gakkou de Atta Kowai Hanashi - Kiwame - Download Edition",
         "Apathy - Gakkou de Atta Kowai Hanashi - Kiwame - Package Edition",
+        "Apathy - Gakkou de Atta Kowai Hanashi - Kiwame English translation",
         "Apathy Xuexiao Fasheng Guo de Kongbu Gushi Ji",
         "Apathy学校发生过的恐怖故事·极",
         "[Trial Edition] Apathy - Gakkou de Atta Kowai Hanashi - Kiwame",
@@ -288984,6 +289395,7 @@
         "Apathy - Gakkou de Atta Kowai Hanashi - Kiwame",
         "Apathy - Gakkou de Atta Kowai Hanashi - Kiwame - Download Edition",
         "Apathy - Gakkou de Atta Kowai Hanashi - Kiwame - Package Edition",
+        "Apathy - Gakkou de Atta Kowai Hanashi - Kiwame English translation",
         "Apathy Xuexiao Fasheng Guo de Kongbu Gushi Ji",
         "Apathy学校发生过的恐怖故事·极",
         "[Trial Edition] Apathy - Gakkou de Atta Kowai Hanashi - Kiwame",
@@ -289276,7 +289688,7 @@
     },
     {
       "steam": "1772810",
-      "bangumi": "",
+      "bangumi": "730728",
       "vndb": "v34214",
       "names": [
         "Tails and Pines",
@@ -289285,7 +289697,7 @@
     },
     {
       "steam": "1854230",
-      "bangumi": "",
+      "bangumi": "730728",
       "vndb": "v34214",
       "names": [
         "Tails and Pines",
@@ -289471,7 +289883,7 @@
     },
     {
       "steam": "2121100",
-      "bangumi": "",
+      "bangumi": "731336",
       "vndb": "v34263",
       "names": [
         "The Cabin - Summer Vacation",
@@ -289583,7 +289995,7 @@
     },
     {
       "steam": "511270",
-      "bangumi": "",
+      "bangumi": "722978",
       "vndb": "v34309",
       "names": [
         "Bounce Paradise"
@@ -289612,7 +290024,7 @@
     },
     {
       "steam": "1560790",
-      "bangumi": "",
+      "bangumi": "721971",
       "vndb": "v34314",
       "names": [
         "Romance after dark",
@@ -290104,7 +290516,7 @@
     },
     {
       "steam": "1810000",
-      "bangumi": "",
+      "bangumi": "724464",
       "vndb": "v34456",
       "names": [
         "Kuroi Tsubasa"
@@ -290944,7 +291356,7 @@
     },
     {
       "steam": "4552180",
-      "bangumi": "",
+      "bangumi": "725715",
       "vndb": "v34594",
       "names": [
         "Jester Under Pressure",
@@ -291191,7 +291603,7 @@
     },
     {
       "steam": "1829640",
-      "bangumi": "",
+      "bangumi": "732953",
       "vndb": "v34642",
       "names": [
         "Sigh of the Abyss: Shadow Bonds",
@@ -291662,7 +292074,7 @@
     },
     {
       "steam": "1160950",
-      "bangumi": "",
+      "bangumi": "724339",
       "vndb": "v34736",
       "names": [
         "Star Alliance",
@@ -292295,7 +292707,7 @@
     },
     {
       "steam": "1506970",
-      "bangumi": "",
+      "bangumi": "730450",
       "vndb": "v35015",
       "names": [
         "Symphony of Delights"
@@ -292303,7 +292715,7 @@
     },
     {
       "steam": "1680690",
-      "bangumi": "",
+      "bangumi": "723890",
       "vndb": "v35016",
       "names": [
         "Castle of Delights"
@@ -293042,11 +293454,13 @@
       "names": [
         "Koi Suru Amairo Homestay -Ryuugakusei wa Wanko-kei Osananajimi",
         "Koi Suru Amairo Homestay -Ryuugakusei wa Wanko-kei Osananajimi - Deluxe Edition",
+        "Koi Suru Amairo Homestay -Ryuugakusei wa Wanko-kei Osananajimi - Download Edition",
         "Koi Suru Amairo Homestay -Ryuugakusei wa Wanko-kei Osananajimi - Mary Dakimakura Cover Included",
         "Koi Suru Amairo Homestay -Ryuugakusei wa Wanko-kei Osananajimi - Standard Edition",
         "Koi Suru Amairo Homestay -Ryuugakusei wa Wanko-kei Osananajimi - Trial Edition",
         "Tian Mi De Ai Lian Qi Su Shen Huo - Liu Xue Shen Shi Xiao Gou Xi De Qing Mei Zhu Ma",
         "恋するあまいろホームステイ-留学生はわんこ系幼馴染-",
+        "恋するあまいろホームステイ-留学生はわんこ系幼馴染- ダウンロード版",
         "恋するあまいろホームステイ-留学生はわんこ系幼馴染- メアリー抱き枕カバー付き",
         "恋するあまいろホームステイ-留学生はわんこ系幼馴染- 体験版",
         "恋するあまいろホームステイ-留学生はわんこ系幼馴染- 豪華版",
@@ -293130,7 +293544,7 @@
     },
     {
       "steam": "1957060",
-      "bangumi": "",
+      "bangumi": "724902",
       "vndb": "v35293",
       "names": [
         "NTR Dream"
@@ -297674,7 +298088,7 @@
     },
     {
       "steam": "1629210",
-      "bangumi": "",
+      "bangumi": "730560",
       "vndb": "v36585",
       "names": [
         "Tales Of Aravorn: An Elven Marriage",
@@ -297684,7 +298098,7 @@
     },
     {
       "steam": "2013100",
-      "bangumi": "",
+      "bangumi": "730560",
       "vndb": "v36585",
       "names": [
         "Tales Of Aravorn: An Elven Marriage",
@@ -297694,7 +298108,7 @@
     },
     {
       "steam": "2626460",
-      "bangumi": "",
+      "bangumi": "730560",
       "vndb": "v36585",
       "names": [
         "Tales Of Aravorn: An Elven Marriage",
@@ -297820,6 +298234,16 @@
       "names": [
         "Shirayuki Mau Natsu no Hibi",
         "白雪舞う夏の日々"
+      ]
+    },
+    {
+      "steam": "",
+      "bangumi": "731747",
+      "vndb": "v36601",
+      "names": [
+        "Tenshi no Negau Mono",
+        "天使の願うもの",
+        "天使所愿之物"
       ]
     },
     {
@@ -302079,7 +302503,7 @@
     },
     {
       "steam": "2105700",
-      "bangumi": "",
+      "bangumi": "732963",
       "vndb": "v37698",
       "names": [
         "Guilded Hearts"
@@ -303668,7 +304092,7 @@
     },
     {
       "steam": "2121210",
-      "bangumi": "",
+      "bangumi": "731569",
       "vndb": "v38113",
       "names": [
         "Femboy Bangers 2"
@@ -304025,7 +304449,7 @@
     },
     {
       "steam": "467740",
-      "bangumi": "",
+      "bangumi": "728781",
       "vndb": "v38214",
       "names": [
         "Swim Meet",
@@ -304034,7 +304458,7 @@
     },
     {
       "steam": "3918040",
-      "bangumi": "",
+      "bangumi": "728781",
       "vndb": "v38214",
       "names": [
         "Swim Meet",
@@ -304658,7 +305082,7 @@
     },
     {
       "steam": "2156290",
-      "bangumi": "",
+      "bangumi": "723086",
       "vndb": "v38411",
       "names": [
         "Needy Dragons",
@@ -304776,6 +305200,17 @@
       "names": [
         "Kiss the Demiurge",
         "Kiss the Demiurge - Demo"
+      ]
+    },
+    {
+      "steam": "",
+      "bangumi": "725974",
+      "vndb": "v38439",
+      "names": [
+        "**domo to Otona",
+        "**domo to Otona - Trial Edition",
+        "○どもと大人",
+        "○どもと大人 体験版"
       ]
     },
     {
@@ -304993,7 +305428,7 @@
     },
     {
       "steam": "2265680",
-      "bangumi": "",
+      "bangumi": "723094",
       "vndb": "v38505",
       "names": [
         "The King of Cats",
@@ -305010,6 +305445,17 @@
         "サーカスとキミとカイブツ",
         "サーカスとキミとカイブツ～Restage～",
         "马戏团与你与怪物～Restage～"
+      ]
+    },
+    {
+      "steam": "",
+      "bangumi": "725926",
+      "vndb": "v38509",
+      "names": [
+        "Kuroi Yoru",
+        "Kuroi Yoru - PC Edition",
+        "黒い夜",
+        "黒い夜 PC版"
       ]
     },
     {
@@ -306443,7 +306889,7 @@
     },
     {
       "steam": "2191020",
-      "bangumi": "",
+      "bangumi": "724920",
       "vndb": "v38994",
       "names": [
         "Neko Dating Sim",
@@ -307068,7 +307514,7 @@
     },
     {
       "steam": "4147060",
-      "bangumi": "",
+      "bangumi": "733182",
       "vndb": "v39122",
       "names": [
         "Faro",
@@ -307472,7 +307918,7 @@
     },
     {
       "steam": "1765760",
-      "bangumi": "",
+      "bangumi": "724155",
       "vndb": "v39258",
       "names": [
         "Pen Pal Princess",
@@ -307579,7 +308025,7 @@
     },
     {
       "steam": "2183430",
-      "bangumi": "",
+      "bangumi": "723671",
       "vndb": "v39311",
       "names": [
         "My Lovey-Dovey Demon",
@@ -307591,7 +308037,7 @@
     },
     {
       "steam": "2466140",
-      "bangumi": "",
+      "bangumi": "723671",
       "vndb": "v39311",
       "names": [
         "My Lovey-Dovey Demon",
@@ -307603,7 +308049,7 @@
     },
     {
       "steam": "2744590",
-      "bangumi": "",
+      "bangumi": "723671",
       "vndb": "v39311",
       "names": [
         "My Lovey-Dovey Demon",
@@ -308245,6 +308691,15 @@
       ]
     },
     {
+      "steam": "3522890",
+      "bangumi": "",
+      "vndb": "v39657",
+      "names": [
+        "Demon Boy Saga",
+        "Demon Boy Saga v0.57"
+      ]
+    },
+    {
       "steam": "",
       "bangumi": "536151",
       "vndb": "v39658",
@@ -308437,7 +308892,7 @@
     },
     {
       "steam": "2074320",
-      "bangumi": "",
+      "bangumi": "730831",
       "vndb": "v39775",
       "names": [
         "My Stepsis is a Futanari 2"
@@ -309185,7 +309640,7 @@
     },
     {
       "steam": "1512920",
-      "bangumi": "",
+      "bangumi": "723417",
       "vndb": "v39920",
       "names": [
         "The Devil's Shoes"
@@ -312196,7 +312651,7 @@
     },
     {
       "steam": "2648870",
-      "bangumi": "",
+      "bangumi": "721804",
       "vndb": "v40847",
       "names": [
         "Courtin' Cowboys"
@@ -312682,7 +313137,7 @@
     },
     {
       "steam": "2249360",
-      "bangumi": "",
+      "bangumi": "733359",
       "vndb": "v40962",
       "names": [
         "Virtual Girlfriend: Eliza"
@@ -313115,7 +313570,7 @@
       "names": [
         "Alice",
         "Alice +",
-        "Alice + 3 Soushuu Hen",
+        "Alice + 3 Soushuuhen",
         "Alice +2",
         "ありす",
         "ありす+2",
@@ -315719,7 +316174,7 @@
     },
     {
       "steam": "2479490",
-      "bangumi": "",
+      "bangumi": "731870",
       "vndb": "v42172",
       "names": [
         "Unraveling Angel",
@@ -315730,7 +316185,7 @@
     },
     {
       "steam": "2881920",
-      "bangumi": "",
+      "bangumi": "731870",
       "vndb": "v42172",
       "names": [
         "Unraveling Angel",
@@ -315881,7 +316336,7 @@
     },
     {
       "steam": "2434490",
-      "bangumi": "",
+      "bangumi": "722894",
       "vndb": "v42231",
       "names": [
         "Queen of Moths",
@@ -316018,7 +316473,7 @@
     },
     {
       "steam": "2265610",
-      "bangumi": "",
+      "bangumi": "724491",
       "vndb": "v42276",
       "names": [
         "Ashes of War",
@@ -316231,7 +316686,7 @@
     },
     {
       "steam": "2280260",
-      "bangumi": "",
+      "bangumi": "724492",
       "vndb": "v42347",
       "names": [
         "Kori's Fable",
@@ -316482,7 +316937,7 @@
     },
     {
       "steam": "717870",
-      "bangumi": "",
+      "bangumi": "722752",
       "vndb": "v42429",
       "names": [
         "An Adventurer's Gallantry"
@@ -319614,9 +320069,10 @@
     },
     {
       "steam": "2611140",
-      "bangumi": "",
+      "bangumi": "721766",
       "vndb": "v43499",
       "names": [
+        "Memory Rewind",
         "Memory: Rewind"
       ]
     },
@@ -321262,7 +321718,7 @@
     },
     {
       "steam": "2233840",
-      "bangumi": "",
+      "bangumi": "731570",
       "vndb": "v44142",
       "names": [
         "Lewd Delivery",
@@ -321271,7 +321727,7 @@
     },
     {
       "steam": "2237600",
-      "bangumi": "",
+      "bangumi": "731570",
       "vndb": "v44142",
       "names": [
         "Lewd Delivery",
@@ -322262,6 +322718,18 @@
     },
     {
       "steam": "",
+      "bangumi": "556552",
+      "vndb": "v44451",
+      "names": [
+        "Tada no Otome Game no you da",
+        "Tada no Otome Game no you da - Package Edition",
+        "ただの 乙女ゲームのようだ",
+        "ただの 乙女ゲームのようだ パッケージ版",
+        "ただの　乙女ゲームのようだ"
+      ]
+    },
+    {
+      "steam": "",
       "bangumi": "434832",
       "vndb": "v44460",
       "names": [
@@ -322919,7 +323387,7 @@
     },
     {
       "steam": "3563380",
-      "bangumi": "",
+      "bangumi": "722104",
       "vndb": "v44669",
       "names": [
         "Mari's Magical Deliveries",
@@ -322928,7 +323396,7 @@
     },
     {
       "steam": "3706560",
-      "bangumi": "",
+      "bangumi": "722104",
       "vndb": "v44669",
       "names": [
         "Mari's Magical Deliveries",
@@ -324618,7 +325086,7 @@
     },
     {
       "steam": "4667300",
-      "bangumi": "",
+      "bangumi": "727668",
       "vndb": "v45309",
       "names": [
         "Left Hand Magic",
@@ -326025,7 +326493,7 @@
     },
     {
       "steam": "2694700",
-      "bangumi": "",
+      "bangumi": "732458",
       "vndb": "v45666",
       "names": [
         "Bright Oak",
@@ -326528,7 +326996,7 @@
     },
     {
       "steam": "2508400",
-      "bangumi": "",
+      "bangumi": "731575",
       "vndb": "v45805",
       "names": [
         "Mothers and Daughters",
@@ -326538,7 +327006,7 @@
     },
     {
       "steam": "2656000",
-      "bangumi": "",
+      "bangumi": "731575",
       "vndb": "v45805",
       "names": [
         "Mothers and Daughters",
@@ -326656,7 +327124,7 @@
     },
     {
       "steam": "2435560",
-      "bangumi": "",
+      "bangumi": "724510",
       "vndb": "v45862",
       "names": [
         "The Escort",
@@ -326946,7 +327414,7 @@
     },
     {
       "steam": "3571820",
-      "bangumi": "",
+      "bangumi": "722105",
       "vndb": "v45918",
       "names": [
         "HOPELESS JUNCTION: cuppy dog barf girl and co.",
@@ -327323,7 +327791,7 @@
     },
     {
       "steam": "2112680",
-      "bangumi": "",
+      "bangumi": "721981",
       "vndb": "v46039",
       "names": [
         "Darkness Revenge"
@@ -328428,6 +328896,15 @@
     },
     {
       "steam": "",
+      "bangumi": "609010",
+      "vndb": "v46412",
+      "names": [
+        "Ame Nochi Hare",
+        "雨のち晴れ"
+      ]
+    },
+    {
+      "steam": "",
       "bangumi": "527194",
       "vndb": "v46416",
       "names": [
@@ -328845,7 +329322,7 @@
     },
     {
       "steam": "2553080",
-      "bangumi": "",
+      "bangumi": "721710",
       "vndb": "v46519",
       "names": [
         "Beneath the Bleeding Moon",
@@ -328857,7 +329334,7 @@
     },
     {
       "steam": "2558220",
-      "bangumi": "",
+      "bangumi": "721710",
       "vndb": "v46519",
       "names": [
         "Beneath the Bleeding Moon",
@@ -328869,7 +329346,7 @@
     },
     {
       "steam": "3709550",
-      "bangumi": "",
+      "bangumi": "721710",
       "vndb": "v46519",
       "names": [
         "Beneath the Bleeding Moon",
@@ -329748,7 +330225,7 @@
     },
     {
       "steam": "2196560",
-      "bangumi": "",
+      "bangumi": "732154",
       "vndb": "v46761",
       "names": [
         "My Little Sister Fiona"
@@ -329965,9 +330442,9 @@
       "bangumi": "544233",
       "vndb": "v46788",
       "names": [
-        "Mingi Zhuiyi",
-        "Mingi Zhuiyi - Deluxe Edition",
-        "Mingi Zhuiyi - Trial Version",
+        "Mingri Zhuiyi",
+        "Mingri Zhuiyi - Deluxe Edition",
+        "Mingri Zhuiyi - Trial Version",
         "The Retrospection Of Tomorrow",
         "The Retrospection Of Tomorrow - Deluxe Edition",
         "The Retrospection Of Tomorrow - Demo",
@@ -329982,9 +330459,9 @@
       "bangumi": "544233",
       "vndb": "v46788",
       "names": [
-        "Mingi Zhuiyi",
-        "Mingi Zhuiyi - Deluxe Edition",
-        "Mingi Zhuiyi - Trial Version",
+        "Mingri Zhuiyi",
+        "Mingri Zhuiyi - Deluxe Edition",
+        "Mingri Zhuiyi - Trial Version",
         "The Retrospection Of Tomorrow",
         "The Retrospection Of Tomorrow - Deluxe Edition",
         "The Retrospection Of Tomorrow - Demo",
@@ -330340,7 +330817,7 @@
     },
     {
       "steam": "2573950",
-      "bangumi": "",
+      "bangumi": "724969",
       "vndb": "v46858",
       "names": [
         "Sun Breed",
@@ -330349,7 +330826,7 @@
     },
     {
       "steam": "2573960",
-      "bangumi": "",
+      "bangumi": "722898",
       "vndb": "v46859",
       "names": [
         "Follow the Leader",
@@ -330955,7 +331432,7 @@
     },
     {
       "steam": "2578980",
-      "bangumi": "",
+      "bangumi": "721732",
       "vndb": "v46975",
       "names": [
         "Whispers of an Elven Captor"
@@ -330966,6 +331443,7 @@
       "bangumi": "457548",
       "vndb": "v46976",
       "names": [
+        "Busty Mother & Daughter Cohabitation Life ~Living Together with My Beautiful Cousin and Her Mother!~",
         "Kyonyuu Oyako Nakadashi Dokyo Seikatsu ~Bijin ni Sodatta Shinseki no Musume to Sono Hahaoya o Haramase Onaho ni!~",
         "Kyonyuu Oyako Nakadashi Dokyo Seikatsu ~Bijin ni Sodatta Shinseki no Musume to Sono Hahaoya o Haramase Onaho ni!~ Package Edition",
         "Kyonyuu Oyako Nakadashi Doukyo Seikatsu ~Bijin ni Sodatta Shinseki no Musume to Sono Hahaoya o Haramase Onaho ni!~",
@@ -331057,7 +331535,7 @@
     },
     {
       "steam": "2558980",
-      "bangumi": "",
+      "bangumi": "721714",
       "vndb": "v46990",
       "names": [
         "The Hero gives up! ... Wait, what!?"
@@ -331074,7 +331552,7 @@
     },
     {
       "steam": "1253730",
-      "bangumi": "",
+      "bangumi": "724784",
       "vndb": "v47000",
       "names": [
         "Paradise Girls",
@@ -331593,9 +332071,10 @@
     },
     {
       "steam": "2591910",
-      "bangumi": "",
+      "bangumi": "477538",
       "vndb": "v47072",
       "names": [
+        "My Furry Protogen 2",
         "My Furry Protogen 2 🐾",
         "My Furry Protogen 2 🐾 - 18+ Adult Only Patch",
         "My Furry Protogen 2 🐾 - 18+ Edition"
@@ -331603,9 +332082,10 @@
     },
     {
       "steam": "2612260",
-      "bangumi": "",
+      "bangumi": "477538",
       "vndb": "v47072",
       "names": [
+        "My Furry Protogen 2",
         "My Furry Protogen 2 🐾",
         "My Furry Protogen 2 🐾 - 18+ Adult Only Patch",
         "My Furry Protogen 2 🐾 - 18+ Edition"
@@ -331944,10 +332424,12 @@
         "Yukinoshita Hotaru De Mulian Chuqing - He Yijie De Mimi Tongju Shenghuo",
         "Yukinoshita Hotaru no Koharubiyori ~Onee-chan to no Himitsu Dousei~",
         "Yukinoshita Hotaru no Koharubiyori ~Onee-chan to no Himitsu Dousei~ Deluxe Edition",
+        "Yukinoshita Hotaru no Koharubiyori ~Onee-chan to no Himitsu Dousei~ Download Edition",
         "Yukinoshita Hotaru no Koharubiyori ~Onee-chan to no Himitsu Dousei~ Trial Version",
         "Yukinoshita Hotaru no Koharubiyori ~Onee-chan to no Himitsu Dousei~ w/ Dakimakura",
         "幸乃下萤的慕恋初晴——和义姐的秘密同居生活",
         "幸乃下蛍の恋青日和 ～お義姉ちゃんとの秘密同棲～",
+        "幸乃下蛍の恋青日和 ～お義姉ちゃんとの秘密同棲～ ダウンロード版",
         "幸乃下蛍の恋青日和 ～お義姉ちゃんとの秘密同棲～ 体験版",
         "幸乃下蛍の恋青日和 ～お義姉ちゃんとの秘密同棲～ 抱き枕カバー付",
         "幸乃下蛍の恋青日和 ～お義姉ちゃんとの秘密同棲～ 豪華版"
@@ -332585,6 +333067,19 @@
       ]
     },
     {
+      "steam": "5052840",
+      "bangumi": "",
+      "vndb": "v47252",
+      "names": [
+        "Henshin Tantei",
+        "Henshin Tantei - Trial Edition",
+        "The Transforming Detective",
+        "The Transforming Detective - Demo",
+        "変身探偵",
+        "変身探偵 体験版"
+      ]
+    },
+    {
       "steam": "",
       "bangumi": "664449",
       "vndb": "v47256",
@@ -332725,7 +333220,7 @@
     },
     {
       "steam": "2010210",
-      "bangumi": "",
+      "bangumi": "730820",
       "vndb": "v47320",
       "names": [
         "Sunwave Hotel"
@@ -332843,7 +333338,7 @@
     },
     {
       "steam": "2622770",
-      "bangumi": "",
+      "bangumi": "721773",
       "vndb": "v47348",
       "names": [
         "In Fair Spirits"
@@ -334217,10 +334712,11 @@
     },
     {
       "steam": "2639280",
-      "bangumi": "",
+      "bangumi": "474506",
       "vndb": "v47691",
       "names": [
         "Xun",
+        "㵌",
         "𣸩"
       ]
     },
@@ -334528,7 +335024,7 @@
     },
     {
       "steam": "2604760",
-      "bangumi": "",
+      "bangumi": "721759",
       "vndb": "v47787",
       "names": [
         "The Muscle Bunny Girls Caught Me Cheatin'!!!",
@@ -334941,7 +335437,7 @@
     },
     {
       "steam": "1840450",
-      "bangumi": "",
+      "bangumi": "723455",
       "vndb": "v47886",
       "names": [
         "Good Bones"
@@ -335088,6 +335584,7 @@
         "Muv-Luv Alternative - Total Eclipse: Teito Moyu",
         "Muv-Luv Alternative Total Eclipse Didu Ranshao",
         "Muv-Luv Alternative Total Eclipse 帝都燃烧",
+        "Muv-Luv Alternative Total Eclipse：帝都燃烧",
         "Muv-Luv Alternative: Total Eclipse - Teito Moyu",
         "The Imperial Capital Burns - Muv-Luv Alternative Total Eclipse",
         "マブラヴ オルタネイティヴ トータル・イクリプス 帝都燃ゆ"
@@ -335172,7 +335669,7 @@
     },
     {
       "steam": "2630430",
-      "bangumi": "",
+      "bangumi": "721780",
       "vndb": "v47943",
       "names": [
         "Clock Stopper",
@@ -335228,7 +335725,7 @@
     },
     {
       "steam": "2671730",
-      "bangumi": "",
+      "bangumi": "468822",
       "vndb": "v47951",
       "names": [
         "Hans"
@@ -335637,7 +336134,7 @@
     },
     {
       "steam": "2700910",
-      "bangumi": "",
+      "bangumi": "722902",
       "vndb": "v48096",
       "names": [
         "Emi - Christmas Special"
@@ -335800,8 +336297,10 @@
         "Otome Sekai no Arukikata - Introduction Trial Edition",
         "Otome Sekai no Arukikata - Regular Edition",
         "Otome Sekai no Arukikata - Trial Edition",
+        "Shaonü Shijie de Shengcun Faze",
         "Shaonü Shijie de Shengcun zhi Dao",
         "Shaonü Shijie de Shengcun zhi Dao - Introduction Trial Edition",
+        "THE MAIDEN'S WORLD",
         "オトメ世界の歩き方",
         "オトメ世界の歩き方 DL版",
         "オトメ世界の歩き方 体験版",
@@ -335809,7 +336308,8 @@
         "オトメ世界の歩き方 抱き枕カバー付き限定版",
         "オトメ世界の歩き方 通常版",
         "少女世界的生存之道",
-        "少女世界的生存之道 导入体验版"
+        "少女世界的生存之道 导入体验版",
+        "少女世界的生存法则"
       ]
     },
     {
@@ -336320,7 +336820,7 @@
     },
     {
       "steam": "2709990",
-      "bangumi": "",
+      "bangumi": "721867",
       "vndb": "v48247",
       "names": [
         "Good Morning Cruel City",
@@ -336339,7 +336839,7 @@
     },
     {
       "steam": "3766830",
-      "bangumi": "",
+      "bangumi": "725024",
       "vndb": "v48251",
       "names": [
         "Grow a Girlfriend",
@@ -336349,7 +336849,7 @@
     },
     {
       "steam": "3807090",
-      "bangumi": "",
+      "bangumi": "725024",
       "vndb": "v48251",
       "names": [
         "Grow a Girlfriend",
@@ -336606,7 +337106,7 @@
     },
     {
       "steam": "2713990",
-      "bangumi": "",
+      "bangumi": "721876",
       "vndb": "v48341",
       "names": [
         "I keep Dying in Another World",
@@ -336615,7 +337115,7 @@
     },
     {
       "steam": "2724600",
-      "bangumi": "",
+      "bangumi": "721886",
       "vndb": "v48341",
       "names": [
         "I keep Dying in Another World",
@@ -336911,7 +337411,7 @@
     },
     {
       "steam": "2726080",
-      "bangumi": "",
+      "bangumi": "721889",
       "vndb": "v48418",
       "names": [
         "The Bard for Her"
@@ -337211,7 +337711,7 @@
     },
     {
       "steam": "2709900",
-      "bangumi": "",
+      "bangumi": "721866",
       "vndb": "v48477",
       "names": [
         "My Faithful and Loyal Wife Would Never Cheat on Me"
@@ -338199,7 +338699,7 @@
     },
     {
       "steam": "2739620",
-      "bangumi": "",
+      "bangumi": "721904",
       "vndb": "v48620",
       "names": [
         "Sleeping With Sakuya Izayoi"
@@ -338223,7 +338723,7 @@
     },
     {
       "steam": "2711280",
-      "bangumi": "",
+      "bangumi": "721874",
       "vndb": "v48625",
       "names": [
         "Her Soft Hands"
@@ -338998,6 +339498,19 @@
       "vndb": "v48776",
       "names": [
         "The Night Heist"
+      ]
+    },
+    {
+      "steam": "",
+      "bangumi": "567022",
+      "vndb": "v48785",
+      "names": [
+        "Gandian Mini Huaju ~Xiaoshan Ni zai Nani ya~",
+        "Kanden Misaku Katsugeki - San-chan wa Doko ya~",
+        "感電迷作活劇 さんちゃんはどこや～",
+        "感電迷作活劇「さんちゃんはどこや～」",
+        "感電迷你話劇「小珊你在哪裡呀～」",
+        "感電迷你话剧 ～小珊你在哪里呀～"
       ]
     },
     {
@@ -340334,7 +340847,7 @@
     },
     {
       "steam": "2772390",
-      "bangumi": "",
+      "bangumi": "722041",
       "vndb": "v49148",
       "names": [
         "My VALENTINE is a FEMBOY"
@@ -340573,7 +341086,7 @@
     },
     {
       "steam": "2752230",
-      "bangumi": "",
+      "bangumi": "722023",
       "vndb": "v49177",
       "names": [
         "Pookie has a Fantasy!",
@@ -340761,11 +341274,13 @@
     },
     {
       "steam": "4249990",
-      "bangumi": "",
+      "bangumi": "466594",
       "vndb": "v49215",
       "names": [
         "Suspects Room ~Keishichou Monzensho Torishirabe Han~",
-        "サスペクツルーム～警視庁門前署取調班～"
+        "サスペクツルーム ~警視庁門前署取調班~",
+        "サスペクツルーム～警視庁門前署取調班～",
+        "嫌疑人审讯室 - 警视厅门前警署审讯班"
       ]
     },
     {
@@ -340834,7 +341349,7 @@
     },
     {
       "steam": "2772460",
-      "bangumi": "",
+      "bangumi": "722045",
       "vndb": "v49230",
       "names": [
         "The Femboy Next Door Thinks I'm Cute"
@@ -341110,7 +341625,7 @@
     },
     {
       "steam": "2772640",
-      "bangumi": "",
+      "bangumi": "722050",
       "vndb": "v49295",
       "names": [
         "I Became a Femboy to Date One"
@@ -341173,7 +341688,7 @@
     },
     {
       "steam": "2801620",
-      "bangumi": "",
+      "bangumi": "732076",
       "vndb": "v49305",
       "names": [
         "Look Inside"
@@ -341447,7 +341962,7 @@
     },
     {
       "steam": "2784150",
-      "bangumi": "",
+      "bangumi": "732163",
       "vndb": "v49345",
       "names": [
         "The Last Rose",
@@ -341456,7 +341971,7 @@
     },
     {
       "steam": "3455390",
-      "bangumi": "",
+      "bangumi": "732163",
       "vndb": "v49345",
       "names": [
         "The Last Rose",
@@ -341881,7 +342396,7 @@
     },
     {
       "steam": "2772420",
-      "bangumi": "",
+      "bangumi": "722044",
       "vndb": "v49447",
       "names": [
         "A Futanari SPAT in my MOUTH!"
@@ -342245,7 +342760,7 @@
     },
     {
       "steam": "2772650",
-      "bangumi": "",
+      "bangumi": "722052",
       "vndb": "v49517",
       "names": [
         "I got GOONED by a FEMBOY"
@@ -342487,7 +343002,7 @@
     },
     {
       "steam": "2772410",
-      "bangumi": "",
+      "bangumi": "722043",
       "vndb": "v49556",
       "names": [
         "My Bestie is a Femboy Streamer"
@@ -342913,7 +343428,7 @@
     },
     {
       "steam": "4914850",
-      "bangumi": "",
+      "bangumi": "727503",
       "vndb": "v49623",
       "names": [
         "Bonded in Darkness"
@@ -342955,7 +343470,7 @@
     },
     {
       "steam": "2772660",
-      "bangumi": "",
+      "bangumi": "733007",
       "vndb": "v49654",
       "names": [
         "I got BLACKMAILED by a FUTANARI!"
@@ -343145,7 +343660,7 @@
     },
     {
       "steam": "1882670",
-      "bangumi": "",
+      "bangumi": "732149",
       "vndb": "v49669",
       "names": [
         "Sex Adventures - The Job Interview"
@@ -343339,7 +343854,7 @@
     },
     {
       "steam": "2772480",
-      "bangumi": "",
+      "bangumi": "722048",
       "vndb": "v49726",
       "names": [
         "My COUSIN is a FEMBOY"
@@ -343650,7 +344165,7 @@
     },
     {
       "steam": "2772470",
-      "bangumi": "",
+      "bangumi": "722046",
       "vndb": "v49826",
       "names": [
         "I got STRADDLED by a FEMBOY"
@@ -344170,8 +344685,10 @@
       "vndb": "v49951",
       "names": [
         "Koakuma Nurse no Itazura Karte ~Kangoshi Kanojo to no Dousei Seikatsu~",
+        "Koakuma Nurse no Itazura Karte ~Kangoshi Kanojo to no Dousei Seikatsu~ Download Edition",
         "小悪魔ナースのいたずらカルテ -看護師彼女との同棲生活-",
-        "小悪魔ナースのいたずらカルテ ~看護師彼女との同棲生活~"
+        "小悪魔ナースのいたずらカルテ ~看護師彼女との同棲生活~",
+        "小悪魔ナースのいたずらカルテ ~看護師彼女との同棲生活~ ダウンロード版"
       ]
     },
     {
@@ -344907,7 +345424,7 @@
     },
     {
       "steam": "2772670",
-      "bangumi": "",
+      "bangumi": "722053",
       "vndb": "v50134",
       "names": [
         "I made a FEMBOY SQUIRT!"
@@ -345748,7 +346265,7 @@
     },
     {
       "steam": "2772630",
-      "bangumi": "",
+      "bangumi": "722049",
       "vndb": "v50336",
       "names": [
         "I got STICKY with a FEMBOY"
@@ -345794,6 +346311,19 @@
       "vndb": "v50348",
       "names": [
         "HOPE: Winter Tale"
+      ]
+    },
+    {
+      "steam": "",
+      "bangumi": "404581",
+      "vndb": "v50351",
+      "names": [
+        "Doukyonin - under one roof -",
+        "Doukyonin - under one roof - BEEP Special Edition",
+        "同居人",
+        "同居人 - under one roof -",
+        "同居人 - under one roof - BEEP特装版",
+        "同居人 under one roof"
       ]
     },
     {
@@ -346936,7 +347466,7 @@
     },
     {
       "steam": "2570830",
-      "bangumi": "",
+      "bangumi": "721727",
       "vndb": "v50611",
       "names": [
         "Floralgraphic Memory"
@@ -347278,10 +347808,11 @@
     },
     {
       "steam": "2678520",
-      "bangumi": "",
+      "bangumi": "498330",
       "vndb": "v50663",
       "names": [
         "Sigan-eul Meomuneun Piano",
+        "The Piano That Staying Time",
         "시간을 머무는 피아노"
       ]
     },
@@ -347476,10 +348007,11 @@
     },
     {
       "steam": "3690810",
-      "bangumi": "",
+      "bangumi": "731906",
       "vndb": "v50706",
       "names": [
-        "Actual Roommates"
+        "Actual Roommates",
+        "Actual Roommates!"
       ]
     },
     {
@@ -348394,7 +348926,7 @@
     },
     {
       "steam": "3079280",
-      "bangumi": "",
+      "bangumi": "490364",
       "vndb": "v50880",
       "names": [
         "Saihate Eki",
@@ -348416,7 +348948,7 @@
     },
     {
       "steam": "3486670",
-      "bangumi": "",
+      "bangumi": "490364",
       "vndb": "v50880",
       "names": [
         "Saihate Eki",
@@ -348560,7 +349092,7 @@
     },
     {
       "steam": "2244930",
-      "bangumi": "",
+      "bangumi": "733142",
       "vndb": "v50913",
       "names": [
         "Sex Adventures - Hot Sauna"
@@ -348854,7 +349386,7 @@
     },
     {
       "steam": "2201240",
-      "bangumi": "",
+      "bangumi": "732156",
       "vndb": "v50987",
       "names": [
         "Sex Adventures - The Naughty Maid"
@@ -348911,7 +349443,7 @@
     },
     {
       "steam": "2296270",
-      "bangumi": "",
+      "bangumi": "730879",
       "vndb": "v50994",
       "names": [
         "Sex Adventures - The Job Promotion"
@@ -350839,6 +351371,7 @@
       "vndb": "v51361",
       "names": [
         "The Thief, the Witch, the Toad, and the Mushroom.",
+        "Xiaotou, Nüwu, Chanchu yu Mogu",
         "小偷，女巫，蟾蜍与蘑菇"
       ]
     },
@@ -351162,8 +351695,8 @@
       ]
     },
     {
-      "steam": "2805700",
-      "bangumi": "",
+      "steam": "4272260",
+      "bangumi": "722626",
       "vndb": "v51410",
       "names": [
         "BDSM Sex",
@@ -351179,7 +351712,7 @@
       ]
     },
     {
-      "steam": "4272260",
+      "steam": "2805700",
       "bangumi": "",
       "vndb": "v51410",
       "names": [
@@ -353413,7 +353946,7 @@
     },
     {
       "steam": "1581700",
-      "bangumi": "",
+      "bangumi": "730506",
       "vndb": "v51878",
       "names": [
         "Wild Wet West"
@@ -353513,6 +354046,14 @@
         "Memories: PSYCHExFUSE",
         "PSYCHExFUSE",
         "回臆 PSYCHExFUSE"
+      ]
+    },
+    {
+      "steam": "",
+      "bangumi": "515860",
+      "vndb": "v51903",
+      "names": [
+        "Nightmare"
       ]
     },
     {
@@ -353925,6 +354466,7 @@
       "vndb": "v51954",
       "names": [
         "Forest of soul slave 2",
+        "Forest of soul slave2",
         "Owari no Mori 2",
         "Zhong Yan Zhi Sen 2",
         "終わりの森2",
@@ -354812,7 +355354,7 @@
     },
     {
       "steam": "2728990",
-      "bangumi": "",
+      "bangumi": "721890",
       "vndb": "v52193",
       "names": [
         "Trail of the Wretched"
@@ -355471,7 +356013,7 @@
     },
     {
       "steam": "3486140",
-      "bangumi": "",
+      "bangumi": "722087",
       "vndb": "v52351",
       "names": [
         "Unluckily in Love: Fragments of Love",
@@ -355481,7 +356023,7 @@
     },
     {
       "steam": "4624270",
-      "bangumi": "",
+      "bangumi": "722087",
       "vndb": "v52351",
       "names": [
         "Unluckily in Love: Fragments of Love",
@@ -356073,10 +356615,13 @@
     },
     {
       "steam": "3137130",
-      "bangumi": "",
+      "bangumi": "511261",
       "vndb": "v52456",
       "names": [
-        "My Dictator Stalin Can't Be This Cute ?!"
+        "My Dictator Stalin Can't Be This Cute ?!",
+        "My Dictator Stalin Can’t Be This Cute ?!",
+        "我的独裁者斯大林哪有这么可爱？！",
+        "私の独裁者スターリンがこんなに可愛いわけがない?!"
       ]
     },
     {
@@ -357370,7 +357915,7 @@
       "vndb": "v52777",
       "names": [
         "Astreon",
-        "Astreon 0.4.5",
+        "Astreon v0.4.5",
         "星宿"
       ]
     },
@@ -357572,7 +358117,7 @@
     },
     {
       "steam": "3716980",
-      "bangumi": "",
+      "bangumi": "732017",
       "vndb": "v52808",
       "names": [
         "Thank You for Your Time"
@@ -358750,10 +359295,12 @@
       "names": [
         "Ero Manga Onee-chan!! ~Damedame na Ane to no Amaama Cosplay Ecchi na Hibi~",
         "Ero Manga Onee-chan!! ~Damedame na Ane to no Amaama Cosplay Ecchi na Hibi~ Deluxe Edition",
+        "Ero Manga Onee-chan!! ~Damedame na Ane to no Amaama Cosplay Ecchi na Hibi~ Download Edition",
         "Ero Manga Onee-chan!! ~Damedame na Ane to no Amaama Cosplay Ecchi na Hibi~ Hibari Dakimakura Cover Included",
         "Ero Manga Onee-chan!! ~Damedame na Ane to no Amaama Cosplay Ecchi na Hibi~ Regular Edition",
         "エロ漫画お姉ちゃん!！～ダメダメな姉との甘々コスプレえっちな日々～",
         "エロ漫画お姉ちゃん!！～ダメダメな姉との甘々コスプレえっちな日々～ ひばり抱き枕カバー付き",
+        "エロ漫画お姉ちゃん!！～ダメダメな姉との甘々コスプレえっちな日々～ ダウンロード版",
         "エロ漫画お姉ちゃん!！～ダメダメな姉との甘々コスプレえっちな日々～ 豪華版",
         "エロ漫画お姉ちゃん!！～ダメダメな姉との甘々コスプレえっちな日々～ 通常版",
         "エロ漫画お姉ちゃん！！ ～ダメダメな姉との甘々コスプレえっちな日々～"
@@ -359318,6 +359865,7 @@
       "bangumi": "521993",
       "vndb": "v53202",
       "names": [
+        "An Idol's Dirty Secrets",
         "Saotome Yui no Midara na Kakushigoto ~Kakusareta Idol no Bitch na Ura Jijou~",
         "Saotome Yui no Midara na Kakushigoto ~Kakusareta Idol no Bitch na Ura Jijou~ Download Edition",
         "Saotome Yui no Midara na Kakushigoto ~Kakusareta Idol no Bitch na Ura Jijou~ Package Edition",
@@ -359490,18 +360038,20 @@
     },
     {
       "steam": "2749380",
-      "bangumi": "",
+      "bangumi": "731422",
       "vndb": "v53240",
       "names": [
+        "Lust Theory Season 3",
         "Lust Theory: Season 3",
         "Lust Theory: Season 3 - Demo"
       ]
     },
     {
       "steam": "3112510",
-      "bangumi": "",
+      "bangumi": "731422",
       "vndb": "v53240",
       "names": [
+        "Lust Theory Season 3",
         "Lust Theory: Season 3",
         "Lust Theory: Season 3 - Demo"
       ]
@@ -361731,7 +362281,7 @@
       "vndb": "v53750",
       "names": [
         "Fate Won't Separate Us",
-        "Fate Won't Separate Us v0.8a"
+        "Fate Won't Separate Us v0.8b"
       ]
     },
     {
@@ -362592,6 +363142,15 @@
         "Akuma to Otoshiana",
         "Devil and Pitfall",
         "悪魔と落とし穴"
+      ]
+    },
+    {
+      "steam": "3652840",
+      "bangumi": "",
+      "vndb": "v53996",
+      "names": [
+        "Cheerleaders - Season 1",
+        "Cheerleaders v1.2.1"
       ]
     },
     {
@@ -364231,7 +364790,7 @@
     },
     {
       "steam": "1803160",
-      "bangumi": "",
+      "bangumi": "732950",
       "vndb": "v54458",
       "names": [
         "CARROT"
@@ -364815,7 +365374,7 @@
     },
     {
       "steam": "3485920",
-      "bangumi": "",
+      "bangumi": "722086",
       "vndb": "v54586",
       "names": [
         "The Thistle and the Flower",
@@ -364826,7 +365385,7 @@
     },
     {
       "steam": "4237910",
-      "bangumi": "",
+      "bangumi": "722086",
       "vndb": "v54586",
       "names": [
         "The Thistle and the Flower",
@@ -364837,7 +365396,7 @@
     },
     {
       "steam": "4237920",
-      "bangumi": "",
+      "bangumi": "722086",
       "vndb": "v54586",
       "names": [
         "The Thistle and the Flower",
@@ -365480,6 +366039,7 @@
         "Seaven Days:  Living in Confinement With a Stranger High School Girl",
         "Seaven Days: Mishiranu JK to Misshitsu Seikatsu",
         "Seven Days – Mishiranu JK to Misshitsu Seikatsu",
+        "Seven Days 未知的密室生活",
         "Seven Days:  Living in Confinement With a Stranger High School Girl",
         "Seven Days: Mishiranu JK to Misshitsu Seikatsu",
         "Sevun Deizu: Mishiranu JK to Misshitsu Seikatsu",
@@ -366344,7 +366904,7 @@
     },
     {
       "steam": "4260460",
-      "bangumi": "",
+      "bangumi": "722618",
       "vndb": "v54947",
       "names": [
         "Lilacs in the Breeze"
@@ -367620,7 +368180,7 @@
       "vndb": "v55157",
       "names": [
         "Harmony Haven",
-        "Harmony Haven: Chapter 5 v0.4"
+        "Harmony Haven: Chapter 5 v0.8"
       ]
     },
     {
@@ -368516,7 +369076,7 @@
     },
     {
       "steam": "3616970",
-      "bangumi": "",
+      "bangumi": "722115",
       "vndb": "v55385",
       "names": [
         "Out of the Ocean",
@@ -368525,7 +369085,7 @@
     },
     {
       "steam": "4082630",
-      "bangumi": "",
+      "bangumi": "722115",
       "vndb": "v55385",
       "names": [
         "Out of the Ocean",
@@ -368570,7 +369130,7 @@
     },
     {
       "steam": "3554600",
-      "bangumi": "",
+      "bangumi": "722101",
       "vndb": "v55397",
       "names": [
         "Life of a Dispatch English Teacher in Japan",
@@ -368692,6 +369252,22 @@
       "vndb": "v55418",
       "names": [
         "Dere Quartet"
+      ]
+    },
+    {
+      "steam": "",
+      "bangumi": "576866",
+      "vndb": "v55423",
+      "names": [
+        "M-tachi no Chouritsu",
+        "M-tachi no Chouritsu Chapter 1",
+        "M-tachi no Chouritsu Chapter 2",
+        "M-tachi no Chouritsu Chapter 2,5",
+        "Mたちの調律",
+        "Mたちの調律 2,5話",
+        "Mたちの調律 一話",
+        "Mたちの調律 二話",
+        "Ｍたちの調律"
       ]
     },
     {
@@ -371509,7 +372085,7 @@
     },
     {
       "steam": "3716280",
-      "bangumi": "",
+      "bangumi": "722163",
       "vndb": "v56398",
       "names": [
         "Rumours of a Roman Empire",
@@ -371519,7 +372095,7 @@
     },
     {
       "steam": "3750180",
-      "bangumi": "",
+      "bangumi": "722163",
       "vndb": "v56398",
       "names": [
         "Rumours of a Roman Empire",
@@ -372104,6 +372680,18 @@
         "霓霄彼端：风暴序曲 - Kickstarter Demo",
         "霓霄彼端～風暴序曲～",
         "霓霄彼端～风暴序曲～"
+      ]
+    },
+    {
+      "steam": "",
+      "bangumi": "591255",
+      "vndb": "v56530",
+      "names": [
+        "Fukei-san VX",
+        "Policewoman VX",
+        "女警小姐VX",
+        "婦警さんVX",
+        "婦警さんＶＸ"
       ]
     },
     {
@@ -372740,6 +373328,7 @@
         "堕ちた聖女達 ～届かなかった祈り～",
         "堕ちた聖女達 ～届かなかった祈り～ ダウンロード版",
         "堕ちた聖女達 ～届かなかった祈り～ パッケージ版",
+        "堕落的圣女们：无法实现的祈祷",
         "墮落的聖女們：無法實現的祈禱"
       ]
     },
@@ -372954,7 +373543,8 @@
       "vndb": "v56762",
       "names": [
         "Dream Spectra",
-        "Dream Spectra - Demo"
+        "Dream Spectra - Demo",
+        "Dream Spectra - New Demo"
       ]
     },
     {
@@ -372963,7 +373553,8 @@
       "vndb": "v56762",
       "names": [
         "Dream Spectra",
-        "Dream Spectra - Demo"
+        "Dream Spectra - Demo",
+        "Dream Spectra - New Demo"
       ]
     },
     {
@@ -373132,7 +373723,7 @@
     },
     {
       "steam": "3708000",
-      "bangumi": "",
+      "bangumi": "728402",
       "vndb": "v56827",
       "names": [
         "OnlyDefense",
@@ -373858,7 +374449,7 @@
     },
     {
       "steam": "4420490",
-      "bangumi": "",
+      "bangumi": "727813",
       "vndb": "v57074",
       "names": [
         "KingBreaker",
@@ -374228,7 +374819,7 @@
     },
     {
       "steam": "4524680",
-      "bangumi": "",
+      "bangumi": "725568",
       "vndb": "v57235",
       "names": [
         "My Bloodsucking 9-to-5",
@@ -374351,6 +374942,15 @@
         "ママラブ！～僕の彼女は僕のママ☆おっとり巨乳愛奈ママ～ ダウンロード版",
         "ママラブ！～僕の彼女は僕のママ☆おっとり巨乳愛奈ママ～ 体験版",
         "ママラブ！～僕の彼女は僕のママ☆おっとり巨乳愛奈ママ～ 豪華版"
+      ]
+    },
+    {
+      "steam": "",
+      "bangumi": "589199",
+      "vndb": "v57288",
+      "names": [
+        "FAKER'S ROOM",
+        "FAKER'S　ROOM"
       ]
     },
     {
@@ -374535,10 +375135,11 @@
     },
     {
       "steam": "5023930",
-      "bangumi": "",
+      "bangumi": "729536",
       "vndb": "v57385",
       "names": [
-        "HELP! I Tried to Summon the Perfect Boyfriend and Messed Up so I Summoned a Demon Instead!?!?"
+        "HELP! I Tried to Summon the Perfect Boyfriend and Messed Up so I Summoned a Demon Instead!?!?",
+        "Help! I Tried to Summon the Perfect Boyfriend and Messed Up so I Summoned a Demon Instead!?!?"
       ]
     },
     {
@@ -375535,7 +376136,7 @@
     },
     {
       "steam": "4450700",
-      "bangumi": "",
+      "bangumi": "725249",
       "vndb": "v57907",
       "names": [
         "Bite the Hand"
@@ -375962,7 +376563,7 @@
     },
     {
       "steam": "3700140",
-      "bangumi": "",
+      "bangumi": "722157",
       "vndb": "v58125",
       "names": [
         "PIG"
@@ -376135,7 +376736,7 @@
     },
     {
       "steam": "3841380",
-      "bangumi": "",
+      "bangumi": "731441",
       "vndb": "v58212",
       "names": [
         "Fugue of Delights"
@@ -376293,7 +376894,7 @@
     },
     {
       "steam": "3812030",
-      "bangumi": "",
+      "bangumi": "722215",
       "vndb": "v58267",
       "names": [
         "Pookie has a Fantasy 2"
@@ -376901,7 +377502,7 @@
     },
     {
       "steam": "3854880",
-      "bangumi": "",
+      "bangumi": "722264",
       "vndb": "v58411",
       "names": [
         "Sunrider Legends Tactics"
@@ -376984,7 +377585,7 @@
     },
     {
       "steam": "1951880",
-      "bangumi": "",
+      "bangumi": "723741",
       "vndb": "v58432",
       "names": [
         "Sex Diary - Futanari Massage"
@@ -377011,7 +377612,7 @@
     },
     {
       "steam": "3801410",
-      "bangumi": "",
+      "bangumi": "723486",
       "vndb": "v58446",
       "names": [
         "Sex Empire",
@@ -377591,9 +378192,11 @@
       "names": [
         "Sono Yome wa Hatsukoi o Shiranai",
         "Sono Yome wa Hatsukoi o Shiranai - Motto Yome Pack",
+        "Sono Yome wa Hatsukoi o Shiranai - Package Edition",
         "Wo de Weihunqi, Hai Butaidong Chulian",
         "その許嫁(よめ)は初恋を知らない",
         "その許嫁(よめ)は初恋を知らない もっと許嫁パック",
+        "その許嫁(よめ)は初恋を知らない パッケージ版",
         "我的未婚妻还不太懂初恋",
         "我的未婚妻，还不太懂初恋"
       ]
@@ -377619,7 +378222,7 @@
     },
     {
       "steam": "3636460",
-      "bangumi": "",
+      "bangumi": "722122",
       "vndb": "v58602",
       "names": [
         "Miss Sasami is Losing Her Mind!",
@@ -377631,7 +378234,7 @@
     },
     {
       "steam": "4783950",
-      "bangumi": "",
+      "bangumi": "722122",
       "vndb": "v58602",
       "names": [
         "Miss Sasami is Losing Her Mind!",
@@ -378196,18 +378799,20 @@
     },
     {
       "steam": "3907840",
-      "bangumi": "",
+      "bangumi": "731820",
       "vndb": "v58709",
       "names": [
+        "Out Of Water",
         "Out of Water",
         "Out of Water - Demo"
       ]
     },
     {
       "steam": "3911100",
-      "bangumi": "",
+      "bangumi": "731820",
       "vndb": "v58709",
       "names": [
+        "Out Of Water",
         "Out of Water",
         "Out of Water - Demo"
       ]
@@ -380423,7 +381028,7 @@
     },
     {
       "steam": "3728370",
-      "bangumi": "",
+      "bangumi": "722173",
       "vndb": "v59326",
       "names": [
         "I Became my Punk Son's Fake Girlfriend",
@@ -380651,7 +381256,7 @@
     },
     {
       "steam": "3807440",
-      "bangumi": "",
+      "bangumi": "733161",
       "vndb": "v59366",
       "names": [
         "Taste of the Sea",
@@ -380660,7 +381265,7 @@
     },
     {
       "steam": "4022670",
-      "bangumi": "",
+      "bangumi": "733161",
       "vndb": "v59366",
       "names": [
         "Taste of the Sea",
@@ -381236,7 +381841,7 @@
     },
     {
       "steam": "4108010",
-      "bangumi": "",
+      "bangumi": "722396",
       "vndb": "v59484",
       "names": [
         "The Girl In White"
@@ -381539,7 +382144,7 @@
     },
     {
       "steam": "2072780",
-      "bangumi": "",
+      "bangumi": "733341",
       "vndb": "v59565",
       "names": [
         "Sex Adventures - The Office Slut"
@@ -381600,7 +382205,7 @@
     },
     {
       "steam": "3928080",
-      "bangumi": "",
+      "bangumi": "589111",
       "vndb": "v59575",
       "names": [
         "GOLOD"
@@ -382032,20 +382637,22 @@
     },
     {
       "steam": "4097180",
-      "bangumi": "",
+      "bangumi": "722386",
       "vndb": "v59656",
       "names": [
         "SpookY2K",
-        "SpookY2K - Demo"
+        "SpookY2K - Demo",
+        "spookY2K"
       ]
     },
     {
       "steam": "4102300",
-      "bangumi": "",
+      "bangumi": "722386",
       "vndb": "v59656",
       "names": [
         "SpookY2K",
-        "SpookY2K - Demo"
+        "SpookY2K - Demo",
+        "spookY2K"
       ]
     },
     {
@@ -382068,7 +382675,7 @@
     },
     {
       "steam": "4762150",
-      "bangumi": "",
+      "bangumi": "727708",
       "vndb": "v59701",
       "names": [
         "Dead Ringer",
@@ -383114,7 +383721,7 @@
     },
     {
       "steam": "3952490",
-      "bangumi": "",
+      "bangumi": "731447",
       "vndb": "v59923",
       "names": [
         "Fantasy Formula",
@@ -383124,7 +383731,7 @@
     },
     {
       "steam": "3958000",
-      "bangumi": "",
+      "bangumi": "731447",
       "vndb": "v59923",
       "names": [
         "Fantasy Formula",
@@ -383412,7 +384019,7 @@
     },
     {
       "steam": "4309120",
-      "bangumi": "",
+      "bangumi": "722643",
       "vndb": "v60063",
       "names": [
         "Unquiet Grey",
@@ -383421,7 +384028,7 @@
     },
     {
       "steam": "4451530",
-      "bangumi": "",
+      "bangumi": "722643",
       "vndb": "v60063",
       "names": [
         "Unquiet Grey",
@@ -383482,7 +384089,7 @@
     },
     {
       "steam": "3785660",
-      "bangumi": "",
+      "bangumi": "732473",
       "vndb": "v60089",
       "names": [
         "Breeding Visa",
@@ -383492,7 +384099,7 @@
     },
     {
       "steam": "3873200",
-      "bangumi": "",
+      "bangumi": "732473",
       "vndb": "v60089",
       "names": [
         "Breeding Visa",
@@ -383661,7 +384268,7 @@
     },
     {
       "steam": "4087390",
-      "bangumi": "",
+      "bangumi": "722380",
       "vndb": "v60133",
       "names": [
         "Love Lust and a Little Evil"
@@ -384053,7 +384660,7 @@
     },
     {
       "steam": "3793430",
-      "bangumi": "",
+      "bangumi": "733688",
       "vndb": "v60210",
       "names": [
         "X.E.H.A. Rogue"
@@ -384098,10 +384705,12 @@
       "names": [
         "Love Love Ochiken Baito Seikatsu -Ayashii Kusuri de Full Bo***! Motemakuri Yarimakuri de Jinsei Daigyakuten-",
         "Love Love Ochiken Baito Seikatsu -Ayashii Kusuri de Full Bo***! Motemakuri Yarimakuri de Jinsei Daigyakuten- Deluxe Edition",
+        "Love Love Ochiken Baito Seikatsu -Ayashii Kusuri de Full Bo***! Motemakuri Yarimakuri de Jinsei Daigyakuten- Download Edition",
         "Love Love Ochiken Baito Seikatsu -Ayashii Kusuri de Full Bo***! Motemakuri Yarimakuri de Jinsei Daigyakuten- Regular Edition",
         "Love Love Ochiken Baito Seikatsu -Ayashii Kusuri de Full Bo***! Motemakuri Yarimakuri de Jinsei Daigyakuten- Trial Edition",
         "ラブラブお痴験バイト性活",
         "ラブラブお痴験バイト性活　-怪しいクスリでフル勃〇!モテまくりヤリまくりで人生大逆転-",
+        "ラブラブお痴験バイト性活　-怪しいクスリでフル勃〇!モテまくりヤリまくりで人生大逆転- ダウンロード版",
         "ラブラブお痴験バイト性活　-怪しいクスリでフル勃〇!モテまくりヤリまくりで人生大逆転- 体験版",
         "ラブラブお痴験バイト性活　-怪しいクスリでフル勃〇!モテまくりヤリまくりで人生大逆転- 豪華版",
         "ラブラブお痴験バイト性活　-怪しいクスリでフル勃〇!モテまくりヤリまくりで人生大逆転- 通常版"
@@ -384624,7 +385233,7 @@
     },
     {
       "steam": "3892390",
-      "bangumi": "",
+      "bangumi": "723901",
       "vndb": "v60333",
       "names": [
         "Horse Magic",
@@ -385103,7 +385712,7 @@
     },
     {
       "steam": "4099090",
-      "bangumi": "",
+      "bangumi": "722387",
       "vndb": "v60444",
       "names": [
         "Where the Heart Rests"
@@ -385345,7 +385954,7 @@
     },
     {
       "steam": "3811040",
-      "bangumi": "",
+      "bangumi": "722211",
       "vndb": "v60502",
       "names": [
         "Femboy Streamer",
@@ -385355,7 +385964,7 @@
     },
     {
       "steam": "3819920",
-      "bangumi": "",
+      "bangumi": "722211",
       "vndb": "v60502",
       "names": [
         "Femboy Streamer",
@@ -385567,7 +386176,7 @@
     },
     {
       "steam": "4042480",
-      "bangumi": "",
+      "bangumi": "722357",
       "vndb": "v60547",
       "names": [
         "Fun Times at the Bibi Resort and Spa"
@@ -385800,7 +386409,7 @@
     },
     {
       "steam": "4158350",
-      "bangumi": "",
+      "bangumi": "733475",
       "vndb": "v60596",
       "names": [
         "Eclipse Town"
@@ -386224,7 +386833,7 @@
     },
     {
       "steam": "4232760",
-      "bangumi": "",
+      "bangumi": "722615",
       "vndb": "v60669",
       "names": [
         "PASSENGER x PRINCESS: NO HOPE // MUST DIE"
@@ -386232,7 +386841,7 @@
     },
     {
       "steam": "4175650",
-      "bangumi": "",
+      "bangumi": "722438",
       "vndb": "v60677",
       "names": [
         "FLESHBREAK",
@@ -386250,6 +386859,16 @@
     },
     {
       "steam": "4102120",
+      "bangumi": "630613",
+      "vndb": "v60679",
+      "names": [
+        "Resequence: The Orchard",
+        "Resequence: The Orchard - Demo",
+        "Resequence: The Orchard 体験版"
+      ]
+    },
+    {
+      "steam": "4846720",
       "bangumi": "630613",
       "vndb": "v60679",
       "names": [
@@ -386292,7 +386911,7 @@
     },
     {
       "steam": "4144840",
-      "bangumi": "",
+      "bangumi": "733692",
       "vndb": "v60689",
       "names": [
         "Doctor Visit"
@@ -386390,7 +387009,7 @@
     },
     {
       "steam": "4178570",
-      "bangumi": "",
+      "bangumi": "728461",
       "vndb": "v60715",
       "names": [
         "Amber's Quest",
@@ -386399,7 +387018,7 @@
     },
     {
       "steam": "4204630",
-      "bangumi": "",
+      "bangumi": "728461",
       "vndb": "v60715",
       "names": [
         "Amber's Quest",
@@ -386459,7 +387078,7 @@
     },
     {
       "steam": "4192830",
-      "bangumi": "",
+      "bangumi": "722453",
       "vndb": "v60748",
       "names": [
         "Once Upon a Throne of Thorns",
@@ -386471,7 +387090,7 @@
     },
     {
       "steam": "4783890",
-      "bangumi": "",
+      "bangumi": "722453",
       "vndb": "v60748",
       "names": [
         "Once Upon a Throne of Thorns",
@@ -386483,7 +387102,7 @@
     },
     {
       "steam": "4842560",
-      "bangumi": "",
+      "bangumi": "722453",
       "vndb": "v60748",
       "names": [
         "Once Upon a Throne of Thorns",
@@ -386837,7 +387456,7 @@
     },
     {
       "steam": "4134020",
-      "bangumi": "",
+      "bangumi": "731628",
       "vndb": "v60801",
       "names": [
         "ORBIT 5",
@@ -386846,7 +387465,7 @@
     },
     {
       "steam": "4145210",
-      "bangumi": "",
+      "bangumi": "731628",
       "vndb": "v60801",
       "names": [
         "ORBIT 5",
@@ -386961,7 +387580,7 @@
     },
     {
       "steam": "4310350",
-      "bangumi": "",
+      "bangumi": "722642",
       "vndb": "v60845",
       "names": [
         "Siren's Call: Second Wind",
@@ -386970,7 +387589,7 @@
     },
     {
       "steam": "4317520",
-      "bangumi": "",
+      "bangumi": "722642",
       "vndb": "v60845",
       "names": [
         "Siren's Call: Second Wind",
@@ -387614,7 +388233,6 @@
       "bangumi": "709001",
       "vndb": "v61046",
       "names": [
-        "Jiusuan Si Ye Meiguānxi!",
         "Jiusuan Si ye Meiguanxi!",
         "LOVE D3ATH LOVE",
         "LOVE D3ATH LOVE - Secret Plus",
@@ -387633,7 +388251,6 @@
       "bangumi": "709001",
       "vndb": "v61046",
       "names": [
-        "Jiusuan Si Ye Meiguānxi!",
         "Jiusuan Si ye Meiguanxi!",
         "LOVE D3ATH LOVE",
         "LOVE D3ATH LOVE - Secret Plus",
@@ -387670,7 +388287,7 @@
     },
     {
       "steam": "5020150",
-      "bangumi": "",
+      "bangumi": "729517",
       "vndb": "v61049",
       "names": [
         "Madness in Bloom",
@@ -387679,7 +388296,7 @@
     },
     {
       "steam": "5025410",
-      "bangumi": "",
+      "bangumi": "729517",
       "vndb": "v61049",
       "names": [
         "Madness in Bloom",
@@ -387964,13 +388581,14 @@
     },
     {
       "steam": "3707780",
-      "bangumi": "",
+      "bangumi": "607672",
       "vndb": "v61098",
       "names": [
         "Endless Black Song",
         "Owarinaki Yami no Uta",
         "Yong Bu Tingxi de Hei'an zhi Ge",
         "永不停息的黑暗之歌",
+        "永不停息的黑暗之歌 ~ Endless Black Song",
         "終わりなき闇の歌"
       ]
     },
@@ -387996,7 +388614,7 @@
     },
     {
       "steam": "3889990",
-      "bangumi": "",
+      "bangumi": "731918",
       "vndb": "v61139",
       "names": [
         "rest: in a dark room",
@@ -388767,7 +389385,7 @@
       "vndb": "v61301",
       "names": [
         "In-Security",
-        "In-Security [v0.11.0]"
+        "In-Security [v0.12.0]"
       ]
     },
     {
@@ -388776,7 +389394,7 @@
       "vndb": "v61305",
       "names": [
         "Unbreakable Love",
-        "Unbreakable Love [v0.8]"
+        "Unbreakable Love [v0.9]"
       ]
     },
     {
@@ -389250,9 +389868,10 @@
     },
     {
       "steam": "4719350",
-      "bangumi": "",
+      "bangumi": "732503",
       "vndb": "v61424",
       "names": [
+        "A DAY TO REMEMBER",
         "A Day To Remember"
       ]
     },
@@ -389772,7 +390391,7 @@
     },
     {
       "steam": "4367740",
-      "bangumi": "",
+      "bangumi": "728498",
       "vndb": "v61544",
       "names": [
         "Survival Guide",
@@ -390036,7 +390655,7 @@
     },
     {
       "steam": "4183970",
-      "bangumi": "",
+      "bangumi": "722444",
       "vndb": "v61626",
       "names": [
         "Dissolve Into Me"
@@ -390855,7 +391474,7 @@
     },
     {
       "steam": "4443870",
-      "bangumi": "",
+      "bangumi": "725225",
       "vndb": "v61829",
       "names": [
         "My Last War",
@@ -391240,7 +391859,7 @@
     },
     {
       "steam": "2652740",
-      "bangumi": "",
+      "bangumi": "721808",
       "vndb": "v61921",
       "names": [
         "Telvoikai"
@@ -391476,9 +392095,9 @@
       "bangumi": "",
       "vndb": "v61964",
       "names": [
-        "Daigaku jokyou Seikatsu - Song Ha-yun",
+        "Daigaku Jokyou Seikatsu - Song Hayun",
         "Daxue Zhujiao Shenghuo - Song Xiayun",
-        "Teaching Assistant Life - Song Ha-Yoon",
+        "Teaching Assistant Life Song Ha-yoon",
         "大学助教生活 ソン・ハユン",
         "大学助教生活 宋夏允",
         "大學助教生活 宋夏允"
@@ -391769,7 +392388,7 @@
     },
     {
       "steam": "4590880",
-      "bangumi": "",
+      "bangumi": "725919",
       "vndb": "v62045",
       "names": [
         "Psyche et al",
@@ -391858,7 +392477,7 @@
     },
     {
       "steam": "4310100",
-      "bangumi": "",
+      "bangumi": "728490",
       "vndb": "v62082",
       "names": [
         "3 Lines of A Delta"
@@ -392402,7 +393021,7 @@
     },
     {
       "steam": "4056530",
-      "bangumi": "",
+      "bangumi": "722366",
       "vndb": "v62237",
       "names": [
         "Banu in the West",
@@ -392411,7 +393030,7 @@
     },
     {
       "steam": "2745330",
-      "bangumi": "",
+      "bangumi": "724988",
       "vndb": "v62245",
       "names": [
         "Further Education",
@@ -392488,7 +393107,7 @@
     },
     {
       "steam": "3934510",
-      "bangumi": "",
+      "bangumi": "722313",
       "vndb": "v62262",
       "names": [
         "A Cold Comfort"
@@ -392895,7 +393514,9 @@
       "vndb": "v62309",
       "names": [
         "Tantei R to Yogensha J",
-        "探偵Rと預言者J"
+        "Tantei R to Yogensha J - Trial Edition",
+        "探偵Rと預言者J",
+        "探偵Rと預言者J 体験版"
       ]
     },
     {
@@ -393504,7 +394125,7 @@
     },
     {
       "steam": "4141350",
-      "bangumi": "",
+      "bangumi": "722417",
       "vndb": "v62527",
       "names": [
         "RUNT",
@@ -393513,7 +394134,7 @@
     },
     {
       "steam": "4381700",
-      "bangumi": "",
+      "bangumi": "722417",
       "vndb": "v62527",
       "names": [
         "RUNT",
@@ -393632,7 +394253,7 @@
     },
     {
       "steam": "4297070",
-      "bangumi": "",
+      "bangumi": "722637",
       "vndb": "v62580",
       "names": [
         "Pookie has a Fantasy 3 : Finale"
@@ -394477,6 +395098,16 @@
       ]
     },
     {
+      "steam": "",
+      "bangumi": "524469",
+      "vndb": "v62761",
+      "names": [
+        "Kienu Kemuri no Majo Katte ni Kyuusai",
+        "消えぬ煙の魔女 勝手に救済",
+        "消えぬ煙の魔女　勝手に救済"
+      ]
+    },
+    {
       "steam": "3909970",
       "bangumi": "",
       "vndb": "v62762",
@@ -394661,6 +395292,24 @@
     },
     {
       "steam": "",
+      "bangumi": "540153",
+      "vndb": "v62801",
+      "names": [
+        "Change"
+      ]
+    },
+    {
+      "steam": "",
+      "bangumi": "566602",
+      "vndb": "v62807",
+      "names": [
+        "Shirayukihime ~Prince of You~",
+        "白雪姫 ~Prince of You~",
+        "白雪姫 ～Prince of You～"
+      ]
+    },
+    {
+      "steam": "",
       "bangumi": "623194",
       "vndb": "v62808",
       "names": [
@@ -394747,7 +395396,7 @@
     },
     {
       "steam": "4532990",
-      "bangumi": "",
+      "bangumi": "725608",
       "vndb": "v62845",
       "names": [
         "Vampire on Trial"
@@ -394755,7 +395404,7 @@
     },
     {
       "steam": "4454880",
-      "bangumi": "",
+      "bangumi": "727830",
       "vndb": "v62847",
       "names": [
         "What Happened to Squad 7",
@@ -394764,7 +395413,7 @@
     },
     {
       "steam": "4455040",
-      "bangumi": "",
+      "bangumi": "727830",
       "vndb": "v62847",
       "names": [
         "What Happened to Squad 7",
@@ -395111,7 +395760,7 @@
     },
     {
       "steam": "4416070",
-      "bangumi": "",
+      "bangumi": "722691",
       "vndb": "v62946",
       "names": [
         "Indiepocalypse #74",
@@ -395692,6 +396341,15 @@
       ]
     },
     {
+      "steam": "",
+      "bangumi": "502861",
+      "vndb": "v63090",
+      "names": [
+        "Futarigurashi",
+        "ふたりぐらし"
+      ]
+    },
+    {
       "steam": "3866370",
       "bangumi": "",
       "vndb": "v63091",
@@ -396244,14 +396902,17 @@
     },
     {
       "steam": "3540550",
-      "bangumi": "",
+      "bangumi": "585569",
       "vndb": "v63189",
       "names": [
         "Purgatory's Flower",
         "Ran Yu Hua",
         "Rengoku Hana",
         "煉獄華",
-        "燃獄花"
+        "燃狱花",
+        "燃獄花",
+        "燃獄花(Purgatory’s Flower)",
+        "연옥꽃"
       ]
     },
     {
@@ -396560,7 +397221,7 @@
     },
     {
       "steam": "4394090",
-      "bangumi": "",
+      "bangumi": "728502",
       "vndb": "v63258",
       "names": [
         "Thorner",
@@ -396569,7 +397230,7 @@
     },
     {
       "steam": "4923230",
-      "bangumi": "",
+      "bangumi": "728502",
       "vndb": "v63258",
       "names": [
         "Thorner",
@@ -397107,14 +397768,18 @@
     },
     {
       "steam": "3216040",
-      "bangumi": "",
+      "bangumi": "530925",
       "vndb": "v63418",
       "names": [
         "Saihate Eki - Tasogare Dentetsu",
         "Saihate Station - Twilight Railway",
+        "Saihate Station Twilight Railway",
         "Zhongyan Chezhan - Huanghun Dianzhi",
+        "さいはて駅 -黄昏電鐵",
         "さいはて駅 [黄昏電鐵]",
-        "终焉车站 [黄昏电鉄]"
+        "终焉车站 [黄昏电鉄]",
+        "终焉车站 黄昏电鉄",
+        "사이하테역 [황혼전철"
       ]
     },
     {
@@ -397941,7 +398606,7 @@
     },
     {
       "steam": "4269950",
-      "bangumi": "",
+      "bangumi": "722623",
       "vndb": "v63624",
       "names": [
         "Snowdrift",
@@ -398595,7 +399260,7 @@
     },
     {
       "steam": "4632250",
-      "bangumi": "",
+      "bangumi": "734228",
       "vndb": "v63753",
       "names": [
         "Lastrip",
@@ -398623,7 +399288,7 @@
     },
     {
       "steam": "4554030",
-      "bangumi": "",
+      "bangumi": "725725",
       "vndb": "v63757",
       "names": [
         "Ace & Aro: Heart-to-Heart",
@@ -398632,7 +399297,7 @@
     },
     {
       "steam": "5213300",
-      "bangumi": "",
+      "bangumi": "725725",
       "vndb": "v63757",
       "names": [
         "Ace & Aro: Heart-to-Heart",
@@ -398659,7 +399324,7 @@
     },
     {
       "steam": "4045080",
-      "bangumi": "",
+      "bangumi": "722359",
       "vndb": "v63762",
       "names": [
         "Jezebel",
@@ -398669,7 +399334,7 @@
     },
     {
       "steam": "4334010",
-      "bangumi": "",
+      "bangumi": "722359",
       "vndb": "v63762",
       "names": [
         "Jezebel",
@@ -398809,7 +399474,7 @@
     },
     {
       "steam": "3934280",
-      "bangumi": "",
+      "bangumi": "722312",
       "vndb": "v63806",
       "names": [
         "Pledged to a Princess"
@@ -399027,6 +399692,25 @@
       ]
     },
     {
+      "steam": "",
+      "bangumi": "644337",
+      "vndb": "v63847",
+      "names": [
+        "Ikekan: Ikemen ni Naru ka Douka Kan de Tsukiau Game",
+        "Ikekan: Ikemen ni Naru ka Douka Kan de Tsukiau Game - Expanded Edition",
+        "Ikekan: Ikemen ni Naru ka Douka Kan de Tsukiau Game - Free Complete Edition",
+        "Ikemen Big Bang: A Dating Game About Potentially Hot Guys",
+        "Ikemen Big Bang: A Dating Game About Potentially Hot Guys - Demo",
+        "Mang He Nanyou: Ping Ganjue Xuan Nanyou, Mang Cai Ta Hui Bu Hui Bian Shuai",
+        "Manghe Nanyou: Ping Ganjue Xuan Nanyou, Mangcai Ta Hui Bu Hui Bian Shuai",
+        "イケ勘 イケメンになるかどうか勘で付き合う",
+        "イケ勘 イケメンになるかどうか勘で付き合うゲーム",
+        "イケ勘 イケメンになるかどうか勘で付き合うゲーム  -無料完結版-",
+        "イケ勘 イケメンになるかどうか勘で付き合うゲーム 拡張版",
+        "盲盒男友：凭感觉选男友，盲猜他会不会变帅"
+      ]
+    },
+    {
       "steam": "4593380",
       "bangumi": "688495",
       "vndb": "v63847",
@@ -399046,7 +399730,7 @@
     },
     {
       "steam": "4955070",
-      "bangumi": "688495",
+      "bangumi": "",
       "vndb": "v63847",
       "names": [
         "Ikekan: Ikemen ni Naru ka Douka Kan de Tsukiau Game",
@@ -399104,7 +399788,7 @@
     },
     {
       "steam": "4457830",
-      "bangumi": "",
+      "bangumi": "725285",
       "vndb": "v63868",
       "names": [
         "The Mall Explodes!"
@@ -399327,7 +400011,7 @@
     },
     {
       "steam": "4615360",
-      "bangumi": "",
+      "bangumi": "730959",
       "vndb": "v63976",
       "names": [
         "Redacted by the Sadistic Princess from Another World?!"
@@ -399756,7 +400440,7 @@
     },
     {
       "steam": "4513900",
-      "bangumi": "",
+      "bangumi": "725487",
       "vndb": "v64134",
       "names": [
         "Ava Loveless"
@@ -399764,7 +400448,7 @@
     },
     {
       "steam": "4561310",
-      "bangumi": "",
+      "bangumi": "725801",
       "vndb": "v64135",
       "names": [
         "Melancholic Night"
@@ -402713,7 +403397,7 @@
     },
     {
       "steam": "4214600",
-      "bangumi": "",
+      "bangumi": "722481",
       "vndb": "v64911",
       "names": [
         "Forgotten Records"
@@ -402721,7 +403405,7 @@
     },
     {
       "steam": "4728230",
-      "bangumi": "",
+      "bangumi": "726585",
       "vndb": "v64912",
       "names": [
         "Forbidden: A First's Obsession"
@@ -404571,7 +405255,7 @@
     },
     {
       "steam": "2654030",
-      "bangumi": "",
+      "bangumi": "731876",
       "vndb": "v65340",
       "names": [
         "Kamilia",
@@ -404580,7 +405264,7 @@
     },
     {
       "steam": "3535500",
-      "bangumi": "",
+      "bangumi": "731876",
       "vndb": "v65340",
       "names": [
         "Kamilia",
@@ -404822,7 +405506,7 @@
     },
     {
       "steam": "4713130",
-      "bangumi": "",
+      "bangumi": "726525",
       "vndb": "v65441",
       "names": [
         "Undercover Love - Where Shadows Meet",
@@ -405204,7 +405888,7 @@
     },
     {
       "steam": "4724580",
-      "bangumi": "",
+      "bangumi": "726565",
       "vndb": "v65561",
       "names": [
         "Exhibition of the Heart"
@@ -405802,7 +406486,7 @@
     },
     {
       "steam": "4656100",
-      "bangumi": "",
+      "bangumi": "727906",
       "vndb": "v65700",
       "names": [
         "To Find A Home",
@@ -405811,7 +406495,7 @@
     },
     {
       "steam": "4738700",
-      "bangumi": "",
+      "bangumi": "727906",
       "vndb": "v65700",
       "names": [
         "To Find A Home",
@@ -405928,7 +406612,7 @@
     },
     {
       "steam": "4614660",
-      "bangumi": "",
+      "bangumi": "665748",
       "vndb": "v65732",
       "names": [
         "Gooning for Gold",
@@ -405937,6 +406621,7 @@
         "Sports Joshi Haramase Harem Seikatsu ~ Kyochin ni wa Kou-Spec na Karada mo Ranshi mo Katenai! Zen Koutei de Osu-sama ni Otsukaeshimasu! - Download Edition",
         "Sports Joshi Haramase Harem Seikatsu ~ Kyochin ni wa Kou-Spec na Karada mo Ranshi mo Katenai! Zen Koutei de Osu-sama ni Otsukaeshimasu! - Package Edition",
         "スポーツ女子孕ませハーレム性活～巨チンには高スペな体も卵子も勝てない！全肯定で牡様にお仕えします！",
+        "スポーツ女子孕ませハーレム性活～巨チンには高スペな体も卵子も勝てない！全肯定で牡様にお仕えします！～",
         "スポーツ女子孕ませハーレム性活～巨チンには高スペな体も卵子も勝てない！全肯定で牡様にお仕えします！～ ダウンロード版",
         "スポーツ女子孕ませハーレム性活～巨チンには高スペな体も卵子も勝てない！全肯定で牡様にお仕えします！～ パッケージ版",
         "精喜全孕会",
@@ -405955,7 +406640,7 @@
     },
     {
       "steam": "4808290",
-      "bangumi": "",
+      "bangumi": "727000",
       "vndb": "v65741",
       "names": [
         "Nozomu School Daze",
@@ -406125,7 +406810,7 @@
     },
     {
       "steam": "4272610",
-      "bangumi": "",
+      "bangumi": "722628",
       "vndb": "v65870",
       "names": [
         "Best Slime of my Life",
@@ -406134,7 +406819,7 @@
     },
     {
       "steam": "4636870",
-      "bangumi": "",
+      "bangumi": "722628",
       "vndb": "v65870",
       "names": [
         "Best Slime of my Life",
@@ -406283,7 +406968,7 @@
     },
     {
       "steam": "4775970",
-      "bangumi": "",
+      "bangumi": "726784",
       "vndb": "v65923",
       "names": [
         "0.5%"
@@ -406492,7 +407177,7 @@
     },
     {
       "steam": "4600940",
-      "bangumi": "",
+      "bangumi": "730958",
       "vndb": "v65993",
       "names": [
         "Pulled Over"
@@ -406657,7 +407342,7 @@
     },
     {
       "steam": "4537550",
-      "bangumi": "",
+      "bangumi": "725630",
       "vndb": "v66071",
       "names": [
         "Thoughtless",
@@ -406666,7 +407351,7 @@
     },
     {
       "steam": "4658950",
-      "bangumi": "",
+      "bangumi": "725630",
       "vndb": "v66071",
       "names": [
         "Thoughtless",
@@ -406923,7 +407608,7 @@
     },
     {
       "steam": "4421960",
-      "bangumi": "",
+      "bangumi": "727812",
       "vndb": "v66173",
       "names": [
         "Flesh Blossom",
@@ -406932,7 +407617,7 @@
     },
     {
       "steam": "4425830",
-      "bangumi": "",
+      "bangumi": "727812",
       "vndb": "v66173",
       "names": [
         "Flesh Blossom",
@@ -407182,7 +407867,7 @@
     },
     {
       "steam": "4753270",
-      "bangumi": "",
+      "bangumi": "726698",
       "vndb": "v66267",
       "names": [
         "Plus/Minus Zero"
@@ -407404,25 +408089,27 @@
     },
     {
       "steam": "4482790",
-      "bangumi": "",
+      "bangumi": "725375",
       "vndb": "v66427",
       "names": [
         "I'm Gonna Be Evil",
-        "I'm Gonna Be Evil - Demo"
+        "I'm Gonna Be Evil - Demo",
+        "Im Gonna Be Evil"
       ]
     },
     {
       "steam": "4484010",
-      "bangumi": "",
+      "bangumi": "725375",
       "vndb": "v66427",
       "names": [
         "I'm Gonna Be Evil",
-        "I'm Gonna Be Evil - Demo"
+        "I'm Gonna Be Evil - Demo",
+        "Im Gonna Be Evil"
       ]
     },
     {
       "steam": "4634620",
-      "bangumi": "",
+      "bangumi": "726158",
       "vndb": "v66428",
       "names": [
         "Work Your Mechanical Magic"
@@ -407517,7 +408204,7 @@
     },
     {
       "steam": "4887740",
-      "bangumi": "",
+      "bangumi": "727377",
       "vndb": "v66490",
       "names": [
         "Project Deep Nexus"
@@ -407644,7 +408331,7 @@
     },
     {
       "steam": "4697550",
-      "bangumi": "",
+      "bangumi": "730979",
       "vndb": "v66515",
       "names": [
         "Dearest Darling Dragon",
@@ -407654,7 +408341,7 @@
     },
     {
       "steam": "5178130",
-      "bangumi": "",
+      "bangumi": "730979",
       "vndb": "v66515",
       "names": [
         "Dearest Darling Dragon",
@@ -407711,7 +408398,7 @@
     },
     {
       "steam": "4835290",
-      "bangumi": "",
+      "bangumi": "727116",
       "vndb": "v66538",
       "names": [
         "Our Light Affliction: Spider's Covenant",
@@ -407720,7 +408407,7 @@
     },
     {
       "steam": "4450110",
-      "bangumi": "",
+      "bangumi": "725242",
       "vndb": "v66546",
       "names": [
         "Last One Standing Academy"
@@ -407728,7 +408415,7 @@
     },
     {
       "steam": "4436090",
-      "bangumi": "",
+      "bangumi": "725082",
       "vndb": "v66554",
       "names": [
         "Star Eden: here sleep angels",
@@ -407737,7 +408424,7 @@
     },
     {
       "steam": "5394550",
-      "bangumi": "",
+      "bangumi": "725082",
       "vndb": "v66554",
       "names": [
         "Star Eden: here sleep angels",
@@ -407746,9 +408433,10 @@
     },
     {
       "steam": "5077410",
-      "bangumi": "",
+      "bangumi": "734001",
       "vndb": "v66557",
       "names": [
+        "Aethris: Into The Unknown",
         "Aethris: Into the Unknown",
         "Aethris: Into the Unknown - Demo"
       ]
@@ -408174,7 +408862,7 @@
     },
     {
       "steam": "4797840",
-      "bangumi": "",
+      "bangumi": "726948",
       "vndb": "v66696",
       "names": [
         "GOTHCUCK"
@@ -408191,7 +408879,7 @@
     },
     {
       "steam": "4823120",
-      "bangumi": "",
+      "bangumi": "727067",
       "vndb": "v66702",
       "names": [
         "How to #### a Man",
@@ -408236,7 +408924,7 @@
     },
     {
       "steam": "3721820",
-      "bangumi": "",
+      "bangumi": "722169",
       "vndb": "v66721",
       "names": [
         "Important People of History: Presidents - George Washington"
@@ -408244,7 +408932,7 @@
     },
     {
       "steam": "3721830",
-      "bangumi": "",
+      "bangumi": "722170",
       "vndb": "v66722",
       "names": [
         "Important People of History: Presidents - Thomas Jefferson"
@@ -408265,7 +408953,7 @@
     },
     {
       "steam": "3721840",
-      "bangumi": "",
+      "bangumi": "722171",
       "vndb": "v66724",
       "names": [
         "Important People of History: Presidents - Abraham Lincoln"
@@ -408273,7 +408961,7 @@
     },
     {
       "steam": "4412380",
-      "bangumi": "",
+      "bangumi": "722680",
       "vndb": "v66728",
       "names": [
         "Breaking Up Is Hard To Do"
@@ -408356,7 +409044,7 @@
     },
     {
       "steam": "4846250",
-      "bangumi": "",
+      "bangumi": "727172",
       "vndb": "v66785",
       "names": [
         "Aaron Drake: Ace Detective"
@@ -408517,7 +409205,7 @@
     },
     {
       "steam": "5059110",
-      "bangumi": "",
+      "bangumi": "729725",
       "vndb": "v66901",
       "names": [
         "Sanguis Amantis"
@@ -408574,7 +409262,7 @@
       "vndb": "v66945",
       "names": [
         "wolfworld",
-        "wolfworld v1.14"
+        "wolfworld v1.29"
       ]
     },
     {
@@ -408948,7 +409636,7 @@
     },
     {
       "steam": "3875790",
-      "bangumi": "",
+      "bangumi": "732810",
       "vndb": "v67156",
       "names": [
         "Alien Snap"
@@ -409394,8 +410082,7 @@
         "Kyou no Nippeke - Trial Edition",
         "今日の2-X",
         "今日の2-X パッケージ版",
-        "今日の2-X 体験版",
-        "今日的2-X"
+        "今日の2-X 体験版"
       ]
     },
     {
@@ -409435,7 +410122,7 @@
     },
     {
       "steam": "4500050",
-      "bangumi": "",
+      "bangumi": "725434",
       "vndb": "v67398",
       "names": [
         "A Totally Normal Love Story",
@@ -409444,7 +410131,7 @@
     },
     {
       "steam": "4500360",
-      "bangumi": "",
+      "bangumi": "725434",
       "vndb": "v67398",
       "names": [
         "A Totally Normal Love Story",
@@ -409872,7 +410559,7 @@
     },
     {
       "steam": "4967690",
-      "bangumi": "",
+      "bangumi": "729893",
       "vndb": "v67526",
       "names": [
         "Above the Haze",
@@ -409881,7 +410568,7 @@
     },
     {
       "steam": "5026220",
-      "bangumi": "",
+      "bangumi": "729893",
       "vndb": "v67526",
       "names": [
         "Above the Haze",
@@ -410434,7 +411121,7 @@
     },
     {
       "steam": "4615370",
-      "bangumi": "",
+      "bangumi": "730960",
       "vndb": "v67791",
       "names": [
         "Culling Daisies"
@@ -410512,7 +411199,7 @@
     },
     {
       "steam": "4884020",
-      "bangumi": "",
+      "bangumi": "727128",
       "vndb": "v67888",
       "names": [
         "Exorcise My Snake God"
@@ -410875,7 +411562,7 @@
     },
     {
       "steam": "4959300",
-      "bangumi": "",
+      "bangumi": "729174",
       "vndb": "v68093",
       "names": [
         "Nate Hand Gesture",
@@ -410902,7 +411589,7 @@
     },
     {
       "steam": "4685850",
-      "bangumi": "",
+      "bangumi": "726390",
       "vndb": "v68102",
       "names": [
         "Personal Digital Affliction"
@@ -410952,7 +411639,7 @@
     },
     {
       "steam": "4951170",
-      "bangumi": "",
+      "bangumi": "729147",
       "vndb": "v68119",
       "names": [
         "Bonds of Flame and Fate",
@@ -411055,7 +411742,7 @@
     },
     {
       "steam": "5030730",
-      "bangumi": "",
+      "bangumi": "729560",
       "vndb": "v68151",
       "names": [
         "Seraph's Kiss"
@@ -411423,6 +412110,14 @@
       ]
     },
     {
+      "steam": "4898520",
+      "bangumi": "727430",
+      "vndb": "v68276",
+      "names": [
+        "20 Bucks Is 20 Bucks: A Never-Ending Story"
+      ]
+    },
+    {
       "steam": "",
       "bangumi": "659853",
       "vndb": "v68309",
@@ -411771,7 +412466,7 @@
     },
     {
       "steam": "3914250",
-      "bangumi": "",
+      "bangumi": "722300",
       "vndb": "v68431",
       "names": [
         "Furry College",
@@ -411783,7 +412478,7 @@
     },
     {
       "steam": "4268850",
-      "bangumi": "",
+      "bangumi": "722300",
       "vndb": "v68431",
       "names": [
         "Furry College",
@@ -411795,7 +412490,7 @@
     },
     {
       "steam": "4328160",
-      "bangumi": "",
+      "bangumi": "722300",
       "vndb": "v68431",
       "names": [
         "Furry College",
@@ -411879,7 +412574,7 @@
     },
     {
       "steam": "4931080",
-      "bangumi": "",
+      "bangumi": "727800",
       "vndb": "v68456",
       "names": [
         "GOSSAMER DIVORCE",
@@ -411889,7 +412584,7 @@
     },
     {
       "steam": "5193160",
-      "bangumi": "",
+      "bangumi": "727800",
       "vndb": "v68456",
       "names": [
         "GOSSAMER DIVORCE",
@@ -411997,7 +412692,7 @@
     },
     {
       "steam": "4514910",
-      "bangumi": "",
+      "bangumi": "725493",
       "vndb": "v68514",
       "names": [
         "Maidendawn: A Heroine's Tale"
@@ -412844,7 +413539,7 @@
       "bangumi": "",
       "vndb": "v68978",
       "names": [
-        "ONLY FARMS"
+        "ONLY FARMS 🍑"
       ]
     },
     {
@@ -412958,6 +413653,15 @@
       ]
     },
     {
+      "steam": "",
+      "bangumi": "722451",
+      "vndb": "v69001",
+      "names": [
+        "Gongfan",
+        "共犯"
+      ]
+    },
+    {
       "steam": "5146570",
       "bangumi": "",
       "vndb": "v69010",
@@ -413066,37 +413770,42 @@
     },
     {
       "steam": "4949270",
-      "bangumi": "",
+      "bangumi": "733917",
       "vndb": "v69049",
       "names": [
+        "Derealization",
         "Su Shi Zhe",
         "塑时者"
       ]
     },
     {
       "steam": "3649840",
-      "bangumi": "",
+      "bangumi": "730179",
       "vndb": "v69051",
       "names": [
         "Zombie Police ~Zombie Deka to Itetsuku Manatsu no Oshougatsu~",
         "Zombie Police ~Zombie Deka to Itetsuku Manatsu no Oshougatsu~ Demo",
+        "Zombie Police ～凛冽盛夏的新年～",
         "Zombie Police: Midsummer Unhappy New Year",
         "Zombie Police: Midsummer Unhappy New Year Demo",
         "ゾンビポリス ～ゾンビ刑事と凍てつく真夏のお正月～",
-        "ゾンビポリス ～ゾンビ刑事と凍てつく真夏のお正月～ Demo"
+        "ゾンビポリス ～ゾンビ刑事と凍てつく真夏のお正月～ Demo",
+        "僵尸刑警 ～凛冽盛夏的新年～"
       ]
     },
     {
       "steam": "5256190",
-      "bangumi": "",
+      "bangumi": "730179",
       "vndb": "v69051",
       "names": [
         "Zombie Police ~Zombie Deka to Itetsuku Manatsu no Oshougatsu~",
         "Zombie Police ~Zombie Deka to Itetsuku Manatsu no Oshougatsu~ Demo",
+        "Zombie Police ～凛冽盛夏的新年～",
         "Zombie Police: Midsummer Unhappy New Year",
         "Zombie Police: Midsummer Unhappy New Year Demo",
         "ゾンビポリス ～ゾンビ刑事と凍てつく真夏のお正月～",
-        "ゾンビポリス ～ゾンビ刑事と凍てつく真夏のお正月～ Demo"
+        "ゾンビポリス ～ゾンビ刑事と凍てつく真夏のお正月～ Demo",
+        "僵尸刑警 ～凛冽盛夏的新年～"
       ]
     },
     {
@@ -413249,7 +413958,8 @@
       "vndb": "v69117",
       "names": [
         "Chikuwa to, Natsu no Atosaki",
-        "ちくわと、夏のあとさき"
+        "ちくわと、夏のあとさき",
+        "竹轮与初夏"
       ]
     },
     {
@@ -413514,7 +414224,7 @@
     },
     {
       "steam": "4604880",
-      "bangumi": "",
+      "bangumi": "727645",
       "vndb": "v69205",
       "names": [
         "Gears of Freedom"
@@ -413539,7 +414249,7 @@
     },
     {
       "steam": "4327630",
-      "bangumi": "",
+      "bangumi": "728494",
       "vndb": "v69208",
       "names": [
         "Glamour Photographer",
@@ -413548,7 +414258,7 @@
     },
     {
       "steam": "4782000",
-      "bangumi": "",
+      "bangumi": "728494",
       "vndb": "v69208",
       "names": [
         "Glamour Photographer",
@@ -413643,7 +414353,7 @@
     },
     {
       "steam": "4903830",
-      "bangumi": "",
+      "bangumi": "727458",
       "vndb": "v69252",
       "names": [
         "Angel Offline"
@@ -413972,7 +414682,7 @@
     },
     {
       "steam": "5080730",
-      "bangumi": "",
+      "bangumi": "734023",
       "vndb": "v69335",
       "names": [
         "LOVE alt delete",
@@ -414189,6 +414899,15 @@
     },
     {
       "steam": "",
+      "bangumi": "726572",
+      "vndb": "v69393",
+      "names": [
+        "Birdcage Pandemonium",
+        "鳥かご伏魔殿"
+      ]
+    },
+    {
+      "steam": "",
       "bangumi": "708568",
       "vndb": "v69394",
       "names": [
@@ -414198,7 +414917,7 @@
     },
     {
       "steam": "5014200",
-      "bangumi": "",
+      "bangumi": "729481",
       "vndb": "v69397",
       "names": [
         "Tame or Conquered"
@@ -414282,6 +415001,24 @@
       ]
     },
     {
+      "steam": "5247670",
+      "bangumi": "",
+      "vndb": "v69423",
+      "names": [
+        "CODE.BREACH",
+        "CODE.BREACH - Demo"
+      ]
+    },
+    {
+      "steam": "5613510",
+      "bangumi": "",
+      "vndb": "v69423",
+      "names": [
+        "CODE.BREACH",
+        "CODE.BREACH - Demo"
+      ]
+    },
+    {
       "steam": "2405280",
       "bangumi": "684105",
       "vndb": "v69431",
@@ -414314,7 +415051,7 @@
     },
     {
       "steam": "4595360",
-      "bangumi": "",
+      "bangumi": "725940",
       "vndb": "v69436",
       "names": [
         "BLACKMIND: Psychic Social Simulator",
@@ -414668,7 +415405,7 @@
     },
     {
       "steam": "5046730",
-      "bangumi": "",
+      "bangumi": "729938",
       "vndb": "v69690",
       "names": [
         "Gamophobia",
@@ -414893,7 +415630,7 @@
     },
     {
       "steam": "4698680",
-      "bangumi": "",
+      "bangumi": "730980",
       "vndb": "v69740",
       "names": [
         "Femboy : Rescue Mission",
@@ -414902,7 +415639,7 @@
     },
     {
       "steam": "4824810",
-      "bangumi": "",
+      "bangumi": "730980",
       "vndb": "v69740",
       "names": [
         "Femboy : Rescue Mission",
@@ -415234,7 +415971,7 @@
     },
     {
       "steam": "3913180",
-      "bangumi": "",
+      "bangumi": "722296",
       "vndb": "v69846",
       "names": [
         "Sex Game - Threesome",
@@ -415250,7 +415987,7 @@
     },
     {
       "steam": "3929930",
-      "bangumi": "",
+      "bangumi": "722308",
       "vndb": "v69846",
       "names": [
         "Sex Game - Threesome",
@@ -415266,7 +416003,7 @@
     },
     {
       "steam": "3942130",
-      "bangumi": "",
+      "bangumi": "722316",
       "vndb": "v69846",
       "names": [
         "Sex Game - Threesome",
@@ -415282,7 +416019,7 @@
     },
     {
       "steam": "4020280",
-      "bangumi": "",
+      "bangumi": "722341",
       "vndb": "v69846",
       "names": [
         "Sex Game - Threesome",
@@ -415298,7 +416035,7 @@
     },
     {
       "steam": "4064920",
-      "bangumi": "",
+      "bangumi": "722370",
       "vndb": "v69846",
       "names": [
         "Sex Game - Threesome",
@@ -415314,7 +416051,7 @@
     },
     {
       "steam": "4090640",
-      "bangumi": "",
+      "bangumi": "722381",
       "vndb": "v69846",
       "names": [
         "Sex Game - Threesome",
@@ -415330,7 +416067,7 @@
     },
     {
       "steam": "4134130",
-      "bangumi": "",
+      "bangumi": "722408",
       "vndb": "v69846",
       "names": [
         "Sex Game - Threesome",
@@ -415346,7 +416083,7 @@
     },
     {
       "steam": "4176340",
-      "bangumi": "",
+      "bangumi": "722439",
       "vndb": "v69846",
       "names": [
         "Sex Game - Threesome",
@@ -415476,6 +416213,15 @@
       "names": [
         "Xinxisu Liubai",
         "信息素留白"
+      ]
+    },
+    {
+      "steam": "4442740",
+      "bangumi": "",
+      "vndb": "v69897",
+      "names": [
+        "My Cuckqueen Girlfriend",
+        "My Cuckqueen Girlfriend v0.0.12R"
       ]
     },
     {
@@ -415850,7 +416596,7 @@
     },
     {
       "steam": "4414820",
-      "bangumi": "",
+      "bangumi": "722688",
       "vndb": "v70009",
       "names": [
         "Peppermint Academy",
@@ -415860,7 +416606,7 @@
     },
     {
       "steam": "4488940",
-      "bangumi": "",
+      "bangumi": "722688",
       "vndb": "v70009",
       "names": [
         "Peppermint Academy",
@@ -415928,7 +416674,7 @@
     },
     {
       "steam": "3913190",
-      "bangumi": "",
+      "bangumi": "722297",
       "vndb": "v70047",
       "names": [
         "3Sex Game - Gay Affair - Episode 3",
@@ -415940,7 +416686,7 @@
     },
     {
       "steam": "3932750",
-      "bangumi": "",
+      "bangumi": "722311",
       "vndb": "v70047",
       "names": [
         "3Sex Game - Gay Affair - Episode 3",
@@ -416000,7 +416746,7 @@
     },
     {
       "steam": "4314350",
-      "bangumi": "",
+      "bangumi": "722644",
       "vndb": "v70052",
       "names": [
         "Silk and Sabre",
@@ -416206,7 +416952,7 @@
     },
     {
       "steam": "4100790",
-      "bangumi": "",
+      "bangumi": "723142",
       "vndb": "v70108",
       "names": [
         "Echoes of Pinebridge",
@@ -416215,7 +416961,7 @@
     },
     {
       "steam": "4346500",
-      "bangumi": "",
+      "bangumi": "723142",
       "vndb": "v70108",
       "names": [
         "Echoes of Pinebridge",
@@ -416351,7 +417097,7 @@
     },
     {
       "steam": "4432100",
-      "bangumi": "",
+      "bangumi": "732690",
       "vndb": "v70128",
       "names": [
         "polymorphite"
@@ -416413,7 +417159,7 @@
     },
     {
       "steam": "4433100",
-      "bangumi": "",
+      "bangumi": "727551",
       "vndb": "v70153",
       "names": [
         "Ikai Kara Kita Hatsukoi no Smartphone",
@@ -416422,7 +417168,8 @@
         "The Phone from Another World: My First Love",
         "來自異界的初戀手機",
         "来自异界的初恋手机",
-        "異界から来た初恋のスマホ"
+        "異界から来た初恋のスマホ",
+        "이세계에서 온 첫사랑 스마트폰"
       ]
     },
     {
@@ -416611,6 +417358,15 @@
       ]
     },
     {
+      "steam": "4592420",
+      "bangumi": "725928",
+      "vndb": "v70236",
+      "names": [
+        "Femboy Behind Bars",
+        "Femboy Behind Bars - Demo"
+      ]
+    },
+    {
       "steam": "3586970",
       "bangumi": "676777",
       "vndb": "v70240",
@@ -416660,7 +417416,7 @@
     },
     {
       "steam": "2663710",
-      "bangumi": "",
+      "bangumi": "724363",
       "vndb": "v70266",
       "names": [
         "Bedtime Stories 1"
@@ -416794,7 +417550,7 @@
     },
     {
       "steam": "4912560",
-      "bangumi": "",
+      "bangumi": "727493",
       "vndb": "v70293",
       "names": [
         "No Death No Life"
@@ -416806,12 +417562,14 @@
       "vndb": "v70294",
       "names": [
         "Kagura Shinpuuki ~Himari no Shou~",
+        "Kagura Shinpuuki ~Himari no Shou~ + QUO Card Set",
         "Kagura Shinpuuki ~Himari no Shou~ Download Edition",
         "Kagura Shinpuuki ~Himari no Shou~ Package Edition",
         "神楽新風記 ～陽葵の章～",
         "神楽新風記～陽葵の章～",
         "神楽新風記～陽葵の章～ ダウンロード版",
-        "神楽新風記～陽葵の章～ パッケージ版"
+        "神楽新風記～陽葵の章～ パッケージ版",
+        "神楽新風記～陽葵の章～ ＋QUOカードセット"
       ]
     },
     {
@@ -416833,7 +417591,7 @@
     },
     {
       "steam": "4643950",
-      "bangumi": "",
+      "bangumi": "726208",
       "vndb": "v70297",
       "names": [
         "Snow That Hums",
@@ -416842,7 +417600,7 @@
     },
     {
       "steam": "5430130",
-      "bangumi": "",
+      "bangumi": "726208",
       "vndb": "v70297",
       "names": [
         "Snow That Hums",
@@ -416869,9 +417627,10 @@
     },
     {
       "steam": "5499170",
-      "bangumi": "",
+      "bangumi": "729311",
       "vndb": "v70303",
       "names": [
+        "The Casket of the Bygone Witch",
         "Wangshi Monü Zhi Xia",
         "往逝魔女之匣"
       ]
@@ -417301,6 +418060,23 @@
       ]
     },
     {
+      "steam": "",
+      "bangumi": "725742",
+      "vndb": "v70506",
+      "names": [
+        "Aeris Alis"
+      ]
+    },
+    {
+      "steam": "5353140",
+      "bangumi": "",
+      "vndb": "v70507",
+      "names": [
+        "Ta Yu Ta de Feifa Gongshi",
+        "她与她的非法共识"
+      ]
+    },
+    {
       "steam": "4976270",
       "bangumi": "",
       "vndb": "v70509",
@@ -417333,6 +418109,15 @@
       "vndb": "v70518",
       "names": [
         "Darwin"
+      ]
+    },
+    {
+      "steam": "",
+      "bangumi": "726228",
+      "vndb": "v70526",
+      "names": [
+        "Vermis Mentis: Mental Virus",
+        "vermis mentis : mental virus"
       ]
     },
     {
@@ -417457,7 +418242,7 @@
     },
     {
       "steam": "4593480",
-      "bangumi": "",
+      "bangumi": "725930",
       "vndb": "v70616",
       "names": [
         "Eden Camp",
@@ -417466,7 +418251,7 @@
     },
     {
       "steam": "4791690",
-      "bangumi": "",
+      "bangumi": "725930",
       "vndb": "v70616",
       "names": [
         "Eden Camp",
@@ -417559,6 +418344,24 @@
       "names": [
         "Watashi no Shiranai Watashi no Koibito",
         "私の知らない私の恋人"
+      ]
+    },
+    {
+      "steam": "",
+      "bangumi": "600453",
+      "vndb": "v70645",
+      "names": [
+        "Eden's Ritter - Chapter 2 Cecily Gaiden ~Guou no Kuni no Inreiki Cecily~",
+        "Eden's Ritter - Chapter 2 Cecily Gaiden ~Guou no Kuni no Inreiki Cecily~ DL Card Edition",
+        "Eden's Ritter - Chapter 2 Cecily Gaiden ~Guou no Kuni no Inreiki Cecily~ DL Edition",
+        "Eden's Ritter - Chapter 2 Cecily Gaiden ~Guou no Kuni no Inreiki Cecily~ DVD-ROM Edition",
+        "Eden's Ritter - Chapter 2 Cecily Gaiden ~Guou no Kuni no Inreiki Cecily~ Trial Edition",
+        "エデンズリッター第2章セシリィ外伝～愚王の国の淫隷姫セシリィ～",
+        "エデンズリッター第２章セシリィ外伝～愚王の国の淫隷姫セシリィ～",
+        "エデンズリッター第２章セシリィ外伝～愚王の国の淫隷姫セシリィ～ DLカード版",
+        "エデンズリッター第２章セシリィ外伝～愚王の国の淫隷姫セシリィ～ DL版",
+        "エデンズリッター第２章セシリィ外伝～愚王の国の淫隷姫セシリィ～ DVD-ROM版",
+        "エデンズリッター第２章セシリィ外伝～愚王の国の淫隷姫セシリィ～ 体験版"
       ]
     },
     {
@@ -418173,6 +418976,22 @@
     },
     {
       "steam": "",
+      "bangumi": "726871",
+      "vndb": "v70816",
+      "names": [
+        "GALS FICTION Festival",
+        "Gals Fiction -Festival-",
+        "Gals Fiction -Festival- Download Edition",
+        "Gals Fiction -Festival- Package  Edition",
+        "ギャルズフィクション フェスティバル",
+        "ギャルズフィクション‐Festival‐",
+        "ギャルズフィクション‐Festival‐ ダウンロード版",
+        "ギャルズフィクション‐Festival‐ パッケージ版",
+        "ギャルフェス"
+      ]
+    },
+    {
+      "steam": "",
       "bangumi": "353265",
       "vndb": "v70825",
       "names": [
@@ -418205,6 +419024,18 @@
         "Jidu Tu Muqin Christian Mother",
         "クリスチャン・マザー",
         "基督徒母亲 Christian Mother"
+      ]
+    },
+    {
+      "steam": "",
+      "bangumi": "727600",
+      "vndb": "v70827",
+      "names": [
+        "Ousama Ren'ai - Mini Fandisc - Royal Sweet",
+        "Ousama Ren'ai - Mini Fandisc - Royal Sweet - Deluxe Limited Edition",
+        "王様恋愛 ミニファンディスク ロイヤルスイート",
+        "王様恋愛 ミニファンディスク ロイヤルスイート 豪華限定版",
+        "王様恋愛ミニファンディスク ロイヤルスイート"
       ]
     },
     {
@@ -418315,7 +419146,7 @@
     },
     {
       "steam": "3949680",
-      "bangumi": "",
+      "bangumi": "722321",
       "vndb": "v70848",
       "names": [
         "Raw Signal - Uncover Gay Hidden Secrets"
@@ -418436,6 +419267,7 @@
       "vndb": "v70863",
       "names": [
         "Perfect Son-In-Law: Hidden S-Rank",
+        "Perfect Son-In-Law: Hidden S-Rank - Acts 1-6 Beta",
         "Perfect Son-In-Law: Hidden S-Rank - Demo"
       ]
     },
@@ -418445,6 +419277,7 @@
       "vndb": "v70863",
       "names": [
         "Perfect Son-In-Law: Hidden S-Rank",
+        "Perfect Son-In-Law: Hidden S-Rank - Acts 1-6 Beta",
         "Perfect Son-In-Law: Hidden S-Rank - Demo"
       ]
     },
@@ -418562,6 +419395,525 @@
       "vndb": "v70877",
       "names": [
         "My Naughty Nun: Forbidden Confession"
+      ]
+    },
+    {
+      "steam": "4988910",
+      "bangumi": "",
+      "vndb": "v70882",
+      "names": [
+        "Velvet Signal: Private Messages"
+      ]
+    },
+    {
+      "steam": "3426260",
+      "bangumi": "",
+      "vndb": "v70883",
+      "names": [
+        "Sex & Coffee ☕️🤎"
+      ]
+    },
+    {
+      "steam": "3172270",
+      "bangumi": "",
+      "vndb": "v70884",
+      "names": [
+        "Blood & Lust [18+]🩸"
+      ]
+    },
+    {
+      "steam": "3824080",
+      "bangumi": "",
+      "vndb": "v70885",
+      "names": [
+        "Grand Tits Adventure [18+]"
+      ]
+    },
+    {
+      "steam": "3718530",
+      "bangumi": "",
+      "vndb": "v70886",
+      "names": [
+        "Lust Sisters 🔞"
+      ]
+    },
+    {
+      "steam": "3684700",
+      "bangumi": "",
+      "vndb": "v70887",
+      "names": [
+        "Empire of Lust 🏛"
+      ]
+    },
+    {
+      "steam": "3377320",
+      "bangumi": "",
+      "vndb": "v70888",
+      "names": [
+        "Arcane Lust 18+"
+      ]
+    },
+    {
+      "steam": "5424870",
+      "bangumi": "",
+      "vndb": "v70890",
+      "names": [
+        "Furious Football: Demons vs Humans"
+      ]
+    },
+    {
+      "steam": "5188050",
+      "bangumi": "",
+      "vndb": "v70893",
+      "names": [
+        "Hell Dream 👺"
+      ]
+    },
+    {
+      "steam": "5182190",
+      "bangumi": "",
+      "vndb": "v70894",
+      "names": [
+        "Orbital Desires 🛰️"
+      ]
+    },
+    {
+      "steam": "3287360",
+      "bangumi": "",
+      "vndb": "v70899",
+      "names": [
+        "Jijing Gu Jihua",
+        "Jijing Gu Jihua Demo",
+        "Project II: Silent Valley",
+        "Project II: Silent Valley - Demo",
+        "寂静谷计划",
+        "寂静谷计划 Demo"
+      ]
+    },
+    {
+      "steam": "4000420",
+      "bangumi": "",
+      "vndb": "v70899",
+      "names": [
+        "Jijing Gu Jihua",
+        "Jijing Gu Jihua Demo",
+        "Project II: Silent Valley",
+        "Project II: Silent Valley - Demo",
+        "寂静谷计划",
+        "寂静谷计划 Demo"
+      ]
+    },
+    {
+      "steam": "4280130",
+      "bangumi": "",
+      "vndb": "v70901",
+      "names": [
+        "SEX, SIN & ROCK'N'ROLL 🤘🎸"
+      ]
+    },
+    {
+      "steam": "4843820",
+      "bangumi": "",
+      "vndb": "v70902",
+      "names": [
+        "SEX for MONEY ≠ CHEATING"
+      ]
+    },
+    {
+      "steam": "4533730",
+      "bangumi": "",
+      "vndb": "v70905",
+      "names": [
+        "Yokai: Lust Secret 🪭"
+      ]
+    },
+    {
+      "steam": "4518040",
+      "bangumi": "",
+      "vndb": "v70906",
+      "names": [
+        "Goblins Stole My Panties 👙"
+      ]
+    },
+    {
+      "steam": "4491190",
+      "bangumi": "",
+      "vndb": "v70908",
+      "names": [
+        "FRESHMAN: Project SEX"
+      ]
+    },
+    {
+      "steam": "4622930",
+      "bangumi": "",
+      "vndb": "v70910",
+      "names": [
+        "Baking With Chocolate"
+      ]
+    },
+    {
+      "steam": "5353070",
+      "bangumi": "",
+      "vndb": "v70911",
+      "names": [
+        "YOUR GIRLFRIEND IS LIVE 📹‼️"
+      ]
+    },
+    {
+      "steam": "5100200",
+      "bangumi": "",
+      "vndb": "v70912",
+      "names": [
+        "Horny Orc Alchemist 🧪🔞"
+      ]
+    },
+    {
+      "steam": "4900110",
+      "bangumi": "",
+      "vndb": "v70913",
+      "names": [
+        "Oops… I Hooked Up with a Mermaid 🎣😳"
+      ]
+    },
+    {
+      "steam": "5038160",
+      "bangumi": "",
+      "vndb": "v70914",
+      "names": [
+        "SQUIRT GAME 💦"
+      ]
+    },
+    {
+      "steam": "3920190",
+      "bangumi": "",
+      "vndb": "v70915",
+      "names": [
+        "SEX Guild Simulator ⚔️🔞"
+      ]
+    },
+    {
+      "steam": "4588700",
+      "bangumi": "",
+      "vndb": "v70916",
+      "names": [
+        "Monster Girls: You Can't Say No 🔞"
+      ]
+    },
+    {
+      "steam": "4533800",
+      "bangumi": "",
+      "vndb": "v70917",
+      "names": [
+        "Horny: Zero Moan 🔞🦕"
+      ]
+    },
+    {
+      "steam": "4384260",
+      "bangumi": "",
+      "vndb": "v70918",
+      "names": [
+        "My Waifu's Stream is Going Viral ‼️😳"
+      ]
+    },
+    {
+      "steam": "5180070",
+      "bangumi": "",
+      "vndb": "v70919",
+      "names": [
+        "Her Sister Between Us 💦😳"
+      ]
+    },
+    {
+      "steam": "5313680",
+      "bangumi": "",
+      "vndb": "v70920",
+      "names": [
+        "Blue Hawaii Aniki's Small Celebration vol.4"
+      ]
+    },
+    {
+      "steam": "5288480",
+      "bangumi": "",
+      "vndb": "v70928",
+      "names": [
+        "Futa Island: Last Man Filming",
+        "Futa Island: Last Man Filming - Demo"
+      ]
+    },
+    {
+      "steam": "4486690",
+      "bangumi": "",
+      "vndb": "v70929",
+      "names": [
+        "Breadcrumbs: Still Here"
+      ]
+    },
+    {
+      "steam": "5180300",
+      "bangumi": "",
+      "vndb": "v70930",
+      "names": [
+        "Chrome Collar: Femdom Protocol",
+        "Chrome Collar: Femdom Protocol - Demo"
+      ]
+    },
+    {
+      "steam": "4857000",
+      "bangumi": "",
+      "vndb": "v70931",
+      "names": [
+        "K-pop Fucking Hunters",
+        "K-pop Fucking Hunters - Demo"
+      ]
+    },
+    {
+      "steam": "4856980",
+      "bangumi": "",
+      "vndb": "v70932",
+      "names": [
+        "Monster Girl Clinic",
+        "Monster Girl Clinic - Demo"
+      ]
+    },
+    {
+      "steam": "4592410",
+      "bangumi": "",
+      "vndb": "v70933",
+      "names": [
+        "Pregnant Roommates, Send Help!",
+        "Pregnant Roommates, Send Help! - Demo"
+      ]
+    },
+    {
+      "steam": "5282550",
+      "bangumi": "",
+      "vndb": "v70934",
+      "names": [
+        "Castaway Harem",
+        "Castaway Harem - Demo"
+      ]
+    },
+    {
+      "steam": "3584490",
+      "bangumi": "",
+      "vndb": "v70935",
+      "names": [
+        "Dominated By: Yandere Goth Landlord"
+      ]
+    },
+    {
+      "steam": "5175990",
+      "bangumi": "",
+      "vndb": "v70939",
+      "names": [
+        "Mors Blade - UNSLASHED",
+        "Mors Blade - UNSLASHED - Demo"
+      ]
+    },
+    {
+      "steam": "5197800",
+      "bangumi": "",
+      "vndb": "v70939",
+      "names": [
+        "Mors Blade - UNSLASHED",
+        "Mors Blade - UNSLASHED - Demo"
+      ]
+    },
+    {
+      "steam": "5224490",
+      "bangumi": "733716",
+      "vndb": "v70940",
+      "names": [
+        "Imago.Zero",
+        "Wo Yanzhong Suo Jian",
+        "我眼中所见"
+      ]
+    },
+    {
+      "steam": "2377110",
+      "bangumi": "",
+      "vndb": "v70941",
+      "names": [
+        "Pocket Waifu: Rekindled"
+      ]
+    },
+    {
+      "steam": "5170980",
+      "bangumi": "",
+      "vndb": "v70945",
+      "names": [
+        "Crime and Punishment"
+      ]
+    },
+    {
+      "steam": "",
+      "bangumi": "732040",
+      "vndb": "v70959",
+      "names": [
+        "Hatsukoi Master Up Funny Days",
+        "初恋マスターアップ Funny Days"
+      ]
+    },
+    {
+      "steam": "",
+      "bangumi": "635776",
+      "vndb": "v70968",
+      "names": [
+        "Laila-sama Dairi",
+        "ライラ様代理"
+      ]
+    },
+    {
+      "steam": "",
+      "bangumi": "705627",
+      "vndb": "v70971",
+      "names": [
+        "Kegareta Curtain",
+        "けがれたカーテン"
+      ]
+    },
+    {
+      "steam": "5584120",
+      "bangumi": "",
+      "vndb": "v70997",
+      "names": [
+        "Tell Me How I Can Hurt You"
+      ]
+    },
+    {
+      "steam": "5061460",
+      "bangumi": "",
+      "vndb": "v71001",
+      "names": [
+        "Ms Morisson"
+      ]
+    },
+    {
+      "steam": "4150890",
+      "bangumi": "",
+      "vndb": "v71006",
+      "names": [
+        "The Fiancée - Paths of Corruption"
+      ]
+    },
+    {
+      "steam": "4620380",
+      "bangumi": "726097",
+      "vndb": "v71009",
+      "names": [
+        "Scales of the Ibis",
+        "Scales of the Ibis - Demo"
+      ]
+    },
+    {
+      "steam": "5306600",
+      "bangumi": "726097",
+      "vndb": "v71009",
+      "names": [
+        "Scales of the Ibis",
+        "Scales of the Ibis - Demo"
+      ]
+    },
+    {
+      "steam": "2836660",
+      "bangumi": "672891",
+      "vndb": "v71025",
+      "names": [
+        "Vyun, Kosmeya, And The Witch’s Curse"
+      ]
+    },
+    {
+      "steam": "",
+      "bangumi": "308523",
+      "vndb": "v71026",
+      "names": [
+        "Kimi o Mamoritai!",
+        "きみを守りたい!",
+        "きみを守りたい！"
+      ]
+    },
+    {
+      "steam": "",
+      "bangumi": "308522",
+      "vndb": "v71039",
+      "names": [
+        "Tsubasa Aru Mono",
+        "ツバサあるモノ"
+      ]
+    },
+    {
+      "steam": "",
+      "bangumi": "308519",
+      "vndb": "v71040",
+      "names": [
+        "Kageki Sentai Rosen Knights",
+        "歌剧战队玫瑰之夜",
+        "歌劇戦隊ローゼンナイツ"
+      ]
+    },
+    {
+      "steam": "",
+      "bangumi": "308520",
+      "vndb": "v71041",
+      "names": [
+        "Kageki Sentai Rosen Knights -Senjou no Romanesque-",
+        "歌劇戦隊ローゼンナイツ-船上のロマネスク-"
+      ]
+    },
+    {
+      "steam": "4933680",
+      "bangumi": "",
+      "vndb": "v71048",
+      "names": [
+        "Aruji Naki Hikari",
+        "Guang Bu Gui Shui",
+        "No One Owns the Light",
+        "主なき光",
+        "光不归谁"
+      ]
+    },
+    {
+      "steam": "",
+      "bangumi": "733989",
+      "vndb": "v71050",
+      "names": [
+        "Rabbitfoot Gakuen: Tokimeki no Oto",
+        "ラビットフット学園 ときめきの音"
+      ]
+    },
+    {
+      "steam": "",
+      "bangumi": "733990",
+      "vndb": "v71051",
+      "names": [
+        "Rabbitfoot Gakuen: Yasuragi no Koe",
+        "ラビットフット学園 やすらぎの声"
+      ]
+    },
+    {
+      "steam": "",
+      "bangumi": "733873",
+      "vndb": "v71052",
+      "names": [
+        "Oyasumi, Campanella.",
+        "おやすみ、カンパネルラ。"
+      ]
+    },
+    {
+      "steam": "5571320",
+      "bangumi": "",
+      "vndb": "v71056",
+      "names": [
+        "Bange Xiayu de Wuhou",
+        "半个下雨的午后"
+      ]
+    },
+    {
+      "steam": "2855940",
+      "bangumi": "669933",
+      "vndb": "v71057",
+      "names": [
+        "Betrayed"
       ]
     }
   ]
