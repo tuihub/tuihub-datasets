@@ -13,7 +13,7 @@ services:
       timeout: 5s
       retries: 180
   vndb-db:
-    build: https://github.com/tuihub/vndb-db.git#master
+    build: https://github.com/tuihub/vndb-db.git#master:postgresql
     privileged: false
     restart: no
     ports:
