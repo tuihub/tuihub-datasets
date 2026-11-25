@@ -1,6 +1,8 @@
 services:
   bangumi-db:
-    build: https://github.com/tuihub/bangumi-db.git#master:postgresql
+    build:
+      context: "https://github.com/tuihub/bangumi-db.git#master"
+      dockerfile: postgresql/Dockerfile
     privileged: false
     restart: no
     ports:
