@@ -1,0 +1,41 @@
+{
+  "id": "unreal",
+  "name": "Unreal",
+  "ignoreEntries": [
+    "UE*PrereqSetup*.exe",
+    "CrashReportClient*"
+  ],
+  "stripStemSuffixes": [
+    "-Win64-Shipping",
+    "-Linux-Shipping",
+    "-Shipping"
+  ],
+  "layouts": [
+    {
+      "id": "shipping",
+      "anchors": [
+        "Engine/"
+      ],
+      "entries": [
+        "{project}/Binaries/Win64/*-Shipping.exe",
+        "{project}/Binaries/Linux/*-Shipping"
+      ],
+      "companions": [
+        "{project}/Content/Paks/*.pak"
+      ]
+    },
+    {
+      "id": "bootstrap",
+      "anchors": [
+        "Engine/"
+      ],
+      "entries": [
+        "*.exe",
+        "*.sh"
+      ],
+      "companions": [
+        "{stem}/Content/Paks/*.pak"
+      ]
+    }
+  ]
+}

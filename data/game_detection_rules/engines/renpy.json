@@ -1,0 +1,41 @@
+{
+  "id": "renpy",
+  "name": "Ren’Py",
+  "layouts": [
+    {
+      "id": "desktop",
+      "anchors": [
+        "renpy/",
+        {
+          "any": [
+            "renpy/bootstrap.py",
+            "renpy/__init__.py",
+            "renpy/common/"
+          ]
+        },
+        {
+          "any": [
+            "game/*.rpa",
+            "game/*.rpy",
+            "game/*.rpyc"
+          ]
+        }
+      ],
+      "entries": [
+        "*.exe",
+        "*.sh",
+        "*.py"
+      ]
+    },
+    {
+      "id": "macos-app",
+      "anchors": [
+        "Contents/Resources/autorun/renpy/",
+        "Contents/Resources/autorun/game/"
+      ],
+      "entries": [
+        "Contents/MacOS/*"
+      ]
+    }
+  ]
+}

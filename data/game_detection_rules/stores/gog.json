@@ -1,0 +1,10 @@
+{
+  "storeManifests": [
+    {
+      "id": "gog-galaxy",
+      "store": "gog",
+      "kind": "gog-galaxy-info",
+      "path": "goggame-*.info"
+    }
+  ]
+}

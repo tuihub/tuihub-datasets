@@ -2,9 +2,12 @@ import json
 import sys
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "vndb_id_connector"))
+SRC_DIR = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(SRC_DIR / "vndb_id_connector"))
+sys.path.insert(0, str(SRC_DIR / "game_detection_rules"))
 
 from modules.manual import ManualLists  # noqa: E402
+from rules import build_rules  # noqa: E402
 
 if __name__ == "__main__":
     # vndb_id_connector
@@ -28,6 +31,17 @@ if __name__ == "__main__":
         f3.writelines(
             json.dumps(
                 game_id_list_data,
+                ensure_ascii=False,
+                indent=None,
+                separators=(",", ":"),
+            )
+        )
+    # game_detection_rules
+    game_detection_rules = build_rules("../../data/game_detection_rules")
+    with open("../../docs/game_detection_rules.json", "w", encoding="utf8") as f3:
+        f3.writelines(
+            json.dumps(
+                game_detection_rules,
                 ensure_ascii=False,
                 indent=None,
                 separators=(",", ":"),
