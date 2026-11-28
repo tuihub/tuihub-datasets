@@ -8,8 +8,15 @@ This repository contains the datasets used in the TuiHub project.
 
 **TOC**
 
+- [Game Detection Rules](#game-detection-rules)
 - [Game ID List](#game-id-list)
 - [VNDB ID Connector](#vndb-id-connector)
+
+## Game Detection Rules
+
+本地游戏识别规则。客户端用商店安装清单、引擎目录布局和启动文件发现安装并提取标题。规则可离线使用。发布流程生成 `game_detection_rules.json`。共享样本、Schema、执行语义和 Python 参考解释器供实现与验证使用。[维护与移植指南](https://github.com/tuihub/tuihub-datasets/tree/master/data/game_detection_rules)
+
+Clients use these offline rules to locate installed games, find launch files and read titles. Pages publishes the rules at [game_detection_rules.json](https://datasets.tuihub.org/game_detection_rules.json). The repository includes a portable conformance suite, JSON Schema and Python reference implementation. [Maintenance and porting guide](https://github.com/tuihub/tuihub-datasets/tree/master/data/game_detection_rules)
 
 ## Game ID List
 

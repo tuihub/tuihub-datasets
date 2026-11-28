@@ -1,0 +1,380 @@
+{
+  "traversal": {
+    "skipDirectories": [
+      ".git",
+      "__MACOSX",
+      "_CommonRedist",
+      "*.dSYM"
+    ]
+  },
+  "defaults": {
+    "ignoreEntries": [
+      "unins*.exe",
+      "uninstall*.exe",
+      "dxwebsetup.exe",
+      "config.exe"
+    ],
+    "genericStems": [
+      "game",
+      "start",
+      "play",
+      "launcher",
+      "index"
+    ]
+  },
+  "storeManifests": [
+    {
+      "id": "gog-galaxy",
+      "store": "gog",
+      "kind": "gog-galaxy-info",
+      "path": "goggame-*.info"
+    }
+  ],
+  "engines": [
+    {
+      "id": "unity",
+      "name": "Unity",
+      "ignoreEntries": [
+        "UnityCrashHandler*"
+      ],
+      "layouts": [
+        {
+          "id": "desktop",
+          "entries": [
+            "*.x86_64",
+            "*.x86",
+            "*.exe",
+            {
+              "path": "*",
+              "extension": "none"
+            }
+          ],
+          "companions": [
+            "{stem}_Data/globalgamemanagers"
+          ],
+          "titles": [
+            {
+              "kind": "line",
+              "path": "{stem}_Data/app.info",
+              "line": 2
+            }
+          ]
+        },
+        {
+          "id": "macos-app",
+          "anchors": [
+            "Contents/Resources/Data/globalgamemanagers"
+          ],
+          "entries": [
+            "Contents/MacOS/*"
+          ],
+          "titles": [
+            {
+              "kind": "line",
+              "path": "Contents/Resources/Data/app.info",
+              "line": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unreal",
+      "name": "Unreal",
+      "ignoreEntries": [
+        "UE*PrereqSetup*.exe",
+        "CrashReportClient*"
+      ],
+      "stripStemSuffixes": [
+        "-Win64-Shipping",
+        "-Linux-Shipping",
+        "-Shipping"
+      ],
+      "layouts": [
+        {
+          "id": "shipping",
+          "anchors": [
+            "Engine/"
+          ],
+          "entries": [
+            "{project}/Binaries/Win64/*-Shipping.exe",
+            "{project}/Binaries/Linux/*-Shipping"
+          ],
+          "companions": [
+            "{project}/Content/Paks/*.pak"
+          ]
+        },
+        {
+          "id": "bootstrap",
+          "anchors": [
+            "Engine/"
+          ],
+          "entries": [
+            "*.exe",
+            "*.sh"
+          ],
+          "companions": [
+            "{stem}/Content/Paks/*.pak"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "renpy",
+      "name": "Ren’Py",
+      "layouts": [
+        {
+          "id": "desktop",
+          "anchors": [
+            "renpy/",
+            {
+              "any": [
+                "renpy/bootstrap.py",
+                "renpy/__init__.py",
+                "renpy/common/"
+              ]
+            },
+            {
+              "any": [
+                "game/*.rpa",
+                "game/*.rpy",
+                "game/*.rpyc"
+              ]
+            }
+          ],
+          "entries": [
+            "*.exe",
+            "*.sh",
+            "*.py"
+          ]
+        },
+        {
+          "id": "macos-app",
+          "anchors": [
+            "Contents/Resources/autorun/renpy/",
+            "Contents/Resources/autorun/game/"
+          ],
+          "entries": [
+            "Contents/MacOS/*"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rmmz",
+      "name": "RPG Maker MZ",
+      "ignoreEntries": [
+        "notification_helper.exe"
+      ],
+      "genericStems": [
+        "nw",
+        "nwjs"
+      ],
+      "layouts": [
+        {
+          "id": "default",
+          "anchors": [
+            "js/rmmz_core.js",
+            "data/System.json"
+          ],
+          "entries": [
+            "Game.exe",
+            "*.exe",
+            "nw",
+            "index.html"
+          ],
+          "titles": [
+            {
+              "kind": "json",
+              "path": "data/System.json",
+              "pointer": "/gameTitle"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rmmv",
+      "name": "RPG Maker MV",
+      "ignoreEntries": [
+        "notification_helper.exe"
+      ],
+      "genericStems": [
+        "nw",
+        "nwjs"
+      ],
+      "layouts": [
+        {
+          "id": "nwjs",
+          "anchors": [
+            "www/js/rpg_core.js",
+            "www/data/System.json"
+          ],
+          "entries": [
+            "Game.exe",
+            "*.exe",
+            "nw",
+            "www/index.html"
+          ],
+          "titles": [
+            {
+              "kind": "json",
+              "path": "www/data/System.json",
+              "pointer": "/gameTitle"
+            },
+            {
+              "kind": "json",
+              "path": "www/package.json",
+              "pointer": "/window/title"
+            }
+          ]
+        },
+        {
+          "id": "web",
+          "anchors": [
+            "js/rpg_core.js",
+            "data/System.json"
+          ],
+          "entries": [
+            "Game.exe",
+            "*.exe",
+            "nw",
+            "index.html"
+          ],
+          "titles": [
+            {
+              "kind": "json",
+              "path": "data/System.json",
+              "pointer": "/gameTitle"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rgss",
+      "name": "RPG Maker RGSS",
+      "genericStems": [
+        "rpg_rt",
+        "player"
+      ],
+      "layouts": [
+        {
+          "id": "desktop",
+          "anchors": [
+            "Game.ini",
+            {
+              "any": [
+                "*.rgssad",
+                "*.rgss2a",
+                "*.rgss3a",
+                "Data/Scripts.rxdata",
+                "Data/Scripts.rvdata2",
+                "Data/Scripts.rvdata"
+              ]
+            }
+          ],
+          "entries": [
+            "Game.exe",
+            "*.exe"
+          ],
+          "titles": [
+            {
+              "kind": "ini",
+              "path": "Game.ini",
+              "section": "Game",
+              "key": "Title"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kirikiri",
+      "name": "KiriKiri",
+      "layouts": [
+        {
+          "id": "desktop",
+          "anchors": [
+            {
+              "path": "data.xp3",
+              "magic": "5850330D0A200A1A8B6701"
+            }
+          ],
+          "entries": [
+            "*.exe"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "godot",
+      "name": "Godot",
+      "layouts": [
+        {
+          "id": "desktop",
+          "entries": [
+            "*.exe",
+            "*.x86_64",
+            "*.x86",
+            {
+              "path": "*",
+              "extension": "none"
+            }
+          ],
+          "companions": [
+            {
+              "path": "{stem}.pck",
+              "magic": "47445043"
+            }
+          ]
+        },
+        {
+          "id": "web",
+          "entries": [
+            "*.html"
+          ],
+          "companions": [
+            "{stem}.js",
+            {
+              "path": "{stem}.pck",
+              "magic": "47445043"
+            }
+          ],
+          "titles": [
+            {
+              "kind": "html-title",
+              "path": "{stem}.html"
+            }
+          ]
+        },
+        {
+          "id": "macos-app",
+          "anchors": [
+            {
+              "path": "Contents/Resources/*.pck",
+              "magic": "47445043"
+            }
+          ],
+          "entries": [
+            "Contents/MacOS/*"
+          ]
+        }
+      ]
+    }
+  ],
+  "hints": [
+    {
+      "id": "steam-appid",
+      "provider": "steam",
+      "kind": "uint-line",
+      "paths": [
+        "steam_appid.txt",
+        "*/Binaries/*/steam_appid.txt"
+      ],
+      "ignore": [
+        "480"
+      ]
+    }
+  ]
+}

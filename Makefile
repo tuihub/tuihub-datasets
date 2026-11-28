@@ -12,8 +12,13 @@ build-pages: init
 
 .PHONY: check
 # check
-check:
+check: check-game-detection
 	ruff check
+
+.PHONY: check-game-detection
+check-game-detection:
+	python3 scripts/check_game_detection.py
+	python3 src/game_detection/scanner.py --check
 
 .PHONY: format
 # format

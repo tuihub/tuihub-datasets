@@ -1,0 +1,642 @@
+[
+  {
+    "name": "Unity release and helper",
+    "files": {
+      "Leaf.exe": "",
+      "Leaf_Data/globalgamemanagers": "",
+      "Leaf_Data/app.info": "Studio\nGreen Leaf\n",
+      "UnityCrashHandler64.exe": "",
+      "steam_appid.txt": "8721"
+    },
+    "games": [
+      {
+        "root": ".",
+        "engine": "Unity",
+        "title": "Green Leaf",
+        "entries": [
+          "Leaf.exe"
+        ],
+        "titleFile": "Leaf_Data/app.info",
+        "hints": {
+          "steam": "8721"
+        },
+        "rule": "unity/desktop"
+      }
+    ]
+  },
+  {
+    "name": "Unity Linux",
+    "files": {
+      "Walk.x86_64": "",
+      "Walk_Data/globalgamemanagers": ""
+    },
+    "games": [
+      {
+        "root": ".",
+        "engine": "Unity",
+        "title": "Walk",
+        "entries": [
+          "Walk.x86_64"
+        ],
+        "rule": "unity/desktop"
+      }
+    ]
+  },
+  {
+    "name": "Unity macOS bundle",
+    "files": {
+      "Contents/MacOS/World": "",
+      "Contents/Resources/Data/globalgamemanagers": "",
+      "Contents/Resources/Data/app.info": "Studio\n世界"
+    },
+    "games": [
+      {
+        "root": ".",
+        "engine": "Unity",
+        "title": "世界",
+        "entries": [
+          "Contents/MacOS/World"
+        ],
+        "titleFile": "Contents/Resources/Data/app.info",
+        "rule": "unity/macos-app"
+      }
+    ]
+  },
+  {
+    "name": "Unity orphan executable",
+    "files": {
+      "Setup.exe": "",
+      "Leaf_Data/globalgamemanagers": ""
+    },
+    "games": []
+  },
+  {
+    "name": "Unreal shipping release",
+    "files": {
+      "Engine/Config/Base.ini": "",
+      "Valley/Content/Paks/Valley.pak": "",
+      "Valley/Binaries/Win64/Valley-Shipping.exe": "",
+      "CrashReportClient.exe": ""
+    },
+    "games": [
+      {
+        "root": ".",
+        "engine": "Unreal",
+        "title": "Valley",
+        "entries": [
+          "Valley/Binaries/Win64/Valley-Shipping.exe"
+        ],
+        "rule": "unreal/shipping"
+      }
+    ]
+  },
+  {
+    "name": "RenPy release",
+    "files": {
+      "renpy/bootstrap.py": "",
+      "game/archive.rpa": "",
+      "Story.sh": ""
+    },
+    "games": [
+      {
+        "root": ".",
+        "engine": "Ren’Py",
+        "title": "Story",
+        "entries": [
+          "Story.sh"
+        ],
+        "rule": "renpy/desktop"
+      }
+    ]
+  },
+  {
+    "name": "RenPy multiple launchers",
+    "files": {
+      "renpy/bootstrap.py": "",
+      "game/act.rpy": "",
+      "Read.exe": "",
+      "ReadAlt.exe": "",
+      "config.exe": ""
+    },
+    "games": [
+      {
+        "root": ".",
+        "engine": "Ren’Py",
+        "title": "RenPy multiple launchers",
+        "entries": [
+          "Read.exe",
+          "ReadAlt.exe"
+        ],
+        "rule": "renpy/desktop"
+      }
+    ]
+  },
+  {
+    "name": "RPG Maker MZ renamed folder",
+    "files": {
+      "Game.exe": "",
+      "js/rmmz_core.js": "",
+      "data/System.json": "{\"gameTitle\":\"放课后迷宫\"}",
+      "notification_helper.exe": "",
+      "Extra/Bonus.exe": "",
+      "Extra/Bonus_Data/globalgamemanagers": ""
+    },
+    "games": [
+      {
+        "root": ".",
+        "engine": "RPG Maker MZ",
+        "title": "放课后迷宫",
+        "entries": [
+          "Game.exe"
+        ],
+        "titleFile": "data/System.json",
+        "rule": "rmmz/default"
+      }
+    ]
+  },
+  {
+    "name": "RPG Maker MV desktop",
+    "files": {
+      "Game.exe": "",
+      "www/js/rpg_core.js": "",
+      "www/data/System.json": "{\"gameTitle\":\"Summer\"}"
+    },
+    "games": [
+      {
+        "root": ".",
+        "engine": "RPG Maker MV",
+        "title": "Summer",
+        "entries": [
+          "Game.exe"
+        ],
+        "titleFile": "www/data/System.json",
+        "rule": "rmmv/nwjs"
+      }
+    ]
+  },
+  {
+    "name": "RPG Maker MV web",
+    "files": {
+      "index.html": "",
+      "js/rpg_core.js": "",
+      "data/System.json": "{\"gameTitle\":\"Web story\"}"
+    },
+    "games": [
+      {
+        "root": ".",
+        "engine": "RPG Maker MV",
+        "title": "Web story",
+        "entries": [
+          "index.html"
+        ],
+        "titleFile": "data/System.json",
+        "rule": "rmmv/web"
+      }
+    ]
+  },
+  {
+    "name": "RPG Maker corrupt optional title",
+    "files": {
+      "Game.exe": "",
+      "js/rmmz_core.js": "",
+      "data/System.json": "incomplete"
+    },
+    "games": [
+      {
+        "root": ".",
+        "engine": "RPG Maker MZ",
+        "title": "RPG Maker corrupt optional title",
+        "entries": [
+          "Game.exe"
+        ],
+        "rule": "rmmz/default"
+      }
+    ]
+  },
+  {
+    "name": "RGSS localized title",
+    "files": {
+      "Game.exe": "",
+      "Game.ini": "[Other]\nTitle=Wrong\n[Game]\nTitle=白昼\n",
+      "Game.rgss3a": ""
+    },
+    "games": [
+      {
+        "root": ".",
+        "engine": "RPG Maker RGSS",
+        "title": "白昼",
+        "entries": [
+          "Game.exe"
+        ],
+        "titleFile": "Game.ini",
+        "rule": "rgss/desktop"
+      }
+    ]
+  },
+  {
+    "name": "RGSS unpacked",
+    "files": {
+      "Game.exe": "",
+      "Game.ini": "[Game]\nTitle=Old game",
+      "Data/Scripts.rvdata2": ""
+    },
+    "games": [
+      {
+        "root": ".",
+        "engine": "RPG Maker RGSS",
+        "title": "Old game",
+        "entries": [
+          "Game.exe"
+        ],
+        "titleFile": "Game.ini",
+        "rule": "rgss/desktop"
+      }
+    ]
+  },
+  {
+    "name": "KiriKiri header",
+    "files": {
+      "Moon.exe": "",
+      "data.xp3": "hex:5850330D0A200A1A8B6701",
+      "unins000.exe": ""
+    },
+    "games": [
+      {
+        "root": ".",
+        "engine": "KiriKiri",
+        "title": "Moon",
+        "entries": [
+          "Moon.exe"
+        ],
+        "rule": "kirikiri/desktop"
+      }
+    ]
+  },
+  {
+    "name": "KiriKiri false extension",
+    "files": {
+      "Moon.exe": "",
+      "data.xp3": "not a package"
+    },
+    "games": []
+  },
+  {
+    "name": "Godot paired pack",
+    "files": {
+      "Moon.exe": "",
+      "Decoy.exe": "",
+      "Moon.pck": "GDPC123",
+      "steam_appid.txt": "480"
+    },
+    "games": [
+      {
+        "root": ".",
+        "engine": "Godot",
+        "title": "Moon",
+        "entries": [
+          "Moon.exe"
+        ],
+        "rule": "godot/desktop"
+      }
+    ]
+  },
+  {
+    "name": "Godot bad header",
+    "files": {
+      "Moon.exe": "",
+      "Moon.pck": "bad"
+    },
+    "games": []
+  },
+  {
+    "name": "Godot macOS",
+    "files": {
+      "Contents/MacOS/Hope": "",
+      "Contents/Resources/Hope.pck": "GDPC"
+    },
+    "games": [
+      {
+        "root": ".",
+        "engine": "Godot",
+        "title": "Hope",
+        "entries": [
+          "Contents/MacOS/Hope"
+        ],
+        "rule": "godot/macos-app"
+      }
+    ]
+  },
+  {
+    "name": "Developer helper alone",
+    "files": {
+      "steam_appid.txt": "123",
+      "Game.exe": ""
+    },
+    "games": []
+  },
+  {
+    "name": "Common redistributables",
+    "files": {
+      "_CommonRedist/Bonus.exe": "",
+      "_CommonRedist/Bonus_Data/globalgamemanagers": ""
+    },
+    "games": []
+  },
+  {
+    "name": "GOG base game and DLC",
+    "files": {
+      "goggame-123.info": "{\"gameId\":\"123\",\"rootGameId\":\"123\",\"name\":\"Nightfall\",\"playTasks\":[{\"isPrimary\":true,\"type\":\"FileTask\",\"path\":\"bin\\\\Start.exe\"}]}",
+      "goggame-456.info": "{\"gameId\":\"456\",\"rootGameId\":\"123\",\"name\":\"Nightfall\",\"playTasks\":[{\"isPrimary\":true,\"type\":\"FileTask\",\"path\":\"bin\\\\Start.exe\"}]}",
+      "bin/Start.exe": ""
+    },
+    "games": [
+      {
+        "root": ".",
+        "engine": null,
+        "title": "Nightfall",
+        "entries": [
+          "bin/Start.exe"
+        ],
+        "titleFile": "goggame-123.info",
+        "store": "gog",
+        "external": "123"
+      }
+    ]
+  },
+  {
+    "name": "GOG receipt copied alone",
+    "files": {
+      "goggame-123.info": "{\"gameId\":\"123\",\"rootGameId\":\"123\",\"name\":\"Nightfall\",\"playTasks\":[{\"isPrimary\":true,\"type\":\"FileTask\",\"path\":\"bin\\\\Start.exe\"}]}"
+    },
+    "games": []
+  },
+  {
+    "name": "GOG receipt outside installation",
+    "files": {
+      "goggame-123.info": "{\"gameId\":\"123\",\"rootGameId\":\"123\",\"name\":\"Nightfall\",\"playTasks\":[{\"isPrimary\":true,\"type\":\"FileTask\",\"path\":\"../Game.exe\"}]}"
+    },
+    "games": []
+  },
+  {
+    "name": "Godot web export",
+    "files": {
+      "index.pck": "GDPC",
+      "index.html": "<html><title>Cat &amp; Mouse</title></html>",
+      "index.js": ""
+    },
+    "games": [
+      {
+        "root": ".",
+        "engine": "Godot",
+        "entries": [
+          "index.html"
+        ],
+        "title": "Cat & Mouse",
+        "titleFile": "index.html",
+        "rule": "godot/web"
+      }
+    ]
+  },
+  {
+    "name": "Directory names are typed",
+    "files": {
+      "renpy": "file",
+      "game/x.rpy": "",
+      "convert.py": ""
+    },
+    "games": []
+  },
+  {
+    "name": "Backup script is not an engine anchor",
+    "files": {
+      "renpy/bootstrap.py": "",
+      "game/x.rpy.bak": "",
+      "convert.py": ""
+    },
+    "games": []
+  },
+  {
+    "name": "Unrelated Unreal projects",
+    "files": {
+      "Engine/Config/a.ini": "",
+      "A/Content/Paks/p.pak": "",
+      "B/Binaries/Win64/B-Shipping.exe": ""
+    },
+    "games": []
+  },
+  {
+    "name": "Engine suffixes and nested platform hint",
+    "files": {
+      "Engine/Config/a.ini": "",
+      "Proj/Content/Paks/a.pak": "",
+      "Proj/Binaries/Win64/Proj-Win64-Shipping.exe": "",
+      "Proj/Binaries/Win64/steam_appid.txt": "000123\n"
+    },
+    "games": [
+      {
+        "root": ".",
+        "engine": "Unreal",
+        "title": "Proj",
+        "entries": [
+          "Proj/Binaries/Win64/Proj-Win64-Shipping.exe"
+        ],
+        "rule": "unreal/shipping",
+        "hints": {
+          "steam": "123"
+        },
+        "signals": [
+          "Engine",
+          "Proj/Content/Paks/a.pak"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Nested title fallback",
+    "files": {
+      "Game.exe": "",
+      "www/js/rpg_core.js": "",
+      "www/data/System.json": "{",
+      "www/package.json": "{\"window\":{\"title\":\"Second source\"}}"
+    },
+    "games": [
+      {
+        "root": ".",
+        "engine": "RPG Maker MV",
+        "title": "Second source",
+        "entries": [
+          "Game.exe"
+        ],
+        "rule": "rmmv/nwjs",
+        "titleFile": "www/package.json"
+      }
+    ]
+  },
+  {
+    "name": "Case-insensitive literal lookup",
+    "files": {
+      "GAME.EXE": "",
+      "GAME.INI": "[Game]\nTitle=森",
+      "DATA/Scripts.RVData2": ""
+    },
+    "games": [
+      {
+        "root": ".",
+        "engine": "RPG Maker RGSS",
+        "title": "森",
+        "entries": [
+          "GAME.EXE"
+        ],
+        "rule": "rgss/desktop",
+        "titleFile": "GAME.INI"
+      }
+    ]
+  },
+  {
+    "name": "Glob-pruned directory",
+    "files": {
+      "Debug.dSYM/Leaf.exe": "",
+      "Debug.dSYM/Leaf.pck": "GDPC"
+    },
+    "games": []
+  },
+  {
+    "name": "Bad store manifest still permits engine discovery",
+    "files": {
+      "goggame-13.info": "{",
+      "Moon.exe": "",
+      "Moon.pck": "GDPC"
+    },
+    "games": [
+      {
+        "root": ".",
+        "engine": "Godot",
+        "title": "Moon",
+        "entries": [
+          "Moon.exe"
+        ],
+        "rule": "godot/desktop"
+      }
+    ]
+  },
+  {
+    "name": "Known root stops traversal",
+    "files": {
+      "library/Visual/Game.exe": "",
+      "library/Visual/data/System.json": "{\"gameTitle\":\"Outer\"}",
+      "library/Visual/js/rmmz_core.js": "",
+      "library/Visual/bonus/Book.exe": "",
+      "library/Visual/bonus/Book.pck": "GDPC"
+    },
+    "games": [
+      {
+        "root": "library/Visual",
+        "engine": "RPG Maker MZ",
+        "title": "Outer",
+        "entries": [
+          "Game.exe"
+        ],
+        "rule": "rmmz/default",
+        "titleFile": "data/System.json"
+      }
+    ]
+  },
+  {
+    "name": "Future kinds and bound probes",
+    "files": {
+      "Player": "",
+      "Player.bundle": "hex:0047445043",
+      "a.json": "{\"~a/b\":[{\"t\":\"Escaped pointer\"}]}",
+      "id.txt": "90"
+    },
+    "games": [
+      {
+        "root": ".",
+        "engine": "Example",
+        "title": "Escaped pointer",
+        "entries": [
+          "Player"
+        ],
+        "rule": "example/portable",
+        "titleFile": "a.json",
+        "hints": {
+          "other": "90"
+        },
+        "signals": [
+          "Player.bundle"
+        ]
+      }
+    ],
+    "rules": {
+      "traversal": {
+        "skipDirectories": []
+      },
+      "defaults": {
+        "ignoreEntries": [],
+        "genericStems": []
+      },
+      "storeManifests": [
+        {
+          "kind": "future",
+          "id": "x",
+          "store": "else",
+          "path": "*"
+        }
+      ],
+      "hints": [
+        {
+          "kind": "later",
+          "provider": "other",
+          "paths": [
+            "id.txt"
+          ],
+          "id": "first"
+        },
+        {
+          "kind": "uint-line",
+          "provider": "other",
+          "paths": [
+            "id.txt"
+          ],
+          "id": "id",
+          "ignore": []
+        }
+      ],
+      "engines": [
+        {
+          "id": "example",
+          "name": "Example",
+          "layouts": [
+            {
+              "id": "portable",
+              "entries": [
+                {
+                  "path": "*",
+                  "extension": "none"
+                }
+              ],
+              "companions": [
+                {
+                  "path": "{stem}.bundle",
+                  "offset": 1,
+                  "magic": "47445043"
+                }
+              ],
+              "titles": [
+                {
+                  "kind": "future",
+                  "path": "a.json"
+                },
+                {
+                  "kind": "json",
+                  "path": "a.json",
+                  "pointer": "/~0a~1b/0/t"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

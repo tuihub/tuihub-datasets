@@ -1,4 +1,5 @@
 import json
+import shutil
 import sys
 from pathlib import Path
 
@@ -33,3 +34,8 @@ if __name__ == "__main__":
                 separators=(",", ":"),
             )
         )
+
+    shutil.copyfile(
+        "../../data/game_detection_rules/game_detection_rules.json",
+        "../../docs/game_detection_rules.json",
+    )
