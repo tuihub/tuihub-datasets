@@ -25,6 +25,38 @@
     ]
   },
   {
+    "name": "Unity desktop data bundle",
+    "files": {
+      "Lantern.exe": "",
+      "Lantern_Data/data.unity3d": "hex:556e697479465300",
+      "Lantern_Data/app.info": "Studio\nLantern ♡\n"
+    },
+    "games": [
+      {
+        "root": ".",
+        "engine": "Unity",
+        "title": "Lantern ♡",
+        "entries": [
+          "Lantern.exe"
+        ],
+        "titleFile": "Lantern_Data/app.info",
+        "signals": [
+          "Lantern_Data/data.unity3d"
+        ],
+        "rule": "unity/desktop"
+      }
+    ]
+  },
+  {
+    "name": "Unity data bundle requires a matching stem and header",
+    "files": {
+      "Lantern.exe": "",
+      "Lantern_Data/data.unity3d": "hex:556e697479465321",
+      "Other_Data/data.unity3d": "hex:556e697479465300"
+    },
+    "games": []
+  },
+  {
     "name": "Unity Linux",
     "files": {
       "Walk.x86_64": "",

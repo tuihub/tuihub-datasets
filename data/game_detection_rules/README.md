@@ -13,7 +13,7 @@ The runtime data is [game_detection_rules.json](game_detection_rules.json). The 
 5. Try title readers in order. `json` uses a JSON Pointer to a string, `line` is one-based, `ini` uses case-insensitive section and key names, and `html-title` reads a complete title tag within the first 64 KiB of UTF-8 HTML. Malformed or empty titles fall through. Title paths may use `{stem}` when all surviving entries share a stem. Then try the distinct stem with its first matching build suffix removed; a generic or ambiguous stem falls back to the directory name.
 6. After identifying a root, try hints in order. `uint-line` reads a positive decimal unsigned 32-bit ID from the first line, normalizes leading zeros and skips ignored IDs. The first usable value per provider wins. A hint supplies neither proof of ownership nor a confirmed store ID. Skip an unknown manifest, title or hint kind locally; the other extractors still apply.
 
-Each conformance case names a root directory, maps relative filenames to UTF-8 contents (or `hex:` bytes), and declares ordered observations with relative paths. A case may supply a complete `rules` object to exercise the language independently of the shipping catalog. Rule IDs have the form `engine-id/layout-id`. The reference CLI prints the games and any unreadable subtrees as JSON.
+Each conformance case names a root directory, maps relative filenames to UTF-8 contents (or `hex:` bytes), and declares ordered observations with relative paths. A case may supply a complete `rules` object to exercise the language independently of the shipping catalog. Rule IDs have the form `engine-id/layout-id`. The reference CLI prints the games and any unreadable subtrees as UTF-8 JSON.
 
 ## Maintenance
 

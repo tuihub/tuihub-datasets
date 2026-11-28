@@ -50,7 +50,15 @@
             }
           ],
           "companions": [
-            "{stem}_Data/globalgamemanagers"
+            {
+              "any": [
+                "{stem}_Data/globalgamemanagers",
+                {
+                  "path": "{stem}_Data/data.unity3d",
+                  "magic": "556e697479465300"
+                }
+              ]
+            }
           ],
           "titles": [
             {

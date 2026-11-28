@@ -7,6 +7,7 @@ import json
 import os
 import re
 import stat
+import sys
 from functools import lru_cache
 from pathlib import Path, PurePosixPath
 
@@ -419,6 +420,7 @@ def main():
         print(f"{len(cases)} conformance cases passed")
     elif args.directory:
         root = args.directory.resolve(strict=True)
+        sys.stdout.reconfigure(encoding="utf-8")
         print(
             json.dumps(scan(Disk(root), root.name, rules), indent=2, ensure_ascii=False)
         )
