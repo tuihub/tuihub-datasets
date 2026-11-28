@@ -16,9 +16,9 @@ check: check-game-detection
 	ruff check
 
 .PHONY: check-game-detection
+# check game detection rules
 check-game-detection:
-	python3 scripts/check_game_detection.py
-	python3 src/game_detection/scanner.py --check
+	python3 src/game_detection_rules/check.py
 
 .PHONY: format
 # format

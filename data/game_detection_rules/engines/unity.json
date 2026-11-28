@@ -1,0 +1,55 @@
+{
+  "id": "unity",
+  "name": "Unity",
+  "ignoreEntries": [
+    "UnityCrashHandler*"
+  ],
+  "layouts": [
+    {
+      "id": "desktop",
+      "entries": [
+        "*.x86_64",
+        "*.x86",
+        "*.exe",
+        {
+          "path": "*",
+          "extension": "none"
+        }
+      ],
+      "companions": [
+        {
+          "any": [
+            "{stem}_Data/globalgamemanagers",
+            {
+              "path": "{stem}_Data/data.unity3d",
+              "magic": "556e697479465300"
+            }
+          ]
+        }
+      ],
+      "titles": [
+        {
+          "kind": "line",
+          "path": "{stem}_Data/app.info",
+          "line": 2
+        }
+      ]
+    },
+    {
+      "id": "macos-app",
+      "anchors": [
+        "Contents/Resources/Data/globalgamemanagers"
+      ],
+      "entries": [
+        "Contents/MacOS/*"
+      ],
+      "titles": [
+        {
+          "kind": "line",
+          "path": "Contents/Resources/Data/app.info",
+          "line": 2
+        }
+      ]
+    }
+  ]
+}

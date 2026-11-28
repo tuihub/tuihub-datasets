@@ -1,0 +1,18 @@
+{
+  "id": "kirikiri",
+  "name": "KiriKiri",
+  "layouts": [
+    {
+      "id": "desktop",
+      "anchors": [
+        {
+          "path": "data.xp3",
+          "magic": "5850330D0A200A1A8B6701"
+        }
+      ],
+      "entries": [
+        "*.exe"
+      ]
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "TuiHub game detection rules",
+  "$id": "https://datasets.tuihub.org/schemas/game_detection_rules_schema.json",
+  "title": "TuiHub Game Detection Rules Schema",
   "type": "object",
   "properties": {
     "traversal": {
@@ -71,6 +72,31 @@
   ],
   "additionalProperties": false,
   "$defs": {
+    "entry": {
+      "oneOf": [
+        {
+          "type": "string",
+          "minLength": 1
+        },
+        {
+          "type": "object",
+          "properties": {
+            "path": {
+              "type": "string",
+              "minLength": 1
+            },
+            "extension": {
+              "const": "none"
+            }
+          },
+          "required": [
+            "path",
+            "extension"
+          ],
+          "additionalProperties": false
+        }
+      ]
+    },
     "probe": {
       "oneOf": [
         {
@@ -127,29 +153,7 @@
         "entries": {
           "type": "array",
           "items": {
-            "oneOf": [
-              {
-                "type": "string",
-                "minLength": 1
-              },
-              {
-                "type": "object",
-                "properties": {
-                  "path": {
-                    "type": "string",
-                    "minLength": 1
-                  },
-                  "extension": {
-                    "const": "none"
-                  }
-                },
-                "required": [
-                  "path",
-                  "extension"
-                ],
-                "additionalProperties": false
-              }
-            ]
+            "$ref": "#/$defs/entry"
           },
           "minItems": 1
         },
@@ -370,11 +374,73 @@
           "type": "object",
           "properties": {
             "kind": {
+              "const": "steam-acf"
+            },
+            "id": {
+              "type": "string",
+              "minLength": 1
+            },
+            "store": {
+              "type": "string",
+              "minLength": 1
+            },
+            "path": {
+              "type": "string",
+              "minLength": 1
+            },
+            "appsDir": {
+              "type": "string",
+              "minLength": 1
+            },
+            "entries": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/entry"
+              },
+              "minItems": 1
+            },
+            "skipDirectories": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "ignore": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "ignoreEntries": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          },
+          "required": [
+            "kind",
+            "id",
+            "store",
+            "path",
+            "appsDir",
+            "entries"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "kind": {
               "type": "string",
               "minLength": 1,
               "not": {
                 "enum": [
-                  "gog-galaxy-info"
+                  "gog-galaxy-info",
+                  "steam-acf"
                 ]
               }
             },

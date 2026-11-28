@@ -1,0 +1,38 @@
+{
+  "id": "rgss",
+  "name": "RPG Maker RGSS",
+  "genericStems": [
+    "rpg_rt",
+    "player"
+  ],
+  "layouts": [
+    {
+      "id": "desktop",
+      "anchors": [
+        "Game.ini",
+        {
+          "any": [
+            "*.rgssad",
+            "*.rgss2a",
+            "*.rgss3a",
+            "Data/Scripts.rxdata",
+            "Data/Scripts.rvdata2",
+            "Data/Scripts.rvdata"
+          ]
+        }
+      ],
+      "entries": [
+        "Game.exe",
+        "*.exe"
+      ],
+      "titles": [
+        {
+          "kind": "ini",
+          "path": "Game.ini",
+          "section": "Game",
+          "key": "Title"
+        }
+      ]
+    }
+  ]
+}

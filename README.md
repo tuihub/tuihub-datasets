@@ -14,9 +14,43 @@ This repository contains the datasets used in the TuiHub project.
 
 ## Game Detection Rules
 
-本地游戏识别规则。客户端用商店安装清单、引擎目录布局和启动文件发现安装并提取标题。规则可离线使用。发布流程生成 `game_detection_rules.json`。共享样本、Schema、执行语义和 Python 参考解释器供实现与验证使用。[维护与移植指南](https://github.com/tuihub/tuihub-datasets/tree/master/data/game_detection_rules)
+提供本地游戏目录的离线识别规则，覆盖常见商店安装清单（Steam、GOG）与游戏引擎目录结构（Unity、Unreal、Ren’Py、RPG Maker、KiriKiri、Godot 等），用于定位安装目录、查找启动文件、提取标题及外部平台 ID 线索。
+规则基于常见发行包的目录特征编写，无法覆盖所有打包变体，出现漏判或误判属于预期现象，如果你发现问题可以提交 issue。
 
-Clients use these offline rules to locate installed games, find launch files and read titles. Pages publishes the rules at [game_detection_rules.json](https://datasets.tuihub.org/game_detection_rules.json). The repository includes a portable conformance suite, JSON Schema and Python reference implementation. [Maintenance and porting guide](https://github.com/tuihub/tuihub-datasets/tree/master/data/game_detection_rules)
+---
+
+Provides offline detection rules for local game directories, covering store installation manifests (Steam, GOG) and common game engine layouts (Unity, Unreal, Ren’Py, RPG Maker, KiriKiri, Godot, etc.) to locate installations, find launch files, extract titles, and read external platform ID hints.  
+The rules match common release layouts and have not been verified against every packaging variant. Missed or false matches are expected; if you find any problems, you can submit an issue.
+
+### Usage
+
+完整规则下载地址：[https://datasets.tuihub.org/game_detection_rules.json](https://datasets.tuihub.org/game_detection_rules.json)  
+JSON Schema 地址：[https://datasets.tuihub.org/schemas/game_detection_rules_schema.json](https://datasets.tuihub.org/schemas/game_detection_rules_schema.json)  
+规则文件包含以下顶层字段：
+- traversal: 对象，遍历时跳过的目录名匹配模式
+- defaults: 对象，默认忽略的启动文件名模式与通用文件名词干
+- storeManifests: 数组，商店安装清单识别规则（支持游戏目录内清单与库级 `.acf` 清单）
+- engines: 数组，各引擎的目录布局、启动文件与标题提取规则
+- hints: 数组，识别游戏目录后提取外部平台 ID 线索的规则
+
+规则仅依据本地文件特征匹配，`hints` 提取的 ID 仅作关联线索，不代表商店归属确认。跨语言实现所需的执行语义、测试样本与 Python 参考实现见 [src/game_detection_rules](https://github.com/tuihub/tuihub-datasets/tree/master/src/game_detection_rules)。
+
+如果你需要自动化更新规则，可以利用版本文件检测更新：[https://datasets.tuihub.org/build.json](https://datasets.tuihub.org/build.json)
+
+---
+
+Download address of the complete rules: [https://datasets.tuihub.org/game_detection_rules.json](https://datasets.tuihub.org/game_detection_rules.json)  
+JSON Schema address: [https://datasets.tuihub.org/schemas/game_detection_rules_schema.json](https://datasets.tuihub.org/schemas/game_detection_rules_schema.json)  
+The rule file contains the following top-level fields:
+- traversal: object, directory name patterns skipped during traversal
+- defaults: object, default ignored entry patterns and generic filename stems
+- storeManifests: array, store installation manifest rules (covering both directory-local manifests and library-level `.acf` manifests)
+- engines: array, per-engine directory layouts, launch entries, and title extractors
+- hints: array, rules that extract external platform ID hints after a game root is identified
+
+Rules match local file signatures only; IDs extracted by `hints` are unverified correlation hints rather than confirmed store installations. Execution semantics, conformance cases, and the Python reference implementation live in [src/game_detection_rules](https://github.com/tuihub/tuihub-datasets/tree/master/src/game_detection_rules).
+
+If you need to automatically update the rules, you can use the version file to detect updates: [https://datasets.tuihub.org/build.json](https://datasets.tuihub.org/build.json)
 
 ## Game ID List
 

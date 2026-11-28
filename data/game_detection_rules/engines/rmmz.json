@@ -1,0 +1,33 @@
+{
+  "id": "rmmz",
+  "name": "RPG Maker MZ",
+  "ignoreEntries": [
+    "notification_helper.exe"
+  ],
+  "genericStems": [
+    "nw",
+    "nwjs"
+  ],
+  "layouts": [
+    {
+      "id": "default",
+      "anchors": [
+        "js/rmmz_core.js",
+        "data/System.json"
+      ],
+      "entries": [
+        "Game.exe",
+        "*.exe",
+        "nw",
+        "index.html"
+      ],
+      "titles": [
+        {
+          "kind": "json",
+          "path": "data/System.json",
+          "pointer": "/gameTitle"
+        }
+      ]
+    }
+  ]
+}

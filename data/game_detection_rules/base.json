@@ -1,0 +1,25 @@
+{
+  "traversal": {
+    "skipDirectories": [
+      ".git",
+      "__MACOSX",
+      "_CommonRedist",
+      "*.dSYM"
+    ]
+  },
+  "defaults": {
+    "ignoreEntries": [
+      "unins*.exe",
+      "uninstall*.exe",
+      "dxwebsetup.exe",
+      "config.exe"
+    ],
+    "genericStems": [
+      "game",
+      "start",
+      "play",
+      "launcher",
+      "index"
+    ]
+  }
+}

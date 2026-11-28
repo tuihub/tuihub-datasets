@@ -1,0 +1,61 @@
+{
+  "storeManifests": [
+    {
+      "id": "steam-acf",
+      "store": "steam",
+      "kind": "steam-acf",
+      "path": "appmanifest_*.acf",
+      "appsDir": "common",
+      "skipDirectories": [
+        "downloading",
+        "shadercache",
+        "temp",
+        "workshop",
+        "compatdata"
+      ],
+      "ignore": [
+        "228980",
+        "1070560",
+        "1391110",
+        "1628350",
+        "1493710"
+      ],
+      "ignoreEntries": [
+        "UnityCrashHandler*",
+        "CrashReportClient*",
+        "UE*PrereqSetup*.exe",
+        "vc_redist*.exe",
+        "vcredist*.exe",
+        "dxsetup.exe"
+      ],
+      "entries": [
+        "*.exe",
+        "*.x86_64",
+        "*.x86",
+        "*.sh",
+        "*.app/Contents/MacOS/*",
+        "Contents/MacOS/*",
+        "*/*.exe",
+        "*/*.x86_64",
+        "*/*.x86",
+        "*/*.sh",
+        "*/*/*.exe",
+        "*/*/*.x86_64"
+      ]
+    }
+  ],
+  "hints": [
+    {
+      "id": "steam-appid",
+      "provider": "steam",
+      "kind": "uint-line",
+      "paths": [
+        "steam_appid.txt",
+        "*/Binaries/*/steam_appid.txt"
+      ],
+      "ignore": [
+        "480"
+      ]
+    }
+  ]
+}

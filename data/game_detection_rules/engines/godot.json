@@ -1,0 +1,55 @@
+{
+  "id": "godot",
+  "name": "Godot",
+  "layouts": [
+    {
+      "id": "desktop",
+      "entries": [
+        "*.exe",
+        "*.x86_64",
+        "*.x86",
+        {
+          "path": "*",
+          "extension": "none"
+        }
+      ],
+      "companions": [
+        {
+          "path": "{stem}.pck",
+          "magic": "47445043"
+        }
+      ]
+    },
+    {
+      "id": "web",
+      "entries": [
+        "*.html"
+      ],
+      "companions": [
+        "{stem}.js",
+        {
+          "path": "{stem}.pck",
+          "magic": "47445043"
+        }
+      ],
+      "titles": [
+        {
+          "kind": "html-title",
+          "path": "{stem}.html"
+        }
+      ]
+    },
+    {
+      "id": "macos-app",
+      "anchors": [
+        {
+          "path": "Contents/Resources/*.pck",
+          "magic": "47445043"
+        }
+      ],
+      "entries": [
+        "Contents/MacOS/*"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "rmmv",
+  "name": "RPG Maker MV",
+  "ignoreEntries": [
+    "notification_helper.exe"
+  ],
+  "genericStems": [
+    "nw",
+    "nwjs"
+  ],
+  "layouts": [
+    {
+      "id": "nwjs",
+      "anchors": [
+        "www/js/rpg_core.js",
+        "www/data/System.json"
+      ],
+      "entries": [
+        "Game.exe",
+        "*.exe",
+        "nw",
+        "www/index.html"
+      ],
+      "titles": [
+        {
+          "kind": "json",
+          "path": "www/data/System.json",
+          "pointer": "/gameTitle"
+        },
+        {
+          "kind": "json",
+          "path": "www/package.json",
+          "pointer": "/window/title"
+        }
+      ]
+    },
+    {
+      "id": "web",
+      "anchors": [
+        "js/rpg_core.js",
+        "data/System.json"
+      ],
+      "entries": [
+        "Game.exe",
+        "*.exe",
+        "nw",
+        "index.html"
+      ],
+      "titles": [
+        {
+          "kind": "json",
+          "path": "data/System.json",
+          "pointer": "/gameTitle"
+        }
+      ]
+    }
+  ]
+}

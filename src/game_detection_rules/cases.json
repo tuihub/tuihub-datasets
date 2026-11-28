@@ -670,5 +670,78 @@
         }
       ]
     }
+  },
+  {
+    "name": "Steam library with engine and custom games",
+    "files": {
+      "steamapps/appmanifest_8721.acf": "\"AppState\"\n{\n\t\"appid\"\t\t\"8721\"\n\t\"name\"\t\t\"Green Leaf\"\n\t\"installdir\"\t\t\"Green Leaf\"\n\t\"InstalledDepots\"\n\t{\n\t\t\"8722\"\n\t\t{\n\t\t\t\"manifest\"\t\t\"1\"\n\t\t}\n\t}\n}\n",
+      "steamapps/common/Green Leaf/Leaf.exe": "",
+      "steamapps/common/Green Leaf/Leaf_Data/globalgamemanagers": "",
+      "steamapps/common/Green Leaf/UnityCrashHandler64.exe": "",
+      "steamapps/common/Green Leaf/steam_appid.txt": "8721",
+      "steamapps/appmanifest_9200.acf": "\"AppState\"\n{\n\t\"appid\"\t\t\"9200\"\n\t\"name\"\t\t\"Iron Horizon\"\n\t\"installdir\"\t\t\"Iron Horizon\"\n}\n",
+      "steamapps/common/Iron Horizon/bin/Horizon.exe": "",
+      "steamapps/common/Iron Horizon/_CommonRedist/DirectX/DXSETUP.exe": "",
+      "steamapps/common/Iron Horizon/unins000.exe": "",
+      "steamapps/appmanifest_228980.acf": "\"AppState\"\n{\n\t\"appid\"\t\t\"228980\"\n\t\"name\"\t\t\"Steamworks Common Redistributables\"\n\t\"installdir\"\t\t\"Steamworks Shared\"\n}\n",
+      "steamapps/common/Steamworks Shared/vcredist_x64.exe": "",
+      "steamapps/downloading/9999/Game.exe": "",
+      "steamapps/downloading/9999/js/rmmz_core.js": "",
+      "steamapps/downloading/9999/data/System.json": "{\"gameTitle\":\"Staging\"}"
+    },
+    "games": [
+      {
+        "root": "steamapps/common/Green Leaf",
+        "store": "steam",
+        "external": "8721",
+        "engine": "Unity",
+        "rule": "unity/desktop",
+        "title": "Green Leaf",
+        "titleFile": "../../appmanifest_8721.acf",
+        "entries": [
+          "Leaf.exe"
+        ],
+        "signals": [
+          "../../appmanifest_8721.acf",
+          "Leaf_Data/globalgamemanagers"
+        ]
+      },
+      {
+        "root": "steamapps/common/Iron Horizon",
+        "store": "steam",
+        "external": "9200",
+        "engine": null,
+        "title": "Iron Horizon",
+        "titleFile": "../../appmanifest_9200.acf",
+        "entries": [
+          "bin/Horizon.exe"
+        ],
+        "signals": [
+          "../../appmanifest_9200.acf"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Steam ACF orphan, traversal escape and corrupt fallback",
+    "files": {
+      "steamapps/appmanifest_100.acf": "\"AppState\"\n{\n\t\"appid\"\t\t\"100\"\n\t\"name\"\t\t\"Ghost\"\n\t\"installdir\"\t\t\"Ghost\"\n}\n",
+      "steamapps/appmanifest_101.acf": "\"AppState\"\n{\n\t\"appid\"\t\t\"101\"\n\t\"name\"\t\t\"Escape\"\n\t\"installdir\"\t\t\"../Outside\"\n}\n",
+      "steamapps/Outside/Play.exe": "",
+      "steamapps/appmanifest_102.acf": "\"AppState\"\n{\n\t\"appid\"\t\t\"102\"",
+      "steamapps/common/Moon/Moon.exe": "",
+      "steamapps/common/Moon/Moon.pck": "GDPC"
+    },
+    "games": [
+      {
+        "root": "steamapps/common/Moon",
+        "engine": "Godot",
+        "rule": "godot/desktop",
+        "title": "Moon",
+        "entries": [
+          "Moon.exe"
+        ]
+      }
+    ]
   }
 ]
